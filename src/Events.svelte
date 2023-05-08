@@ -10,11 +10,17 @@
 <div class="container">
   <Nav />
   <div class="evcontainer">
+    <h1>Upcoming Events</h1>
+    <p>
+      This is some text about the events that HKN hosts. HKN events are probably
+      fun. Click an event to see more details, such as location.
+    </p>
     {#each events as event}
       <Event
         name={event.name}
         description={event.description}
         date={event.date.toLocaleDateString(undefined, dateOptions)}
+        time={event.time}
       />
     {/each}
   </div>
@@ -26,6 +32,15 @@
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    font-size: 18px;
+    color: white;
   }
 
   .container {
