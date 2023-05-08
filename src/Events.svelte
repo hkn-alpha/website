@@ -1,24 +1,7 @@
 <script>
   import Event from "./components/Event.svelte";
   import Nav from "./components/Nav.svelte";
-
-  let events = [
-    {
-      name: "HKN Elections",
-      date: new Date(Date.UTC(2023, 3, 29, 3, 0, 0)),
-      description: "Vote for Alex Zhang (I'm not biased)",
-    },
-    {
-      name: "CS374 Review Session",
-      date: new Date(Date.UTC(2023, 4, 3, 3, 0, 0)),
-      description: "CS374 kids will feel happy and prepared",
-    },
-    {
-      name: "CS374 Exam",
-      date: new Date(Date.UTC(2023, 4, 4, 3, 0, 0)),
-      description: "CS374 kids will cry.",
-    },
-  ];
+  import events from "./content/events";
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
   const dateOptions = { year: "numeric", month: "long", day: "numeric" };

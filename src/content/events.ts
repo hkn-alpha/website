@@ -12,7 +12,7 @@ const events: Event[] = [
   },
   {
     name: "New event",
-    date: new Date(2023, 5, 1),
+    date: new Date(2023, 5, 10),
     description: "this is a new event",
   },
 ];
