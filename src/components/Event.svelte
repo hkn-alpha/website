@@ -1,4 +1,5 @@
 <script>
+  import { compile } from "mdsvex";
   export let name;
   export let date;
   export let description;
@@ -15,10 +16,6 @@
   </label>
   <div class="event-description ev-d-1">
     {description}
-    <ul>
-      <li>Hello</li>
-      <li>Goodbye</li>
-    </ul>
   </div>
 </div>
 

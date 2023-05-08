@@ -4,21 +4,24 @@
 
   let events = [
     {
-      name: "asdf",
-      date: "April 24, 2023",
-      description: "Hello world",
+      name: "HKN Elections",
+      date: new Date(Date.UTC(2023, 3, 29, 3, 0, 0)),
+      description: "Vote for Alex Zhang (I'm not biased)",
     },
     {
-      name: "asdf",
-      date: "April 25, 2023",
-      description: "Hello world",
+      name: "CS374 Review Session",
+      date: new Date(Date.UTC(2023, 4, 3, 3, 0, 0)),
+      description: "CS374 kids will feel happy and prepared",
     },
     {
-      name: "asdf",
-      date: "April 26, 2023",
-      description: "Hello world",
+      name: "CS374 Exam",
+      date: new Date(Date.UTC(2023, 4, 4, 3, 0, 0)),
+      description: "CS374 kids will cry.",
     },
   ];
+
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+  const dateOptions = { year: "numeric", month: "long", day: "numeric" };
 </script>
 
 <div class="container">
@@ -28,7 +31,7 @@
       <Event
         name={event.name}
         description={event.description}
-        date={event.date}
+        date={event.date.toLocaleDateString(undefined, dateOptions)}
       />
     {/each}
   </div>

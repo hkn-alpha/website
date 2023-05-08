@@ -1,7 +1,15 @@
+<script>
+  import { Link } from "svelte-routing";
+</script>
+
 <nav class="nav">
   <input type="checkbox" id="nav-check" />
   <div class="nav-header">
-    <div class="nav-title">HKN</div>
+    <div class="nav-title">
+      <Link to="/" class="coola" style="color: white; text-decoration: none;"
+        >Eta Kappa Nu</Link
+      >
+    </div>
   </div>
   <div class="nav-btn">
     <label for="nav-check">
@@ -10,15 +18,9 @@
   </div>
 
   <div class="nav-links">
-    <a href="//github.io/jo_geek" target="_blank">Github</a>
-    <a href="http://stackoverflow.com/users/4084003/" target="_blank"
-      >Stackoverflow</a
+    <Link to="/events" style="color: white; text-decoration: none;">Events</Link
     >
-    <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank"
-      >LinkedIn</a
-    >
-    <a href="https://codepen.io/jo_Geek/" target="_blank">Codepen</a>
-    <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">JsFiddle</a>
+    <a href="https://wikipedia.org" target="_blank">Wiki</a>
   </div>
 </nav>
 
