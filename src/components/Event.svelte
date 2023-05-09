@@ -83,7 +83,8 @@
     justify-content: space-between;
   }
 
-  .event h2 {
+  .event h2,
+  .event h4 {
     user-select: none;
   }
 
