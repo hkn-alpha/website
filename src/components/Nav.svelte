@@ -6,9 +6,9 @@
   <input type="checkbox" id="nav-check" />
   <div class="nav-header">
     <div class="nav-title">
-      <Link to="/" class="coola" style="color: white; text-decoration: none;"
-        >Eta Kappa Nu</Link
-      >
+      <Link to="/" class="coola" style="color: white; text-decoration: none;">
+        <img src="/logo.svg" alt="Eta Kappa Nu" width="100px" height="auto" />
+      </Link>
     </div>
   </div>
   <div class="nav-btn">
