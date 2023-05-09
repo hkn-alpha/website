@@ -4,6 +4,7 @@
   export let date;
   export let description;
   export let time;
+  export let locationInfo = undefined;
   const id = Math.random() * 100000; // algorithms are my passion
 </script>
 
@@ -16,25 +17,31 @@
     </div>
   </label>
   <div class="event-description ev-d-1">
-    <iframe
-      width="100%"
-      height="300px"
-      src="https://api.mapbox.com/styles/v1/ryanziegler/clhfgmq2a00h901p65igq3ssf.html?title=false&access_token=pk.eyJ1IjoicnlhbnppZWdsZXIiLCJhIjoiY2s2aTdoc3BpMm95bjNncnpueG94MjZ0ciJ9.aVHaBJ7HB65jkQMiSthkEA&zoomwheel=false#17/40.1103786/-88.2311247"
-      title="Streets"
-      style="border:none;"
-    />
-    <div class="event-description-words">
-      <div class="event-description-location">
-        <span class="location-name">Legends Bar and Grill</span><br />
-        <span class="location-address">
-          522 E Green St<br />
-          Champaign, IL 61820
-        </span>
+    {#if locationInfo}
+      <iframe
+        width="100%"
+        height="300px"
+        src={`https://api.mapbox.com/styles/v1/ryanziegler/clhfgmq2a00h901p65igq3ssf.html?title=false&access_token=pk.eyJ1IjoicnlhbnppZWdsZXIiLCJhIjoiY2s2aTdoc3BpMm95bjNncnpueG94MjZ0ciJ9.aVHaBJ7HB65jkQMiSthkEA&zoomwheel=false#17/${locationInfo.lat}/${locationInfo.lon}`}
+        title="Streets"
+        style="border:none;"
+      />
+      <div class="event-description-words">
+        <div class="event-description-location">
+          <span class="location-name">{locationInfo.locationName}</span><br />
+          <span class="location-address">
+            {locationInfo.addressLine1}<br />
+            {locationInfo.addressLine2}
+          </span>
+        </div>
+        <div class="event-description-body">
+          {description}
+        </div>
       </div>
+    {:else}
       <div class="event-description-body">
         {description}
       </div>
-    </div>
+    {/if}
   </div>
 </div>
 
