@@ -41,7 +41,7 @@ const commonLocations = {
 const events: Event[] = [
   {
     name: "Tech Talk",
-    date: new Date(2023, 1, 5), // year, month, day
+    date: new Date(2023, 4, 29), // year, month, day
     description:
       "This is a talk about some cool technology by some corporate sponsor. I like corporate sponsors because they give money.",
     time: "12:00PM", // making this a string because otherwise timezones are hard`

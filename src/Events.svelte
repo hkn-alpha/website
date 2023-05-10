@@ -5,6 +5,8 @@
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
   const dateOptions = { year: "numeric", month: "long", day: "numeric" };
+
+  const currentEvents = events.filter((e) => new Date() <= e.date);
 </script>
 
 <div class="container">
@@ -15,7 +17,7 @@
       This is some text about the events that HKN hosts. HKN events are probably
       fun. Click an event to see more details, such as location.
     </p>
-    {#each events as event}
+    {#each currentEvents as event}
       <Event
         name={event.name}
         description={event.description}
