@@ -22,6 +22,7 @@
         date={event.date.toLocaleDateString(undefined, dateOptions)}
         time={event.time}
         locationInfo={!event.virtual ? event.locationInfo : undefined}
+        virtualInfo={event.virtual ? event.virtualInfo : undefined}
       />
     {/each}
   </div>

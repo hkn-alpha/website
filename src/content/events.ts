@@ -6,6 +6,12 @@ export type LocationInfo = {
   addressLine2: string;
 };
 
+export type VirtualInfo = {
+  meetingPlatform: string;
+  meetingJoinUrl: string;
+  meetingPasscode?: string;
+};
+
 type Event = {
   name: string;
   date: Date;
@@ -18,6 +24,7 @@ type Event = {
     }
   | {
       virtual: true;
+      virtualInfo: VirtualInfo;
     }
 );
 
@@ -33,11 +40,17 @@ const commonLocations = {
 
 const events: Event[] = [
   {
-    name: "Old event",
+    name: "Tech Talk",
     date: new Date(2023, 1, 5), // year, month, day
-    description: "This is the event description",
+    description:
+      "This is a talk about some cool technology by some corporate sponsor. I like corporate sponsors because they give money.",
     time: "12:00PM", // making this a string because otherwise timezones are hard`
     virtual: true,
+    virtualInfo: {
+      meetingPlatform: "Zoom",
+      meetingJoinUrl: "https://yourmothers.house",
+      meetingPasscode: "8675309",
+    },
   },
   {
     name: "Happy Hour",

@@ -5,6 +5,7 @@
   export let description;
   export let time;
   export let locationInfo = undefined;
+  export let virtualInfo = undefined;
   const id = Math.random() * 100000; // algorithms are my passion
 </script>
 
@@ -25,7 +26,7 @@
         title="Streets"
         style="border:none;"
       />
-      <div class="event-description-words">
+      <div class="event-description-words post-map">
         <div class="event-description-location">
           <span class="location-name">{locationInfo.locationName}</span><br />
           <span class="location-address">
@@ -38,8 +39,30 @@
         </div>
       </div>
     {:else}
-      <div class="event-description-body">
-        {description}
+      <div
+        class={!virtualInfo.meetingPasscode
+          ? "event-description-words"
+          : "event-description-words small-padded-description"}
+      >
+        <div
+          class={!virtualInfo.meetingPasscode
+            ? "event-description-meeting standalone-button"
+            : "event-description-meeting"}
+        >
+          <a href={virtualInfo.meetingJoinUrl} class="event-join-btn"
+            >Join {virtualInfo.meetingPlatform}</a
+          > <br /><br />
+          {#if virtualInfo.meetingPasscode}
+            <span>Passcode: {virtualInfo.meetingPasscode}</span>
+          {/if}
+        </div>
+        <div
+          class={!virtualInfo.meetingPasscode
+            ? "event-description-body"
+            : "event-description-body adjusted-up"}
+        >
+          {description}
+        </div>
       </div>
     {/if}
   </div>
@@ -105,7 +128,34 @@
     font-weight: 600;
     font-size: 18px;
   }
-  .event-description-words {
+  .post-map {
     margin-top: 10px;
+  }
+
+  .event-join-btn {
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 50px;
+    color: #0f2040;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .standalone-button {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .small-padded-description {
+    margin-top: 7px;
+  }
+
+  .adjusted-up {
+    margin-top: -7px;
   }
 </style>
