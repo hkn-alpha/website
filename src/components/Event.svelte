@@ -66,11 +66,15 @@
             ? "event-description-meeting standalone-button"
             : "event-description-meeting"}
         >
-          <a href={virtualInfo.meetingJoinUrl} class="event-join-btn"
-            >Join {virtualInfo.meetingPlatform}</a
-          > <br /><br />
+          <div class="meeting-join">
+            <a href={virtualInfo.meetingJoinUrl} class="event-join-btn"
+              >Join {virtualInfo.meetingPlatform}</a
+            >
+          </div>
           {#if virtualInfo.meetingPasscode}
-            <span>Passcode: {virtualInfo.meetingPasscode}</span>
+            <div class="meeting-passcode">
+              <span>Passcode: {virtualInfo.meetingPasscode}</span>
+            </div>
           {/if}
         </div>
         <div
@@ -133,11 +137,25 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
     }
+
+    .meeting-passcode {
+      margin-top: 15px;
+    }
   }
 
   @media only screen and (max-width: 650px) {
     .event-description-body {
       margin-top: 10px;
+    }
+
+    .event-description-meeting {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 17px;
+    }
+
+    .meeting-passcode {
+      margin-left: 5px;
     }
   }
 
@@ -170,10 +188,6 @@
 
   .small-padded-description {
     margin-top: 7px;
-  }
-
-  .adjusted-up {
-    margin-top: -7px;
   }
 
   .event-title {
