@@ -12,11 +12,15 @@ export type VirtualInfo = {
   meetingPasscode?: string;
 };
 
+type InitiatePointsCategory = "social" | "service";
+
 type Event = {
   name: string;
   date: Date;
   description: string;
   time: string;
+  initiatePointsCount?: number;
+  initiatePointsCategory?: InitiatePointsCategory;
 } & (
   | {
       virtual: false;
@@ -60,6 +64,8 @@ const events: Event[] = [
     time: "6:09PM",
     virtual: false,
     locationInfo: commonLocations["legends"],
+    initiatePointsCount: 1,
+    initiatePointsCategory: "social",
   },
 ];
 

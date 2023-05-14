@@ -6,6 +6,9 @@
   export let time;
   export let locationInfo = undefined;
   export let virtualInfo = undefined;
+  export let initiatePointsNumber = undefined;
+  export let initiatePointsCategory = undefined;
+  export let showInitiatePoints = false;
   const id = Math.random() * 100000; // algorithms are my passion
 </script>
 
@@ -13,7 +16,21 @@
   <input type="checkbox" id={`ev-check-${id}`} class="toggler" />
   <label for={`ev-check-${id}`}>
     <div class="event-header">
-      <h2>{name}</h2>
+      <div class="event-title">
+        <h2>{name}</h2>
+        {#if initiatePointsNumber && initiatePointsCategory && showInitiatePoints}
+          <div class="initiate-points-container">
+            <div class="initiate-points-count">
+              <div>
+                {initiatePointsNumber}
+              </div>
+            </div>
+            <div class="initiate-points-category">
+              {initiatePointsCategory}
+            </div>
+          </div>
+        {/if}
+      </div>
       <h4>{date} @ {time}</h4>
     </div>
   </label>
@@ -157,5 +174,40 @@
 
   .adjusted-up {
     margin-top: -7px;
+  }
+
+  .event-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .initiate-points-container {
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .initiate-points-count {
+    background-color: #0f2040;
+    border-radius: 25px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+  }
+  .initiate-points-count div {
+    margin-left: -2px;
+  }
+
+  .initiate-points-category {
+    margin-left: 8px;
+    color: #0f2040;
+    text-transform: uppercase;
+    padding-right: 6px;
+    user-select: none;
   }
 </style>
