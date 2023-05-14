@@ -1,5 +1,4 @@
 <script>
-  import { compile } from "mdsvex";
   export let name;
   export let date;
   export let description;
