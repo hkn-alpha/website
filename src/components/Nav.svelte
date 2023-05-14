@@ -18,8 +18,6 @@
   </div>
 
   <div class="nav-links">
-    <Link to="/events" style="color: white; text-decoration: none;">Events</Link
-    >
     <a href="https://wikipedia.org" target="_blank">Wiki</a>
   </div>
 </nav>

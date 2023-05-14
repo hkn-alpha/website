@@ -1,70 +1,51 @@
 <script>
   import Event from "./components/Event.svelte";
-  import Nav from "./components/Nav.svelte";
-  import events from "./content/events";
+  export let events;
+  export let cutoff = 10;
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
-  const dateOptions = { year: "numeric", month: "long", day: "numeric" };
+  const dateOptions = { month: "long", day: "numeric" };
 
-  const currentEvents = events.filter((e) => new Date() <= e.date);
+  const currentEvents = events
+    .filter((e) => new Date() <= e.date)
+    .filter((_, i) => i < cutoff);
 
   let showPoints = false;
 </script>
 
-<div class="container">
-  <Nav />
-  <div class="evcontainer">
-    <h1>Upcoming Events</h1>
+<div class="evcontainer">
+  <div class="initiate-points-toggler">
     <p>
-      HKN regularly hosts events for both members and non-members, ranging from
-      tech talks to fun social gatherings like our weekly happy hour. To
-      encourange involvement, HKN initiates earn points by attending events.
-      Learn more about each event by clicking or tapping it.
+      Show initiate points? <input type="checkbox" bind:checked={showPoints} />
     </p>
-    <div class="initiate-points-toggler">
-      <p>
-        Show initiate points? <input
-          type="checkbox"
-          bind:checked={showPoints}
-        />
-      </p>
-    </div>
-    {#each currentEvents as event}
-      <Event
-        name={event.name}
-        description={event.description}
-        date={event.date.toLocaleDateString(undefined, dateOptions)}
-        time={event.time}
-        locationInfo={!event.virtual ? event.locationInfo : undefined}
-        virtualInfo={event.virtual ? event.virtualInfo : undefined}
-        initiatePointsCategory={event.initiatePointsCategory}
-        initiatePointsNumber={event.initiatePointsCount}
-        showInitiatePoints={showPoints}
-      />
-    {/each}
   </div>
+  {#each currentEvents as event}
+    <Event
+      name={event.name}
+      description={event.description}
+      date={event.date.toLocaleDateString(undefined, dateOptions)}
+      time={event.time}
+      locationInfo={!event.virtual ? event.locationInfo : undefined}
+      virtualInfo={event.virtual ? event.virtualInfo : undefined}
+      initiatePointsCategory={event.initiatePointsCategory}
+      initiatePointsNumber={event.initiatePointsCount}
+      showInitiatePoints={showPoints}
+    />
+  {/each}
 </div>
 
 <style>
   .evcontainer {
-    max-width: 650px;
-    width: 100vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  h1 {
-    color: white;
+    position: relative;
+    z-index: 100;
   }
 
   p {
     font-size: 18px;
     color: white;
-  }
-
-  .container {
-    background-color: #0f2040;
-    min-height: 100vh;
   }
 
   .initiate-points-toggler {
