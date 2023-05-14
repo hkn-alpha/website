@@ -32,6 +32,11 @@ type Event = {
     }
 );
 
+/**
+ * HKN editors: Unless you're modifying website functionality, ONLY EDIT LINES
+ * BELOW THIS POINT!
+ */
+
 const commonLocations = {
   legends: {
     lat: 40.1103786,

@@ -1,5 +1,6 @@
 <script lang="ts">
   import HeroText from "./content/hero_text.md";
+  import LeadershipText from "./content/leadership_text.md";
   import MainContent from "./content/main.md";
   import leadership_json from "./content/leadership.json";
   import Nav from "./components/Nav.svelte";
@@ -27,14 +28,22 @@
       <section class="triangle_white">
         <div class="triangle_white_inner">
           <h1>Our Leadership</h1>
+          <div class="lt">
+            <LeadershipText />
+          </div>
           <div class="leadership_grid">
             {#each leadership_json.leaders as leader}
-              <div class="leader">
-                <img src={leader.image} class="leader_image" alt="Hi" />
-                <span class="leader_name">
-                  {leader.name}
-                </span>
-              </div>
+              <a href={`mailto:${leader.email}`}>
+                <div class="leader">
+                  <img src={leader.image} class="leader_image" alt="Hi" />
+                  <div class="leader_name">
+                    {leader.name}
+                  </div>
+                  <div class="leader_role">
+                    {leader.role}
+                  </div>
+                </div>
+              </a>
             {/each}
           </div>
         </div>
@@ -52,5 +61,30 @@
   }
   .downcircle a {
     color: #fff !important;
+  }
+
+  .leader_role {
+    font-style: italic;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  .leader_name {
+    color: #0f2040;
+    font-weight: 500;
+  }
+
+  .leader_role {
+    color: #0f2040;
+  }
+
+  .lt {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: #0f2040;
   }
 </style>
