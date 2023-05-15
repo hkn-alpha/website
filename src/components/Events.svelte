@@ -1,5 +1,5 @@
 <script>
-  import Event from "./components/Event.svelte";
+  import Event from "./Event.svelte";
   export let events;
   export let cutoff = 10;
 
