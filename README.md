@@ -6,7 +6,7 @@ This repository hosts all content for the HKN Alpha Chapter website.
 
 To work on the HKN website, you should install Node. It is recommended to install Node with [NVM](https://github.com/nvm-sh/nvm). Once you've installed Node, do the following things:
 
-1. `git clone https://git@github.com/hknalpha/website`
+1. `git clone https://github.com/hkn-alpha/website`
 2. `cd website`
 3. `npm install`
 4. `npm run dev`
@@ -54,4 +54,4 @@ The above will only show the 5 closest events. _By default, only the 10 closest 
 ## Adding a New Page
 
 You shouldn't have to do this too often after the initial creation of the website: it's far better to add a section to an existing page, since it reduces the maintenance burden. You should also consider how often your new page would need to be updated: if it needs frequent updating, will that updating _really_ happen?
-If you answer is yes (a miracle!) follow these steps:
+If your answer is yes (a miracle!) follow these steps:
