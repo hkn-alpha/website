@@ -122,7 +122,7 @@
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -139,6 +139,17 @@
 
     .meeting-passcode {
       margin-top: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .event-title {
+      flex-direction: column !important;
+    }
+
+    .initiate-points-container {
+      margin-left: 0px !important;
+      margin-bottom: 7px;
     }
   }
 
