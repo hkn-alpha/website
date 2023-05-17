@@ -14,24 +14,31 @@
 </script>
 
 <div class="evcontainer">
-  <div class="initiate-points-toggler">
-    <p>
-      Show initiate points? <input type="checkbox" bind:checked={showPoints} />
-    </p>
-  </div>
-  {#each currentEvents as event}
-    <Event
-      name={event.name}
-      description={event.description}
-      date={event.date.toLocaleDateString(undefined, dateOptions)}
-      time={event.time}
-      locationInfo={!event.virtual ? event.locationInfo : undefined}
-      virtualInfo={event.virtual ? event.virtualInfo : undefined}
-      initiatePointsCategory={event.initiatePointsCategory}
-      initiatePointsNumber={event.initiatePointsCount}
-      showInitiatePoints={showPoints}
-    />
-  {/each}
+  {#if currentEvents.length > 0}
+    <div class="initiate-points-toggler">
+      <p>
+        Show initiate points? <input
+          type="checkbox"
+          bind:checked={showPoints}
+        />
+      </p>
+    </div>
+    {#each currentEvents as event}
+      <Event
+        name={event.name}
+        description={event.description}
+        date={event.date.toLocaleDateString(undefined, dateOptions)}
+        time={event.time}
+        locationInfo={!event.virtual ? event.locationInfo : undefined}
+        virtualInfo={event.virtual ? event.virtualInfo : undefined}
+        initiatePointsCategory={event.initiatePointsCategory}
+        initiatePointsNumber={event.initiatePointsCount}
+        showInitiatePoints={showPoints}
+      />
+    {/each}
+  {:else}
+    <div class="no-events">Nothing scheduled, check back soon!</div>
+  {/if}
 </div>
 
 <style>
@@ -58,5 +65,10 @@
   .initiate-points-toggler p {
     margin-top: 0px;
     margin-bottom: -9px;
+  }
+
+  .no-events {
+    font-style: italic;
+    text-align: center;
   }
 </style>

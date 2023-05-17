@@ -49,6 +49,7 @@ const commonLocations = {
   },
 };
 
+// Note that the below need not be ordered, the web UI will take care of sorting
 const events: Event[] = [
   {
     name: "Tech Talk",
