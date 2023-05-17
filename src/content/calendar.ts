@@ -4,6 +4,7 @@ export type LocationInfo = {
   locationName: string;
   addressLine1: string;
   addressLine2: string;
+  googleMapsLink: string;
 };
 
 export type VirtualInfo = {
@@ -44,6 +45,7 @@ const commonLocations = {
     locationName: "Legends Bar and Grill",
     addressLine1: "522 E Green St",
     addressLine2: "Champaign, IL 61820",
+    googleMapsLink: "https://goo.gl/maps/ZRr4eiiWSQG3pQRG6?coh=178571&entry=tt",
   },
 };
 

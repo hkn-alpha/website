@@ -43,13 +43,15 @@
         style="border:none;"
       />
       <div class="event-description-words post-map">
-        <div class="event-description-location">
-          <span class="location-name">{locationInfo.locationName}</span><br />
-          <span class="location-address">
-            {locationInfo.addressLine1}<br />
-            {locationInfo.addressLine2}
-          </span>
-        </div>
+        <a href={locationInfo.googleMapsLink}>
+          <div class="event-description-location">
+            <span class="location-name">{locationInfo.locationName}</span><br />
+            <span class="location-address">
+              {locationInfo.addressLine1}<br />
+              {locationInfo.addressLine2}
+            </span>
+          </div>
+        </a>
         <div class="event-description-body">
           {description}
         </div>
@@ -233,5 +235,13 @@
     text-transform: uppercase;
     padding-right: 6px;
     user-select: none;
+  }
+
+  .event-description-location {
+    color: white !important;
+  }
+
+  a {
+    text-decoration: none !important;
   }
 </style>
