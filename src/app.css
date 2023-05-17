@@ -92,6 +92,7 @@ body {
   font-family: "Lora", Garamond, serif;
   color: white;
   background-position-y: center;
+  background-position-x: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

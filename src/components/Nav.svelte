@@ -95,7 +95,7 @@
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      padding-top: 50px;
+      padding-top: 125px;
       top: 0px;
       left: 0px;
       z-index: 1;
