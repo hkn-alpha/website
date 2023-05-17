@@ -217,6 +217,11 @@
     flex-direction: row;
   }
 
+  /**
+    * Plan: for now, tables for review sessions following existing format
+    * Tutoring via search for classes comma-separated (remove spaces accordingly)
+  */
+
   .initiate-points-count {
     background-color: #0f2040;
     border-radius: 25px;

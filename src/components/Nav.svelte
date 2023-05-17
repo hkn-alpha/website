@@ -18,6 +18,9 @@
   </div>
 
   <div class="nav-links">
+    <Link to="/services" style="color: white; text-decoration: none;"
+      >Student Services</Link
+    >
     <a href="https://wikipedia.org" target="_blank">Wiki</a>
   </div>
 </nav>
