@@ -1,5 +1,6 @@
 <script>
   import Nav from "./components/Nav.svelte";
+  import ReviewsCalendar from "./components/ReviewsCalendar.svelte";
   import { reviewSessions, crammingCarnival } from "./content/review_sessions";
 </script>
 
@@ -10,58 +11,22 @@
   <Nav />
   <div class="content">
     <h1>Student Services</h1>
-    <p>Filler text about services that HKN offers.</p>
+    <p>
+      Filler text about services that HKN offers. This should probably take up
+      at least three lines. More filler text to make this more visually
+      appealing. Here is even more filler text to make if even more appealing.
+      Wow, this website is finally taking shape.
+    </p>
     {#each Object.keys(reviewSessions) as mtNum}
-      <h1>Midterm {mtNum} Review Sessions</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Class</th>
-            <th>Time</th>
-            <th>Location</th>
-            <th>Materials</th>
-            <th>Recording</th>
-          </tr>
-        </thead>
-        <tbody>
-          {#each reviewSessions[mtNum] as session}
-            <tr>
-              <td>
-                {session.course}
-              </td>
-              <td>
-                {session.time}
-              </td>
-              <td>
-                {session.location}
-              </td>
-              <td>
-                {#if session.slidesLink && session.worksheetLink}
-                  <a href={session.slidesLink}>Slides</a> &amp;
-                  <a href={session.worksheetLink}>Worksheet</a>
-                {:else if session.slidesLink}
-                  <a href={session.slidesLink}>Slides</a>
-                {:else if session.worksheetLink}
-                  <a href={session.worksheetLink}>Worksheet</a>
-                {:else}
-                  Coming soon!
-                {/if}
-              </td>
-              <td>
-                {#if session.recordingLink}
-                  <a href={session.recordingLink}>Recording</a>
-                {:else}
-                  N/A
-                {/if}
-              </td>
-            </tr>
-          {/each}
-        </tbody>
-      </table>
+      {#if reviewSessions[mtNum].length > 0}
+        <h1>Midterm {mtNum} Review Sessions</h1>
+        <ReviewsCalendar sessions={reviewSessions[mtNum]} />
+      {/if}
     {/each}
 
     {#if crammingCarnival.length > 0}
       <h1>Cramming Carnival</h1>
+      <ReviewsCalendar sessions={crammingCarnival} />
     {/if}
   </div>
 </div>
@@ -74,6 +39,7 @@
 
   h1 {
     color: white;
+    margin-bottom: 5px;
   }
 
   .content {
@@ -81,21 +47,12 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 100vw;
-  }
-
-  table {
-    width: 100%;
-    color: white;
-  }
-
-  tr {
-    border-bottom: 2px solid white;
-    padding-top: 4px;
-    padding-bottom: 2px;
+    overflow: hidden;
   }
 
   p {
     font-size: 20px;
     color: white;
+    margin-bottom: 60px;
   }
 </style>
