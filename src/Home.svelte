@@ -86,5 +86,7 @@
     margin-right: auto;
     font-size: 20px;
     color: #0f2040;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 </style>
