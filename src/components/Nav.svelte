@@ -18,10 +18,14 @@
   </div>
 
   <div class="nav-links">
-    <Link to="/services" style="color: white; text-decoration: none;"
-      >Student Services</Link
-    >
-    <a href="https://wikipedia.org" target="_blank">Wiki</a>
+    <span class="nav-link">
+      <Link to="/services" style="color: white; text-decoration: none;"
+        >Student Services</Link
+      >
+    </span>
+    <span class="nav-link">
+      <a href="https://wikipedia.org" target="_blank">Wiki</a>
+    </span>
   </div>
 </nav>
 
@@ -57,14 +61,14 @@
     font-size: 18px;
   }
 
-  .nav > .nav-links > a {
+  .nav > .nav-links > .nav-link {
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
     color: #efefef;
   }
 
-  .nav > .nav-links > a:hover {
+  .nav > .nav-links > .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.3);
   }
 
@@ -103,7 +107,7 @@
       left: 0px;
       z-index: 1;
     }
-    .nav > .nav-links > a {
+    .nav > .nav-links > .nav-link {
       display: block;
       width: 100%;
     }
@@ -112,7 +116,7 @@
       background-color: rgba(0, 0, 0, 0);
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(87.5vh);
+      height: calc(100vh);
       overflow-y: auto;
     }
 
@@ -157,5 +161,10 @@
       top: -1px;
       left: -1.5px;
     }
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
   }
 </style>

@@ -44,7 +44,7 @@
 <div class="container">
   <Nav />
   <div class="content">
-    <h1>Student Services</h1>
+    <h1 class="ss-heading">Student Services</h1>
     <p>
       Filler text about services that HKN offers. This should probably take up
       at least three lines. More filler text to make this more visually
@@ -119,16 +119,21 @@
     min-height: 100vh;
   }
 
+  .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   h1 {
     color: white;
     margin-bottom: 5px;
   }
 
   .content {
-    width: 700px;
+    width: 720px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100vw;
+    max-width: calc(100vw - 20px);
     overflow: hidden;
   }
 
@@ -209,5 +214,11 @@
   .no-results {
     margin-top: 5px;
     text-align: center;
+  }
+
+  @media only screen and (max-width: 457px) {
+    .ss-heading {
+      margin-top: 80px;
+    }
   }
 </style>
