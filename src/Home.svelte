@@ -7,6 +7,14 @@
   import { ArrowDownCircleIcon } from "svelte-feather-icons";
 </script>
 
+<svelte:head>
+  <title>Eta Kappa Nu</title>
+  <meta
+    name="description"
+    content="HKN is an honor society for electrical and computer engineers."
+  />
+</svelte:head>
+
 <div class="container">
   <div class="hero">
     <Nav />
