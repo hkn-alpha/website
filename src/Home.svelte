@@ -5,6 +5,7 @@
   import leadership_json from "./content/leadership.json";
   import Nav from "./components/Nav.svelte";
   import { ArrowDownCircleIcon } from "svelte-feather-icons";
+  import Footer from "./components/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -54,6 +55,7 @@
               </a>
             {/each}
           </div>
+          <Footer />
         </div>
       </section>
     </div>
@@ -96,5 +98,9 @@
     color: #0f2040;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .leadership_grid {
+    margin-bottom: 30px;
   }
 </style>
