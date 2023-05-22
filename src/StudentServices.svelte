@@ -28,11 +28,15 @@
   }
 
   let query = "";
-
-  // console.log(query);
-
-  let matchingTutors = query == "" ? getMatchingTutors(query) : null;
 </script>
+
+<svelte:head>
+  <title>Student Services</title>
+  <meta
+    name="description"
+    content="HKN offers review sessions for core ECE courses, and free one-on-one tutoring."
+  />
+</svelte:head>
 
 <!--
     Need: class, time, location, slides, recording

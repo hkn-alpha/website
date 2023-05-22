@@ -55,3 +55,7 @@ The above will only show the 5 closest events. _By default, only the 10 closest 
 
 You shouldn't have to do this too often after the initial creation of the website: it's far better to add a section to an existing page, since it reduces the maintenance burden. You should also consider how often your new page would need to be updated: if it needs frequent updating, will that updating _really_ happen?
 If your answer is yes (a miracle!) follow these steps:
+
+## Search Engine Optimization
+
+You _really_ shouldn't have to do this if I did my job properly. But if you want to change the snippet of text that Google shows below each page on our website, you can do it by finding the `.svelte` file for the page you want to change and finding and editing the `meta` value inside of `svelte:head` (these strings appear only once, use Ctrl/Cmd + F to get to the right place).
