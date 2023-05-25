@@ -12,6 +12,10 @@
   z-index: 3;
 }
 
+.force-blue-triangle:before {
+  border-color: transparent transparent #0f2040 transparent;
+}
+
 .triangle:after {
   content: "";
   display: block;
@@ -24,6 +28,10 @@
   left: 0;
   position: absolute;
   z-index: 4;
+}
+
+.force-blue-triangle:after {
+  border-color: transparent transparent transparent #0f2040;
 }
 
 .triangle {
@@ -300,4 +308,12 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.triangle_white_inner .triangle main h1 {
+  color: white;
+}
+
+.force-blue-triangle .triangle_inner main {
+  padding-bottom: 10px;
 }

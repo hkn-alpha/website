@@ -55,7 +55,14 @@
               </a>
             {/each}
           </div>
-          <Footer />
+          <div class="triangle force-blue-triangle">
+            <div class="triangle_inner">
+              <main>
+                <MainContent />
+              </main>
+              <Footer />
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -102,5 +109,6 @@
 
   .leadership_grid {
     margin-bottom: 30px;
+    padding-bottom: 40px;
   }
 </style>
