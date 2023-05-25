@@ -91,13 +91,13 @@
   }
 
   .lt {
-    max-width: 600px;
+    max-width: 626px;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
     color: #0f2040;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
   }
 
   .leadership_grid {
