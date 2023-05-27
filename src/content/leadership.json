@@ -3,8 +3,17 @@
     {
       "name": "Aleks Zhang",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "President",
-      "email": "a@a.com"
+      "role": "President"
+    },
+    {
+      "name": "Aleks Zhang",
+      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
+      "role": "Not my President"
+    },
+    {
+      "name": "Aleks Zhang",
+      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
+      "role": "Not my President"
     },
     {
       "name": "Aleks Zhang",
@@ -15,44 +24,28 @@
     {
       "name": "Aleks Zhang",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
+      "role": "Not my President"
     },
     {
       "name": "Aleks Zhang",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
+      "role": "Not my President"
     },
     {
       "name": "Aleks Zhang",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
+      "role": "Not my President"
     },
     {
       "name": "Aleks Zhang",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
+      "role": "Not my President"
     },
     {
       "name": "Aleks Zhang",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
-    },
-    {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
-    },
-    {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
+      "role": "Not my President"
     }
-  ]
+  ],
+  "contact": "iam@yourmothers.house"
 }

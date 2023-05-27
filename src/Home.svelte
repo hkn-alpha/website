@@ -56,6 +56,9 @@
               </a>
             {/each}
           </div>
+          <div class="leadership_contact">
+            <a href={`mailto:${leadership_json.contact}`}>Contact Us</a>
+          </div>
           <div class="triangle force-blue-triangle">
             <div class="triangle_inner">
               <main>
@@ -111,5 +114,28 @@
   .leadership_grid {
     margin-bottom: 30px;
     padding-bottom: 40px;
+  }
+
+  .leadership_contact {
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leadership_contact a {
+    display: block;
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #0f2040;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 125;
   }
 </style>
