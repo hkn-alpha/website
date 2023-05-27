@@ -1,7 +1,8 @@
 <script lang="ts">
   import HeroText from "./content/hero_text.md";
   import LeadershipText from "./content/leadership_text.md";
-  import MainContent from "./content/main.md";
+  import MainContent from "./content/main1.md";
+  import MainContent2 from "./content/main2.md";
   import leadership_json from "./content/leadership.json";
   import Nav from "./components/Nav.svelte";
   import { ArrowDownCircleIcon } from "svelte-feather-icons";
@@ -58,7 +59,7 @@
           <div class="triangle force-blue-triangle">
             <div class="triangle_inner">
               <main>
-                <MainContent />
+                <MainContent2 />
               </main>
               <Footer />
             </div>
