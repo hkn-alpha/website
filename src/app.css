@@ -317,3 +317,13 @@ html {
 .force-blue-triangle .triangle_inner main {
   padding-bottom: 10px;
 }
+
+/* .link_icon {
+  /* height: 45px; */
+/* margin-top: -25px;
+} */
+
+.link_icon svg {
+  position: relative;
+  top: 8px;
+}

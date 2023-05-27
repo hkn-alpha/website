@@ -1,5 +1,6 @@
 <script>
-  import { Link } from "svelte-routing";
+  import { Link, link } from "svelte-routing";
+  import { links } from "../content/outside_links";
 </script>
 
 <nav class="nav">
@@ -19,13 +20,25 @@
 
   <div class="nav-links">
     <span class="nav-link">
+      <Link to="/" style="color: white; text-decoration: none;">Home</Link>
+    </span>
+    <span class="nav-link">
       <Link to="/services" style="color: white; text-decoration: none;"
         >Student Services</Link
       >
     </span>
-    <span class="nav-link">
-      <a href="https://wikipedia.org" target="_blank">Wiki</a>
-    </span>
+    {#each links as NLink}
+      <span class={NLink.icon ? `nav-link adjusted-nav-link` : `nav-link`}>
+        <a href={NLink.href}>
+          {#if NLink.icon}
+            <span class="link_text">{NLink.name}</span>
+            <div class="link_icon"><NLink.icon size="30" /></div>
+          {:else}
+            {NLink.name}
+          {/if}
+        </a></span
+      >
+    {/each}
   </div>
 </nav>
 
@@ -166,5 +179,20 @@
   a {
     text-decoration: none;
     color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .link_icon {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .link_text {
+      display: none;
+    }
+    .adjusted-nav-link {
+      margin-top: -25px;
+    }
   }
 </style>
