@@ -4,6 +4,7 @@
   import ReviewsCalendar from "./components/ReviewsCalendar.svelte";
   import { reviewSessions, crammingCarnival } from "./content/review_sessions";
   import { tutors as unorderedTutors } from "./content/tutors";
+  import Select from "svelte-select";
 
   const tutors = unorderedTutors
     .map((x) => ({ v: x, r: Math.random() }))
@@ -29,6 +30,15 @@
   }
 
   let query = "";
+
+  const validTitles = Object.keys(reviewSessions)
+    .filter((x) => reviewSessions[x].length > 0)
+    .map((x) => `Midterm ${x}`);
+
+  const items =
+    crammingCarnival.length > 0 ? [...validTitles, "Finals"] : validTitles;
+
+  let value = { value: "Midterm 1", label: "Midterm 1" };
 </script>
 
 <svelte:head>
@@ -39,9 +49,6 @@
   />
 </svelte:head>
 
-<!--
-    Need: class, time, location, slides, recording
--->
 <div class="container">
   <Nav />
   <div class="content">
@@ -54,15 +61,29 @@
         >Jump to tutors</a
       >
     </p>
-    {#each Object.keys(reviewSessions) as mtNum}
-      {#if reviewSessions[mtNum].length > 0}
-        <h1>Midterm {mtNum} Review Sessions</h1>
-        <ReviewsCalendar sessions={reviewSessions[mtNum]} />
-      {/if}
-    {/each}
 
-    {#if crammingCarnival.length > 0}
-      <h1>Cramming Carnival</h1>
+    <h1 class="styled-select">
+      <div class="select">
+        <Select
+          {items}
+          searchable={false}
+          showChevron={true}
+          clearable={false}
+          bind:value
+        />
+      </div>
+      <div class="remainder">Review Sessions</div>
+    </h1>
+
+    <!-- {JSON.stringify(value.value)} -->
+    <!-- <CalendarGenerator {value} {reviewSessions} finals={crammingCarnival} /> -->
+    {#if value.value.startsWith("Midterm")}
+      <ReviewsCalendar
+        sessions={reviewSessions[
+          parseInt(value.value.substring("Midterm ".length))
+        ]}
+      />
+    {:else}
       <ReviewsCalendar sessions={crammingCarnival} />
     {/if}
 
@@ -223,5 +244,28 @@
     .ss-heading {
       margin-top: 80px;
     }
+  }
+
+  .styled-select {
+    --background: #0f2040;
+    --list-background: #0f2040;
+    --font-size: 32px;
+    --border: none;
+    --border-focused: none;
+    --border-hover: none;
+    --item-hover-bg: #546482;
+    --item-first-border-radius: 0px;
+    --item-last-border-radius: 0px;
+    --item-is-active-bg: #546482;
+    --selected-item-padding: 0px;
+    --padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .select {
+    margin-right: 15px;
   }
 </style>
