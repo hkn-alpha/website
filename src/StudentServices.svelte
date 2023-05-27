@@ -133,7 +133,7 @@
   }
 
   .content {
-    width: 720px;
+    width: 746px;
     margin-left: auto;
     margin-right: auto;
     max-width: calc(100vw - 20px);
