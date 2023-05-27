@@ -43,17 +43,15 @@
           </div>
           <div class="leadership_grid">
             {#each leadership_json.leaders as leader}
-              <a href={`mailto:${leader.email}`}>
-                <div class="leader">
-                  <img src={leader.image} class="leader_image" alt="Hi" />
-                  <div class="leader_name">
-                    {leader.name}
-                  </div>
-                  <div class="leader_role">
-                    {leader.role}
-                  </div>
+              <div class="leader">
+                <img src={leader.image} class="leader_image" alt="Hi" />
+                <div class="leader_name">
+                  {leader.name}
                 </div>
-              </a>
+                <div class="leader_role">
+                  {leader.role}
+                </div>
+              </div>
             {/each}
           </div>
           <div class="leadership_contact">
