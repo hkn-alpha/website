@@ -50,6 +50,7 @@ Want to edit something you see on the website? Below is a (hopefully-updated) ma
 8. Scheduled review sessions: `StudentServices/review_sessions.ts`
 9. List of tutors: `StudentServices/tutors.ts`
 10. Description of student services (below "Student Services" heading): `StudentServices/description.md`
+11. Description of tutoring: `StudentServices/tutoring.md`
 
 If the process to edit one of these files is non-obvious, you can find documentation in the file itself, and/or in the sections below.
 
