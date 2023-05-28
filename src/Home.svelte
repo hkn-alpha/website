@@ -110,7 +110,6 @@
   }
 
   .leadership_grid {
-    margin-bottom: 30px;
     padding-bottom: 40px;
   }
 

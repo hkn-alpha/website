@@ -1,3 +1,7 @@
+body {
+  font-family: adelle-sans, Arial, Helvetica, sans-serif;
+}
+
 .triangle:before {
   content: "";
   display: block;
@@ -97,7 +101,6 @@ body {
   height: 85vh;
   background-repeat: no-repeat;
   background-size: 100vw auto;
-  font-family: "Lora", Garamond, serif;
   color: white;
   background-position-y: center;
   background-position-x: center;
@@ -157,8 +160,10 @@ main {
 
 h1 {
   text-align: center;
-  font-family: "Lora", Garamond, serif;
-  font-weight: 600;
+  font-family: "DM Serif Display", Garamond, serif;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 0px;
   /* text-decoration: underline;
   text-decoration-color: #e84a27;
   text-decoration-thickness: 4px;
@@ -166,10 +171,11 @@ h1 {
   font-style: italic; */
 }
 
-main p {
-  font-family: "Lora", Garamond, serif;
+p {
+  font-family: adelle-sans, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
+  margin-top: 5px;
 }
 
 main img {
@@ -237,18 +243,12 @@ main {
 
 .triangle_white_inner h1 {
   text-align: center;
-  font-family: "Lora", Garamond, serif;
   /*   font-weight: 700; */
-  font-size: 30px;
   color: #0f2040;
 }
 
 h1 {
   font-weight: 600;
-}
-
-body {
-  font-family: "Lora";
 }
 
 .leadership_grid {
@@ -326,4 +326,9 @@ html {
 .link_icon svg {
   position: relative;
   top: 8px;
+}
+
+.cta p {
+  font-family: "DM Serif Text", sans-serif;
+  font-size: 30px;
 }

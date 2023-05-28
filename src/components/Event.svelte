@@ -102,6 +102,7 @@
 
   .event {
     border-bottom: 3px solid white;
+    font-family: adelle-sans, Arial, Helvetica, sans-serif;
   }
 
   .event h2 {

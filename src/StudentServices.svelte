@@ -179,7 +179,7 @@
     padding-left: 2px;
     padding-right: 2px;
     color: white;
-    font-family: "Lora";
+    font-family: adelle-sans, Arial, Helvetica, sans-serif;
     font-size: 18px;
     border-bottom: 3px solid #546482;
     /* margin-top: -120px; */
@@ -188,7 +188,7 @@
 
   .tutor-search::placeholder {
     color: #ddd;
-    font-family: "Lora";
+    font-family: adelle-sans, Arial, Helvetica, sans-serif;
   }
 
   table {
@@ -249,7 +249,7 @@
   .styled-select {
     --background: #0f2040;
     --list-background: #0f2040;
-    --font-size: 32px;
+    --font-size: 36px;
     --border: none;
     --border-focused: none;
     --border-hover: none;

@@ -47,7 +47,6 @@
     height: 50px;
     width: 100%;
     position: relative;
-    font-family: "Lora", Garamond, serif;
   }
 
   .nav > .nav-header {

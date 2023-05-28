@@ -33,7 +33,6 @@
       height: 50px;
       text-align: center;
       color: white;
-      font-family: "Lora", Garamond, sans-serif;
       line-height: 50px;
     }
 
@@ -83,5 +82,10 @@
     .icon:not(:last-child) {
       margin-right: 8px;
     }
+  }
+
+  .footer {
+    font-family: "DM Serif Text", sans-serif;
+    font-size: 18px;
   }
 </style>
