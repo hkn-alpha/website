@@ -365,7 +365,9 @@ html {
   padding-top: 1px;
 }
 
-.cta p {
-  margin-left: 23px;
-  margin-right: 23px;
+@media only screen and (max-width: 740px) {
+  .cta p {
+    margin-left: 23px;
+    margin-right: 23px;
+  }
 }
