@@ -55,7 +55,7 @@ const events: Event[] = [
     name: "Tech Talk",
     date: new Date(2023, 4, 29), // year, month, day
     description:
-      "This is a talk about some cool technology by some corporate sponsor. I like corporate sponsors because they give money.",
+      "This is a talk about some cool technology by some corporate sponsor. I like corporate sponsors because they give talks.",
     time: "12:00PM", // making this a string because otherwise timezones are hard`
     virtual: true,
     virtualInfo: {
