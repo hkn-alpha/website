@@ -36,6 +36,21 @@ To work on the HKN website, you should install Node. It is recommended to instal
 2. Make your changes, and commit them like you normally would
 3. Run `git push origin <your name>/<branch name>`. The PR will automatically update.
 
+## Where is it?
+
+Want to edit something you see on the website? Below is a (hopefully-updated) mapping of where you can find things. All files referenced are in the `content` folder.
+
+1. Navigation links and socials links: `outside_links.ts`
+2. Homepage header text: `hero_text.md`
+3. First blue section on homepage: `main1.md`
+4. List of leadership people: `leadership.json`
+5. Second blue section on homepage: `main2.md`
+6. Link to HKN nationals: `nationals_link.json`
+7. Scheduled review sessions: `review_sessions.ts`
+8. List of tutors: `tutors.ts`
+
+If the process to edit one of these files is non-obvious, you can find documentation in the file itself, and/or in the sections below.
+
 ## Managing the Calendar(s)
 
 See `content/calendar.ts` for an example of how to create a calendar. When you want to add a new event to a calendar file (most likely, this means you'll be editing `content/calendar.ts`), simply add the event to the `events` array, and while you're at it, remove any events that have already occurred. You may add as many events as you want into the future, and the calendar will only display the events occurring the most soon.
