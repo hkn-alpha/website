@@ -40,7 +40,12 @@
           </div>
         {/if}
       </div>
-      <h4 class="datetime">{date} @ {time}</h4>
+      <div class="event-right">
+        <h4 class="datetime">{date} @ {time}</h4>
+        <div class="chevron-arrow-container">
+          <div class="chevron-arrow" />
+        </div>
+      </div>
     </div>
   </label>
   <div class="event-description ev-d-1">
@@ -265,5 +270,38 @@
 
   .datetime {
     align-self: flex-end;
+  }
+
+  .event-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chevron-arrow-container {
+    width: 12px;
+    margin-left: 8px;
+    margin-right: 2px;
+    transition-duration: 0.2s;
+  }
+
+  .chevron-arrow {
+    display: inline-block;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 9px;
+    height: 9px;
+    transform: rotate(135deg);
+    transition-duration: 0.2s;
+  }
+
+  .toggler:checked ~ label .chevron-arrow {
+    transform: rotate(45deg);
+    transition-duration: 0.2s;
+  }
+
+  .toggler:checked ~ label .chevron-arrow-container {
+    margin-top: -4px;
+    transition-duration: 0.2s;
   }
 </style>
