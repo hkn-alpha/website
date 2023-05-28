@@ -36,9 +36,12 @@
     .map((x) => `Midterm ${x}`);
 
   const items =
-    crammingCarnival.length > 0 ? [...validTitles, "Finals"] : validTitles;
+    crammingCarnival.length > 0 ? [...validTitles, "Final Exam"] : validTitles;
 
-  let value = { value: "Midterm 1", label: "Midterm 1" };
+  let value = {
+    value: items.length > 0 ? items[items.length - 1] : "",
+    label: items.length > 0 ? items[items.length - 1] : "",
+  };
 </script>
 
 <svelte:head>
@@ -61,30 +64,32 @@
         >Jump to tutors</a
       >
     </p>
-
-    <h1 class="styled-select">
-      <div class="select">
-        <Select
-          {items}
-          searchable={false}
-          showChevron={true}
-          clearable={false}
-          bind:value
+    {#if items.length > 0}
+      <h1 class="styled-select">
+        <div class="select">
+          <Select
+            {items}
+            searchable={false}
+            showChevron={true}
+            clearable={false}
+            bind:value
+          />
+        </div>
+        <div class="remainder">Review Sessions</div>
+      </h1>
+      {#if value.value.startsWith("Midterm")}
+        <ReviewsCalendar
+          sessions={reviewSessions[
+            parseInt(value.value.substring("Midterm ".length))
+          ]}
         />
-      </div>
-      <div class="remainder">Review Sessions</div>
-    </h1>
-
-    <!-- {JSON.stringify(value.value)} -->
-    <!-- <CalendarGenerator {value} {reviewSessions} finals={crammingCarnival} /> -->
-    {#if value.value.startsWith("Midterm")}
-      <ReviewsCalendar
-        sessions={reviewSessions[
-          parseInt(value.value.substring("Midterm ".length))
-        ]}
-      />
+      {:else}
+        <ReviewsCalendar sessions={crammingCarnival} />
+      {/if}
     {:else}
-      <ReviewsCalendar sessions={crammingCarnival} />
+      <p class="needs-query">
+        We're still scheduling sessions for this semester, check back soon!
+      </p>
     {/if}
 
     <h1 id="tutoring">Find a Tutor</h1>
@@ -267,6 +272,9 @@
 
   .select {
     margin-right: 15px;
+    cursor: pointer !important;
+    text-decoration: underline !important;
+    text-decoration-color: #546482 !important;
   }
 
   .styled-select {

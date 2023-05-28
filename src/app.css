@@ -341,3 +341,15 @@ html {
   font-family: "DM Serif Text", sans-serif;
   font-size: 30px;
 }
+
+.select input {
+  cursor: pointer !important;
+}
+
+.svelte-select-list {
+  width: 220px !important;
+}
+
+.indicators .icon {
+  width: 30px !important;
+}
