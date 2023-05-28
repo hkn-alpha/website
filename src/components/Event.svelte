@@ -1,4 +1,14 @@
 <script>
+  import { LeafletMap, TileLayer, Marker } from "svelte-leafletjs";
+
+  const tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+  const tileLayerOptions = {
+    minZoom: 0,
+    maxZoom: 20,
+    maxNativeZoom: 19,
+  };
+
+  let leafletMap;
   export let name;
   export let date;
   export let description;
@@ -30,18 +40,25 @@
           </div>
         {/if}
       </div>
-      <h4>{date} @ {time}</h4>
+      <div class="event-right">
+        <h4 class="datetime">{date} @ {time}</h4>
+        <div class="chevron-arrow-container">
+          <div class="plus" />
+        </div>
+      </div>
     </div>
   </label>
   <div class="event-description ev-d-1">
     {#if locationInfo}
-      <iframe
-        width="100%"
-        height="300px"
-        src={`https://api.mapbox.com/styles/v1/ryanziegler/clhfgmq2a00h901p65igq3ssf.html?title=false&access_token=pk.eyJ1IjoicnlhbnppZWdsZXIiLCJhIjoiY2s2aTdoc3BpMm95bjNncnpueG94MjZ0ciJ9.aVHaBJ7HB65jkQMiSthkEA&zoomwheel=false#17/${locationInfo.lat}/${locationInfo.lon}`}
-        title="Streets"
-        style="border:none;"
-      />
+      <div class="example" style="height: 300px;">
+        <LeafletMap
+          bind:this={leafletMap}
+          options={{ center: [locationInfo.lat, locationInfo.lon], zoom: 18 }}
+        >
+          <TileLayer url={tileUrl} options={tileLayerOptions} />
+          <Marker latLng={[locationInfo.lat, locationInfo.lon]} />
+        </LeafletMap>
+      </div>
       <div class="event-description-words post-map">
         <a href={locationInfo.googleMapsLink}>
           <div class="event-description-location">
@@ -102,6 +119,7 @@
 
   .event {
     border-bottom: 3px solid white;
+    font-family: adelle-sans, Arial, Helvetica, sans-serif;
   }
 
   .event h2 {
@@ -217,11 +235,6 @@
     flex-direction: row;
   }
 
-  /**
-    * Plan: for now, tables for review sessions following existing format
-    * Tutoring via search for classes comma-separated (remove spaces accordingly)
-  */
-
   .initiate-points-count {
     background-color: #0f2040;
     border-radius: 25px;
@@ -231,13 +244,13 @@
     user-select: none;
   }
   .initiate-points-count div {
-    margin-left: -2px;
+    margin-left: -1.5px;
   }
 
   .initiate-points-category {
     margin-left: 8px;
     color: #0f2040;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-right: 6px;
     user-select: none;
   }
@@ -248,5 +261,64 @@
 
   a {
     text-decoration: none !important;
+  }
+
+  .datetime {
+    align-self: flex-end;
+  }
+
+  .event-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chevron-arrow-container {
+    width: 12px;
+    margin-left: 6px;
+    margin-right: 3px;
+    transition-duration: 0.2s;
+  }
+
+  .chevron-arrow {
+    display: inline-block;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 9px;
+    height: 9px;
+    transform: rotate(135deg);
+    transition-duration: 0.2s;
+  }
+
+  .toggler:checked ~ label .chevron-arrow {
+    transform: rotate(45deg);
+    transition-duration: 0.2s;
+  }
+
+  .toggler:checked ~ label .chevron-arrow-container {
+    /* margin-top: -4px; */
+    transition-duration: 0.2s;
+  }
+
+  .plus {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    background: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+    background-position: center;
+    background-size: 50% 2px, 2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat: no-repeat;
+    transition-duration: 0.2s;
+    margin-top: 3px;
+  }
+
+  .toggler:checked ~ label .plus {
+    transform: rotate(-45deg);
+    width: 23px;
+    height: 23px;
+    margin-left: -2px;
+    transition-duration: 0.3s;
+    margin-top: 3px;
   }
 </style>

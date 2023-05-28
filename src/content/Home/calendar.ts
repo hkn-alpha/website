@@ -75,6 +75,14 @@ const events: Event[] = [
     initiatePointsCount: 1,
     initiatePointsCategory: "social",
   },
+  {
+    name: "ASDF",
+    date: new Date(2024, 5, 10),
+    description: "asdf",
+    time: "6:10PM",
+    virtual: false,
+    locationInfo: commonLocations["legends"],
+  },
 ];
 
 export default events;

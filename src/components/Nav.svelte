@@ -1,5 +1,6 @@
 <script>
-  import { Link } from "svelte-routing";
+  import { Link, link } from "svelte-routing";
+  import { links } from "../content/outside_links";
 </script>
 
 <nav class="nav">
@@ -18,14 +19,28 @@
   </div>
 
   <div class="nav-links">
-    <span class="nav-link">
+    <span class="nav-link not-icon">
+      <Link to="/" style="color: white; text-decoration: none;">Home</Link>
+    </span>
+    <span class="nav-link not-icon">
       <Link to="/services" style="color: white; text-decoration: none;"
         >Student Services</Link
       >
     </span>
-    <span class="nav-link">
-      <a href="https://wikipedia.org" target="_blank">Wiki</a>
-    </span>
+    {#each links as NLink}
+      <span
+        class={NLink.icon ? `nav-link adjusted-nav-link` : `nav-link not-icon`}
+      >
+        <a href={NLink.href}>
+          {#if NLink.icon}
+            <span class="link_text">{NLink.name}</span>
+            <div class="link_icon"><NLink.icon size="30" /></div>
+          {:else}
+            {NLink.name}
+          {/if}
+        </a></span
+      >
+    {/each}
   </div>
 </nav>
 
@@ -34,7 +49,6 @@
     height: 50px;
     width: 100%;
     position: relative;
-    font-family: "Lora", Garamond, serif;
   }
 
   .nav > .nav-header {
@@ -67,9 +81,22 @@
     text-decoration: none;
     color: #efefef;
   }
+  @media only screen and (max-width: 600px) {
+    .nav > .nav-links > .nav-link:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
 
-  .nav > .nav-links > .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+  @media only screen and (min-width: 600px) {
+    .nav > .nav-links > .nav-link.not-icon:hover {
+      border-bottom: 3px solid white;
+      transition-duration: 0.2s;
+    }
+
+    .nav > .nav-links > .nav-link {
+      border-bottom: 3px solid rgba(0, 0, 0, 0);
+      transition-duration: 0.2s;
+    }
   }
 
   .nav > #nav-check {
@@ -166,5 +193,24 @@
   a {
     text-decoration: none;
     color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .link_icon {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .link_text {
+      display: none;
+    }
+    .adjusted-nav-link {
+      margin-top: -25px;
+    }
+
+    .nav-links {
+      padding-right: 10px;
+    }
   }
 </style>

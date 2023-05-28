@@ -1,29 +1,39 @@
 <script>
   import Event from "./Event.svelte";
   export let events;
-  export let cutoff = 10;
+
+  function daysDiff(date1, date2) {
+    const diffTime = Math.abs(date2 - date1);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays;
+  }
+
+  export let cutoffCount = 5;
+  export let cutoffDays = 14;
+  export let maxCount = 10;
+
+  let showAll = false;
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
   const dateOptions = { month: "long", day: "numeric" };
-
-  const currentEvents = events
-    .filter((e) => new Date() <= e.date)
-    .filter((_, i) => i < cutoff);
 
   let showPoints = false;
 </script>
 
 <div class="evcontainer">
-  {#if currentEvents.length > 0}
+  {#if events.length > 0}
     <div class="initiate-points-toggler">
       <p>
-        Show initiate points? <input
-          type="checkbox"
-          bind:checked={showPoints}
-        />
+        <label for="initiatepoints">Show initiate points?</label>
+        <input type="checkbox" bind:checked={showPoints} id="initiatepoints" />
       </p>
     </div>
-    {#each currentEvents as event}
+    <!-- {#each events as event, i}
+      {#if showAll || i < cutoffCount || daysDiff(new Date(), e.date) <}
+    {/each} -->
+    {#each events
+      .filter((e) => new Date() <= e.date)
+      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll) as event}
       <Event
         name={event.name}
         description={event.description}
@@ -36,6 +46,19 @@
         showInitiatePoints={showPoints}
       />
     {/each}
+    {#if events
+      .filter((e) => new Date() <= e.date)
+      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll).length < events.length}
+      <div class="show_more">
+        <label for="showtoggle">Show All</label>
+        <input
+          type="checkbox"
+          id="showtoggle"
+          style="display: none;"
+          bind:checked={showAll}
+        />
+      </div>
+    {/if}
   {:else}
     <div class="no-events">Nothing scheduled, check back soon!</div>
   {/if}
@@ -70,5 +93,42 @@
   .no-events {
     font-style: italic;
     text-align: center;
+  }
+
+  label {
+    user-select: none;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+
+  .show_more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .show_more {
+      margin-bottom: -45px;
+    }
+  }
+
+  .show_more label {
+    display: block;
+    color: #0f2040 !important;
+    text-decoration: none !important;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 125;
   }
 </style>

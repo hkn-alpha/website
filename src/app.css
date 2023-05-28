@@ -1,3 +1,7 @@
+body {
+  font-family: adelle-sans, Arial, Helvetica, sans-serif;
+}
+
 .triangle:before {
   content: "";
   display: block;
@@ -12,6 +16,10 @@
   z-index: 3;
 }
 
+.force-blue-triangle:before {
+  border-color: transparent transparent #0f2040 transparent;
+}
+
 .triangle:after {
   content: "";
   display: block;
@@ -24,6 +32,10 @@
   left: 0;
   position: absolute;
   z-index: 4;
+}
+
+.force-blue-triangle:after {
+  border-color: transparent transparent transparent #0f2040;
 }
 
 .triangle {
@@ -85,11 +97,10 @@ body {
       rgba(0, 0, 0, 0.5) 22.37%,
       rgba(0, 0, 0, 0.125) 49.91%
     ),
-    url(https://hkn.ieee.org/wp-content/uploads/2017/07/Alph_chapter_image3.jpg);
+    url(/hero.jpg);
   height: 85vh;
   background-repeat: no-repeat;
   background-size: 100vw auto;
-  font-family: "Lora", Garamond, serif;
   color: white;
   background-position-y: center;
   background-position-x: center;
@@ -98,6 +109,16 @@ body {
   justify-content: space-between;
   background-size: cover;
   overflow-y: hidden;
+}
+
+/*
+  Hack for soldering workshop background image / any vertical
+  background images
+*/
+@media only screen and (min-width: 1150px) {
+  .hero {
+    background-position-y: 42%;
+  }
 }
 
 .cta {
@@ -140,23 +161,30 @@ body {
 }
 
 main {
-  max-width: 600px;
-  padding-left: 10px;
-  padding-right: 10px;
+  max-width: 626px;
+  padding-left: 23px;
+  padding-right: 23px;
   margin-left: auto;
   margin-right: auto;
 }
 
 h1 {
   text-align: center;
-  font-family: "Lora", Garamond, serif;
-  font-weight: 600;
+  font-family: "DM Serif Display", Garamond, serif;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  text-decoration-color: #e84a27;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 5px;
 }
 
-main p {
-  font-family: "Lora", Garamond, serif;
+p {
+  font-family: adelle-sans, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
+  margin-top: 5px;
 }
 
 main img {
@@ -224,18 +252,12 @@ main {
 
 .triangle_white_inner h1 {
   text-align: center;
-  font-family: "Lora", Garamond, serif;
   /*   font-weight: 700; */
-  font-size: 30px;
   color: #0f2040;
 }
 
 h1 {
   font-weight: 600;
-}
-
-body {
-  font-family: "Lora";
 }
 
 .leadership_grid {
@@ -295,4 +317,57 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.triangle_white_inner .triangle main h1 {
+  color: white;
+}
+
+.force-blue-triangle .triangle_inner main {
+  padding-bottom: 10px;
+}
+
+/* .link_icon {
+  /* height: 45px; */
+/* margin-top: -25px;
+} */
+
+.link_icon svg {
+  position: relative;
+  top: 8px;
+}
+
+.cta p {
+  font-family: "DM Serif Text", sans-serif;
+  font-size: 30px;
+}
+
+.select input {
+  cursor: pointer !important;
+}
+
+.svelte-select-list {
+  width: 100% !important;
+  font-size: 24px !important;
+}
+
+.indicators .icon {
+  width: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .indicators .icon {
+    width: 20px !important;
+  }
+}
+
+.force-blue-triangle .triangle_inner {
+  padding-top: 1px;
+}
+
+@media only screen and (max-width: 740px) {
+  .cta p {
+    margin-left: 23px;
+    margin-right: 23px;
+  }
 }

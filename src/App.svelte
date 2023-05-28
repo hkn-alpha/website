@@ -1,7 +1,7 @@
 <script>
   import { Router, Route } from "svelte-routing";
-  import Home from "./Home.svelte";
-  import StudentServices from "./StudentServices.svelte";
+  import Home from "./pages/Home.svelte";
+  import StudentServices from "./pages/StudentServices.svelte";
 </script>
 
 <Router>
