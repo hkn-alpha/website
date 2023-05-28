@@ -38,7 +38,7 @@ To work on the HKN website, you should install Node. It is recommended to instal
 
 ## Where is it?
 
-Want to edit something you see on the website? Below is a (hopefully-updated) mapping of where you can find things. All files referenced are in the `content` folder.
+Want to edit something you see on the website? Below is a (hopefully-updated) mapping of where you can find things. All files referenced are in the `src/content` folder.
 
 1. Navigation links and socials links: `outside_links.ts`
 2. Homepage header text: `Home/hero_text.md`
@@ -58,6 +58,38 @@ If the process to edit one of these files is non-obvious, you can find documenta
 
 You shouldn't have to do this too often after the initial creation of the website: it's far better to add a section to an existing page, since it reduces the maintenance burden. You should also consider how often your new page would need to be updated: if it needs frequent updating, will that updating _really_ happen?
 If your answer is yes (a miracle!) follow these steps:
+
+1. Create the content you want in a markdown file at `src/content/NameOfPage/content.md`
+2. Create a file called `NameOfPage.svelte` in `src/pages`, and paste in the following as a starter:
+
+```
+<script>
+import Content from "../content/NameOfPage/content.md"
+</script>
+
+<div class="container">
+    <div class="footer-push>
+        <Nav/>
+        <div class="container">
+            <Content/>
+        </div>
+    </div>
+</div>
+
+<style>
+    .container {
+        max-width: 746px;
+        padding-left: 23px;
+        padding-right: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-push {
+        min-height: calc(100vh - 70px);
+    }
+</style>
+```
 
 ### Adding a Calendar to a Page
 
