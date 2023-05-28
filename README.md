@@ -97,6 +97,7 @@ import Nav from "../components/Nav";
 
 3. Add the URL to the page in `App.svelte` following what's already there.
 4. If you want your page to appear on the navigation bar, open `components/Nav.svelte` and update the links there following the existing links for home and student services.
+5. Copy-paste the search engine optimization snippet from Home/Student Services and update it for your page.
 
 ### Adding a Calendar to a Page
 
