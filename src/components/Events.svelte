@@ -1,14 +1,24 @@
 <script>
   import Event from "./Event.svelte";
   export let events;
-  export let cutoff = 10;
+
+  function daysDiff(date1, date2) {
+    const diffTime = Math.abs(date2 - date1);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays;
+  }
+
+  export let cutoffCount = 5;
+  export let cutoffDays = 14;
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
   const dateOptions = { month: "long", day: "numeric" };
 
   const currentEvents = events
     .filter((e) => new Date() <= e.date)
-    .filter((_, i) => i < cutoff);
+    .filter(
+      (e, i) => i < cutoffCount || daysDiff(new Date(), e.date) <= cutoffDays
+    );
 
   let showPoints = false;
 </script>

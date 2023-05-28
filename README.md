@@ -42,14 +42,14 @@ See `content/calendar.ts` for an example of how to create a calendar. When you w
 <Events events={events}/>
 ```
 
-That's it! If you want, you can set the `cutoff` parameter to configure
+That's it! If you want, you can set the `cutoffCount` and `cutoffDays` parameter to configure
 how many upcoming events the calendar will show:
 
 ```
-<Events cutoff={5} events={events}>
+<Events cutoff={5} cutoffDays={14} events={events}>
 ```
 
-The above will only show the 5 closest events. _By default, only the 10 closest events are shown_.
+The above will show the 5 closest events, _or_ all events in the next 14 days, whichever is greater. _The values above are the default values._
 
 ## Adding a New Page
 
