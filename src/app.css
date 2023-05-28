@@ -364,3 +364,8 @@ html {
 .force-blue-triangle .triangle_inner {
   padding-top: 1px;
 }
+
+.cta p {
+  margin-left: 23px;
+  margin-right: 23px;
+}
