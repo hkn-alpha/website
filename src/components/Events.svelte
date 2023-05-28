@@ -10,6 +10,7 @@
 
   export let cutoffCount = 5;
   export let cutoffDays = 14;
+  export let maxCount = 10;
 
   let showAll = false;
 
@@ -32,7 +33,7 @@
     {/each} -->
     {#each events
       .filter((e) => new Date() <= e.date)
-      .filter((e, i) => i < cutoffCount || daysDiff(new Date(), e.date) <= cutoffDays || showAll) as event}
+      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll) as event}
       <Event
         name={event.name}
         description={event.description}
@@ -47,7 +48,7 @@
     {/each}
     {#if events
       .filter((e) => new Date() <= e.date)
-      .filter((e, i) => i < cutoffCount || daysDiff(new Date(), e.date) <= cutoffDays || showAll).length < events.length}
+      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll).length < events.length}
       <div class="show_more">
         <label for="showtoggle">Show All</label>
         <input
