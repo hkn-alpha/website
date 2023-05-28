@@ -347,7 +347,7 @@ html {
 }
 
 .svelte-select-list {
-  width: 240px !important;
+  width: 100% !important;
   font-size: 24px !important;
 }
 
