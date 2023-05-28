@@ -97,7 +97,7 @@ body {
       rgba(0, 0, 0, 0.5) 22.37%,
       rgba(0, 0, 0, 0.125) 49.91%
     ),
-    url(https://hkn.ieee.org/wp-content/uploads/2017/07/Alph_chapter_image3.jpg);
+    url(/hero.jpg);
   height: 85vh;
   background-repeat: no-repeat;
   background-size: 100vw auto;
@@ -109,6 +109,16 @@ body {
   justify-content: space-between;
   background-size: cover;
   overflow-y: hidden;
+}
+
+/*
+  Hack for soldering workshop background image / any vertical
+  background images
+*/
+@media only screen and (min-width: 1150px) {
+  .hero {
+    background-position-y: 42%;
+  }
 }
 
 .cta {
