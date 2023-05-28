@@ -268,4 +268,8 @@
   .select {
     margin-right: 15px;
   }
+
+  .styled-select {
+    text-decoration: none;
+  }
 </style>
