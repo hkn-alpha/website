@@ -193,5 +193,9 @@
     .adjusted-nav-link {
       margin-top: -25px;
     }
+
+    .nav-links {
+      padding-right: 10px;
+    }
   }
 </style>
