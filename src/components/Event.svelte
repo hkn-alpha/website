@@ -30,7 +30,7 @@
           </div>
         {/if}
       </div>
-      <h4>{date} @ {time}</h4>
+      <h4 class="datetime">{date} @ {time}</h4>
     </div>
   </label>
   <div class="event-description ev-d-1">
@@ -249,5 +249,9 @@
 
   a {
     text-decoration: none !important;
+  }
+
+  .datetime {
+    align-self: flex-end;
   }
 </style>

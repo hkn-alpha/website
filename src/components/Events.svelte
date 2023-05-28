@@ -17,10 +17,8 @@
   {#if currentEvents.length > 0}
     <div class="initiate-points-toggler">
       <p>
-        Show initiate points? <input
-          type="checkbox"
-          bind:checked={showPoints}
-        />
+        <label for="initiatepoints">Show initiate points?</label>
+        <input type="checkbox" bind:checked={showPoints} id="initiatepoints" />
       </p>
     </div>
     {#each currentEvents as event}
@@ -70,5 +68,14 @@
   .no-events {
     font-style: italic;
     text-align: center;
+  }
+
+  label {
+    user-select: none;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    cursor: pointer;
   }
 </style>
