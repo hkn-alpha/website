@@ -64,7 +64,9 @@ If your answer is yes (a miracle!) follow these steps:
 
 ```
 <script>
-import Content from "../content/NameOfPage/content.md"
+import Content from "../content/NameOfPage/content.md";
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 </script>
 
 <div class="container">
@@ -74,6 +76,7 @@ import Content from "../content/NameOfPage/content.md"
             <Content/>
         </div>
     </div>
+    <Footer/>
 </div>
 
 <style>
@@ -83,6 +86,7 @@ import Content from "../content/NameOfPage/content.md"
         padding-right: 23px;
         margin-left: auto;
         margin-right: auto;
+        background-color: #0f2040;
     }
 
     .footer-push {
@@ -90,6 +94,9 @@ import Content from "../content/NameOfPage/content.md"
     }
 </style>
 ```
+
+3. Add the URL to the page in `App.svelte` following what's already there.
+4. If you want your page to appear on the navigation bar, open `components/Nav.svelte` and update the links there following the existing links for home and student services.
 
 ### Adding a Calendar to a Page
 
