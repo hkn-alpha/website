@@ -41,19 +41,21 @@ To work on the HKN website, you should install Node. It is recommended to instal
 Want to edit something you see on the website? Below is a (hopefully-updated) mapping of where you can find things. All files referenced are in the `content` folder.
 
 1. Navigation links and socials links: `outside_links.ts`
-2. Homepage header text: `hero_text.md`
-3. First blue section on homepage: `main1.md`
-4. List of leadership people: `leadership.json`
-5. Second blue section on homepage: `main2.md`
-6. Link to HKN nationals: `nationals_link.json`
-7. Scheduled review sessions: `review_sessions.ts`
-8. List of tutors: `tutors.ts`
+2. Homepage header text: `Home/hero_text.md`
+3. First blue section on homepage: `Home/main1.md`
+4. List of leadership people: `Home/leadership.json`
+5. Text above list of leaders: `Home/leadership_text.md`
+6. Second blue section on homepage: `Home/main2.md`
+7. Link to HKN nationals: `national_link.json`
+8. Scheduled review sessions: `StudentServices/review_sessions.ts`
+9. List of tutors: `StudentServices/tutors.ts`
 
 If the process to edit one of these files is non-obvious, you can find documentation in the file itself, and/or in the sections below.
 
-## Managing the Calendar(s)
+## Adding a New Page
 
-See `content/calendar.ts` for an example of how to create a calendar. When you want to add a new event to a calendar file (most likely, this means you'll be editing `content/calendar.ts`), simply add the event to the `events` array, and while you're at it, remove any events that have already occurred. You may add as many events as you want into the future, and the calendar will only display the events occurring the most soon.
+You shouldn't have to do this too often after the initial creation of the website: it's far better to add a section to an existing page, since it reduces the maintenance burden. You should also consider how often your new page would need to be updated: if it needs frequent updating, will that updating _really_ happen?
+If your answer is yes (a miracle!) follow these steps:
 
 ### Adding a Calendar to a Page
 
@@ -80,11 +82,6 @@ how many upcoming events the calendar will show:
 ```
 
 The above will show the 5 closest events, _or_ all events in the next 14 days, whichever is greater. _The values above are the default values._
-
-## Adding a New Page
-
-You shouldn't have to do this too often after the initial creation of the website: it's far better to add a section to an existing page, since it reduces the maintenance burden. You should also consider how often your new page would need to be updated: if it needs frequent updating, will that updating _really_ happen?
-If your answer is yes (a miracle!) follow these steps:
 
 ## Search Engine Optimization
 

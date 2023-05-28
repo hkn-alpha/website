@@ -1,12 +1,12 @@
 <script lang="ts">
-  import HeroText from "./content/hero_text.md";
-  import LeadershipText from "./content/leadership_text.md";
-  import MainContent from "./content/main1.md";
-  import MainContent2 from "./content/main2.md";
-  import leadership_json from "./content/leadership.json";
-  import Nav from "./components/Nav.svelte";
+  import HeroText from "../content/Home/hero_text.md";
+  import LeadershipText from "../content/Home/leadership_text.md";
+  import MainContent from "../content/Home/main1.md";
+  import MainContent2 from "../content/Home/main2.md";
+  import leadership_json from "../content/Home/leadership.json";
+  import Nav from "../components/Nav.svelte";
   import { ArrowDownCircleIcon } from "svelte-feather-icons";
-  import Footer from "./components/Footer.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <svelte:head>

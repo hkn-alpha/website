@@ -1,9 +1,12 @@
 <script>
-  import Footer from "./components/Footer.svelte";
-  import Nav from "./components/Nav.svelte";
-  import ReviewsCalendar from "./components/ReviewsCalendar.svelte";
-  import { reviewSessions, crammingCarnival } from "./content/review_sessions";
-  import { tutors as unorderedTutors } from "./content/tutors";
+  import Footer from "../components/Footer.svelte";
+  import Nav from "../components/Nav.svelte";
+  import ReviewsCalendar from "../components/ReviewsCalendar.svelte";
+  import {
+    reviewSessions,
+    crammingCarnival,
+  } from "../content/StudentServices/review_sessions";
+  import { tutors as unorderedTutors } from "../content/StudentServices/tutors";
   import Select from "svelte-select";
 
   const tutors = unorderedTutors
