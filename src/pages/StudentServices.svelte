@@ -263,6 +263,7 @@
     --item-is-active-bg: #546482;
     --selected-item-padding: 0px;
     --padding: 0px;
+    --list-border: 2px solid #546482;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -280,7 +281,7 @@
   }
 
   .select {
-    margin-right: 15px;
+    margin-right: 8px;
     cursor: pointer !important;
     text-decoration: underline !important;
     text-decoration-color: #546482 !important;
@@ -292,5 +293,9 @@
 
   .footer-bump {
     min-height: calc(100vh - 70px);
+  }
+
+  #tutoring {
+    text-decoration: none;
   }
 </style>
