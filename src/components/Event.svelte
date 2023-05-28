@@ -43,7 +43,7 @@
       <div class="event-right">
         <h4 class="datetime">{date} @ {time}</h4>
         <div class="chevron-arrow-container">
-          <div class="chevron-arrow" />
+          <div class="plus" />
         </div>
       </div>
     </div>
@@ -235,11 +235,6 @@
     flex-direction: row;
   }
 
-  /**
-    * Plan: for now, tables for review sessions following existing format
-    * Tutoring via search for classes comma-separated (remove spaces accordingly)
-  */
-
   .initiate-points-count {
     background-color: #0f2040;
     border-radius: 25px;
@@ -249,7 +244,7 @@
     user-select: none;
   }
   .initiate-points-count div {
-    margin-left: -2px;
+    margin-left: -1.5px;
   }
 
   .initiate-points-category {
@@ -280,8 +275,8 @@
 
   .chevron-arrow-container {
     width: 12px;
-    margin-left: 8px;
-    margin-right: 2px;
+    margin-left: 6px;
+    margin-right: 3px;
     transition-duration: 0.2s;
   }
 
@@ -301,7 +296,29 @@
   }
 
   .toggler:checked ~ label .chevron-arrow-container {
-    margin-top: -4px;
+    /* margin-top: -4px; */
     transition-duration: 0.2s;
+  }
+
+  .plus {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    background: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+    background-position: center;
+    background-size: 50% 2px, 2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat: no-repeat;
+    transition-duration: 0.2s;
+    margin-top: 3px;
+  }
+
+  .toggler:checked ~ label .plus {
+    transform: rotate(-45deg);
+    width: 23px;
+    height: 23px;
+    margin-left: -2px;
+    transition-duration: 0.3s;
+    margin-top: 3px;
   }
 </style>
