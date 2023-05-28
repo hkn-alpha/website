@@ -19,16 +19,18 @@
   </div>
 
   <div class="nav-links">
-    <span class="nav-link">
+    <span class="nav-link not-icon">
       <Link to="/" style="color: white; text-decoration: none;">Home</Link>
     </span>
-    <span class="nav-link">
+    <span class="nav-link not-icon">
       <Link to="/services" style="color: white; text-decoration: none;"
         >Student Services</Link
       >
     </span>
     {#each links as NLink}
-      <span class={NLink.icon ? `nav-link adjusted-nav-link` : `nav-link`}>
+      <span
+        class={NLink.icon ? `nav-link adjusted-nav-link` : `nav-link not-icon`}
+      >
         <a href={NLink.href}>
           {#if NLink.icon}
             <span class="link_text">{NLink.name}</span>
@@ -79,9 +81,22 @@
     text-decoration: none;
     color: #efefef;
   }
+  @media only screen and (max-width: 600px) {
+    .nav > .nav-links > .nav-link:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
 
-  .nav > .nav-links > .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+  @media only screen and (min-width: 600px) {
+    .nav > .nav-links > .nav-link.not-icon:hover {
+      border-bottom: 3px solid white;
+      transition-duration: 0.2s;
+    }
+
+    .nav > .nav-links > .nav-link {
+      border-bottom: 3px solid rgba(0, 0, 0, 0);
+      transition-duration: 0.2s;
+    }
   }
 
   .nav > #nav-check {

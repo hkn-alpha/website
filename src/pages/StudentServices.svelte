@@ -148,6 +148,7 @@
   }
 
   .content {
+    margin-top: 5px;
     padding-left: 23px;
     padding-right: 23px;
   }
