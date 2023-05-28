@@ -45,7 +45,9 @@
         showInitiatePoints={showPoints}
       />
     {/each}
-    {#if !showAll}
+    {#if events
+      .filter((e) => new Date() <= e.date)
+      .filter((e, i) => i < cutoffCount || daysDiff(new Date(), e.date) <= cutoffDays || showAll).length < events.length}
       <div class="show_more">
         <label for="showtoggle">Show All</label>
         <input
