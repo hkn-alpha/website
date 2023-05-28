@@ -8,6 +8,8 @@
   } from "../content/StudentServices/review_sessions";
   import { tutors as unorderedTutors } from "../content/StudentServices/tutors";
   import Select from "svelte-select";
+  import Description from "../content/StudentServices/description.md";
+  import Tutoring from "../content/StudentServices/tutoring.md";
 
   const tutors = unorderedTutors
     .map((x) => ({ v: x, r: Math.random() }))
@@ -56,92 +58,85 @@
 </svelte:head>
 
 <div class="container">
-  <Nav />
-  <div class="content">
-    <h1 class="ss-heading">Student Services</h1>
-    <p>
-      Filler text about services that HKN offers. This should probably take up
-      at least three lines. More filler text to make this more visually
-      appealing. Here is even more filler text to make if even more appealing.
-      Wow, this website is finally taking shape. <a href="#tutoring"
-        >Jump to tutors</a
-      >
-    </p>
-    {#if items.length > 0}
-      <h1 class="styled-select">
-        <div class="select">
-          <Select
-            {items}
-            searchable={false}
-            showChevron={true}
-            clearable={false}
-            bind:value
+  <div class="footer-bump">
+    <Nav />
+    <div class="content">
+      <h1 class="ss-heading">Student Services</h1>
+      <div class="md-container"><Description /></div>
+      {#if items.length > 0}
+        <h1 class="styled-select">
+          <div class="select">
+            <Select
+              {items}
+              searchable={false}
+              showChevron={true}
+              clearable={false}
+              bind:value
+            />
+          </div>
+          <div class="remainder">Review Sessions</div>
+        </h1>
+        {#if value.value.startsWith("Midterm")}
+          <ReviewsCalendar
+            sessions={reviewSessions[
+              parseInt(value.value.substring("Midterm ".length))
+            ]}
           />
-        </div>
-        <div class="remainder">Review Sessions</div>
-      </h1>
-      {#if value.value.startsWith("Midterm")}
-        <ReviewsCalendar
-          sessions={reviewSessions[
-            parseInt(value.value.substring("Midterm ".length))
-          ]}
-        />
+        {:else}
+          <ReviewsCalendar sessions={crammingCarnival} />
+        {/if}
       {:else}
-        <ReviewsCalendar sessions={crammingCarnival} />
+        <p class="needs-query">
+          We're still scheduling sessions for this semester, check back soon!
+        </p>
       {/if}
-    {:else}
-      <p class="needs-query">
-        We're still scheduling sessions for this semester, check back soon!
-      </p>
-    {/if}
 
-    <h1 id="tutoring">Find a Tutor</h1>
-    <p class="instructions">
-      Need more personalized help? HKN offers free one-on-one peer tutoring.
-      Simply enter your class(es) below, and contact a tutor to arrange a time.
-    </p>
-    <input
-      class="tutor-search"
-      type="text"
-      placeholder="Search for courses (comma-separated, e.x. ECE110, ECE120)"
-      bind:value={query}
-    />
-    {#if getMatchingTutors(query).length > 0}
-      <div class="table-container">
-        <table>
-          <colgroup>
-            <col span="1" style="width: 30%;" />
-            <col span="1" style="width: 30%;" />
-            <col span="1" style="width: 40%;" />
-          </colgroup>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Courses offered</th>
-            </tr>
-          </thead>
-          <tbody>
-            {#each getMatchingTutors(query) as tutor}
-              <tr>
-                <td>{tutor.name}</td>
-                <td><a href={`mailto:${tutor.email}`}>{tutor.email}</a></td>
-                <td>{tutor.courses}</td>
-              </tr>
-            {/each}
-          </tbody>
-        </table>
+      <h1 id="tutoring">Find a Tutor</h1>
+      <div class="instructions md-container">
+        <Tutoring />
       </div>
-    {:else if query == ""}
-      <p class="needs-query">Start typing to see results...</p>
-    {:else}
-      <p class="no-results">
-        We couldn't find any tutors. Make sure your course names and numbers are
-        correct.
-      </p>
-    {/if}
+      <input
+        class="tutor-search"
+        type="text"
+        placeholder="Search for courses (comma-separated, e.x. ECE110, ECE120)"
+        bind:value={query}
+      />
+      {#if getMatchingTutors(query).length > 0}
+        <div class="table-container">
+          <table>
+            <colgroup>
+              <col span="1" style="width: 30%;" />
+              <col span="1" style="width: 30%;" />
+              <col span="1" style="width: 40%;" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Courses offered</th>
+              </tr>
+            </thead>
+            <tbody>
+              {#each getMatchingTutors(query) as tutor}
+                <tr>
+                  <td>{tutor.name}</td>
+                  <td><a href={`mailto:${tutor.email}`}>{tutor.email}</a></td>
+                  <td>{tutor.courses}</td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
+        </div>
+      {:else if query == ""}
+        <p class="needs-query">Start typing to see results...</p>
+      {:else}
+        <p class="no-results">
+          We couldn't find any tutors. Make sure your course names and numbers
+          are correct.
+        </p>
+      {/if}
+    </div>
   </div>
-
   <Footer />
 </div>
 
@@ -169,8 +164,9 @@
     overflow: hidden;
   }
 
-  p {
-    font-size: 20px;
+  p,
+  .md-container {
+    font-size: 19px;
     color: white;
     margin-bottom: 60px;
   }
@@ -292,5 +288,9 @@
 
   .styled-select {
     text-decoration: none;
+  }
+
+  .footer-bump {
+    min-height: calc(100vh - 70px);
   }
 </style>
