@@ -99,6 +99,7 @@
         class="tutor-search"
         type="text"
         placeholder="Search for courses (comma-separated, e.x. ECE110, ECE120)"
+        spellcheck="false"
         bind:value={query}
       />
       {#if getMatchingTutors(query).length > 0}
