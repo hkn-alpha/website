@@ -360,3 +360,7 @@ html {
     width: 20px !important;
   }
 }
+
+.force-blue-triangle .triangle_inner {
+  padding-top: 1px;
+}
