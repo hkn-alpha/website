@@ -1,4 +1,14 @@
 <script>
+  import { LeafletMap, TileLayer, Marker } from "svelte-leafletjs";
+
+  const tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+  const tileLayerOptions = {
+    minZoom: 0,
+    maxZoom: 20,
+    maxNativeZoom: 19,
+  };
+
+  let leafletMap;
   export let name;
   export let date;
   export let description;
@@ -35,13 +45,15 @@
   </label>
   <div class="event-description ev-d-1">
     {#if locationInfo}
-      <iframe
-        width="100%"
-        height="300px"
-        src={`https://api.mapbox.com/styles/v1/ryanziegler/clhfgmq2a00h901p65igq3ssf.html?title=false&access_token=pk.eyJ1IjoicnlhbnppZWdsZXIiLCJhIjoiY2s2aTdoc3BpMm95bjNncnpueG94MjZ0ciJ9.aVHaBJ7HB65jkQMiSthkEA&zoomwheel=false#17/${locationInfo.lat}/${locationInfo.lon}`}
-        title="Streets"
-        style="border:none;"
-      />
+      <div class="example" style="height: 300px;">
+        <LeafletMap
+          bind:this={leafletMap}
+          options={{ center: [locationInfo.lat, locationInfo.lon], zoom: 18 }}
+        >
+          <TileLayer url={tileUrl} options={tileLayerOptions} />
+          <Marker latLng={[locationInfo.lat, locationInfo.lon]} />
+        </LeafletMap>
+      </div>
       <div class="event-description-words post-map">
         <a href={locationInfo.googleMapsLink}>
           <div class="event-description-location">
