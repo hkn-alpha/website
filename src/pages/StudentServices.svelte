@@ -164,6 +164,13 @@
     overflow: hidden;
   }
 
+  @media only screen and (max-width: 800px) {
+    .content {
+      width: 100vw;
+      margin: 0px;
+    }
+  }
+
   p,
   .md-container {
     font-size: 19px;
