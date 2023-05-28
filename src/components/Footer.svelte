@@ -5,7 +5,8 @@
 
 <div class="footer">
   <span class="left">
-    &copy; 2023 <a class="general_link" href={nationals.nationals}>HKN</a> @ UIUC</span
+    &copy; {new Date().getFullYear()}
+    <a class="general_link" href={nationals.nationals}>HKN</a> @ UIUC</span
   ><span class="middle"
     ><span class="wide_chapter_line">&vert;</span><a
       class="wide_chapter"
@@ -30,10 +31,10 @@
     .footer {
       background-color: #0f2040;
       width: 100%;
-      height: 50px;
+      height: 70px;
       text-align: center;
       color: white;
-      line-height: 50px;
+      line-height: 70px;
     }
 
     .footer a {
@@ -72,7 +73,9 @@
       padding-right: 23px;
       justify-content: space-between;
       font-size: 16px;
-      padding-bottom: 23px;
+      height: 70px;
+      align-items: center;
+      /* padding-bottom: 23px; */
     }
 
     a {
@@ -82,10 +85,20 @@
     .icon:not(:last-child) {
       margin-right: 8px;
     }
+
+    .icon * {
+      text-decoration: none !important;
+      text-decoration-thickness: 0px;
+    }
+
+    .right {
+      padding-top: 4px;
+    }
   }
 
   .footer {
-    font-family: "DM Serif Text", sans-serif;
+    /* font-family: "DM Serif Text", sans-serif; */
     font-size: 18px;
+    background-color: #2f3e59;
   }
 </style>
