@@ -112,10 +112,10 @@ That's it! If you want, you can set the `cutoffCount` and `cutoffDays` parameter
 how many upcoming events the calendar will show:
 
 ```
-<Events cutoff={5} cutoffDays={14} events={events}>
+<Events maxCount={10} cutoff={5} cutoffDays={14} events={events}>
 ```
 
-The above will show the 5 closest events, _or_ all events in the next 14 days, whichever is greater. _The values above are the default values._
+The above will show the 5 closest events, _or_ the up to 10 next events in the next 14 days, whichever is greater. _The values above are the default values._
 
 ## Search Engine Optimization
 
