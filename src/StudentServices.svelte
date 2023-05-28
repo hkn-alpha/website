@@ -270,6 +270,16 @@
     align-items: center;
   }
 
+  @media only screen and (max-width: 600px) {
+    .styled-select {
+      flex-direction: column;
+      align-content: center;
+    }
+    .select {
+      margin-left: 25px;
+    }
+  }
+
   .select {
     margin-right: 15px;
     cursor: pointer !important;
