@@ -2,24 +2,39 @@
 
 This repository hosts all content for the HKN Alpha Chapter website.
 
-## Getting Started
+## Prerequisites and IDE Setup
 
-To work on the HKN website, you should install Node. It is recommended to install Node with [NVM](https://github.com/nvm-sh/nvm). Once you've installed Node, do the following things:
-
-1. `git clone https://github.com/hkn-alpha/website`
-2. `cd website`
-3. `npm install`
-4. `npm run dev`
-
-Congratulations! You can begin editing the website!
-
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+To work on the HKN website, you should install Node. It is recommended to install Node with [NVM](https://github.com/nvm-sh/nvm). We recommend editing with [VS Code](https://code.visualstudio.com/) and the [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) extension, however anything that can edit Markdown, JSON, and JavaScript will work fine.
 
 ## Making Changes
 
-_You should make all your changes on a new branch, and then open a pull request on GitHub. An HKN lead will review the changes, and upon approval, the public website will update automatically._
+**First time setup:**
+
+1. Make sure you have a GitHub account and have configured the `git` cli.
+2. Find what folder you want your local copy of the HKN website to live in, and in your terminal `cd` to this folder.
+3. Run `git clone git@github.com:hkn-alpha/website`. You'll see a new folder called `website`.
+4. `cd` into the `website` folder in your terminal.
+5. Run `npm install`.
+
+**To make your changes:**
+
+1. Run `git checkout master; git pull`. This will update your local copy to have the most current version of the HKN website.
+2. Run `git checkout -b <your name>/<branch-name>`, where `branch-name` describes what changes you're going to make. For example, if Ryan wants to update the list of leaders, he would run `git checkout -b ryan/update-leaders`.
+3. Run `npm run dev`. This will open a local preview of your website at `http://localhost:5173`
+4. Make changes locally. Whenever you save a file, the changes will be automatically applied to your local copy of the website.
+5. When you're done, make a commit by running `git commit -m "description of what you did"`. You can create as many commits as you want: they're nice checkpoints.
+
+**Now, to request review of your changes by an HKN lead:**
+
+1. Run `git push origin <your name>/<branch-name>` matching what you did in step 2 above.
+2. Open `https://github.com/hkn-alpha/website`. You'll see a popup prompting you to open a Pull Request. In the PR UI, set a title and description that describe what you did in more detail. Optionally, include screenshots if you think they would be helpful.
+3. That's it! An HKN leader will review your change. Once they "merge" your PR (add your code to master copy), the website will automatically update. Your reviewer may ask you to make changes first. Follow the steps below to do that.
+
+**Making changes to your PR:**
+
+1. First make sure you are on the correct branch by running `git checkout <your name>/<branch name>` where `<your name>/<branch name>` corresond to the PR you want to edit.
+2. Make your changes, and commit them like you normally would
+3. Run `git push origin <your name>/<branch name>`. The PR will automatically update.
 
 ## Managing the Calendar(s)
 
