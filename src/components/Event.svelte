@@ -255,7 +255,7 @@
   .initiate-points-category {
     margin-left: 8px;
     color: #0f2040;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-right: 6px;
     user-select: none;
   }
