@@ -103,6 +103,7 @@
 
   input[type="checkbox"] {
     cursor: pointer;
+    margin-right: 0px;
   }
 
   .show_more {
