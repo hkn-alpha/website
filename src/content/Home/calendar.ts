@@ -50,6 +50,7 @@ const commonLocations = {
 };
 
 // Note that the below need not be ordered, the web UI will take care of sorting
+// Also note that months are zero indexed but days are not!
 const events: Event[] = [
   {
     name: "Tech Talk",
