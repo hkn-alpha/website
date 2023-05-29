@@ -54,6 +54,27 @@ Want to edit something you see on the website? Below is a (hopefully-updated) ma
 
 If the process to edit one of these files is non-obvious, you can find documentation in the file itself, and/or in the sections below.
 
+### Uploading Images/Media
+
+Images should be placed in the `public` folder with a descriptive name. You can reference images from that folder in Markdown like this:
+
+```
+![description of image](/image_name.jpg)
+```
+
+_Note that you do not need the `/public` prefix in Markdown._
+
+Some dos:
+
+- Use a descriptive name
+- Compress images first (use [Squoosh](https://squoosh.app))
+
+Some dont's:
+
+- Delete images that are still in use (use Ctrl + F to find uses of a filename)
+- Delete `logo.svg`, ever
+- Delete anything that starts with `favicon` or is not an image file.
+
 ## Adding a New Page
 
 You shouldn't have to do this too often after the initial creation of the website: it's far better to add a section to an existing page, since it reduces the maintenance burden. You should also consider how often your new page would need to be updated: if it needs frequent updating, will that updating _really_ happen?
