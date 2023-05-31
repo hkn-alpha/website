@@ -8,6 +8,10 @@
     return diffDays;
   }
 
+  function checkDate(e) {
+    return new Date() <= new Date(e.date.getTime() + 60 * 60 * 24 * 1000);
+  }
+
   export let cutoffCount = 5;
   export let cutoffDays = 14;
   export let maxCount = 10;
@@ -28,11 +32,8 @@
         <input type="checkbox" bind:checked={showPoints} id="initiatepoints" />
       </p>
     </div>
-    <!-- {#each events as event, i}
-      {#if showAll || i < cutoffCount || daysDiff(new Date(), e.date) <}
-    {/each} -->
     {#each events
-      .filter((e) => new Date() <= e.date)
+      .filter(checkDate)
       .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll) as event}
       <Event
         name={event.name}
@@ -47,8 +48,8 @@
       />
     {/each}
     {#if events
-      .filter((e) => new Date() <= e.date)
-      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll).length < events.length}
+      .filter(checkDate)
+      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll).length < events.filter(checkDate).length}
       <div class="show_more">
         <label for="showtoggle">Show All</label>
         <input
@@ -102,6 +103,7 @@
 
   input[type="checkbox"] {
     cursor: pointer;
+    margin-right: 0px;
   }
 
   .show_more {

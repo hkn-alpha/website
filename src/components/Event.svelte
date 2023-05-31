@@ -169,7 +169,7 @@
 
     .initiate-points-container {
       margin-left: 0px !important;
-      margin-bottom: 7px;
+      margin-bottom: 27px;
     }
   }
 
