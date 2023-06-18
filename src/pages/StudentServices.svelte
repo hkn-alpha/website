@@ -192,7 +192,7 @@
     padding-left: 2px;
     padding-right: 2px;
     color: white;
-    font-family: adelle-sans, Arial, Helvetica, sans-serif;
+    font-family: 'Schibsted Grotesk', Arial, Helvetica, sans-serif;
     font-size: 18px;
     border-bottom: 3px solid #546482;
     /* margin-top: -120px; */
@@ -201,7 +201,7 @@
 
   .tutor-search::placeholder {
     color: #ddd;
-    font-family: adelle-sans, Arial, Helvetica, sans-serif;
+    font-family: 'Schibsted Grotesk', Arial, Helvetica, sans-serif;
   }
 
   table {

@@ -1,5 +1,5 @@
 body {
-  font-family: adelle-sans, Arial, Helvetica, sans-serif;
+  font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
 }
 
 .triangle:before {
@@ -181,7 +181,7 @@ h1 {
 }
 
 p {
-  font-family: adelle-sans, Arial, Helvetica, sans-serif;
+  font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 19px;
   margin-top: 5px;
