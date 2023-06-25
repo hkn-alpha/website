@@ -1,1 +1,1 @@
-One sentence description of how awesome HKN is in flowery language in three lines because aesthetics.
+Promoting excellence in the profession and in education with the ideals of scholarship, character and attitude.

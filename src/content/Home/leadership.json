@@ -1,51 +1,50 @@
 {
   "leaders": [
     {
-      "name": "Aleks Zhang",
+      "name": "Alex Zhang",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
       "role": "President"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Ivan Ramos",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "role": "Vice President"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Grant McKechnie",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "role": "Treasurer/Events"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Eisa Kamran",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
+      "role": "Secretary/Corporate Affairs"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Lucas Nguyen",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "role": "Director of Student Services"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Aidan Rodgers",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "role": "Director of Electrical Engineering Services"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Arjun Pal",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "role": "Director of Computer Engineering Services"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Geitanksha Tandon",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "role": "Director of Initiate Affairs"
     },
     {
-      "name": "Aleks Zhang",
+      "name": "Ritvik Gandesiri",
       "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "role": "Director of Publicity"
     }
   ],
-  "contact": "iam@yourmothers.house"
+  "contact": "hknalphauiuc@gmail.com"
 }
