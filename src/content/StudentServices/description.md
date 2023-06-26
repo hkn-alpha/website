@@ -1,1 +1,1 @@
-Filler text about services that HKN offers. This should probably take up at least three lines. More filler text to make this more visually appealing. Here is even more filler text to make if even more appealing. Wow, this website is finally taking shape.
+HKN offers a large host of student services, the most popular of which are the review sessions for nearly all ECE undergraduate exams. Schedule, slides, recordings, worksheets, and solutions can be found below.

@@ -1,1 +1,1 @@
-Need more personalized help? HKN offers free one-on-one peer tutoring. Simply enter your class(es) below, and contact a tutor to arrange a time.
+Need more personalized help? HKN offers free one-on-one peer tutoring. Simply enter your class(es) below, and contact a tutor by email to arrange a time. If you would like a tutor for a course that is not listed below, please reach out to our Director of Student Services and we will be happy to arrange something.

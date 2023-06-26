@@ -5,15 +5,18 @@
 
 # Corporate
 
-This is some text about how great HKN. I am building the website for HKN. This text should be relatively long, but not too long. I still need to refactor the code for this website and add some more new features. This is some more text, HKN does fun events like happy hour. Even more text, and even more text, and even more text! This is a long paragraph, but is necessary to make things look balanced, it's height should be not much less than that of the image below.
+HKN hosts a variety of corporate events that consist of information sessions, tech talks, and resume reviews that are sponsored by companies. These sessions are conducted on campus and give students a chance to learn more about the employer, recent technological advances, or career opportunities. The students have the opportunity to interact with recruiters, ask questions, and express their interest in available opportunities. In addition, we help companies advertise career opportunities and campus events to our students through fliers, email newsletters, building monitors, etc.
 
 ![asdf](https://www.smithgroup.com/sites/default/files/styles/slideshow_mobile_1x/public/2018-07/UIUC-ECE-10_1.jpg?h=33c22240&itok=B05fCdr5)
 
 # Outreach
 
-HKN regularly hosts events for both members and non-members, ranging from
-tech talks to fun social gatherings like our weekly happy hour. To
-encourange involvement, HKN initiates earn points by attending events.
-Learn more about each event by clicking or tapping it.
+HKN hosts outreach events, which are focused on teaching fundamental Electrical and Computer Engineering concepts to the surrounding community through application. Past examples include teaching Boy Scouts circuitry and soldering, hosting info sessions with high school students in the Champaign Public Library to build foundation in electronics. We appreciate any opportunity to give back to the community.
+
+![asdf](https://www.smithgroup.com/sites/default/files/styles/slideshow_mobile_1x/public/2018-07/UIUC-ECE-10_1.jpg?h=33c22240&itok=B05fCdr5)
+
+# Social
+
+Throughout the semester, HKN hosts social events ranging from Mario Kart tournaments to ice-skating excursions, providing an occasion for employers to interact with students in a more relaxed setting. We also have weekly Happy Hour sessions at Legends Bar and Grill from 5:00 PM - 6:00 PM on Fridays. Company representatives are welcome to join our preplanned events, but they can also organize their own.
 
 ![asdf](https://www.smithgroup.com/sites/default/files/styles/slideshow_mobile_1x/public/2018-07/UIUC-ECE-10_1.jpg?h=33c22240&itok=B05fCdr5)

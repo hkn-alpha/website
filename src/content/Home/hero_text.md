@@ -1,1 +1,1 @@
-Promoting excellence in the profession and in education with the ideals of scholarship, character and attitude.
+Promoting excellence in the Illinois ECE community with the ideals of scholarship, character and attitude.
