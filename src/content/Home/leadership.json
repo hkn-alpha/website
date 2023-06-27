@@ -12,7 +12,7 @@
     },
     {
       "name": "Grant McKechnie",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
+      "image": "/grantprofilepic.jpg",
       "role": "Treasurer/Events"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Aidan Rodgers",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
+      "image": "/aidanprofilepic.jpg",
       "role": "Director of Electrical Engineering Services"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "name": "Ritvik Gandesiri",
-      "image": "ritvikprofilepic.jpg",
+      "image": "/ritvikprofilepic.jpg",
       "role": "Director of Publicity"
     }
   ],
