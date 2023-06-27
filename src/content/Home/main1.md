@@ -7,7 +7,7 @@
 
 Eta Kappa Nu (HKN) strives to assist its members and those in the broader Illinois ECE community throughout their lives in becoming better professionals by encouraging its members to improve the standards of their profession, courses of instruction, and the institutions where they belong. In this spirit, we provide an array of services to Illinois students, including free one-on-one peer tutoring and exam review sessions for core ECE courses.
 
-HKN membership is selective. Prospective members, known as initiates, must not only be in the top third of their class by GPA, but must also earn enough service points to demonstrate their character and attitude towards the community.
+HKN membership is selective. Prospective members, known as initiates, must not only be in the top third of their class by GPA, but must also complete 15 hours of service in a semester to demonstrate their character and attitude towards the community.
 
 ![asdf](https://www.smithgroup.com/sites/default/files/styles/slideshow_mobile_1x/public/2018-07/UIUC-ECE-10_1.jpg?h=33c22240&itok=B05fCdr5)
 
