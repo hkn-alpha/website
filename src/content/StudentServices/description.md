@@ -1,1 +1,1 @@
-HKN offers a large host of student services, the most popular of which are the review sessions for nearly all ECE undergraduate exams. Schedule, slides, recordings, worksheets, and solutions can be found below.
+HKN offers many student services, the most popular of which are exam review sessions for nearly every core undergraduate ECE course. Review sessions are led by HKN members who are passionate about the topics they cover. Schedule, slides, recordings, worksheets, and solutions can be found below.
