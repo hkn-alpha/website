@@ -1,0 +1,8 @@
+jobs:
+  check-size:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check file sizes
+        run: chmod +x ./size_check.sh && ./size_check.sh
+        shell: bash
