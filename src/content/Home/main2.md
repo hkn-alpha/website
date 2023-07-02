@@ -11,6 +11,6 @@ HKN hosts a variety of company-sponsored events such as information sessions, te
 
 # Outreach
 
-HKN hosts outreach events, which are focused on teaching fundamental Electrical and Computer Engineering concepts to the surrounding community through application. Past examples include holding soldering workshops and teaching Boy Scouts circuitry and hosting info sessions about electronics with high school students in the Champaign Public Library. We appreciate any opportunity to give back to the community.
+HKN hosts outreach events, which are focused on teaching fundamental Electrical and Computer Engineering concepts to the surrounding community through application. Past examples include teaching Boy Scouts circuity, conducting soldering workshops, and hosting info sessions about electronics with high school students in the Champaign Public Library. We appreciate any opportunity to give back to the community.
 
-![Group of students at a church about to give back to the community](/outreachpic.jpg)
+![Group of students at a service event](/outreachpic.jpg)
