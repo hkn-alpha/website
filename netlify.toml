@@ -1,9 +1,4 @@
 [[redirects]]
-    from = "/*"
-    to = "/index.html"
-    status = 200
-
-[[redirects]]
     from = "/initiates"
     to = "/"
     status = 301
@@ -32,3 +27,8 @@
     from = "/wiki"
     to = "https://wiki.hkn.illinois.edu"
     status = 301
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
