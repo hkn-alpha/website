@@ -22,7 +22,7 @@ type Link = {
 
 export const links: Link[] = [
   {
-    href: "https://wikipedia.com",
+    href: "https://wiki.hkn.illinois.edu",
     name: "Wiki",
   },
   {
