@@ -1,0 +1,34 @@
+[[redirects]]
+    from = "/initiates"
+    to = "/"
+    status = 301
+
+[[redirects]]
+    from = "/service"
+    to = "/services"
+    status = 301
+
+[[redirects]]
+    from = "/about"
+    to = "/"
+    status = 301
+
+[[redirects]]
+    from = "/corporate"
+    to = "/"
+    status = 301
+
+[[redirects]]
+    from = "/talks"
+    to = "/"
+    status = 301
+
+[[redirects]]
+    from = "/wiki"
+    to = "https://wiki.hkn.illinois.edu"
+    status = 301
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
