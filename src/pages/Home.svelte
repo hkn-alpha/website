@@ -84,6 +84,9 @@
 
   .leader_role {
     font-style: italic;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   a {
