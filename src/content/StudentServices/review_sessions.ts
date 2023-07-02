@@ -15,7 +15,7 @@ type ReviewSession = {
    * ```
    * 2022-03-14T15:00:00-05:00
    * ```
-   * (the `-05:00` indicates that CST is 5 hourse behind UTC).
+   * (the `-05:00` indicates that CST is 5 hours behind UTC).
    *
    * *If no key release time is specified, the key will be accessible immediately*
    * *If there is no worksheet, the key will not be displayed*

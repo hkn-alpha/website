@@ -1,51 +1,50 @@
 {
   "leaders": [
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
+      "name": "Alex Zhang",
+      "image": "/alexprofilepic.jpg",
       "role": "President"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "name": "Ivan Ramos",
+      "image": "/ivanprofilepic.jpg",
+      "role": "Vice President"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "name": "Grant McKechnie",
+      "image": "/grantprofilepic.jpg",
+      "role": "Treasurer/Events"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President",
-      "email": "a@a.com"
+      "name": "Geitanksha Tandon",
+      "image": "/geitankshaprofilepic.jpg",
+      "role": "Director of Initiate Affairs"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "name": "Lucas Nguyen",
+      "image": "/lucasprofilepic.jpg",
+      "role": "Director of Student Services"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "name": "Aidan Rodgers",
+      "image": "/aidanprofilepic.jpg",
+      "role": "Director of Electrical Engineering Services"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "name": "Arjun Pal",
+      "image": "/arjunprofilepic.jpg",
+      "role": "Director of Computer Engineering Services"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "name": "Eisa Kamran",
+      "image": "/defaultprofilepic.jpg",
+      "role": "Secretary/Corporate Affairs"
     },
     {
-      "name": "Aleks Zhang",
-      "image": "https://i.ibb.co/GMWKnbD/14-C07-BA5-60-A1-4973-B522-98-D67-AE4-B967.png",
-      "role": "Not my President"
+      "name": "Ritvik Gandesiri",
+      "image": "/ritvikprofilepic.jpg",
+      "role": "Director of Publicity"
     }
   ],
-  "contact": "iam@yourmothers.house"
+  "contact": "hknalphauiuc@gmail.com"
 }

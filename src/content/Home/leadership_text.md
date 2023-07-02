@@ -1,1 +1,1 @@
-Some text about HKN being entirely student run. Click on a leader to send them an email.
+HKN is led entirely by dedicated undergraduate and graduate students. Leaders are selected by election every semester.
