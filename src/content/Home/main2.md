@@ -5,15 +5,12 @@
 
 # Corporate
 
-This is some text about how great HKN. I am building the website for HKN. This text should be relatively long, but not too long. I still need to refactor the code for this website and add some more new features. This is some more text, HKN does fun events like happy hour. Even more text, and even more text, and even more text! This is a long paragraph, but is necessary to make things look balanced, it's height should be not much less than that of the image below.
+HKN hosts a variety of company-sponsored events such as information sessions, tech talks, and resume reviews. Conducted on campus, these sessions give students a chance to learn more about employers, recent technological advances, and career opportunities. Company representatives are also welcome to join our pre-planned events, including our weekly happy hour, to interact with students in a more relaxed setting. Interested in working with us? Simply click the contact us button above.
 
-![asdf](https://www.smithgroup.com/sites/default/files/styles/slideshow_mobile_1x/public/2018-07/UIUC-ECE-10_1.jpg?h=33c22240&itok=B05fCdr5)
+![Group of students at a corporate event](/corporatepic.jpg)
 
 # Outreach
 
-HKN regularly hosts events for both members and non-members, ranging from
-tech talks to fun social gatherings like our weekly happy hour. To
-encourange involvement, HKN initiates earn points by attending events.
-Learn more about each event by clicking or tapping it.
+HKN hosts outreach events, which are focused on teaching fundamental Electrical and Computer Engineering concepts to the surrounding community through application. Past examples include teaching Boy Scouts circuity, conducting soldering workshops, and hosting info sessions about electronics with high school students in the Champaign Public Library. We appreciate any opportunity to give back to the community.
 
-![asdf](https://www.smithgroup.com/sites/default/files/styles/slideshow_mobile_1x/public/2018-07/UIUC-ECE-10_1.jpg?h=33c22240&itok=B05fCdr5)
+![Group of students at a service event](/outreachpic.jpg)
