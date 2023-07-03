@@ -18,22 +18,22 @@
     {
       "name": "Geitanksha Tandon",
       "image": "/geitankshaprofilepic.jpg",
-      "role": "Director of Initiate Affairs"
+      "role": "Initiate Affairs"
     },
     {
       "name": "Lucas Nguyen",
       "image": "/lucasprofilepic.jpg",
-      "role": "Director of Student Services"
+      "role": "Student Services"
     },
     {
       "name": "Aidan Rodgers",
       "image": "/aidanprofilepic.jpg",
-      "role": "Director of Electrical Engineering Services"
+      "role": "Electrical Engineering Services"
     },
     {
       "name": "Arjun Pal",
       "image": "/arjunprofilepic.jpg",
-      "role": "Director of Computer Engineering Services"
+      "role": "Computer Engineering Services"
     },
     {
       "name": "Eisa Kamran",
@@ -43,7 +43,7 @@
     {
       "name": "Ritvik Gandesiri",
       "image": "/ritvikprofilepic.jpg",
-      "role": "Director of Publicity"
+      "role": "Publicity"
     }
   ],
   "contact": "hknalphauiuc@gmail.com"
