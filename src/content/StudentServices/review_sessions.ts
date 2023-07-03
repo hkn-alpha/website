@@ -26,34 +26,18 @@ type ReviewSession = {
 export const reviewSessions: Record<number, ReviewSession[]> = {
   1: [
     {
-      course: "ECE/CS374",
-      time: "5/11, 2:00-4:00PM",
-      location: "ECEB 1002",
-    },
-    {
-      course: "ECE/CS375",
-      time: "5/20, 2:00-4:00PM",
-      location: "ECEB 1002",
-      slidesLink: "https://yourmothers.house",
-      worksheetLink: "https://google.com",
-      keyLink: "https://apple.com",
-      keyReleaseTime: "2023-05-21T11:13:00-04:00",
+      course: "ECE 329",
+      time: "7/12, 7:00-9:00PM",
+      location: "Zoom", // ! Add this link when new feature is finalized https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09
+      slidesLink: "https://docs.google.com/presentation/d/1EzHlSO1P7II8x_rJVyhLENJI7YxCUPhtXyt2oHLYDLg/edit?usp=sharing",
     },
   ],
   2: [
     {
-      course: "ECE/CS374",
-      time: "5/21 2:00-4:00PM",
-      location: "ECEB 1002",
-    },
-    {
-      course: "ECE/CS375",
-      time: "5/23 2:00-4:00PM",
-      location: "ECEB 1002",
-      slidesLink: "https://yourmothers.house",
-      worksheetLink: "https://google.com",
-      keyLink: "https://apple.com",
-      keyReleaseTime: "2023-05-21T11:13:00-04:00",
+      course: "ECE 329",
+      time: "7/26, 7:00-9:00PM",
+      location: "Zoom",
+      slidesLink: "https://hkn-alpha.netlify.app/abcde",
     },
   ],
   3: [],
@@ -61,12 +45,12 @@ export const reviewSessions: Record<number, ReviewSession[]> = {
 
 export const crammingCarnival: ReviewSession[] = [
   {
-    course: "ECE/CS375",
-    time: "5/9, 2:00-4:00PM",
-    location: "ECEB 1002",
-    slidesLink: "https://yourmothers.house",
-    worksheetLink: "https://google.com",
-    keyLink: "https://apple.com",
-    keyReleaseTime: "2023-05-21T11:13:00-04:00",
+    course: "ECE 329",
+    time: "8/4, 7:00-9:00PM",
+    location: "Zoom",
+    slidesLink: "https://hkn-alpha.netlify.app/abcde",
+    // worksheetLink: "https://hkn-alpha.netlify.app/abcde",
+    // keyLink: "https://hkn-alpha.netlify.app/abcde",
+    // keyReleaseTime: "2023-05-21T11:13:00-04:00",
   },
 ];
