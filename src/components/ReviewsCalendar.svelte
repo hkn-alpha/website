@@ -23,7 +23,11 @@
             {session.time}
           </td>
           <td>
-            {session.location}
+            {#if session.location.startsWith("http")}
+              <a href={session.location}>Zoom</a>
+            {:else}
+              {session.location}
+            {/if}
           </td>
           <td>
             {#if session.slidesLink && session.worksheetLink}

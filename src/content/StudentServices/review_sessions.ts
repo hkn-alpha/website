@@ -28,15 +28,18 @@ export const reviewSessions: Record<number, ReviewSession[]> = {
     {
       course: "ECE 329",
       time: "7/12, 7:00-9:00PM",
-      location: "Zoom", // ! Add this link when new feature is finalized https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09
-      slidesLink: "https://docs.google.com/presentation/d/1EzHlSO1P7II8x_rJVyhLENJI7YxCUPhtXyt2oHLYDLg/edit?usp=sharing",
+      location:
+        "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1EzHlSO1P7II8x_rJVyhLENJI7YxCUPhtXyt2oHLYDLg/edit?usp=sharing",
     },
   ],
   2: [
     {
       course: "ECE 329",
       time: "7/26, 7:00-9:00PM",
-      location: "Zoom",
+      location:
+        "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
       slidesLink: "https://hkn-alpha.netlify.app/abcde",
     },
   ],
@@ -47,7 +50,8 @@ export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 329",
     time: "8/4, 7:00-9:00PM",
-    location: "Zoom",
+    location:
+      "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
     slidesLink: "https://hkn-alpha.netlify.app/abcde",
     // worksheetLink: "https://hkn-alpha.netlify.app/abcde",
     // keyLink: "https://hkn-alpha.netlify.app/abcde",
