@@ -32,6 +32,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
       slidesLink:
         "https://docs.google.com/presentation/d/1EzHlSO1P7II8x_rJVyhLENJI7YxCUPhtXyt2oHLYDLg/edit?usp=sharing",
+      recordingLink:
+        "https://illinois.zoom.us/rec/share/Z8DCAE6JkgLraayhHuSL9nHU7YvEX4NtEIee3iMZ0SjtSHHVcbzOmn50r4IvUxIe.T5NG5KxRL91TcRyh",
     },
   ],
   2: [
