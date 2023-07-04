@@ -40,7 +40,7 @@ export const reviewSessions: Record<number, ReviewSession[]> = {
       time: "7/26, 7:00-9:00PM",
       location:
         "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
-      slidesLink: "https://hkn-alpha.netlify.app/abcde",
+      // slidesLink: "https://hkn-alpha.netlify.app/abcde",
     },
   ],
   3: [],
@@ -52,7 +52,7 @@ export const crammingCarnival: ReviewSession[] = [
     time: "8/4, 7:00-9:00PM",
     location:
       "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
-    slidesLink: "https://hkn-alpha.netlify.app/abcde",
+    // slidesLink: "https://hkn-alpha.netlify.app/abcde",
     // worksheetLink: "https://hkn-alpha.netlify.app/abcde",
     // keyLink: "https://hkn-alpha.netlify.app/abcde",
     // keyReleaseTime: "2023-05-21T11:13:00-04:00",
