@@ -23,7 +23,7 @@ type ReviewSession = {
   keyReleaseTime?: string;
 };
 
-export const reviewSessions: Record<number, ReviewSession[]> = {
+export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   1: [
     {
       course: "ECE 329",
@@ -44,6 +44,14 @@ export const reviewSessions: Record<number, ReviewSession[]> = {
     },
   ],
   3: [],
+};
+
+// When the UI should rollover stop showing the given review session
+// Remember that months are zero indexed but days are not.
+export const until: Record<1 | 2 | 3, Date> = {
+  1: new Date(2023, 6, 14),
+  2: new Date(2023, 6, 28),
+  3: new Date(1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
 export const crammingCarnival: ReviewSession[] = [

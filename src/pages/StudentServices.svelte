@@ -5,6 +5,7 @@
   import {
     reviewSessions,
     crammingCarnival,
+    until,
   } from "../content/StudentServices/review_sessions";
   import { tutors as unorderedTutors } from "../content/StudentServices/tutors";
   import Select from "svelte-select";
@@ -46,6 +47,17 @@
 
   let query = "";
 
+  let reviewSessionsAvailable = Object.keys(reviewSessions)
+    .filter((x) => reviewSessions[x].length > 0)
+    .filter((x) => until[x] > new Date());
+  let intialSession =
+    reviewSessionsAvailable.length == 0 && crammingCarnival.length > 0
+      ? "Final Exam"
+      : crammingCarnival.length == 0
+      ? ""
+      : `Midterm ${reviewSessionsAvailable[0]}`;
+  // let selectedSession = Object.keys(reviewSessions).reduce((curr, next) => until[parseInt(next)], Object.keys(reviewSessions)[0])
+
   const validTitles = Object.keys(reviewSessions)
     .filter((x) => reviewSessions[x].length > 0)
     .map((x) => `Midterm ${x}`);
@@ -54,8 +66,8 @@
     crammingCarnival.length > 0 ? [...validTitles, "Final Exam"] : validTitles;
 
   let value = {
-    value: items.length > 0 ? items[items.length - 1] : "",
-    label: items.length > 0 ? items[items.length - 1] : "",
+    value: intialSession,
+    label: intialSession,
   };
 </script>
 
