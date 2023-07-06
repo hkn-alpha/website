@@ -34,6 +34,11 @@
     status = 301
 
 [[redirects]]
+    from = "/assets/*"
+    to = "/services"
+    status = 301
+
+[[redirects]]
     from = "/*"
     to = "/index.html"
     status = 200
