@@ -29,7 +29,7 @@
     status = 301
 
 [[redirects]]
-    from = "/doku.php"
+    from = "/doku.php*"
     to = "https://wiki.hkn.illinois.edu"
     status = 301
 
