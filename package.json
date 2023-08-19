@@ -23,6 +23,7 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
+    "blurhash-to-css": "^0.5.5",
     "svelte-routing": "^1.6.0",
     "svelte-select": "^5.6.1"
   }
