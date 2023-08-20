@@ -86,13 +86,44 @@ const events: Event[] = [
   // },
   {
     name: "Course Advising",
-    date: new Date(2024, 8, 21),
+    date: new Date(2024, 7, 21),
     description: "Ask upperclassmen about course choices and paths!",
-    time: "1:00-6:00pm",
+    time: "12:00-6:00pm",
     virtual: false,
     locationInfo: commonLocations["atrium"],
   },
-
+  {
+    name: "Course Advising",
+    date: new Date(2024, 7, 22),
+    description: "Ask upperclassmen about course choices and paths!",
+    time: "12:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations["atrium"],
+  },
+  {
+    name: "Course Advising",
+    date: new Date(2024, 7, 23),
+    description: "Ask upperclassmen about course choices and paths!",
+    time: "12:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations["atrium"],
+  },
+  {
+    name: "Course Advising",
+    date: new Date(2024, 7, 24),
+    description: "Ask upperclassmen about course choices and paths!",
+    time: "12:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations["atrium"],
+  },
+  {
+    name: "Course Advising",
+    date: new Date(2024, 7, 25),
+    description: "Ask upperclassmen about course choices and paths!",
+    time: "12:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations["atrium"],
+  },
 ];
 
 export default events;
