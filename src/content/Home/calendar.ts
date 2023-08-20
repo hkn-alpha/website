@@ -86,7 +86,7 @@ const events: Event[] = [
   // },
   {
     name: "Course Advising",
-    date: new Date(2024, 8, 21),
+    date: new Date(2024, 7, 21),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -94,7 +94,7 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 8, 22),
+    date: new Date(2024, 7, 22),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -102,7 +102,7 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 8, 23),
+    date: new Date(2024, 7, 23),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -110,7 +110,7 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 8, 24),
+    date: new Date(2024, 7, 24),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -118,7 +118,7 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 8, 25),
+    date: new Date(2024, 7, 25),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
