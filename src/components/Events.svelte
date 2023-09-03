@@ -2,6 +2,9 @@
   import Event from "./Event.svelte";
   export let events;
 
+  let events2 = events.sort((a, b) => a.date - b.date);
+  console.log(events2);
+
   function daysDiff(date1, date2) {
     const diffTime = Math.abs(date2 - date1);
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
@@ -25,14 +28,14 @@
 </script>
 
 <div class="evcontainer">
-  {#if events.length > 0}
+  {#if events2.length > 0}
     <div class="initiate-points-toggler">
       <p>
         <label for="initiatepoints">Show initiate points?</label>
         <input type="checkbox" bind:checked={showPoints} id="initiatepoints" />
       </p>
     </div>
-    {#each events
+    {#each events2
       .filter(checkDate)
       .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll) as event}
       <Event
@@ -47,9 +50,9 @@
         showInitiatePoints={showPoints}
       />
     {/each}
-    {#if events
+    {#if events2
       .filter(checkDate)
-      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll).length < events.filter(checkDate).length}
+      .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll).length < events2.filter(checkDate).length}
       <div class="show_more">
         <label for="showtoggle">Show All</label>
         <input
@@ -61,7 +64,7 @@
       </div>
     {/if}
   {:else}
-    <div class="no-events">Nothing scheduled, check back soon!</div>
+    <div class="no-events2">Nothing scheduled, check back soon!</div>
   {/if}
 </div>
 
@@ -91,7 +94,7 @@
     margin-bottom: -9px;
   }
 
-  .no-events {
+  .no-events2 {
     font-style: italic;
     text-align: center;
   }

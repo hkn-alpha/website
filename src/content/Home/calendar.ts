@@ -49,13 +49,33 @@ const commonLocations = {
   },
   atrium: {
     lat: 40.11487240610786,
-    lon:  -88.22795431703628,
+    lon: -88.22795431703628,
     locationName: "ECEB Atrium",
     addressLine1: "306 N Wright St",
     addressLine2: "Urbana, IL 61801",
     googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
   },
+  rsoOffice: {
+    lat: 40.11487240610786,
+    lon: -88.22795431703628,
+    locationName: "HKN RSO Office (Next to Daily Byte)",
+    addressLine1: "306 N Wright St",
+    addressLine2: "Urbana, IL 61801",
+    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
+  },
 };
+
+const happyHour = (date: Date): Event => ({
+  name: "Happy Hour",
+  date,
+  description:
+    "Free fry friday! Join HKN and chat with some of your fellow members!",
+  time: "5:00PM",
+  virtual: false,
+  locationInfo: commonLocations["legends"],
+  initiatePointsCount: 1,
+  initiatePointsCategory: "social",
+});
 
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
@@ -73,20 +93,9 @@ const events: Event[] = [
   //     meetingPasscode: "8675309",
   //   },
   // },
-  // {
-  //   name: "Happy Hour",
-  //   date: new Date(2023, 5, 10),
-  //   description:
-  //     "Join HKN and chat with some of your fellow members! Enjoy free food on us as you get a chance to know your peers better!",
-  //   time: "6:09PM",
-  //   virtual: false,
-  //   locationInfo: commonLocations["legends"],
-  //   initiatePointsCount: 1,
-  //   initiatePointsCategory: "social",
-  // },
   {
     name: "Course Advising",
-    date: new Date(2024, 7, 21),
+    date: new Date(2023, 7, 21),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -94,7 +103,7 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 7, 22),
+    date: new Date(2023, 7, 22),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -102,7 +111,7 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 7, 23),
+    date: new Date(2023, 7, 23),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -110,7 +119,7 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 7, 24),
+    date: new Date(2023, 7, 24),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
@@ -118,12 +127,73 @@ const events: Event[] = [
   },
   {
     name: "Course Advising",
-    date: new Date(2024, 7, 25),
+    date: new Date(2023, 7, 25),
     description: "Ask upperclassmen about course choices and paths!",
     time: "12:00-6:00pm",
     virtual: false,
     locationInfo: commonLocations["atrium"],
   },
+  ...[
+    new Date(2023, 8, 8),
+    new Date(2023, 8, 15),
+    new Date(2023, 8, 22),
+    new Date(2023, 8, 29),
+    new Date(2023, 9, 6),
+    new Date(2023, 9, 13),
+    new Date(2023, 9, 20),
+    new Date(2023, 9, 27),
+    new Date(2023, 10, 3),
+    new Date(2023, 10, 10),
+    new Date(2023, 10, 17),
+    new Date(2023, 11, 1),
+    new Date(2023, 11, 8),
+    new Date(2023, 11, 15),
+  ].map(happyHour),
+  {
+    name: "HKN Info Session",
+    date: new Date(2023, 8, 4),
+    time: "5:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations.rsoOffice,
+    description: "Come learn more about HKN and how to join!",
+  },
+  {
+    name: "HKN Info Session",
+    date: new Date(2023, 8, 5),
+    time: "5:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations.rsoOffice,
+    description: "Come learn more about HKN and how to join!",
+  },
+  {
+    name: "HKN Info Session",
+    date: new Date(2023, 8, 6),
+    time: "6:00-7:00pm",
+    virtual: false,
+    locationInfo: commonLocations.rsoOffice,
+    description: "Come learn more about HKN and how to join!",
+  },
+  {
+    name: "Resume Reivews",
+    date: new Date(2023, 8, 12),
+    time: "5:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations.atrium,
+    description:
+      "Join HKN and WECE for resume and LinkedIn tips and tricks, Q&A, and reviews (and pizza!)!",
+  },
+  {
+    name: "Initiate Olympics",
+    date: new Date(2023, 8, 11),
+    time: "TBD",
+    virtual: false,
+    locationInfo: commonLocations.atrium,
+    description:
+      "Meet other initiates and get to know the HKN board! Required for all initiates.",
+  },
+  // Info sessions (ECEB RSO Office) M5T5W6
+  // Initiate Olympics (1 week from today)
+  // Mandatory for initiates, meet initiates, get to know board
 ];
 
 export default events;
