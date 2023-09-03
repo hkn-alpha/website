@@ -67,7 +67,7 @@ _Note that you do not need the `/public` prefix in Markdown._
 Some dos:
 
 - Use a descriptive name
-- Compress images first (use [Squoosh](https://squoosh.app))
+- Compress images first (use [Squoosh](https://squoosh.app)). Use MozJPG and only drag the quality slider, and if absolutely necessary open Advanced and increase smoothing (but don't smooth too much!)
 
 Some dont's:
 
