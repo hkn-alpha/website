@@ -63,6 +63,14 @@ const commonLocations = {
     addressLine2: "Urbana, IL 61801",
     googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
   },
+  3013: {
+    lat: 40.11487240610786,
+    lon: -88.22795431703628,
+    locationName: "ECEB 3013",
+    addressLine1: "306 N Wright St",
+    addressLine2: "Urbana, IL 61801",
+    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
+  },
 };
 
 const happyHour = (date: Date): Event => ({
@@ -184,16 +192,24 @@ const events: Event[] = [
   },
   {
     name: "Initiate Olympics",
-    date: new Date(2023, 8, 11),
+    date: new Date(2023, 8, 10),
     time: "TBD",
     virtual: false,
     locationInfo: commonLocations.atrium,
     description:
       "Meet other initiates and get to know the HKN board! Required for all initiates.",
   },
-  // Info sessions (ECEB RSO Office) M5T5W6
-  // Initiate Olympics (1 week from today)
-  // Mandatory for initiates, meet initiates, get to know board
+  {
+    name: "Student Services",
+    date: new Date(2023, 8, 10),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 1,
+  },
 ];
 
 export default events;
