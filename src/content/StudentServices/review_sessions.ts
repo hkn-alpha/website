@@ -57,8 +57,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 // When the UI should rollover stop showing the given review session
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
-  1: new Date(2023, 10, 10),
-  2: new Date(2023, 12, 10),
+  1: new Date(2023, 8,  5),
+  2: new Date(2023, 11, 10),
   3: new Date(1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
