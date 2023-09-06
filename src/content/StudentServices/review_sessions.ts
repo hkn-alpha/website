@@ -26,45 +26,40 @@ type ReviewSession = {
 export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   1: [
     {
-      course: "ECE 329",
-      time: "7/12, 7:00-9:00PM",
+      course: "ECE 110",
+      time: "9/16, 3:00-5:30PM",
       location:
-        "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
-      slidesLink:
-        "https://docs.google.com/presentation/d/1EzHlSO1P7II8x_rJVyhLENJI7YxCUPhtXyt2oHLYDLg/edit?usp=sharing",
-      recordingLink:
-        "https://illinois.zoom.us/rec/share/Z8DCAE6JkgLraayhHuSL9nHU7YvEX4NtEIee3iMZ0SjtSHHVcbzOmn50r4IvUxIe.T5NG5KxRL91TcRyh",
+        "ECEB 1015"
     },
-  ],
-  2: [
+    {
+      course: "ECE 120",
+      time: "9/17, 3:00-5:30PM",
+      location:
+        "ECEB 1015"
+    },
     {
       course: "ECE 329",
-      time: "7/26, 7:00-9:00PM",
+      time: "9/16, 3:00-5:30PM",
       location:
-        "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
-      // slidesLink: "https://hkn-alpha.netlify.app/abcde",
+        "ECEB 1013"
+    },
+    {
+      course: "ECE 350",
+      time: "9/16, 3:00-5:30PM",
+      location:
+        "ECEB 3015"
     },
   ],
+  2: [],
   3: [],
 };
 
 // When the UI should rollover stop showing the given review session
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
-  1: new Date(2023, 6, 14),
-  2: new Date(2023, 6, 28),
+  1: new Date(2023, 8,  5),
+  2: new Date(2023, 11, 10),
   3: new Date(1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
-export const crammingCarnival: ReviewSession[] = [
-  {
-    course: "ECE 329",
-    time: "8/4, 7:00-9:00PM",
-    location:
-      "https://illinois.zoom.us/j/86158717865?pwd=cjNGZVBoNEkxaGdNVC9lNGJUa0xVQT09",
-    // slidesLink: "https://hkn-alpha.netlify.app/abcde",
-    // worksheetLink: "https://hkn-alpha.netlify.app/abcde",
-    // keyLink: "https://hkn-alpha.netlify.app/abcde",
-    // keyReleaseTime: "2023-05-21T11:13:00-04:00",
-  },
-];
+export const crammingCarnival: ReviewSession[] = [];
