@@ -200,7 +200,7 @@ const events: Event[] = [
       "Meet other initiates and get to know the HKN board! Required for all initiates.",
   },
   {
-    name: "Student Services",
+    name: "Student Services Committee",
     date: new Date(2023, 8, 10),
     time: "2:00-4:00pm",
     virtual: false,
