@@ -29,25 +29,25 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 110",
       time: "9/16, 3:00-5:30PM",
       location:
-        "ECEB Room 1015"
+        "ECEB 1015"
     },
     {
       course: "ECE 120",
       time: "9/17, 3:00-5:30PM",
       location:
-        "ECEB Room 1015"
+        "ECEB 1015"
     },
     {
       course: "ECE 329",
       time: "9/16, 3:00-5:30PM",
       location:
-        "ECEB Room 1013"
+        "ECEB 1013"
     },
     {
       course: "ECE 350",
       time: "9/16, 3:00-5:30PM",
       location:
-        "ECEB Room 3015"
+        "ECEB 3015"
     },
   ],
   2: [],
