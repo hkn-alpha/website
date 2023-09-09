@@ -54,7 +54,11 @@
     reviewSessionsAvailable.length == 0 && crammingCarnival.length > 0
       ? "Final Exam"
       : crammingCarnival.length == 0
-      ? ""
+      ? `Midterm ${
+          Object.keys(reviewSessions)
+            .filter((x) => reviewSessions[x].length > 0)
+            .sort((a, b) => until[a] - until[b])[0]
+        }`
       : `Midterm ${reviewSessionsAvailable[0]}`;
   // let selectedSession = Object.keys(reviewSessions).reduce((curr, next) => until[parseInt(next)], Object.keys(reviewSessions)[0])
 
