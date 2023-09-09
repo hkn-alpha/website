@@ -193,7 +193,7 @@ const events: Event[] = [
   {
     name: "Initiate Olympics",
     date: new Date(2023, 8, 10),
-    time: "TBD",
+    time: "11:00am-1:00pm",
     virtual: false,
     locationInfo: commonLocations.atrium,
     description:

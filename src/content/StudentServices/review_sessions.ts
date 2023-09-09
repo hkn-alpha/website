@@ -26,16 +26,10 @@ type ReviewSession = {
 export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   1: [
     {
-      course: "ECE 110",
-      time: "9/16, 3:00-5:30PM",
+      course: "ECE 210",
+      time: "9/16, 12:30-3:00PM",
       location:
-        "ECEB 1015"
-    },
-    {
-      course: "ECE 120",
-      time: "9/17, 3:00-5:30PM",
-      location:
-        "ECEB 1015"
+        "ECEB 1013"
     },
     {
       course: "ECE 329",
@@ -44,10 +38,34 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "ECEB 1013"
     },
     {
+      course: "ECE 120",
+      time: "9/16, 3:00-5:30PM",
+      location:
+        "ECEB 1015"
+    },
+    {
       course: "ECE 350",
       time: "9/16, 3:00-5:30PM",
       location:
         "ECEB 3015"
+    },
+    {
+      course: "ECE 220",
+      time: "9/17, 12:30-3:00PM",
+      location:
+        "ECEB 1015"
+    },
+    {
+      course: "ECE 342",
+      time: "9/17, 12:30-3:00PM",
+      location:
+        "ECEB 3017"
+    },
+    {
+      course: "ECE 110",
+      time: "9/17, 3:00-5:30PM",
+      location:
+        "ECEB 1015"
     },
   ],
   2: [],
