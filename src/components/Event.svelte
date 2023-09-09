@@ -119,7 +119,7 @@
 
   .event {
     border-bottom: 3px solid white;
-    font-family: 'Schibsted Grotesk', Arial, Helvetica, sans-serif;
+    font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
   }
 
   .event h2 {
@@ -165,6 +165,8 @@
   @media only screen and (max-width: 450px) {
     .event-title {
       flex-direction: column !important;
+      width: inherit !important;
+      align-items: flex-start !important;
     }
 
     .initiate-points-container {
@@ -223,6 +225,8 @@
   .event-title {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    /* justify-content: flex-start; */
     align-items: center;
   }
 
@@ -233,6 +237,7 @@
     padding: 4px;
     display: flex;
     flex-direction: row;
+    max-height: 30px;
   }
 
   .initiate-points-count {
@@ -265,12 +270,17 @@
 
   .datetime {
     align-self: flex-end;
+    text-align: right; /** needed when wrapping */
+    /* flex-grow: 1; */
   }
 
   .event-right {
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* flex-grow: 1; */
+    width: 100%;
+    justify-content: flex-end;
   }
 
   .chevron-arrow-container {
