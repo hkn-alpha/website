@@ -22,7 +22,7 @@ export const tutors: Tutor[] = [
   {
     name: "Lucas Nguyen",
     email: "lnguy7@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 220, ECE 210",
+    courses: "ECE 110, ECE 120, ECE 220",
   },
   {
     name: "Bex Muise",
@@ -33,5 +33,10 @@ export const tutors: Tutor[] = [
     name: "Eisa Kamran",
     email: "ekamr2@illinois.edu",
     courses: "ECE 220, ECE 120",
+  },
+  {
+    name: "Udit Pai",
+    email: "upai3@illinois.edu",
+    courses: "ECE 220, ECE 120, ECE 391, ECE 385",
   },
 ];

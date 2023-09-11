@@ -210,6 +210,28 @@ const events: Event[] = [
     initiatePointsCategory: "service",
     initiatePointsCount: 1,
   },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 8, 17),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 1,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 8, 24),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 1,
+  },
 ];
 
 export default events;
