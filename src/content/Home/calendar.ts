@@ -55,6 +55,22 @@ const commonLocations = {
     addressLine2: "Urbana, IL 61801",
     googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
   },
+  1015: {
+    lat: 40.11487240610786,
+    lon: -88.22795431703628,
+    locationName: "ECEB 1015",
+    addressLine1: "306 N Wright St",
+    addressLine2: "Urbana, IL 61801",
+    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
+  },
+  3017: {
+    lat: 40.11487240610786,
+    lon: -88.22795431703628,
+    locationName: "ECEB 3017",
+    addressLine1: "306 N Wright St",
+    addressLine2: "Urbana, IL 61801",
+    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
+  },
   rsoOffice: {
     lat: 40.11487240610786,
     lon: -88.22795431703628,
@@ -182,11 +198,22 @@ const events: Event[] = [
     description: "Come learn more about HKN and how to join!",
   },
   {
+    name: "Tuesday Social",
+    date: new Date(2023, 8, 12),
+    time: "5:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3017],
+    description:
+      "Join us for Pizza, Poker, and Smash!",
+      initiatePointsCategory: "social",
+      initiatePointsCount: 1,
+  },
+  {
     name: "Resume Reivews",
     date: new Date(2023, 8, 12),
     time: "5:00-6:00pm",
     virtual: false,
-    locationInfo: commonLocations.atrium,
+    locationInfo: commonLocations[1015],
     description:
       "Join HKN and WECE for resume and LinkedIn tips and tricks, Q&A, and reviews (and pizza!)!",
   },
