@@ -200,7 +200,7 @@ const events: Event[] = [
   {
     name: "Tuesday Social",
     date: new Date(2023, 8, 12),
-    time: "5:00-6:00pm",
+    time: "6:00-7:00pm",
     virtual: false,
     locationInfo: commonLocations[3017],
     description:
