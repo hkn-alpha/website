@@ -43,7 +43,7 @@
               <a href={session.slidesLink}>Slides</a>
               {#if session.scribblesLink}
                 (<a href={session.scribblesLink}>Scribbles</a>)
-              {/if}&amp;
+              {/if}
             {:else if session.worksheetLink}
               <a href={session.worksheetLink}>Worksheet</a>
               {#if (session.keyLink && !session.keyReleaseTime) || (session.keyLink && new Date(session.keyReleaseTime) <= new Date(Date.now()))}
