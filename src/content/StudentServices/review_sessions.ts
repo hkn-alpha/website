@@ -50,7 +50,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       slidesLink:
         "https://docs.google.com/presentation/d/1I4ZS-_0Etu7jwnx0D7A4Scd7oEGkFKFMThA1Q-XDR48/edit?usp=sharing",
       recordingLink:
-        "https://mediaspace.illinois.edu/edit/1_8aob1oz8",
+        "https://mediaspace.illinois.edu/media/1_8aob1oz8",
         
     },
     {
