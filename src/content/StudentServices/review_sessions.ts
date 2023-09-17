@@ -6,6 +6,7 @@ type ReviewSession = {
   worksheetLink?: string;
   recordingLink?: string;
   keyLink?: string;
+  scribblesLink?: string;
   /**
    * If set, the key link will not be published
    * until the time and date (in CST) specified by the below.
@@ -68,6 +69,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       keyLink:
         "https://drive.google.com/file/d/19_mMuWbkKN-m7gugjq7rayM811pr5v2T/view?usp=sharing",
       keyReleaseTime: "2023-09-17T15:00:00-05:00",
+      scribblesLink:
+        "https://drive.google.com/file/d/19_mMuWbkKN-m7gugjq7rayM811pr5v2T/view?usp=sharing",
     },
     {
       course: "ECE 220",
