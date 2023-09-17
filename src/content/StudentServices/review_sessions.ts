@@ -60,7 +60,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       slidesLink:
         "https://docs.google.com/presentation/d/1ZE0piNmhcMcQdak_Kk_NHYDkpmR82QnQDZGtrPL89wA/edit?usp=sharing",
       recordingLink:
-        "Corrupted File",
+        "https://mediaspace.illinois.edu/media/t/1_0mq2wza9",
     },
     {
       course: "ECE 374B",
