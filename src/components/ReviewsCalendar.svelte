@@ -31,13 +31,19 @@
           </td>
           <td>
             {#if session.slidesLink && session.worksheetLink}
-              <a href={session.slidesLink}>Slides</a> &amp;
+              <a href={session.slidesLink}>Slides</a>
+              {#if session.scribblesLink}
+                (<a href={session.scribblesLink}>Scribbles</a>)
+              {/if}&amp;
               <a href={session.worksheetLink}>Worksheet</a>
               {#if (session.keyLink && !session.keyReleaseTime) || (session.keyLink && new Date(session.keyReleaseTime) <= new Date(Date.now()))}
                 (<a href={session.keyLink}>Key</a>)
               {/if}
             {:else if session.slidesLink}
               <a href={session.slidesLink}>Slides</a>
+              {#if session.scribblesLink}
+                (<a href={session.scribblesLink}>Scribbles</a>)
+              {/if}
             {:else if session.worksheetLink}
               <a href={session.worksheetLink}>Worksheet</a>
               {#if (session.keyLink && !session.keyReleaseTime) || (session.keyLink && new Date(session.keyReleaseTime) <= new Date(Date.now()))}
