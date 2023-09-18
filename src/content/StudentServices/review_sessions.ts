@@ -6,6 +6,7 @@ type ReviewSession = {
   worksheetLink?: string;
   recordingLink?: string;
   keyLink?: string;
+  scribblesLink?: string;
   /**
    * If set, the key link will not be published
    * until the time and date (in CST) specified by the below.
@@ -68,6 +69,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       keyLink:
         "https://drive.google.com/file/d/19_mMuWbkKN-m7gugjq7rayM811pr5v2T/view?usp=sharing",
       keyReleaseTime: "2023-09-17T15:00:00-05:00",
+      scribblesLink:
+        "https://drive.google.com/file/d/1LWcq3Er-9YReYfkYc9Q5sdVhOLUCsrYD/view?usp=sharing",
     },
     {
       course: "ECE 220",
@@ -101,6 +104,26 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "CS 374A",
       time: "9/24 3:00-5:30PM",
       location: "ECEB 1002",
+    },
+    {
+      course: "ECE 313",
+      time: "9/23 12:30-3:00PM",
+      location: "ECEB 1015",
+    },
+    {
+      course: "ECE 391",
+      time: "9/23 3:00-5:30PM",
+      location: "ECEB 1002",
+    },
+    {
+      course: "ECE 310",
+      time: "9/24 12:30-3:00PM",
+      location: "ECEB 1015",
+    },
+    {
+      course: "ECE 330",
+      time: "9/24 3:00-5:30PM",
+      location: "ECEB 1015",
     },
   ],
   2: [],
