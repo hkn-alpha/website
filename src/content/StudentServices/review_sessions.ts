@@ -6,7 +6,6 @@ type ReviewSession = {
   worksheetLink?: string;
   recordingLink?: string;
   keyLink?: string;
-  scribblesLink?: string;
   /**
    * If set, the key link will not be published
    * until the time and date (in CST) specified by the below.
@@ -71,6 +70,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       keyReleaseTime: "2023-09-17T15:00:00-05:00",
       scribblesLink:
         "https://drive.google.com/file/d/1LWcq3Er-9YReYfkYc9Q5sdVhOLUCsrYD/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/1_ohalcdnh",
     },
     {
       course: "ECE 220",
@@ -78,6 +78,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1cpcY2Ew17Ohvo0O3EfwxhTan90mxuxk3ixhEac0M4wg/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_3hii29n3",
     },
     {
       course: "ECE 342",
@@ -85,6 +86,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 3017",
       slidesLink:
         "https://docs.google.com/presentation/d/1L9h0rWMtx8yyRTc59ia8tQt4R-iXdfYbDpD09YZsFok/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_v4vrv3gs",
     },
     {
       course: "ECE 110",
@@ -92,6 +94,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1Oh-aqrL1W4NiW9eirWWPyRiRd8GkcS8DU-xe6mHMP-4/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_dl5om45u",
     },
     {
       course: "ECE 411",
@@ -99,6 +102,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 3017",
       slidesLink:
         "https://docs.google.com/presentation/d/1j_Zn5haeTgr32OCv5dbMbQ1pwwj98LcdMG4gOxf2Gy0/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_udk1nzzl",
     },
     {
       course: "CS 374A",
