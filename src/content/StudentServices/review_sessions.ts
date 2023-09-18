@@ -6,6 +6,7 @@ type ReviewSession = {
   worksheetLink?: string;
   recordingLink?: string;
   keyLink?: string;
+  scribblesLink?: string;
   /**
    * If set, the key link will not be published
    * until the time and date (in CST) specified by the below.
