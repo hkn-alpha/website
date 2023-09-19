@@ -227,6 +227,28 @@ const events: Event[] = [
       "Meet other initiates and get to know the HKN board! Required for all initiates.",
   },
   {
+    name: "Tuesday Social",
+    date: new Date(2023, 8, 19),
+    time: "6:00-7:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3017],
+    description:
+      "Join us for Pizza, Poker, and Smash!",
+      initiatePointsCategory: "social",
+      initiatePointsCount: 1,
+  },
+  {
+    name: "Tuesday Social",
+    date: new Date(2023, 8, 26),
+    time: "6:00-7:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3017],
+    description:
+      "Join us for Pizza, Poker, and Smash!",
+      initiatePointsCategory: "social",
+      initiatePointsCount: 1,
+  },
+  {
     name: "Student Services Meeting",
     date: new Date(2023, 8, 10),
     time: "2:00-4:00pm",
