@@ -281,6 +281,61 @@ const events: Event[] = [
     initiatePointsCategory: "service",
     initiatePointsCount: 1,
   },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 1),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 8),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 15),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 22),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 29),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
 ];
 
 export default events;
