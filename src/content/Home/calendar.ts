@@ -100,6 +100,18 @@ const happyHour = (date: Date): Event => ({
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
+const tuesdaySocial = (date: Date): Event => ({
+  name: "Tuesday Social",
+  date,
+  description:
+    "Free fry friday! Join HKN and chat with some of your fellow members!",
+    time: "6:00-7:00pm",
+  virtual: false,
+  locationInfo: commonLocations[3017],
+  initiatePointsCount: 1,
+  initiatePointsCategory: "social",
+});
+
 
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
@@ -173,6 +185,16 @@ const events: Event[] = [
     new Date(2023, 11, 8),
     new Date(2023, 11, 15),
   ].map(happyHour),
+  ...[
+    new Date(2023, 9, 10),
+    new Date(2023, 9, 17),
+    new Date(2023, 9, 24),
+    new Date(2023, 9, 31),
+    new Date(2023, 10, 7),
+    new Date(2023, 10, 14),
+    new Date(2023, 10, 28),
+    new Date(2023, 11, 5),
+  ].map(tuesdaySocial),
   {
     name: "HKN Info Session",
     date: new Date(2023, 8, 4),
@@ -280,6 +302,61 @@ const events: Event[] = [
       "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
     initiatePointsCategory: "service",
     initiatePointsCount: 1,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 1),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 8),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 15),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 22),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
+  },
+  {
+    name: "Student Services Meeting",
+    date: new Date(2023, 9, 29),
+    time: "2:00-4:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3013],
+    description:
+      "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    initiatePointsCategory: "service",
+    initiatePointsCount: 2,
   },
 ];
 
