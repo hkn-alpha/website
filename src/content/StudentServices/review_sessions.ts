@@ -137,12 +137,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "9/24 3:00-5:30PM",
       location: "ECEB 1015",
       slidesLink:
-        "https://docs.google.com/presentation/d/1PaWICsnZj-vrO3L6qMJKQnLIvcblDxlRES5AeYLyL7w/edit?usp=sharing"
+        "https://docs.google.com/presentation/d/1PaWICsnZj-vrO3L6qMJKQnLIvcblDxlRES5AeYLyL7w/edit?usp=sharing",
     },
     {
       course: "ECE 340",
       time: "10/01 3:00-5:30PM",
       location: "ECEB 1015",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1wyKH0Jcpi_YmwBwWIGH7pO9yyO-pfQPm1OZyuQO5y5U/edit?usp=sharing",
     },
   ],
   2: [],
