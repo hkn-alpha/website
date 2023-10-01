@@ -95,8 +95,7 @@ const happyHour = (date: Date): Event => ({
 const tuesdaySocial = (date: Date): Event => ({
   name: "Tuesday Social",
   date,
-  description:
-    "Free fry friday! Join HKN and chat with some of your fellow members!",
+  description: "Join us for Pizza, Poker, and Smash!",
   time: "6:00-7:00pm",
   virtual: false,
   locationInfo: commonLocations[3017],
