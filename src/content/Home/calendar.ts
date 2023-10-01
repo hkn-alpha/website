@@ -38,6 +38,14 @@ type Event = {
  * BELOW THIS POINT!
  */
 
+const eceb = {
+  lat: 40.11487240610786,
+  lon: -88.22795431703628,
+  addressLine1: "306 N Wright St",
+  addressLine2: "Urbana, IL 61801",
+  googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
+};
+
 const commonLocations = {
   legends: {
     lat: 40.1103786,
@@ -48,44 +56,28 @@ const commonLocations = {
     googleMapsLink: "https://goo.gl/maps/ZRr4eiiWSQG3pQRG6?coh=178571&entry=tt",
   },
   atrium: {
-    lat: 40.11487240610786,
-    lon: -88.22795431703628,
+    ...eceb,
     locationName: "ECEB Atrium",
-    addressLine1: "306 N Wright St",
-    addressLine2: "Urbana, IL 61801",
-    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
   },
   1015: {
-    lat: 40.11487240610786,
-    lon: -88.22795431703628,
+    ...eceb,
     locationName: "ECEB 1015",
-    addressLine1: "306 N Wright St",
-    addressLine2: "Urbana, IL 61801",
-    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
   },
   3017: {
-    lat: 40.11487240610786,
-    lon: -88.22795431703628,
+    ...eceb,
     locationName: "ECEB 3017",
-    addressLine1: "306 N Wright St",
-    addressLine2: "Urbana, IL 61801",
-    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
   },
   rsoOffice: {
-    lat: 40.11487240610786,
-    lon: -88.22795431703628,
+    ...eceb,
     locationName: "HKN RSO Office (Next to Daily Byte)",
-    addressLine1: "306 N Wright St",
-    addressLine2: "Urbana, IL 61801",
-    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
   },
   3013: {
-    lat: 40.11487240610786,
-    lon: -88.22795431703628,
+    ...eceb,
     locationName: "ECEB 3013",
-    addressLine1: "306 N Wright St",
-    addressLine2: "Urbana, IL 61801",
-    googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
+  },
+  2013: {
+    ...eceb,
+    locationName: "ECEB 2013",
   },
 };
 
@@ -103,15 +95,13 @@ const happyHour = (date: Date): Event => ({
 const tuesdaySocial = (date: Date): Event => ({
   name: "Tuesday Social",
   date,
-  description:
-    "Free fry friday! Join HKN and chat with some of your fellow members!",
-    time: "6:00-7:00pm",
+  description: "Join us for Pizza, Poker, and Smash!",
+  time: "6:00-7:00pm",
   virtual: false,
   locationInfo: commonLocations[3017],
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
-
 
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
@@ -186,6 +176,7 @@ const events: Event[] = [
     new Date(2023, 11, 15),
   ].map(happyHour),
   ...[
+    new Date(2023, 9, 3),
     new Date(2023, 9, 10),
     new Date(2023, 9, 17),
     new Date(2023, 9, 24),
@@ -225,10 +216,9 @@ const events: Event[] = [
     time: "6:00-7:00pm",
     virtual: false,
     locationInfo: commonLocations[3017],
-    description:
-      "Join us for Pizza, Poker, and Smash!",
-      initiatePointsCategory: "social",
-      initiatePointsCount: 1,
+    description: "Join us for Pizza, Poker, and Smash!",
+    initiatePointsCategory: "social",
+    initiatePointsCount: 1,
   },
   {
     name: "Resume Reivews",
@@ -254,10 +244,9 @@ const events: Event[] = [
     time: "6:00-7:00pm",
     virtual: false,
     locationInfo: commonLocations[3017],
-    description:
-      "Join us for Pizza, Poker, and Smash!",
-      initiatePointsCategory: "social",
-      initiatePointsCount: 1,
+    description: "Join us for Pizza, Poker, and Smash!",
+    initiatePointsCategory: "social",
+    initiatePointsCount: 1,
   },
   {
     name: "Tuesday Social",
@@ -265,10 +254,9 @@ const events: Event[] = [
     time: "6:00-7:00pm",
     virtual: false,
     locationInfo: commonLocations[3017],
-    description:
-      "Join us for Pizza, Poker, and Smash!",
-      initiatePointsCategory: "social",
-      initiatePointsCount: 1,
+    description: "Join us for Pizza, Poker, and Smash!",
+    initiatePointsCategory: "social",
+    initiatePointsCount: 1,
   },
   {
     name: "Student Services Meeting",
@@ -357,6 +345,15 @@ const events: Event[] = [
       "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
     initiatePointsCategory: "service",
     initiatePointsCount: 2,
+  },
+  {
+    name: "Grad Panel",
+    date: new Date(2023, 9, 4),
+    time: "5:00-6:00pm",
+    virtual: false,
+    locationInfo: commonLocations[2013],
+    description:
+      "Stop by and listen to our grad students discuss everything from coursework and application process to student life. Ask any questions you may have!",
   },
 ];
 
