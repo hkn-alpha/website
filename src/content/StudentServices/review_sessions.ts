@@ -145,6 +145,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1wyKH0Jcpi_YmwBwWIGH7pO9yyO-pfQPm1OZyuQO5y5U/edit?usp=sharing",
+      recordingLink:   "https://mediaspace.illinois.edu/media/t/1_2rnbx347",
     },
   ],
   2: [],
