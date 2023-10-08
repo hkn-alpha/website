@@ -241,11 +241,10 @@
     padding: 4px;
     flex-direction: row;
     max-height: 30px;
-    /* max-width: 100px; */
-    font-size: 1rem;
+    font-size: 16px;
     display: inline-block;
     vertical-align: top;
-    /* margin-top: 3px; */
+    font-weight: 400;
   }
 
   .initiate-points-count {
@@ -263,7 +262,7 @@
   }
 
   .initiate-points-category {
-    margin-left: 4px;
+    margin-left: 3px;
     color: #0f2040;
     text-transform: capitalize;
     padding-right: 6px;
