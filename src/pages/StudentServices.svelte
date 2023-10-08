@@ -57,6 +57,7 @@
       ? `Midterm ${
           Object.keys(reviewSessions)
             .filter((x) => reviewSessions[x].length > 0)
+            .filter((x) => until[x] > new Date())
             .sort((a, b) => until[a] - until[b])[0]
         }`
       : `Midterm ${reviewSessionsAvailable[0]}`;
