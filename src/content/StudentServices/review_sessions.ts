@@ -148,7 +148,38 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       recordingLink:   "https://mediaspace.illinois.edu/media/t/1_2rnbx347",
     },
   ],
-  2: [],
+  2: [
+    {
+      course: "ECE 110",
+      time: "10/14 12:30-3:00PM",
+      location: "ECEB 1002",
+      },
+    {
+      course: "ECE 210",
+      time: "10/14 12:30-3:00PM",
+      location: "ECEB 1015",
+      },
+    {
+      course: "ECE 120",
+      time: "10/14 3:00-5:30PM",
+      location: "ECEB 1002",
+    },
+    {
+      course: "ECE 329",
+      time: "10/14 3:00-5:30PM",
+      location: "ECEB 1015",
+    },
+    {
+      course: "ECE 350",
+      time: "10/14 3:00-5:30PM",
+      location: "ECEB 3015",
+    },  
+    {
+      course: "ECE 342",
+      time: "10/15 12:30-3:00PM",
+      location: "ECEB 1015",
+      },
+  ],
   3: [],
 };
 
@@ -156,7 +187,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2023, 8, 5),
-  2: new Date(2023, 9, 10),
+  2: new Date(2023, 9, 7),
   3: new Date(1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
