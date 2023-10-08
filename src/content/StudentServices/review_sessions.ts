@@ -105,7 +105,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://docs.google.com/presentation/d/1j_Zn5haeTgr32OCv5dbMbQ1pwwj98LcdMG4gOxf2Gy0/edit?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_udk1nzzl",
     },
-    
+
     {
       course: "ECE 313",
       time: "9/23 12:30-3:00PM",
@@ -145,7 +145,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1wyKH0Jcpi_YmwBwWIGH7pO9yyO-pfQPm1OZyuQO5y5U/edit?usp=sharing",
-      recordingLink:   "https://mediaspace.illinois.edu/media/t/1_2rnbx347",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_2rnbx347",
     },
   ],
   2: [
@@ -153,12 +153,12 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 110",
       time: "10/14 12:30-3:00PM",
       location: "ECEB 1002",
-      },
+    },
     {
       course: "ECE 210",
       time: "10/14 12:30-3:00PM",
       location: "ECEB 1015",
-      },
+    },
     {
       course: "ECE 120",
       time: "10/14 3:00-5:30PM",
@@ -173,12 +173,12 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 350",
       time: "10/14 3:00-5:30PM",
       location: "ECEB 3015",
-    },  
+    },
     {
       course: "ECE 342",
       time: "10/15 12:30-3:00PM",
       location: "ECEB 1015",
-      },
+    },
   ],
   3: [],
 };
@@ -186,8 +186,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 // When the UI should rollover stop showing the given review session
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
-  1: new Date(2023, 8, 5),
-  2: new Date(2023, 9, 7),
+  1: new Date(2023, 9, 5), // ends 10/5
+  2: new Date(2023, 10, 7), // ends 11/7
   3: new Date(1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
