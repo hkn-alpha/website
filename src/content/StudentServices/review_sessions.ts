@@ -153,26 +153,38 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 110",
       time: "10/14 12:30-3:00PM",
       location: "ECEB 1002",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1dlUrP7N9YIuslbnsIuSkLNTctEXXfTMaPJ3_OE083FY/edit?usp=sharing",
+      recordingLink:  "https://mediaspace.illinois.edu/media/t/1_fy3c2bik",
     },
     {
       course: "ECE 210",
       time: "10/14 12:30-3:00PM",
       location: "ECEB 1015",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1FLWUyBAbRcMg3qChmFa6195P0i4_6bwl9HDL4GHcpYQ/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_0e2jahqc",
     },
     {
       course: "ECE 120",
       time: "10/14 3:00-5:30PM",
       location: "ECEB 1002",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1W0Ta4_LwfKXOBjj2kYrGVJ3gLCzaIWhydKWHHd_6nSQ/edit?usp=sharing",
     },
     {
       course: "ECE 329",
       time: "10/14 3:00-5:30PM",
       location: "ECEB 1015",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1fQ2ePktve7hgtpm_QA_hhB6dLURO1pd4goiwwV81dCQ/edit?usp=sharing",
     },
     {
       course: "ECE 350",
       time: "10/14 3:00-5:30PM",
       location: "ECEB 3015",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1l6_uKIay8u91N4YVJg_nCMIETB0GxrmWy0NC9qB9DGY/edit?usp=sharing",
     },
     {
       course: "ECE 342",
