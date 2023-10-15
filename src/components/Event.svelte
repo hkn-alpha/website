@@ -26,19 +26,21 @@
   <label for={`ev-check-${id}`}>
     <div class="event-header">
       <div class="event-title">
-        <h2>{name}</h2>
-        {#if initiatePointsNumber && initiatePointsCategory && showInitiatePoints}
-          <div class="initiate-points-container">
-            <div class="initiate-points-count">
-              <div>
-                {initiatePointsNumber}
-              </div>
-            </div>
-            <div class="initiate-points-category">
-              {initiatePointsCategory}
-            </div>
-          </div>
-        {/if}
+        <h2>
+          {name}
+          {#if initiatePointsNumber && initiatePointsCategory && showInitiatePoints}
+            <span class="initiate-points-container">
+              <span class="initiate-points-count">
+                <span>
+                  {initiatePointsNumber}
+                </span>
+              </span>
+              <span class="initiate-points-category">
+                {initiatePointsCategory}
+              </span>
+            </span>
+          {/if}
+        </h2>
       </div>
       <div class="event-right">
         <h4 class="datetime">{date} @ {time}</h4>
@@ -168,10 +170,12 @@
       width: inherit !important;
       align-items: flex-start !important;
     }
+  }
 
+  @media only screen and (max-width: 505px) {
     .initiate-points-container {
       margin-left: 0px !important;
-      margin-bottom: 27px;
+      margin-top: 3px;
     }
   }
 
@@ -231,29 +235,34 @@
   }
 
   .initiate-points-container {
-    margin-left: 10px;
+    /* margin-left: 10px; */
     background-color: #fff;
     border-radius: 25px;
     padding: 4px;
-    display: flex;
     flex-direction: row;
     max-height: 30px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
   }
 
   .initiate-points-count {
     background-color: #0f2040;
     border-radius: 25px;
     width: 20px;
-    display: flex;
     justify-content: center;
     user-select: none;
   }
-  .initiate-points-count div {
-    margin-left: -1.5px;
+  .initiate-points-count span {
+    /* margin-left: -1.5px; */
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: -0.5px;
   }
 
   .initiate-points-category {
-    margin-left: 8px;
+    margin-left: 3px;
     color: #0f2040;
     text-transform: capitalize;
     padding-right: 6px;
