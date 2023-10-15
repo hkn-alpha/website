@@ -171,6 +171,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1002",
       slidesLink:
         "https://docs.google.com/presentation/d/1W0Ta4_LwfKXOBjj2kYrGVJ3gLCzaIWhydKWHHd_6nSQ/edit?usp=sharing",
+        recordingLink:   "https://mediaspace.illinois.edu/media/t/1_jdnxkt8n",
     },
     {
       course: "ECE 329",
@@ -178,6 +179,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1fQ2ePktve7hgtpm_QA_hhB6dLURO1pd4goiwwV81dCQ/edit?usp=sharing",
+        recordingLink:   "https://mediaspace.illinois.edu/media/t/1_vsua79wk",
     },
     {
       course: "ECE 350",
@@ -190,6 +192,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 342",
       time: "10/15 12:30-3:00PM",
       location: "ECEB 1015",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1pwWygOz5bBHFrVYeW0o5_k6HFDJcfIBsFW1F6MhPfkU/edit?usp=sharing",
     },
   ],
   3: [],
