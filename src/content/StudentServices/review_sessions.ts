@@ -202,12 +202,12 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     },
     {
       course: "ECE 313",
-      time: "10/28 3:00-5:00PM",
+      time: "10/28 3:00-5:30PM",
       location: "ECEB 1015",
     },
     {
       course: "ECE 374B",
-      time: "10/28 3:00-5:00PM",
+      time: "10/28 3:00-5:30PM",
       location: "ECEB 1002",
     },
     {
@@ -217,7 +217,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     },
     {
       course: "ECE 330",
-      time: "10/29 3:00-5:00PM",
+      time: "10/29 3:00-5:30PM",
       location: "ECEB 1015",
     },
   ],
