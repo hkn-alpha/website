@@ -71,11 +71,6 @@ export const tutors: Tutor[] = [
     courses: "ECE 110, ECE 120, ECE 220, CS 225",
   },
   {
-    name: "Dhruv Dilbaghi",
-    email: "dhruvd4@illinois.edu",
-    courses: "ECE 110, ECE 210",
-  },
-  {
     name: "Nick Ping",
     email: "nping2@illinois.edu",
     courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 285, MATH 257, CS 173, MATH 213, CS 225, ECE 391",
