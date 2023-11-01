@@ -201,6 +201,10 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink: "https://docs.google.com/presentation/d/1V6qqxGOgnFcgI83QXwsbHh_nx_72zf6liahRgr2-jSM/edit?usp=sharing",
       recordingLink:   "https://mediaspace.illinois.edu/media/t/1_cnn9esgh",
+      worksheetLink:
+        "https://cdn.discordapp.com/attachments/1026312923666206731/1169090514243563571/ECE220_MT2_Worksheet_1.pdf?ex=65542363&is=6541ae63&hm=94cd2674512bc59166fe0d458e12721d3f167730edc40106a6df76623167fd18&",
+      keyLink:
+        "https://cdn.discordapp.com/attachments/1026312923666206731/1169131485966647307/ECE220_MT2_WorksheetFA23_solutions.pdf?ex=6554498b&is=6541d48b&hm=84e936cd312d53167f40ae4969592c22aa2caba5dfb673cc95922ed7484d6561&",
     },
     {
       course: "ECE 313",
