@@ -252,7 +252,38 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
     },
   ],
-  3: [],
+  3: [
+    {
+      course: "ECE 110",
+      time: "11/11 12:30-3:00PM",
+      location: "ECEB 1002",
+    },
+    {
+      course: "ECE 120",
+      time: "11/11 3:00-5:30PM",
+      location: "ECEB 1002",
+    },
+    {
+      course: "ECE 329",
+      time: "11/11 3:00-5:30PM",
+      location: "ECEB 1015",
+    },
+    {
+      course: "ECE 210",
+      time: "11/11 12:30-3:00PM",
+      location: "ECEB 1015",
+    },
+    {
+      course: "ECE 350",
+      time: "11/11 3:00-5:30PM",
+      location: "ECEB 3015",
+    },
+    {
+      course: "ECE 342",
+      time: "11/12 3:00-5:30PM",
+      location: "ECEB 1015",
+    },
+  ],
 };
 
 // When the UI should rollover stop showing the given review session
