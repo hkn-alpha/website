@@ -241,9 +241,11 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1002",
     },
     {
-      course: "ECE 374A",
+      course: "CS 374A",
       time: "11/04 5:30-8:00PM",
       location: "ECEB 1002",
+      slidesLink: "https://drive.google.com/file/d/1BVppK_jApksBTZjT8IJ_tyohV0VNBav1/view?usp=drive_link",
+      recordingLink:   "https://mediaspace.illinois.edu/media/t/1_sgt8mpzt"
     },
     
     {
