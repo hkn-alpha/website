@@ -1,10 +1,10 @@
 on: [push, pull_request]
 
 jobs:
-  check-size:
+  run-tests:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
-      - name: Check file sizes
-        run: chmod +x ./size_check.sh && ./size_check.sh
+      - name: Run tests
+        run: npm install && npm test
         shell: bash
