@@ -8,3 +8,10 @@ jobs:
       - name: Check file sizes
         run: chmod +x ./size_check.sh && ./size_check.sh
         shell: bash
+  run-tests:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: npm test
+        shell: bash
