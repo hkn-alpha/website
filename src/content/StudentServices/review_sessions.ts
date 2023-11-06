@@ -252,6 +252,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 340",
       time: "11/05 3:00-5:30PM",
       location: "ECEB 1015",
+      slidesLink: "https://docs.google.com/presentation/d/1R6lPhmtKsaX5lrs9T36xxDr5xAaKbtpJ5ktMOYihdAo/edit?usp=sharing",
+      recordingLink:   "https://mediaspace.illinois.edu/media/t/1_qmnrrggr",
     },
   ],
   3: [
@@ -292,7 +294,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2023, 9, 5), // ends 10/5
-  2: new Date(2023, 10, 7), // ends 11/7
+  2: new Date(2023, 10, 5), // ends 11/5
   3: new Date(1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
