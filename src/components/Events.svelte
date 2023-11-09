@@ -3,7 +3,6 @@
   export let events;
 
   let events2 = events.sort((a, b) => a.date - b.date);
-  console.log(events2);
 
   function daysDiff(date1, date2) {
     const diffTime = Math.abs(date2 - date1);

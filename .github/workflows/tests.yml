@@ -1,0 +1,10 @@
+on: [pull_request]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: npm install && npm test
+        shell: bash
