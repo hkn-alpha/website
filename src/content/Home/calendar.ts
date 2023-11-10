@@ -102,6 +102,17 @@ const tuesdaySocial = (date: Date): Event => ({
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
+const studentServices = (date: Date): Event => ({
+  name: "Student Services Meeting",
+  date,
+  time: "2:00-4:00pm",
+  virtual: false,
+  locationInfo: commonLocations[3013],
+  description:
+    "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+  initiatePointsCategory: "service",
+  initiatePointsCount: 1,
+});
 
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
@@ -175,6 +186,13 @@ const events: Event[] = [
     new Date(2023, 11, 8),
     new Date(2023, 11, 15),
   ].map(happyHour),
+  ...[
+    new Date(2023, 10, 12),
+    new Date(2023, 10, 26),
+    new Date(2023, 11, 3),
+    new Date(2023, 11, 10),
+    new Date(2023, 11, 17),
+  ].map(studentServices),
   ...[
     new Date(2023, 9, 3),
     new Date(2023, 9, 10),
