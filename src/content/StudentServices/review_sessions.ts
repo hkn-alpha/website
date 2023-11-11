@@ -269,21 +269,29 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 110",
       time: "11/11 12:30-3:00PM",
       location: "ECEB 1002",
+      slidesLink: "https://docs.google.com/presentation/d/1TK59nHz3wMp3DFaRmbxYKBj30dlgWCMSkdk1fd4SE5M/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_28d3r48a",
     },
     {
       course: "ECE 120",
       time: "11/11 3:00-5:30PM",
       location: "ECEB 1002",
+      slidesLink: "https://docs.google.com/presentation/d/1FsBrROy3kXH8TffpkNyq5T79h9DKE976UTF9LFGGe1Q/edit?usp=sharing",
+      
     },
     {
       course: "ECE 210",
       time: "11/11 12:30-3:00PM",
       location: "ECEB 1015",
+      slidesLink: "https://docs.google.com/presentation/d/11AKUDRHA9JxM0WGo5J0FWAdvKTIY2JJ5KQRySb9wzpg/edit?usp=sharing", 
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_fnc4grik",
     },
     {
       course: "ECE 329",
       time: "11/11 3:00-5:30PM",
       location: "ECEB 1015",
+      slidesLink: "https://docs.google.com/presentation/d/1-SlxVeSnWRabh_JpPueFAXS_oZNMpPXAKxwZDPCOt8Y/edit?usp=sharing",
+
     },
     {
       course: "ECE 350",
