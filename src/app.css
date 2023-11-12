@@ -521,3 +521,7 @@ html {
     margin-right: 23px;
   }
 }
+
+p a {
+  color: white !important;
+}
