@@ -307,6 +307,16 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       slidesLink: "https://docs.google.com/presentation/d/1oo5I7Y-vQCH7pBZH1LO4gd48pXrmOBaND1xB2vL91to/edit?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_m9xjoixx"
     },
+    {
+      course: "ECE 374B",
+      time: "Prerecorded",
+      location: "N/A",
+      slidesLink: "https://drive.google.com/file/d/1k10ZIkoo3lJk4qpopX3AoQFPiJAM48FE/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1sSDGObzFvQ136ib-DUcnXO19KXCdSMWH/view?usp=sharing",
+      worksheetLink: "https://drive.google.com/file/d/1riUxlkpnRqSBwR0lBSm5GT7qKCT0EJr4/view?usp=sharing",
+      keyLink: "https://drive.google.com/file/d/1Pxkpyi-X9JGThPWZ5qw9J8oIo3EBGUCl/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_odrz04ix"
+    }
   ],
 };
 
