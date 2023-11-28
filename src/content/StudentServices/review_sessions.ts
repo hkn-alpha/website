@@ -330,8 +330,73 @@ export const until: Record<1 | 2 | 3, Date> = {
 
 export const crammingCarnival: ReviewSession[] = [
   {
-    course: "ECE 110",
-    time: "11/12 3:00-5:30PM",
+    course: "CS 374A",
+    time: "12/7 12:30-3:00PM",
+    location: "ECEB 1002"
+  },
+  {
+    course: "ECE 342",
+    time: "12/7 12:30-3:00PM",
     location: "ECEB 1015"
-  }
+  },
+  {
+    course: "ECE 120",
+    time: "12/7 3:00-5:30PM",
+    location: "ECEB 1002"
+  },
+  {
+    course: "ECE 374B",
+    time: "12/9 12:30-3:00PM",
+    location: "ECEB 1002"
+  },
+  {
+    course: "ECE 220",
+    time: "12/9 12:30-3:00PM",
+    location: "ECEB 1013"
+  },
+  {
+    course: "ECE 330",
+    time: "12/9 12:30-3:00PM",
+    location: "ECEB 1015"
+  },
+  {
+    course: "ECE 391",
+    time: "12/9 3:00-5:30PM",
+    location: "ECEB 1002"
+  },
+  {
+    course: "ECE 210",
+    time: "12/9 3:00-5:30PM",
+    location: "ECEB 1013"
+  },
+  {
+    course: "ECE 310",
+    time: "12/9 3:00-5:30PM",
+    location: "ECEB 1015"
+  },
+  {
+    course: "ECE 110",
+    time: "12/10 12:30-3:00PM",
+    location: "ECEB 1002"
+  },
+  {
+    course: "ECE 313",
+    time: "12/10 12:30-3:00PM",
+    location: "ECEB 1013"
+  },
+  {
+    course: "ECE 340",
+    time: "12/10 12:30-3:00PM",
+    location: "ECEB 1015"
+  },
+  {
+    course: "ECE 329",
+    time: "12/10 3:00-5:30PM",
+    location: "ECEB 1015"
+  },
+  {
+    course: "ECE 350",
+    time: "12/10 3:00-5:30PM",
+    location: "ECEB 3015"
+  },
 ];
