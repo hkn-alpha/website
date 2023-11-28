@@ -328,4 +328,10 @@ export const until: Record<1 | 2 | 3, Date> = {
   3: new Date(2024, 10, 5), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
-export const crammingCarnival: ReviewSession[] = [];
+export const crammingCarnival: ReviewSession[] = [
+  {
+    course: "ECE 110",
+    time: "11/12 3:00-5:30PM",
+    location: "ECEB 1015"
+  }
+];
