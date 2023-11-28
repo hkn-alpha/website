@@ -325,7 +325,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2023, 9, 5), // ends 10/5
   2: new Date(2023, 10, 5), // ends 11/5
-  3: new Date(2024, 10, 5), // Date(1) makes sure this will never be default bc it occured in the past
+  3: new Date(2023, 10, 26), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
 export const crammingCarnival: ReviewSession[] = [
