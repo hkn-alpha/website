@@ -332,7 +332,8 @@ export const crammingCarnival: ReviewSession[] = [
   {
     course: "CS 374A",
     time: "12/7 12:30-3:00PM",
-    location: "ECEB 1002"
+    location: "ECEB 1002",
+    worksheetLink: "https://drive.google.com/file/d/1z94MWnPofl8wmcb7eeA_bynZDmh-EQ-X/view?usp=drive_link",
   },
   {
     course: "ECE 342",
@@ -350,17 +351,19 @@ export const crammingCarnival: ReviewSession[] = [
     course: "ECE 374B",
     time: "12/9 12:30-3:00PM",
     location: "ECEB 1002",
-    worksheetLink: "https://drive.google.com/file/d/1qXlmmSxvP7I2kAiJHn2aiZYLbhYK8Ezd/view?usp=drive_link",
+    worksheetLink: "https://drive.google.com/file/d/1z94MWnPofl8wmcb7eeA_bynZDmh-EQ-X/view?usp=drive_link",
   },
   {
     course: "ECE 220",
     time: "12/9 12:30-3:00PM",
     location: "ECEB 1013",
+    worksheetLink: "https://drive.google.com/file/d/1VdE-S1HzjYFab-lisP3m3picBoPPt_Ld/view?usp=drive_link",
   },
   {
     course: "ECE 330",
     time: "12/9 12:30-3:00PM",
     location: "ECEB 1015",
+    worksheetLink: "https://drive.google.com/file/d/1b0vOm0revQ5jLFS1fG3YjBnUQY5R7lUZ/view?usp=drive_link",
   },
   {
     course: "ECE 391",
@@ -371,7 +374,7 @@ export const crammingCarnival: ReviewSession[] = [
     course: "ECE 210",
     time: "12/9 3:00-5:30PM",
     location: "ECEB 1013",
-    worksheetLink: "https://drive.google.com/file/d/1qoCZIwM3P4rxxVcka6cJ0L1tJkw0VI76/view?usp=drive_link",
+    worksheetLink: "https://drive.google.com/file/d/1pOUfU8jKixpjyrvzUDr98A8B2NSAWlOl/view?usp=drive_link",
   },
   {
     course: "ECE 310",
@@ -382,7 +385,8 @@ export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 110",
     time: "12/10 12:30-3:00PM",
-    location: "ECEB 1002"
+    location: "ECEB 1002",
+    worksheetLink: "https://drive.google.com/file/d/1YPiJXkUJHWZ3ES_rpNWpfaRbbfqJTOz2/view?usp=drive_link",
   },
   {
     course: "ECE 313",
