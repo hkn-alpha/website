@@ -337,42 +337,47 @@ export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 342",
     time: "12/7 12:30-3:00PM",
-    location: "ECEB 1015"
+    location: "ECEB 1015",
+    worksheetLink: "https://drive.google.com/file/d/1UcKpc7HTjhum5sMqn-58iIoTofl4I4aH/view?usp=drive_link",
   },
   {
     course: "ECE 120",
     time: "12/7 3:00-5:30PM",
-    location: "ECEB 1002"
+    location: "ECEB 1002",
+    worksheetLink: "https://drive.google.com/file/d/1gbKMs_oLWrEQzNllImpB_JimVIYg7ave/view?usp=drive_link",
   },
   {
     course: "ECE 374B",
     time: "12/9 12:30-3:00PM",
-    location: "ECEB 1002"
+    location: "ECEB 1002",
+    worksheetLink: "https://drive.google.com/file/d/1qXlmmSxvP7I2kAiJHn2aiZYLbhYK8Ezd/view?usp=drive_link",
   },
   {
     course: "ECE 220",
     time: "12/9 12:30-3:00PM",
-    location: "ECEB 1013"
+    location: "ECEB 1013",
   },
   {
     course: "ECE 330",
     time: "12/9 12:30-3:00PM",
-    location: "ECEB 1015"
+    location: "ECEB 1015",
   },
   {
     course: "ECE 391",
     time: "12/9 3:00-5:30PM",
-    location: "ECEB 1002"
+    location: "ECEB 1002",
   },
   {
     course: "ECE 210",
     time: "12/9 3:00-5:30PM",
-    location: "ECEB 1013"
+    location: "ECEB 1013",
+    worksheetLink: "https://drive.google.com/file/d/1qoCZIwM3P4rxxVcka6cJ0L1tJkw0VI76/view?usp=drive_link",
   },
   {
     course: "ECE 310",
     time: "12/9 3:00-5:30PM",
-    location: "ECEB 1015"
+    location: "ECEB 1015",
+    worksheetLink: "https://drive.google.com/file/d/1eWzrF2HjawEUrbnELsJMKekOi6MRw2Tf/view?usp=drive_link",
   },
   {
     course: "ECE 110",
@@ -382,21 +387,26 @@ export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 313",
     time: "12/10 12:30-3:00PM",
-    location: "ECEB 1013"
+    location: "ECEB 1013",
+    worksheetLink: "https://drive.google.com/file/d/12n0mXMrxoaXKV7DPtQjCffptWstx6OEc/view?usp=drive_link",
   },
   {
     course: "ECE 340",
     time: "12/10 12:30-3:00PM",
-    location: "ECEB 1015"
+    location: "ECEB 1015",
+    worksheetLink: "https://drive.google.com/file/d/1oGG--Yp1nswdJ1zZ5VtGVbvUKJhm8E-5/view?usp=drive_link",
   },
   {
     course: "ECE 329",
     time: "12/10 3:00-5:30PM",
-    location: "ECEB 1015"
+    location: "ECEB 1015",
+    worksheetLink: "https://drive.google.com/file/d/1G8TNfdJiIRcoQL_v-SzW_QT2Pk4AdXZt/view?usp=drive_link",
+
   },
   {
     course: "ECE 350",
     time: "12/10 3:00-5:30PM",
-    location: "ECEB 3015"
+    location: "ECEB 3015",
+    worksheetLink: "https://drive.google.com/file/d/1NM_ne1OrxNkfB0J8YwpVy77nGBFS8yes/view?usp=drive_link",
   },
 ];
