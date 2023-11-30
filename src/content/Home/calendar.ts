@@ -261,7 +261,7 @@ const events: Event[] = [
   {
     name: "Initiation Ceremony",
     date: new Date(2023, 11, 3),
-    time: "5:00-7:00pm",
+    time: "11:00-1:00pm",
     virtual: false,
     locationInfo: commonLocations[3002],
     description:
