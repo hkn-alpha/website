@@ -113,7 +113,7 @@ const tuesdaySocial = (date: Date): Event => ({
 const studentServices = (date: Date): Event => ({
   name: "Student Services Meeting",
   date,
-  time: "2:00-4:00pm",
+  time: "2:00pm-4:00pm",
   virtual: false,
   locationInfo: commonLocations[3013],
   description:
@@ -252,7 +252,7 @@ const events: Event[] = [
   {
     name: "HKN Board Elections",
     date: new Date(2023, 11, 1),
-    time: "5:00-7:00pm",
+    time: "5:00pm-7:00pm",
     virtual: false,
     locationInfo: commonLocations[2017],
     description:
@@ -261,7 +261,7 @@ const events: Event[] = [
   {
     name: "Initiation Ceremony",
     date: new Date(2023, 11, 3),
-    time: "11:00-1:00pm",
+    time: "11:00am-1:00pm",
     virtual: false,
     locationInfo: commonLocations[3002],
     description:
