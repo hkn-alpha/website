@@ -79,6 +79,14 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB 2013",
   },
+  2017: {
+    ...eceb,
+    locationName: "ECEB 2017",
+  },
+  3002: {
+    ...eceb,
+    locationName: "ECEB 3002",
+  },
 };
 
 const happyHour = (date: Date): Event => ({
@@ -105,7 +113,7 @@ const tuesdaySocial = (date: Date): Event => ({
 const studentServices = (date: Date): Event => ({
   name: "Student Services Meeting",
   date,
-  time: "2:00-4:00pm",
+  time: "2:00pm-4:00pm",
   virtual: false,
   locationInfo: commonLocations[3013],
   description:
@@ -182,16 +190,11 @@ const events: Event[] = [
     new Date(2023, 10, 3),
     new Date(2023, 10, 10),
     new Date(2023, 10, 17),
-    new Date(2023, 11, 1),
-    new Date(2023, 11, 8),
-    new Date(2023, 11, 15),
   ].map(happyHour),
   ...[
     new Date(2023, 10, 12),
     new Date(2023, 10, 26),
     new Date(2023, 11, 3),
-    new Date(2023, 11, 10),
-    new Date(2023, 11, 17),
   ].map(studentServices),
   ...[
     new Date(2023, 9, 3),
@@ -202,7 +205,6 @@ const events: Event[] = [
     new Date(2023, 10, 7),
     new Date(2023, 10, 14),
     new Date(2023, 10, 28),
-    new Date(2023, 11, 5),
   ].map(tuesdaySocial),
   {
     name: "HKN Info Session",
@@ -246,6 +248,24 @@ const events: Event[] = [
     locationInfo: commonLocations[1015],
     description:
       "Join HKN and WECE for resume and LinkedIn tips and tricks, Q&A, and reviews (and pizza!)!",
+  },
+  {
+    name: "HKN Board Elections",
+    date: new Date(2023, 11, 1),
+    time: "5:00pm-7:00pm",
+    virtual: false,
+    locationInfo: commonLocations[2017],
+    description:
+      "Come elect members for the board!",
+  },
+  {
+    name: "Initiation Ceremony",
+    date: new Date(2023, 11, 3),
+    time: "11:00am-1:00pm",
+    virtual: false,
+    locationInfo: commonLocations[3002],
+    description:
+      "Initiates become full members of HKN!",
   },
   {
     name: "Initiate Olympics",
