@@ -2,7 +2,25 @@
   import Event from "./Event.svelte";
   export let events;
 
-  let events2 = events.sort((a, b) => a.date - b.date);
+  let events2 = events.sort((a, b) => {
+    if (a.date - b.date == 0) {
+      if (
+        a.time.toLowerCase().includes("am") &&
+        b.time.toLowerCase().includes("pm")
+      ) {
+        return -1;
+      } else if (
+        a.time.toLowerCase().includes("pm") &&
+        b.time.toLowerCase().includes("am")
+      ) {
+        return 1;
+      } else {
+        return a.time.localeCompare(b.time);
+      }
+    } else {
+      return a.date - b.date;
+    }
+  });
 
   function daysDiff(date1, date2) {
     const diffTime = Math.abs(date2 - date1);
