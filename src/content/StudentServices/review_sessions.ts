@@ -341,6 +341,7 @@ export const crammingCarnival: ReviewSession[] = [
     time: "12/7 12:30-3:00PM",
     location: "ECEB 1002",
     worksheetLink: "https://drive.google.com/file/d/1z94MWnPofl8wmcb7eeA_bynZDmh-EQ-X/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/16S2kMDIj4xqWwtk3dzdkfIO0vz_QDM0L/view?usp=sharing"
   },
   {
     course: "ECE 342",
