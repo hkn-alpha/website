@@ -359,6 +359,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1z94MWnPofl8wmcb7eeA_bynZDmh-EQ-X/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1tEgoYL3vyryEalS5us-mBotVc1_b0K5F/view?usp=sharing",
     slidesLink: "https://drive.google.com/file/d/1cKqBNrH7k2fnFHp06Y11nUkp9K3lOE7O/view?usp=drive_link",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_35kv49ft",
   },
   {
     course: "ECE 220",
@@ -366,7 +367,8 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/1VdE-S1HzjYFab-lisP3m3picBoPPt_Ld/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1jZwPaOV9NNgEI051_dW5f7NeIK-WLCdg/view?usp=drive_link",
-    // slidesLink: "",
+    slidesLink: "https://docs.google.com/presentation/d/12HG697kACXEFVtFxx99-T8gVxCguXIe-C98YC_fOkto/edit?usp=sharing",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_fdcs3o5t",
   },
   {
     course: "ECE 330",
@@ -375,6 +377,8 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1b0vOm0revQ5jLFS1fG3YjBnUQY5R7lUZ/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1uHtzwOenUVr7TzLSINaNW1jqKfPwTyho/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1pmWpt3XFVYnzP2hMZBeHgilXTo5t4--U474ELiM6oJc/edit?usp=drive_link",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_u7zz6edp"
+
   },
   {
     course: "ECE 391",
@@ -388,6 +392,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/15RmW9bj7iUgdrgpbQ-UTAzFoZdXlY6zx/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1XXM_ec2DjGvA8EoK_mpErtUEabeKNGTR/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1yUOEXgJFhq3aQyJxZSa1z5dKIqCRmHiRzQjn7hOwTc8/edit?usp=sharing",
+    recordingLink: "",
     
   },
   {
@@ -397,6 +402,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1eWzrF2HjawEUrbnELsJMKekOi6MRw2Tf/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1qThTGxPZAe1ESIDprnFJIshJmt_ZWM8_/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1iMMu6iwAZQYGhq-r6cMGx05Qp3ELlfphXmLcVxRBH6I/edit?usp=sharing",
+    recordingLink: "",
   },
   {
     course: "ECE 110",
