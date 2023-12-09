@@ -343,7 +343,7 @@ export const crammingCarnival: ReviewSession[] = [
     slidesLink: "https://drive.google.com/file/d/1cKqBNrH7k2fnFHp06Y11nUkp9K3lOE7O/view?usp=drive_link",
     scribblesLink: "https://drive.google.com/file/d/1m4SSRyVtapDuvSFK7KXoYJiQlFZAoaE3/view?usp=drive_link",
     worksheetLink: "https://drive.google.com/file/d/1z94MWnPofl8wmcb7eeA_bynZDmh-EQ-X/view?usp=drive_link",
-    keyLink: "https://drive.google.com/file/d/1tEgoYL3vyryEalS5us-mBotVc1_b0K5F/view?usp=sharing"
+    keyLink: "https://drive.google.com/file/d/1tEgoYL3vyryEalS5us-mBotVc1_b0K5F/view?usp=sharing",
   },
   {
     course: "ECE 342",
@@ -357,18 +357,24 @@ export const crammingCarnival: ReviewSession[] = [
     time: "12/9 12:30-3:00PM",
     location: "ECEB 1002",
     worksheetLink: "https://drive.google.com/file/d/1z94MWnPofl8wmcb7eeA_bynZDmh-EQ-X/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1tEgoYL3vyryEalS5us-mBotVc1_b0K5F/view?usp=sharing",
+    slidesLink: "https://drive.google.com/file/d/1cKqBNrH7k2fnFHp06Y11nUkp9K3lOE7O/view?usp=drive_link",
   },
   {
     course: "ECE 220",
     time: "12/9 12:30-3:00PM",
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/1VdE-S1HzjYFab-lisP3m3picBoPPt_Ld/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1jZwPaOV9NNgEI051_dW5f7NeIK-WLCdg/view?usp=drive_link",
+    // slidesLink: "",
   },
   {
     course: "ECE 330",
     time: "12/9 12:30-3:00PM",
     location: "ECEB 1015",
     worksheetLink: "https://drive.google.com/file/d/1b0vOm0revQ5jLFS1fG3YjBnUQY5R7lUZ/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1uHtzwOenUVr7TzLSINaNW1jqKfPwTyho/view?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1pmWpt3XFVYnzP2hMZBeHgilXTo5t4--U474ELiM6oJc/edit?usp=drive_link",
   },
   {
     course: "ECE 391",
@@ -380,12 +386,17 @@ export const crammingCarnival: ReviewSession[] = [
     time: "12/9 3:00-5:30PM",
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/15RmW9bj7iUgdrgpbQ-UTAzFoZdXlY6zx/view?usp=sharing",
+    keyLink: "https://drive.google.com/file/d/1XXM_ec2DjGvA8EoK_mpErtUEabeKNGTR/view?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1yUOEXgJFhq3aQyJxZSa1z5dKIqCRmHiRzQjn7hOwTc8/edit?usp=sharing",
+    
   },
   {
     course: "ECE 310",
     time: "12/9 3:00-5:30PM",
     location: "ECEB 1015",
     worksheetLink: "https://drive.google.com/file/d/1eWzrF2HjawEUrbnELsJMKekOi6MRw2Tf/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1qThTGxPZAe1ESIDprnFJIshJmt_ZWM8_/view?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1iMMu6iwAZQYGhq-r6cMGx05Qp3ELlfphXmLcVxRBH6I/edit?usp=sharing",
   },
   {
     course: "ECE 110",
