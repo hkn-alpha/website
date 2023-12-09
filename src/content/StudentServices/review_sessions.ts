@@ -403,24 +403,33 @@ export const crammingCarnival: ReviewSession[] = [
     time: "12/10 12:30-3:00PM",
     location: "ECEB 1002",
     worksheetLink: "https://drive.google.com/file/d/1YPiJXkUJHWZ3ES_rpNWpfaRbbfqJTOz2/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1E3gmO7KG4qtiMCYEyeerOll93LG5qCUo/view?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1pQwrrlihl2TA6hj23iHFEoOXtii6RYdP3jiT8vPooX4/edit?usp=sharing",
+    
   },
   {
     course: "ECE 313",
     time: "12/10 12:30-3:00PM",
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/12n0mXMrxoaXKV7DPtQjCffptWstx6OEc/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1OPlYA3oy1bdtlXXt0kbUT2XJrr1jVqbh/view?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1QyfV6RLjtbeXq2waUGUnJ_wpEt-Em90Jq_Dm66o7B7g/edit?usp=sharing",
   },
   {
     course: "ECE 340",
     time: "12/10 12:30-3:00PM",
     location: "ECEB 1015",
     worksheetLink: "https://drive.google.com/file/d/1oGG--Yp1nswdJ1zZ5VtGVbvUKJhm8E-5/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1Ek-RMSNItEX5AYL_0O6ephUo229Rt4QE/view?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1RjByDraTIEMu5o8SxO1ALjgB6ze0omuZFRLgfXQj2c8/edit?usp=sharing",
   },
   {
     course: "ECE 329",
     time: "12/10 3:00-5:30PM",
     location: "ECEB 1015",
     worksheetLink: "https://drive.google.com/file/d/1G8TNfdJiIRcoQL_v-SzW_QT2Pk4AdXZt/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1962cftWcvZPoRCvKQsBjUXYUTB5p-5NE/view?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/10M8YcLLaTNhOpJAhnqRpe415OuawCfTK0CjWOQ2fyeY/edit?usp=sharing",
 
   },
   {
@@ -428,5 +437,7 @@ export const crammingCarnival: ReviewSession[] = [
     time: "12/10 3:00-5:30PM",
     location: "ECEB 3015",
     worksheetLink: "https://drive.google.com/file/d/1NM_ne1OrxNkfB0J8YwpVy77nGBFS8yes/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1RfsRP9vZRsOrKS9ftAgYUcaIhOqZN1kA/view?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1p1QU0hCfdf1U13_xuby_oBPQgea8AIMYFjcUkDq1y6Q/edit?usp=sharing",
   },
 ];
