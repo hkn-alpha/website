@@ -366,7 +366,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/1VdE-S1HzjYFab-lisP3m3picBoPPt_Ld/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1jZwPaOV9NNgEI051_dW5f7NeIK-WLCdg/view?usp=drive_link",
-    // slidesLink: "",
+    slidesLink: "https://docs.google.com/presentation/d/12HG697kACXEFVtFxx99-T8gVxCguXIe-C98YC_fOkto/edit?usp=sharing",
   },
   {
     course: "ECE 330",
