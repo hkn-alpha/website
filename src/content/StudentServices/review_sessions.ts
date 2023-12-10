@@ -434,7 +434,7 @@ export const crammingCarnival: ReviewSession[] = [
     time: "12/10 3:00-5:30PM",
     location: "ECEB 1015",
     worksheetLink: "https://drive.google.com/file/d/1G8TNfdJiIRcoQL_v-SzW_QT2Pk4AdXZt/view?usp=drive_link",
-    keyLink: "https://drive.google.com/file/d/1luk6OfXq2o1JU-XDtWCCATPglUWQWCDU/view?usp=drive_link",
+    keyLink: "https://drive.google.com/file/d/1luk6OfXq2o1JU-XDtWCCATPglUWQWCDU/view?usp=drivesdk",
     slidesLink: "https://docs.google.com/presentation/d/10M8YcLLaTNhOpJAhnqRpe415OuawCfTK0CjWOQ2fyeY/edit?usp=sharing",
 
   },
