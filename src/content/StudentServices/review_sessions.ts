@@ -411,6 +411,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1YPiJXkUJHWZ3ES_rpNWpfaRbbfqJTOz2/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1E3gmO7KG4qtiMCYEyeerOll93LG5qCUo/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1pQwrrlihl2TA6hj23iHFEoOXtii6RYdP3jiT8vPooX4/edit?usp=sharing",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_d90ihf5u",
     
   },
   {
@@ -420,6 +421,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/12n0mXMrxoaXKV7DPtQjCffptWstx6OEc/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1OPlYA3oy1bdtlXXt0kbUT2XJrr1jVqbh/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1QyfV6RLjtbeXq2waUGUnJ_wpEt-Em90Jq_Dm66o7B7g/edit?usp=sharing",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_1mp2tdi1",
   },
   {
     course: "ECE 340",
@@ -428,6 +430,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1oGG--Yp1nswdJ1zZ5VtGVbvUKJhm8E-5/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1Ek-RMSNItEX5AYL_0O6ephUo229Rt4QE/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1RjByDraTIEMu5o8SxO1ALjgB6ze0omuZFRLgfXQj2c8/edit?usp=sharing",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_y188ysjq",
   },
   {
     course: "ECE 329",
@@ -436,6 +439,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1G8TNfdJiIRcoQL_v-SzW_QT2Pk4AdXZt/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1luk6OfXq2o1JU-XDtWCCATPglUWQWCDU/view?usp=drivesdk",
     slidesLink: "https://docs.google.com/presentation/d/10M8YcLLaTNhOpJAhnqRpe415OuawCfTK0CjWOQ2fyeY/edit?usp=sharing",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_gprcymep",
 
   },
   {
