@@ -392,7 +392,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/15RmW9bj7iUgdrgpbQ-UTAzFoZdXlY6zx/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1XXM_ec2DjGvA8EoK_mpErtUEabeKNGTR/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1yUOEXgJFhq3aQyJxZSa1z5dKIqCRmHiRzQjn7hOwTc8/edit?usp=sharing",
-    recordingLink: "",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_cui9ujoj",
     
   },
   {
@@ -402,7 +402,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1eWzrF2HjawEUrbnELsJMKekOi6MRw2Tf/view?usp=drive_link",
     keyLink: "https://drive.google.com/file/d/1qThTGxPZAe1ESIDprnFJIshJmt_ZWM8_/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/1iMMu6iwAZQYGhq-r6cMGx05Qp3ELlfphXmLcVxRBH6I/edit?usp=sharing",
-    recordingLink: "",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_qly5h9qb",
   },
   {
     course: "ECE 110",
