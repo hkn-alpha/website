@@ -1,6 +1,7 @@
 body {
   font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  background-color: white;
 }
 
 .triangle:before {
