@@ -9,6 +9,8 @@ done <<< $(git diff --name-only main)
 
 if [ $approved -eq 1 ]; then
 	echo "All changed files are legal for auto-approve."
+	echo "approve=true" >> "$GITHUB_OUTPUT"
 else
 	echo "Some changed files could not be auto approved."
+	echo "approve=false" >> "$GITHUB_OUTPUT"
 fi
