@@ -5,7 +5,7 @@ while read changed_file; do
 		approved=0
 		break
 	fi
-done <<< echo "$(git diff --name-only main)"
+done <<< "$(git diff --name-only main)"
 
 if [ $approved -eq 1 ]; then
 	echo "All changed files are legal for auto-approve."
