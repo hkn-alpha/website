@@ -1,6 +1,6 @@
 approved=1
 while read changed_file; do
-	if ! cat approved_prefixes.txt | grep "^$changed_file"; then
+	if ! cat approved_files.txt | grep "^$changed_file"; then
 		echo "$changed_file cannot be auto-approved, giving up."
 		approved=0
 		break

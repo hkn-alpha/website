@@ -36,6 +36,10 @@ To work on the HKN website, you should install Node. It is recommended to instal
 2. Make your changes, and commit them like you normally would
 3. Run `git push origin <your name>/<branch name>`. The PR will automatically update.
 
+### PR Auto-approval
+
+PRs which only modify files whose path contains one of the prefixes in `approved_prefixes.txt` are approved automatically. These PRs must still be merged by a member of the HKN Website team, but do not require review.
+
 ## Where is it?
 
 Want to edit something you see on the website? Below is a (hopefully-updated) mapping of where you can find things. All files referenced are in the `src/content` folder.
