@@ -38,7 +38,7 @@ To work on the HKN website, you should install Node. It is recommended to instal
 
 ### PR Auto-approval
 
-PRs which only modify files whose path contains one of the prefixes in `approved_prefixes.txt` are approved automatically. These PRs must still be merged by a member of the HKN Website team, but do not require review.
+PRs which modify files listed in `approved_files.txt` are approved automatically without review. PRs must still be merged by an HKN website team member, but review is not required.
 
 ## Where is it?
 

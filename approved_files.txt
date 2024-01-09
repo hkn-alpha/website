@@ -1,6 +1,6 @@
 src/content/StudentServices/tutors.ts
 src/content/StudentServices/review_sessions.ts
-approved_prefixes.txt
+approved_files.txt
 .github/workflows/autoapprove.yml
 README.md
 autoapprove.sh
