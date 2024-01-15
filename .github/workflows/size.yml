@@ -1,3 +1,4 @@
+name: Check Image Sizes
 on: [pull_request]
 
 jobs:
