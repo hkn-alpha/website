@@ -1,6 +1,7 @@
 body {
   font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  background-color: white;
 }
 
 .triangle:before {
@@ -427,6 +428,9 @@ h1 {
   border-color: #0f2040;
   border-style: solid;
   border-radius: 100px;
+  text-align: center;
+  line-height: 140px;
+  vertical-align: middle;
 }
 
 .leader {

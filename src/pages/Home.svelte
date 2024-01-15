@@ -44,7 +44,7 @@
           <div class="leadership_grid">
             {#each leadership_json.leaders as leader}
               <div class="leader">
-                <img src={leader.image} class="leader_image" alt="Hi" />
+                <img src={leader.image} class="leader_image" alt={"Image of " + leader.name} role="presentation" />
                 <div class="leader_name">
                   {leader.name}
                 </div>
