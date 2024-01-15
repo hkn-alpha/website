@@ -23,12 +23,12 @@ export const tutors: Tutor[] = [
   {
     name: "Bex Muise",
     email: "rmuise2@illinois.edu",
-    courses: "ECE 120, ECE 220, ECE 310",
+    courses: "ECE 120, ECE 220, ECE 310, CS 173, CS 225",
   },
   {
     name: "Eisa Kamran",
     email: "ekamr2@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 220",
+    courses: "ECE 120, ECE 220",
   },
   {
     name: "Udit Pai",
@@ -38,17 +38,17 @@ export const tutors: Tutor[] = [
   {
     name: "Taowei Huang",
     email: "taoweih2@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 220",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220",
   },
   {
     name: "Albus Lai",
     email: "albusl2@illinois.edu",
-    courses: "ECE 120, ECE 210, ECE 220",
+    courses: "ECE 120, ECE 210, ECE 220, PHYS 214, MATH 257",
   },
   {
     name: "Vedang Verma",
     email: "vverm2@illinois.edu",
-    courses: "ECE 310",
+    courses: "ECE 120, ECE 220, ECE 310, MATH 231, CS 173",
   },
   {
     name: "David Thomas",
@@ -58,7 +58,7 @@ export const tutors: Tutor[] = [
   {
     name: "Xavier Routh",
     email: "xrouth2@illinois.edu",
-    courses: "CS 173, ECE 220, CS 225",
+    courses: "ECE 220, CS 173, CS 225",
   },
   {
     name: "Lucas Nguyen",
@@ -69,11 +69,6 @@ export const tutors: Tutor[] = [
     name: "Aidan Rodgers",
     email: "aidanfr2@illinois.edu",
     courses: "ECE 330, ECE 342",
-  },
-  {
-    name: "Ethan White",
-    email: "egwhite3@illinois.edu",
-    courses: "ECE 340, ECE 350",
   },
   {
     name: "Kyle Chung",
