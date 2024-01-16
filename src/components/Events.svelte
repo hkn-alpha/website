@@ -45,7 +45,9 @@
 </script>
 
 <div class="evcontainer">
-  {#if events2.length > 0}
+  {#if events2
+    .filter(checkDate)
+    .filter((e, i) => i < cutoffCount || (daysDiff(new Date(), e.date) <= cutoffDays && i < maxCount) || showAll).length > 0}
     <div class="initiate-points-toggler">
       <p>
         <label for="initiatepoints">Show initiate points?</label>
