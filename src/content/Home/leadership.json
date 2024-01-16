@@ -16,34 +16,34 @@
       "role": "Treasurer/Events"
     },
     {
-      "name": "Geitanksha Tandon",
-      "image": "/geitankshaprofilepic.jpg",
+      "name": "Sania Huq",
+      "image": "/saniaprofilepic.webp",
       "role": "Initiate Affairs"
-    },
-    {
-      "name": "Lucas Nguyen",
-      "image": "/lucasprofilepic.jpg",
-      "role": "Student Services"
     },
     {
       "name": "Aidan Rodgers",
       "image": "/aidanprofilepic.jpg",
-      "role": "Electrical Engineering Services"
+      "role": "Student Services"
     },
     {
-      "name": "Arjun Pal",
-      "image": "/arjunprofilepic.jpg",
-      "role": "Computer Engineering Services"
+      "name": "Ethan Grenwald",
+      "image": "/ethanprofilepic.webp",
+      "role": "Review Sessions"
     },
     {
       "name": "Eisa Kamran",
       "image": "/eisaprofilepic.jpg",
-      "role": "Secretary/Corporate Affairs"
+      "role": "Corporate Affairs"
     },
     {
-      "name": "Ritvik Gandesiri",
-      "image": "/ritvikprofilepic.jpg",
+      "name": "V Verma",
+      "image": "/vprofilepic.webp",
       "role": "Publicity"
+    },
+    {
+      "name": "Udit Pai",
+      "image": "/uditprofilepic.webp",
+      "role": "Secretary"
     }
   ],
   "contact": "hknalphauiuc@gmail.com"
