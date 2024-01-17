@@ -29,14 +29,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   // Midterm 1 review sessions
 
   1: [
-    {
-      course: "ECE 210",
-      time: "Coming soon!",
-      location: "Coming soon!",
+    // {
+      // course: "ECE 210",
+      // time: "",
+      // location: "",
       // slidesLink:
       //   "https://docs.google.com/presentation/d/1CXofOoxZtO_cR1BebHQkYRe13f3pgFGrI8qTSA3OKug/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hompq6wy",
-    },
+    // },
     // {
     //   course: "ECE 329",
     //   time: "9/16, 3:00-5:30PM",
@@ -84,14 +84,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     //     "https://docs.google.com/presentation/d/1cpcY2Ew17Ohvo0O3EfwxhTan90mxuxk3ixhEac0M4wg/edit?usp=sharing",
     //   recordingLink: "https://mediaspace.illinois.edu/media/t/1_3hii29n3",
     // },
-    // {
-    //   course: "ECE 342",
-    //   time: "9/17, 12:30-3:00PM",
-    //   location: "ECEB 3017",
-    //   slidesLink:
-    //     "https://docs.google.com/presentation/d/1L9h0rWMtx8yyRTc59ia8tQt4R-iXdfYbDpD09YZsFok/edit?usp=sharing",
-    //   recordingLink: "https://mediaspace.illinois.edu/media/t/1_v4vrv3gs",
-    // },
+    {
+      course: "ECE 342",
+      time: "2/11, 3:00-5:30PM",
+      location: "ECEB 1015",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1luZMo6VillVmYgoIj4LHa38TeRx_EHNcbU0sOkzCyhU/",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_v4vrv3gs",
+    },
     // {
     //   course: "ECE 110",
     //   time: "9/17, 3:00-5:30PM",
