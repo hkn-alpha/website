@@ -29,14 +29,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   // Midterm 1 review sessions
 
   1: [
-    // {
-      // course: "ECE 210",
-      // time: "",
-      // location: "",
+    {
+      course: "ECE 210",
+      time: "2/10, 12:30-3:00PM",
+      location: "ECEB 1013",
       // slidesLink:
       //   "https://docs.google.com/presentation/d/1CXofOoxZtO_cR1BebHQkYRe13f3pgFGrI8qTSA3OKug/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hompq6wy",
-    // },
+    },
     // {
     //   course: "ECE 329",
     //   time: "9/16, 3:00-5:30PM",
@@ -45,51 +45,51 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     //     "https://docs.google.com/presentation/d/1UPCvAUi-ZzFZ6ORe8GsolVXFSI01bNWWHf4e8tKRo10/edit?usp=sharing",
     //   recordingLink: "https://mediaspace.illinois.edu/media/t/1_xz8kf7xd",
     // },
-    // {
-    //   course: "ECE 120",
-    //   time: "9/16, 3:00-5:30PM",
-    //   location: "ECEB 1015",
-    //   slidesLink:
-    //     "https://docs.google.com/presentation/d/1I4ZS-_0Etu7jwnx0D7A4Scd7oEGkFKFMThA1Q-XDR48/edit?usp=sharing",
-    //   recordingLink: "https://mediaspace.illinois.edu/media/1_8aob1oz8",
-    // },
-    // {
-    //   course: "ECE 350",
-    //   time: "9/16, 3:00-5:30PM",
-    //   location: "ECEB 3015",
-    //   slidesLink:
-    //     "https://docs.google.com/presentation/d/1ZE0piNmhcMcQdak_Kk_NHYDkpmR82QnQDZGtrPL89wA/edit?usp=sharing",
-    //   recordingLink: "https://mediaspace.illinois.edu/media/t/1_0mq2wza9",
-    // },
-    // {
-    //   course: "ECE 374B",
-    //   time: "9/17, 12:30-3:00PM",
-    //   location: "ECEB 1002",
-    //   slidesLink:
-    //     "https://drive.google.com/file/d/17L-drxEQNKRLHoSRvSBL7QIub20A1ADJ/view?usp=sharing",
-    //   worksheetLink:
-    //     "https://drive.google.com/file/d/1-rDiFGUKRu2xR4nK9bDSLzDKqITh17qO/view?usp=sharing",
-    //   keyLink:
-    //     "https://drive.google.com/file/d/19_mMuWbkKN-m7gugjq7rayM811pr5v2T/view?usp=sharing",
-    //   keyReleaseTime: "2023-09-17T15:00:00-05:00",
-    //   scribblesLink:
-    //     "https://drive.google.com/file/d/1LWcq3Er-9YReYfkYc9Q5sdVhOLUCsrYD/view?usp=sharing",
-    //   recordingLink: "https://mediaspace.illinois.edu/media/1_ohalcdnh",
-    // },
-    // {
-    //   course: "ECE 220",
-    //   time: "9/17, 12:30-3:00PM",
-    //   location: "ECEB 1015",
-    //   slidesLink:
-    //     "https://docs.google.com/presentation/d/1cpcY2Ew17Ohvo0O3EfwxhTan90mxuxk3ixhEac0M4wg/edit?usp=sharing",
-    //   recordingLink: "https://mediaspace.illinois.edu/media/t/1_3hii29n3",
-    // },
+    {
+      course: "ECE 120",
+      time: "2/11, 1:00-3:00PM",
+      location: "ECEB 1002",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1I4ZS-_0Etu7jwnx0D7A4Scd7oEGkFKFMThA1Q-XDR48/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/1_8aob1oz8",
+    },
+    {
+      course: "ECE 350",
+      time: "2/17, 12:30-3:00PM",
+      location: "ECEB 3015",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1ZE0piNmhcMcQdak_Kk_NHYDkpmR82QnQDZGtrPL89wA/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_0mq2wza9",
+    },
+    {
+      course: "ECE 374B",
+      time: "2/11, 3:00-5:30PM",
+      location: "ECEB 1002",
+      // slidesLink:
+      //   "https://drive.google.com/file/d/17L-drxEQNKRLHoSRvSBL7QIub20A1ADJ/view?usp=sharing",
+      // worksheetLink:
+      //   "https://drive.google.com/file/d/1-rDiFGUKRu2xR4nK9bDSLzDKqITh17qO/view?usp=sharing",
+      // keyLink:
+      //   "https://drive.google.com/file/d/19_mMuWbkKN-m7gugjq7rayM811pr5v2T/view?usp=sharing",
+      // keyReleaseTime: "2023-09-17T15:00:00-05:00",
+      // scribblesLink:
+      //   "https://drive.google.com/file/d/1LWcq3Er-9YReYfkYc9Q5sdVhOLUCsrYD/view?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/1_ohalcdnh",
+    },
+    {
+      course: "ECE 220",
+      time: "2/10, 3:00-5:30PM",
+      location: "ECEB 1015",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1cpcY2Ew17Ohvo0O3EfwxhTan90mxuxk3ixhEac0M4wg/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_3hii29n3",
+    },
     {
       course: "ECE 342",
       time: "2/11, 3:00-5:30PM",
       location: "ECEB 1015",
-      slidesLink:
-        "https://docs.google.com/presentation/d/1luZMo6VillVmYgoIj4LHa38TeRx_EHNcbU0sOkzCyhU/",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1luZMo6VillVmYgoIj4LHa38TeRx_EHNcbU0sOkzCyhU/",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_v4vrv3gs",
     },
     // {
@@ -130,10 +130,10 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     // },
     // {
     //   course: "CS 374A",
-    //   time: "9/24 3:00-5:30PM",
+    //   time: "2/17 3:00-5:30PM",
     //   location: "ECEB 1002",
-    //   slidesLink:
-    //     "https://drive.google.com/file/d/1ZQArHSbGCyU-WH3airOVDVfKW0v9aXuZ/view?usp=drivesdk",
+      // slidesLink:
+      //   "https://drive.google.com/file/d/1ZQArHSbGCyU-WH3airOVDVfKW0v9aXuZ/view?usp=drivesdk",
     // },
     // {
     //   course: "ECE 330",

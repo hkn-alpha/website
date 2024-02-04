@@ -11,10 +11,9 @@
   import Select from "svelte-select";
   import Description from "../content/StudentServices/description.md";
   import Tutoring from "../content/StudentServices/tutoring.md";
-
   const tutors = unorderedTutors
     .map((x) => ({ v: x, r: Math.random() }))
-    .sort((x) => x.r)
+    .sort((x,y) => x.r - y.r)
     .map((x) => x.v);
 
   function standardizeClassName(name) {
