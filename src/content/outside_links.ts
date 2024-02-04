@@ -12,7 +12,7 @@
  * MAKE SURE LINKS START WITH THE PROTOCOL OTHERWISE THEY WILL NOT WORK!
  */
 
-import { YoutubeIcon } from "svelte-feather-icons";
+import { YoutubeIcon, MessageCircleIcon } from "svelte-feather-icons";
 
 type Link = {
   href: string;
@@ -30,4 +30,9 @@ export const links: Link[] = [
     name: "YouTube",
     icon: YoutubeIcon,
   },
+  {
+    href: "https://discord.gg/73Cqkw2CPW",
+    name: "Discord",
+    icon: MessageCircleIcon
+  }
 ];
