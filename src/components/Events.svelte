@@ -2,7 +2,7 @@
   import Event from "./Event.svelte";
   export let events;
 
-  let events2 = events.sort((a, b) => {
+  let events2 = events.filter(x => x != undefined).sort((a, b) => {
     if (a.date - b.date == 0) {
       if (
         a.time.toLowerCase().includes("am") &&
