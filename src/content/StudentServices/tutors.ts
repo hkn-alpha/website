@@ -204,7 +204,7 @@ export const tutors: Tutor[] = [
     name: "Qiran Pang",
     email: "qpang2@illinois.edu",
     courses: "ECE 120, ECE 220, PHYS 213, PHYS 214, CS 225",
-  }
+  },
   {
     name: "Dhruv Dilbaghi",
     email: "dhruvd4@illinois.edu",
