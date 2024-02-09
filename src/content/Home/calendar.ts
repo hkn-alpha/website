@@ -131,7 +131,6 @@ const events: Event[] = [
     new Date(2024, 1, 16),
     new Date(2024, 1, 23),
     new Date(2024, 2, 1),
-    new Date(2024, 2, 8),
     new Date(2024, 2, 15),
     new Date(2024, 2, 22),
     new Date(2024, 2, 29),
