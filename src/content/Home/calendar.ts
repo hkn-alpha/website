@@ -69,7 +69,7 @@ const commonLocations = {
   },
   rsoOffice: {
     ...eceb,
-    locationName: "HKN RSO Office (Next to Daily Byte)",
+    locationName: "HKN RSO Office ECEB 1016",
   },
   3013: {
     ...eceb,
@@ -117,7 +117,7 @@ const studentServices = (date: Date): Event => ({
   virtual: false,
   locationInfo: commonLocations[3013],
   description:
-    "Preparation/Meeting for all things Student Services! (I.e. Review sessions, Worksheets, Videos, HKN wiki, etc)",
+    "Preparation/Meeting for all things Student Services! (i.e. Review Sessions, Worksheets, Videos, HKN Wiki, etc)",
   initiatePointsCategory: "service",
   initiatePointsCount: 1,
 });
@@ -128,7 +128,7 @@ const valentineSocial = (date: Date): Event => ({
   virtual: false,
   locationInfo: commonLocations["rsoOffice"],
   description:
-    "Come hang out for Valentine's Day!",
+    "Come make custom cards with HKN! We have papercraft, fun stickers, markers, and more for everyone! All are welcome!!",
   initiatePointsCategory: "social",
   initiatePointsCount: 2,
 });
@@ -169,7 +169,7 @@ const events: Event[] = [
   ].map(studentServices),
 ...[,
     new Date(2024, 1, 13),
-].map(valentineSocial)
+].map(valentineSocial),
 ];
 
 export default events;
