@@ -121,6 +121,17 @@ const studentServices = (date: Date): Event => ({
   initiatePointsCategory: "service",
   initiatePointsCount: 1,
 });
+const valentineSocial = (date: Date): Event => ({
+  name: "Valentine's Day Social",
+  date,
+  time: "5:00pm-7:00pm",
+  virtual: false,
+  locationInfo: commonLocations["rsoOffice"],
+  description:
+    "Come hang out for Valentine's Day!",
+  initiatePointsCategory: "social",
+  initiatePointsCount: 2,
+});
 
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
@@ -156,6 +167,9 @@ const events: Event[] = [
     new Date(2024, 3, 21),
     new Date(2024, 3, 28)
   ].map(studentServices),
+...[,
+    new Date(2024, 1, 13),
+].map(valentineSocial)
 ];
 
 export default events;
