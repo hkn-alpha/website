@@ -33,8 +33,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 210",
       time: "2/10, 12:30-3:00PM",
       location: "ECEB 1013",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1CXofOoxZtO_cR1BebHQkYRe13f3pgFGrI8qTSA3OKug/edit?usp=sharing",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1D7qt_PjZCe-7bt2o37A4IkEdaUpQHC8OmryWWTjjGrw/edit",
       worksheetLink:
         "https://drive.google.com/file/d/161xDkxfiGE619EqR6OQTjHOOKdvNC51Q/view?usp=drive_link",
       // keyLink:
@@ -84,8 +84,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 220",
       time: "2/10, 3:00-5:30PM",
       location: "ECEB 1015",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1cpcY2Ew17Ohvo0O3EfwxhTan90mxuxk3ixhEac0M4wg/edit?usp=sharing",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1bT0OEXtO2O1YNWuZl-T_vqt0Ml8n78w8zX0DjI3G64M",
       worksheetLink:
         "https://drive.google.com/file/d/1n9P8LMIEFZXKYSaQCWnhG0det1iql6zN/view?usp=drive_link",
       // keyLink:
