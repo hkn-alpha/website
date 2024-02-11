@@ -39,7 +39,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://drive.google.com/file/d/161xDkxfiGE619EqR6OQTjHOOKdvNC51Q/view?usp=drive_link",
       // keyLink:
       //   "",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hompq6wy",
+      recordingLink: "https://mediaspace.illinois.edu/edit/1_zxao4gfy",
     },
     {
       course: "ECE 329",
