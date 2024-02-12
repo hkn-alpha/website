@@ -76,8 +76,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       // keyLink:
       //   "https://drive.google.com/file/d/19_mMuWbkKN-m7gugjq7rayM811pr5v2T/view?usp=sharing",
       // keyReleaseTime: "2023-09-17T15:00:00-05:00",
-      // scribblesLink:
-      //   "https://drive.google.com/file/d/1LWcq3Er-9YReYfkYc9Q5sdVhOLUCsrYD/view?usp=sharing",
+      scribblesLink:
+        "https://drive.google.com/file/d/1-3uQ6L2GA7CPNSo13GC6nIpOLKtizEwD/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/1_ohalcdnh",
     },
     {
