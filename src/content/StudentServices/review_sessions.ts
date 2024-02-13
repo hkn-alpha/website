@@ -88,8 +88,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://docs.google.com/presentation/d/1bT0OEXtO2O1YNWuZl-T_vqt0Ml8n78w8zX0DjI3G64M",
       worksheetLink:
         "https://drive.google.com/file/d/1n9P8LMIEFZXKYSaQCWnhG0det1iql6zN/view?usp=drive_link",
-      // keyLink:
-      //   "",
+      keyLink:
+        "https://drive.google.com/file/d/1MuYQ5aQBiSIl7awc5zkpwF89c1uZUdI6/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_3hii29n3",
     },
     {
