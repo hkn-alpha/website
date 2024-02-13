@@ -78,7 +78,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       // keyReleaseTime: "2023-09-17T15:00:00-05:00",
       scribblesLink:
         "https://drive.google.com/file/d/1-3uQ6L2GA7CPNSo13GC6nIpOLKtizEwD/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/1_ohalcdnh",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_kmtd1w6e",
     },
     {
       course: "ECE 220",
@@ -98,7 +98,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1luZMo6VillVmYgoIj4LHa38TeRx_EHNcbU0sOkzCyhU",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_v4vrv3gs",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_6370cupj",
     },
     {
       course: "ECE 110",
