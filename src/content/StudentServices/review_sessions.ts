@@ -45,24 +45,21 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 329",
       time: "2/17, 3:00-5:30PM",
       location: "ECEB 1013",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1UPCvAUi-ZzFZ6ORe8GsolVXFSI01bNWWHf4e8tKRo10/edit?usp=sharing",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1383nllT-HXhTrJVgKoTaEgW9KMQuRQZyfPC8eRYTR88/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_xz8kf7xd",
     },
     {
       course: "ECE 120",
       time: "2/11, 1:00-3:00PM",
       location: "ECEB 1002",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1I4ZS-_0Etu7jwnx0D7A4Scd7oEGkFKFMThA1Q-XDR48/edit?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/1_8aob1oz8",
     },
     {
       course: "ECE 350",
       time: "2/17, 12:30-3:00PM",
       location: "ECEB 2015",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1ZE0piNmhcMcQdak_Kk_NHYDkpmR82QnQDZGtrPL89wA/edit?usp=sharing",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1RSf3oz3aaozIApIQLowirUpX2nicIgqloZ0b-sfiLOA/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_0mq2wza9",
     },
     {
@@ -117,47 +114,47 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     //   recordingLink: "https://mediaspace.illinois.edu/media/t/1_udk1nzzl",
     // },
 
-    // {
-    //   course: "ECE 313",
-    //   time: "9/23 12:30-3:00PM",
-    //   location: "ECEB 1015",
-    //   slidesLink:
-    //     "https://docs.google.com/presentation/d/1JBbI-NtobciLy8ClZU8orgxUYxGYNwe1VF_hbzcXXb8/edit?usp=sharing",
-    // },
-    // {
-    //   course: "ECE 391",
-    //   time: "9/23 3:00-5:30PM",
-    //   location: "ECEB 1002",
-    // },
-    // {
-    //   course: "ECE 310",
-    //   time: "9/24 12:30-3:00PM",
-    //   location: "ECEB 1015",
-    //   slidesLink:
-    //     "https://docs.google.com/presentation/d/1ncav1BicR5VmJU2PyVeYhYkn6QZSKTHBdrikEqyWk_U/edit",
-    // },
+    {
+      course: "ECE 313",
+      time: "2/24 12:30-3:00PM",
+      location: "ECEB 1015",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1JBbI-NtobciLy8ClZU8orgxUYxGYNwe1VF_hbzcXXb8/edit?usp=sharing",
+    },
+    {
+      course: "ECE 391",
+      time: "2/17 3:00-5:30PM",
+      location: "ECEB 1002",
+    },
+    {
+      course: "ECE 310",
+      time: "2/25 12:30-3:00PM",
+      location: "ECEB 1015",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1ncav1BicR5VmJU2PyVeYhYkn6QZSKTHBdrikEqyWk_U/edit",
+    },
     {
       course: "CS 374A",
       time: "2/18 12:30-3:00PM",
       location: "ECEB 1002",
-      // slidesLink:
-      //   "https://drive.google.com/file/d/1ZQArHSbGCyU-WH3airOVDVfKW0v9aXuZ/view?usp=drivesdk",
+      slidesLink:
+        "https://drive.google.com/file/d/1ZFEj7r-tDQo-5RP2-QyuptxSmv2sSYrK/view?usp=sharing",
     },
     {
       course: "ECE 330",
       time: "2/18 12:30-3:00PM",
       location: "ECEB 1013",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1PaWICsnZj-vrO3L6qMJKQnLIvcblDxlRES5AeYLyL7w/edit?usp=sharing",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1jY0y60I7RX22yc2BUF-11JNqZiu4jhlL4Xu3rzagLuQ/edit?usp=sharing",
     },
-    // {
-    //   course: "ECE 340",
-    //   time: "10/01 3:00-5:30PM",
-    //   location: "ECEB 1015",
-    //   slidesLink:
-    //     "https://docs.google.com/presentation/d/1wyKH0Jcpi_YmwBwWIGH7pO9yyO-pfQPm1OZyuQO5y5U/edit?usp=sharing",
-    //   recordingLink: "https://mediaspace.illinois.edu/media/t/1_2rnbx347",
-    // },
+    {
+      course: "ECE 340",
+      time: "2/25 3:00-5:30PM",
+      location: "ECEB 1015",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1wyKH0Jcpi_YmwBwWIGH7pO9yyO-pfQPm1OZyuQO5y5U/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_2rnbx347",
+    },
   ],
 
   // Midterm 2 review sessions
