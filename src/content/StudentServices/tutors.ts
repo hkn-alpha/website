@@ -113,7 +113,7 @@ export const tutors: Tutor[] = [
   {
     name: "Saipranav Venkatakrishnan",
     email: "sv34@illinois.edu",
-    courses: "ECE 220",
+    courses: "ECE 210, ECE 220",
   },
   {
     name: "Eric Vo",
