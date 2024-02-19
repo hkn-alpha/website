@@ -47,7 +47,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1013",
       slidesLink:
         "https://docs.google.com/presentation/d/1383nllT-HXhTrJVgKoTaEgW9KMQuRQZyfPC8eRYTR88/edit?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_xz8kf7xd",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_fce4pbdi",
     },
     {
       course: "ECE 120",
@@ -105,7 +105,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://docs.google.com/presentation/d/1IfLTDXAXTyClxgFoPgG-EllETeaFWKKF/edit?usp=sharing&ouid=104786379280630850812&rtpof=true&sd=true",
       scribblesLink:
         "https://drive.google.com/file/d/1szQQvXQFEOUI32z6VxAn_KGgMSxclwjQ/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_dl5om45u",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_bv2u6drd",
     },
     // {
     //   course: "ECE 411",
