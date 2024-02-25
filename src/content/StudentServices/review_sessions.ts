@@ -120,9 +120,13 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 313",
       time: "2/24 12:30-3:00PM",
       location: "ECEB 1015",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1JBbI-NtobciLy8ClZU8orgxUYxGYNwe1VF_hbzcXXb8/edit?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_u1wnpqjc",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1JBbI-NtobciLy8ClZU8orgxUYxGYNwe1VF_hbzcXXb8/edit?usp=sharing",
+      worksheetLink:
+        "https://drive.google.com/file/d/1QyGtcQTM7Af7ar-jFl6IeuRhD5eYanwJ/view?usp=sharing",
+      // keyLink:
+      //   "",
     },
     {
       course: "ECE 391",
@@ -133,8 +137,12 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 310",
       time: "2/25 12:30-3:00PM",
       location: "ECEB 1015",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1ncav1BicR5VmJU2PyVeYhYkn6QZSKTHBdrikEqyWk_U/edit",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1ncav1BicR5VmJU2PyVeYhYkn6QZSKTHBdrikEqyWk_U/edit?usp=sharing",
+      worksheetLink:
+        "https://drive.google.com/file/d/1XcMCJx5hiI-y6V9XCha2BWWgAv_uhxpz/view?usp=sharing",
+      // keyLink:
+      //   "",
     },
     {
       course: "CS 374A",
@@ -154,8 +162,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 340",
       time: "2/25 3:00-5:30PM",
       location: "ECEB 1015",
-      // slidesLink:
-      //   "https://docs.google.com/presentation/d/1wyKH0Jcpi_YmwBwWIGH7pO9yyO-pfQPm1OZyuQO5y5U/edit?usp=sharing",
+      slidesLink:
+        "https://docs.google.com/presentation/d/1czZLDwCpj35HxSlKPHGlTLuINqHZ1VdQKET2jbhQ-pE/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_2rnbx347",
     },
   ],
