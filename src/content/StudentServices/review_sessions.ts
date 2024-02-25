@@ -125,8 +125,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://docs.google.com/presentation/d/1JBbI-NtobciLy8ClZU8orgxUYxGYNwe1VF_hbzcXXb8/edit?usp=sharing",
       worksheetLink:
         "https://drive.google.com/file/d/1QyGtcQTM7Af7ar-jFl6IeuRhD5eYanwJ/view?usp=sharing",
-      // keyLink:
-      //   "",
+      keyLink:
+        "https://drive.google.com/file/d/1EWiPR-csEOFQ2_phVIrzapdM2SCkx771/view?usp=sharing",
     },
     {
       course: "ECE 391",
