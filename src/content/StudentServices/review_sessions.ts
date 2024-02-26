@@ -141,8 +141,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://docs.google.com/presentation/d/1ncav1BicR5VmJU2PyVeYhYkn6QZSKTHBdrikEqyWk_U/edit?usp=sharing",
       worksheetLink:
         "https://drive.google.com/file/d/1XcMCJx5hiI-y6V9XCha2BWWgAv_uhxpz/view?usp=sharing",
-      // keyLink:
-      //   "",
+      keyLink:
+        "https://drive.google.com/file/d/1sJmNCVddjOlf7O4f9HFMHY0YBiNbzXEO/view?usp=sharing",
     },
     {
       course: "CS 374A",
