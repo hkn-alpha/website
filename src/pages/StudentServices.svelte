@@ -73,6 +73,8 @@
     value: intialSession,
     label: intialSession,
   };
+
+  $: value, console.log(value);
 </script>
 
 <svelte:head>
