@@ -196,7 +196,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 //         "https://docs.google.com/presentation/d/1W0Ta4_LwfKXOBjj2kYrGVJ3gLCzaIWhydKWHHd_6nSQ/edit?usp=sharing",
 //       recordingLink: "https://mediaspace.illinois.edu/media/t/1_jdnxkt8n",
       worksheetLink:
-        "https://drive.google.com/file/d/1tCjIziHAKFdBZALyICnE2sq3RvWKEJgU/view?usp=sharing"
+        "https://drive.google.com/file/d/1tCjIziHAKFdBZALyICnE2sq3RvWKEJgU/view?usp=sharing",
       keyLink:
         "https://drive.google.com/file/d/1ItWM1H7koBHf9ejyopE5zPVl1uZsmaxo/view?usp=sharing",
       keyReleaseTime: "2024-03-18T22:00:00-05:00",
@@ -223,7 +223,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1pwWygOz5bBHFrVYeW0o5_k6HFDJcfIBsFW1F6MhPfkU/edit?usp=sharing",
       worksheetLink:
-        "https://drive.google.com/file/d/1-auc6bO46KBl2jYDruYjt7UkFVNGFb3k/view?usp=sharing"
+        "https://drive.google.com/file/d/1-auc6bO46KBl2jYDruYjt7UkFVNGFb3k/view?usp=sharing",
       keyLink:
         "https://drive.google.com/file/d/1wXioRkkK8Bw8u51wy-O8ljfb1sZyMwaO/view?usp=sharing",
       keyReleaseTime: "2024-03-18T20:00:00-05:00",
