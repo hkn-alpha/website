@@ -1,6 +1,7 @@
 <script>
   export let sessions;
-  const sortedSessions = sessions.sort((s1,s2) => s1.course.localeCompare(s2.course));
+  let sortedSessions = sessions.sort((s1,s2) => s1.course.localeCompare(s2.course));
+  $: sessions, sortedSessions = sessions.sort((s1,s2) => s1.course.localeCompare(s2.course));
 </script>
 
 <div class="table-container">
