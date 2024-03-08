@@ -174,31 +174,36 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   2: [
 //     {
 //       course: "ECE 110",
-//       time: "10/14 12:30-3:00PM",
+//       time: "10/14, 12:30-3:00PM",
 //       location: "ECEB 1002",
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1dlUrP7N9YIuslbnsIuSkLNTctEXXfTMaPJ3_OE083FY/edit?usp=sharing",
 //       recordingLink: "https://mediaspace.illinois.edu/media/t/1_fy3c2bik",
 //     },
-//     {
-//       course: "ECE 210",
-//       time: "10/14 12:30-3:00PM",
-//       location: "ECEB 1015",
+    {
+      course: "ECE 210",
+      time: "3/18, 6:00-8:30PM",
+      location: "ECEB 1015",
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1FLWUyBAbRcMg3qChmFa6195P0i4_6bwl9HDL4GHcpYQ/edit?usp=sharing",
 //       recordingLink: "https://mediaspace.illinois.edu/media/t/1_0e2jahqc",
-//     },
-//     {
-//       course: "ECE 120",
-//       time: "10/14 3:00-5:30PM",
-//       location: "ECEB 1002",
+    },
+    {
+      course: "ECE 120 (UA review session)",
+      time: "3/18, 7:00-10:00PM",
+      location: "ECEB 1002",
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1W0Ta4_LwfKXOBjj2kYrGVJ3gLCzaIWhydKWHHd_6nSQ/edit?usp=sharing",
 //       recordingLink: "https://mediaspace.illinois.edu/media/t/1_jdnxkt8n",
-//     },
+      worksheetLink:
+        "https://drive.google.com/file/d/1tCjIziHAKFdBZALyICnE2sq3RvWKEJgU/view?usp=sharing"
+      keyLink:
+        "https://drive.google.com/file/d/1ItWM1H7koBHf9ejyopE5zPVl1uZsmaxo/view?usp=sharing",
+      keyReleaseTime: "2024-03-18T22:00:00-05:00",
+    },
 //     {
 //       course: "ECE 329",
-//       time: "10/14 3:00-5:30PM",
+//       time: "10/14, 3:00-5:30PM",
 //       location: "ECEB 1015",
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1fQ2ePktve7hgtpm_QA_hhB6dLURO1pd4goiwwV81dCQ/edit?usp=sharing",
@@ -206,18 +211,23 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 //     },
 //     {
 //       course: "ECE 350",
-//       time: "10/14 3:00-5:30PM",
+//       time: "10/14, 3:00-5:30PM",
 //       location: "ECEB 3015",
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1l6_uKIay8u91N4YVJg_nCMIETB0GxrmWy0NC9qB9DGY/edit?usp=sharing",
 //     },
-//     {
-//       course: "ECE 342",
-//       time: "10/15 12:30-3:00PM",
-//       location: "ECEB 1015",
+    {
+      course: "ECE 342",
+      time: "3/18, 6:00-8:30PM",
+      location: "ECEB 1013",
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1pwWygOz5bBHFrVYeW0o5_k6HFDJcfIBsFW1F6MhPfkU/edit?usp=sharing",
-//     },
+      worksheetLink:
+        "https://drive.google.com/file/d/1-auc6bO46KBl2jYDruYjt7UkFVNGFb3k/view?usp=sharing"
+      keyLink:
+        "https://drive.google.com/file/d/1wXioRkkK8Bw8u51wy-O8ljfb1sZyMwaO/view?usp=sharing",
+      keyReleaseTime: "2024-03-18T20:00:00-05:00",
+    },
 //     {
 //       course: "ECE 220",
 //       time: "10/28 12:30-3:00PM",
@@ -349,7 +359,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 // When the UI should rollover stop showing the given review session
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
-  1: new Date(2024, 3, 1), // ends 3/1
+//   1: new Date(2024, 3, 1), // ends 3/1
+  1: new Date(1),
   2: new Date(2024, 3, 15), // ends 4/15
   3: new Date(2024, 3, 29), // Date(1) makes sure this will never be default bc it occured in the past
 };
