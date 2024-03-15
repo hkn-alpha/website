@@ -199,7 +199,6 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://drive.google.com/file/d/1tCjIziHAKFdBZALyICnE2sq3RvWKEJgU/view?usp=sharing",
       keyLink:
         "https://drive.google.com/file/d/1ItWM1H7koBHf9ejyopE5zPVl1uZsmaxo/view?usp=sharing",
-      keyReleaseTime: "2024-03-18T22:00:00-05:00",
     },
 //     {
 //       course: "ECE 329",
