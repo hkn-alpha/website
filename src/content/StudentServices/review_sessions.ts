@@ -189,7 +189,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 //       recordingLink: "https://mediaspace.illinois.edu/media/t/1_0e2jahqc",
     },
     {
-      course: "ECE 120 (UA Review Session)",
+      course: "ECE 120 (UAs)",
       time: "3/18, 7:00-10:00PM",
       location: "ECEB 1002",
 //       slidesLink:
