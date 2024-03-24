@@ -255,6 +255,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "3/24 3:00-5:30PM",
       location: "ECEB 1002",
       worksheetLink: "https://drive.google.com/file/d/1gzvy4hKZx5bcF7r4mrC4ckXAbsHX50Wm/view?usp=sharing",
+      keyLink: "https://drive.google.com/file/d/1XGW8rHaVVX4s1AjK1zMyhtDtPx1RkS1F/view?usp=sharing",
       // slidesLink:
       //   "https://drive.google.com/file/d/19cirgmF24QO9xwP8UwXdqHf-pRrVcZF9/view?usp=sharing",
       // scribblesLink:
