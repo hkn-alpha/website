@@ -206,7 +206,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1QHAjzuZ5Fywo5LT0x87cgkGFB3RI24g_Gs-YkqAXInE/edit?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_vsua79wk",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_ctt4lv86",
     },
 //     {
 //       course: "ECE 350",
