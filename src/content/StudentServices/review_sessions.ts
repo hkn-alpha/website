@@ -239,7 +239,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       worksheetLink:
         "https://drive.google.com/file/d/1uYPoqthQ8to6F4MNifMA606HnsH2lkxU/view?usp=sharing",
       keyLink:
-        "https://drive.google.com/drive/u/1/folders/1oq30Lf6AZFaxuM0jHtI119q9j2CmaLpr",
+        "https://drive.google.com/file/d/1NKmUaxwRYsfZ8imVdg_51B0Zy1RP6lf4/view?usp=sharing",
       keyReleaseTime: "2024-03-24T17:30:00-05:00",
     },
 //     {
