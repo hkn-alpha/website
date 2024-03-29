@@ -242,14 +242,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://drive.google.com/file/d/1NKmUaxwRYsfZ8imVdg_51B0Zy1RP6lf4/view?usp=sharing",
       keyReleaseTime: "2024-03-24T17:30:00-05:00",
     },
-//     {
-//       course: "ECE 313",
-//       time: "10/28 3:00-5:30PM",
-//       location: "ECEB 1015",
-//       slidesLink:
-//         "https://docs.google.com/presentation/d/1nw052Ty7WH8-kGdZTvHYT-LCIyV4OTo4eHR0djIT1YM/edit?usp=sharing",
-//       recordingLink: "https://mediaspace.illinois.edu/media/t/1_8oiexu9f",
-//     },
+    {
+      course: "ECE 313",
+      time: "4/6 12:30-3:00PM",
+      location: "ECEB 1015",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1nw052Ty7WH8-kGdZTvHYT-LCIyV4OTo4eHR0djIT1YM/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_8oiexu9f",
+    },
     {
       course: "ECE 374B",
       time: "3/24 3:00-5:30PM",
@@ -262,44 +262,49 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       //   "https://drive.google.com/file/d/1ZZsszBtJo3fvqj0VmFnVqIQLp3QFzNZy/view?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_a79o43s3",
     },
-//     {
-//       course: "ECE 310",
-//       time: "10/29 12:30-3:00PM",
-//       location: "ECEB 1015",
-//       recordingLink: "https://mediaspace.illinois.edu/media/t/1_yof8kzea",
-//       slidesLink:
-//         "https://docs.google.com/presentation/d/1HbR9sTHtezBkg0azU-Q1MWmEQHga1Ui1sxniE_pm4Mg/edit?usp=sharing",
-//     },
-//     {
-//       course: "ECE 330",
-//       time: "10/29 3:00-5:30PM",
-//       location: "ECEB 1015",
-//       slidesLink:
-//         "https://docs.google.com/presentation/d/12YqjBW0YdTzPRlnhlN-zMrCYQuc8jgf6yuyixIVVvmg/edit?usp=sharing",
-//       recordingLink: "https://mediaspace.illinois.edu/media/t/1_rqbqidsb",
-//     },
-//     {
-//       course: "ECE 391",
-//       time: "11/04 3:00-5:30PM",
-//       location: "ECEB 1002",
-//     },
-//     {
-//       course: "CS 374A",
-//       time: "11/04 5:30-8:00PM",
-//       location: "ECEB 1002",
-//       slidesLink:
-//         "https://drive.google.com/file/d/1BVppK_jApksBTZjT8IJ_tyohV0VNBav1/view?usp=drive_link",
-//       recordingLink: "https://mediaspace.illinois.edu/media/t/1_sgt8mpzt",
-//     },
+    {
+      course: "ECE 310",
+      time: "4/7 12:30-3:00PM",
+      location: "ECEB 1015",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_yof8kzea",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1HbR9sTHtezBkg0azU-Q1MWmEQHga1Ui1sxniE_pm4Mg/edit?usp=sharing",
+    },
+    {
+      course: "ECE 330",
+      time: "4/7 3:00-5:30PM",
+      location: "ECEB 1013",
+      slidesLink:
+        "https://docs.google.com/presentation/d/12YqjBW0YdTzPRlnhlN-zMrCYQuc8jgf6yuyixIVVvmg/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_rqbqidsb",
+    },
+    {
+      course: "ECE 391",
+      time: "4/6 3:00-5:30PM",
+      location: "ECEB 1013",
+    },
+    {
+      course: "CS 374A",
+      time: "4/7 12:30-3:00PM",
+      location: "ECEB 1002",
+      // slidesLink:
+      //   "https://drive.google.com/file/d/1BVppK_jApksBTZjT8IJ_tyohV0VNBav1/view?usp=drive_link",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_sgt8mpzt",
+    },
 
-//     {
-//       course: "ECE 340",
-//       time: "11/05 3:00-5:30PM",
-//       location: "ECEB 1015",
-//       slidesLink:
-//         "https://docs.google.com/presentation/d/1R6lPhmtKsaX5lrs9T36xxDr5xAaKbtpJ5ktMOYihdAo/edit?usp=sharing",
-//       recordingLink: "https://mediaspace.illinois.edu/media/t/1_qmnrrggr",
-//     },
+    {
+      course: "ECE 340",
+      time: "4/7 3:00-5:30PM",
+      location: "ECEB 1015",
+      // slidesLink:
+      //   "https://docs.google.com/presentation/d/1R6lPhmtKsaX5lrs9T36xxDr5xAaKbtpJ5ktMOYihdAo/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_qmnrrggr",
+    },
+    {
+      course: "ECE 411",
+      time: "4/7 3:00-5:30PM",
+      location: "ECEB 1002",
+    },
   ],
 
 // Midterm 3 review sessions
