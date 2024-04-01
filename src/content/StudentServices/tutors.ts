@@ -83,7 +83,7 @@ export const tutors: Tutor[] = [
   {
     name: "Pradyun Narkadamilli",
     email: "pradyun2@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, ECE 342, MATH 257, MATH 285, CS 173, CS 225, ECE 391",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, ECE 342, MATH 257, MATH 285, CS 173, CS 225, ECE 391, ECE482, ECE411",
   },
   {
     name: "Ethan Chastain",
