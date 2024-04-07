@@ -228,7 +228,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1nw052Ty7WH8-kGdZTvHYT-LCIyV4OTo4eHR0djIT1YM/edit?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_8oiexu9f",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_2vmyhndm",
     },
     {
       course: "ECE 329",
@@ -301,7 +301,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     {
       course: "ECE 411",
       time: "4/7, 3:00-5:30PM",
-      location: "ECEB 1002",
+      location: "ECEB 3017",
+      slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing"
     },
   ],
 
