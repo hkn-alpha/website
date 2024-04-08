@@ -218,7 +218,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 310",
       time: "4/7, 12:30-3:00PM",
       location: "ECEB 1015",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_yof8kzea",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_bz4r2e4k",
       slidesLink:
         "https://docs.google.com/presentation/d/1HbR9sTHtezBkg0azU-Q1MWmEQHga1Ui1sxniE_pm4Mg/edit?usp=sharing",
     },
@@ -246,7 +246,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
         "https://docs.google.com/presentation/d/1bSnLkdFRL1WBnzCzmyAsix2wlfDOzWmOwh5JHzfIyx0/edit?usp=sharing",
       scribblesLink:
         "https://drive.google.com/file/d/1TsvMj3YuX63V4256oDsFMoXTEuVcc9vI/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_rqbqidsb",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_m5tjwfrx",
     },
     {
       course: "ECE 340",
@@ -254,7 +254,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1015",
       slidesLink:
         "https://docs.google.com/presentation/d/1RHME70gYH1FnC8Y2nYUx4x9rKAmlgL8fXKoIxP7G2JU/edit?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_qmnrrggr",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_i4wz8g16",
     },
     {
       course: "ECE 342",
