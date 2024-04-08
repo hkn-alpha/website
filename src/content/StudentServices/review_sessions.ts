@@ -313,19 +313,19 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   3: [
     {
       course: "ECE 110",
-      time: "4/20, 3:00-5:30PM",
+      time: "4/21, 12:30-3:00PM",
       location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1TK59nHz3wMp3DFaRmbxYKBj30dlgWCMSkdk1fd4SE5M/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_28d3r48a",
     },
-//     {
-//       course: "ECE 120",
-//       time: "11/11, 3:00-5:30PM",
-//       location: "ECEB 1002",
-//       slidesLink: "https://docs.google.com/presentation/d/1FsBrROy3kXH8TffpkNyq5T79h9DKE976UTF9LFGGe1Q/edit?usp=sharing",
-//       worksheetLink: "https://docs.google.com/document/d/14zn0CNY-1P2i41quMAt3TmFlfz4lYQrqWY9Yz4bTkZk/edit?usp=sharing",
-//       recordingLink: "https://mediaspace.illinois.edu/media/t/1_yf8f1jf9",
-//     },
+    {
+      course: "ECE 120",
+      time: "4/13, 1:00-4:00PM",
+      location: "ECEB 1002",
+      // slidesLink: "https://docs.google.com/presentation/d/1FsBrROy3kXH8TffpkNyq5T79h9DKE976UTF9LFGGe1Q/edit?usp=sharing",
+      // worksheetLink: "https://docs.google.com/document/d/14zn0CNY-1P2i41quMAt3TmFlfz4lYQrqWY9Yz4bTkZk/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_yf8f1jf9",
+    },
     {
       course: "ECE 210",
       time: "4/14, 3:00-5:30PM",
@@ -345,11 +345,16 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "4/14, 3:00-5:30PM",
       location: "ECEB 1013",
       // slidesLink: "https://docs.google.com/presentation/d/1oo5I7Y-vQCH7pBZH1LO4gd48pXrmOBaND1xB2vL91to/edit?usp=sharing",
+      worksheetLink:
+      "https://drive.google.com/file/d/1bSXGfkXlYqI-CBnoQ29MAA0NgISd0vL0/view?usp=sharing",
+      keyLink:
+      "https://drive.google.com/file/d/123J-pTO7vUIgu5n_mnN9RA3XPsG6s5cv/view?usp=sharing",
+      keyReleaseTime: "2024-04-14T17:30:00-05:00",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_m9xjoixx"
     },
     {
       course: "ECE 350",
-      time: "4/20, 3:00-5:30PM",
+      time: "4/21, 3:00-5:30PM",
       location: "ECEB 3015",
       // slidesLink: "https://docs.google.com/presentation/d/1DRcFt1Yiec-REI1L-pTcy06_AGoqrz3TwaTNV6gaO-Q/edit?usp=sharing"
     },
@@ -370,7 +375,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2024, 2, 1),
-  2: new Date(2024, 3, 19), // ends 4/15
+  2: new Date(2024, 3, 11), // ends 4/11
   3: new Date(2024, 3, 29), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
