@@ -322,7 +322,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 120 (UAs)",
       time: "4/13, 1:00-4:00PM",
       location: "ECEB 1002",
-      worksheetLink: "https://drive.google.com/file/d/1-u7nzRA9xo_rPniEZRE30GVAJdMwM7sh/view?usp=sharing",
+      worksheetLink: "https://drive.google.com/file/d/1RpXgilbk1FrwYEla4lr0BjmSWVsg2ru8/view?usp=sharing",
+      keyLink: "https://drive.google.com/file/d/1DxbKAm1mwIUZ5pTmJ7b1pz6YhyXXYz2M/view?usp=sharing",
     },
     {
       course: "ECE 210",
@@ -347,7 +348,6 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       "https://drive.google.com/file/d/11b2sUV6kaXwtyKw_671XNCXeyP2ZQr7h/view?usp=sharing",
       keyLink:
       "https://drive.google.com/file/d/1j9588Km3CgqWTrX6sKJE-vr2Zu5WpOa9/view?usp=sharing",
-      keyReleaseTime: "2024-04-14T17:30:00-05:00",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_m9xjoixx"
     },
     {
