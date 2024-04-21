@@ -364,7 +364,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "CIF 2035",
       // slidesLink: "https://drive.google.com/file/d/1k10ZIkoo3lJk4qpopX3AoQFPiJAM48FE/view?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/1sSDGObzFvQ136ib-DUcnXO19KXCdSMWH/view?usp=sharing",
-      // worksheetLink: "https://drive.google.com/file/d/1riUxlkpnRqSBwR0lBSm5GT7qKCT0EJr4/view?usp=sharing",
+      worksheetLink: "https:/https://drive.google.com/file/d/1B0-Gnii5PvOewTqA-89D87LCrGULHblB/view?usp=sharing",
       // keyLink: "https://drive.google.com/file/d/1Pxkpyi-X9JGThPWZ5qw9J8oIo3EBGUCl/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_odrz04ix"
     }
