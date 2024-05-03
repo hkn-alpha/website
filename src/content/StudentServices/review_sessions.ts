@@ -389,7 +389,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1002",
     worksheetLink: "https://drive.google.com/file/d/1vyxIWB40dKTKbQ8IrY9NC9GVQWhgmiKN/view?usp=sharing",
     // keyLink: "https://drive.google.com/file/d/1E3gmO7KG4qtiMCYEyeerOll93LG5qCUo/view?usp=drive_link",
-    // slidesLink: "https://docs.google.com/presentation/d/1pQwrrlihl2TA6hj23iHFEoOXtii6RYdP3jiT8vPooX4/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/1195XdMWAw-zQcDaKMiYT4-bIBKBj242_W4NXrQGX5oc/edit?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_d90ihf5u",
   },
   {
@@ -405,7 +405,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1015",
     worksheetLink: "https://drive.google.com/file/d/1Reyf0MNfHZx0Fwu56MfwOJs4hmeYdiAA/view?usp=sharing",
     // keyLink: "https://drive.google.com/file/d/1XXM_ec2DjGvA8EoK_mpErtUEabeKNGTR/view?usp=drive_link",
-    // slidesLink: "https://docs.google.com/presentation/d/1yUOEXgJFhq3aQyJxZSa1z5dKIqCRmHiRzQjn7hOwTc8/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/1CfkrvZaRmbIvkvXor6tDsYa89rXSqG7u3lCB7NwLzIE/edit?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_cui9ujoj",
   },
   {
@@ -414,7 +414,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 2013",
     worksheetLink: "https://drive.google.com/file/d/1H_5uCX3avTifvlBBCbBBSZ88B01P4dOl/view?usp=sharing",
     // keyLink: "https://drive.google.com/file/d/1jZwPaOV9NNgEI051_dW5f7NeIK-WLCdg/view?usp=drive_link",
-    // slidesLink: "https://docs.google.com/presentation/d/12HG697kACXEFVtFxx99-T8gVxCguXIe-C98YC_fOkto/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/12HG697kACXEFVtFxx99-T8gVxCguXIe-C98YC_fOkto/edit?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_fdcs3o5t",
   },
   {
@@ -433,7 +433,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/100VMlQLnIhOp5jgspYP4OOd75zlhy4Ic/view?usp=sharing",
     // keyLink: "https://drive.google.com/file/d/1OPlYA3oy1bdtlXXt0kbUT2XJrr1jVqbh/view?usp=drive_link",
-    // slidesLink: "https://docs.google.com/presentation/d/1QyfV6RLjtbeXq2waUGUnJ_wpEt-Em90Jq_Dm66o7B7g/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/1QyfV6RLjtbeXq2waUGUnJ_wpEt-Em90Jq_Dm66o7B7g/edit?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_1mp2tdi1",
   },
   {
@@ -442,7 +442,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/1ViEq9sjt-MGtsu5PVd8cUAdj3YFowUMT/view?usp=sharing",
     // keyLink: "https://drive.google.com/file/d/1luk6OfXq2o1JU-XDtWCCATPglUWQWCDU/view?usp=drivesdk",
-    // slidesLink: "https://docs.google.com/presentation/d/10M8YcLLaTNhOpJAhnqRpe415OuawCfTK0CjWOQ2fyeY/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/1HLXTdKzjYesI8kfQqmyRgpcTxO5mpsRIj0IwlBaIo1A/edit#slide=id.p",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_gprcymep",
 
   },
@@ -452,7 +452,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1013",
     worksheetLink: "https://drive.google.com/file/d/1-c5n1eYXoh1zgtKt_juDpg77cnb5V4re/view?usp=sharing",
     // keyLink: "https://drive.google.com/file/d/1uHtzwOenUVr7TzLSINaNW1jqKfPwTyho/view?usp=drive_link",
-    // slidesLink: "https://docs.google.com/presentation/d/1pmWpt3XFVYnzP2hMZBeHgilXTo5t4--U474ELiM6oJc/edit?usp=drive_link",
+    slidesLink: "https://docs.google.com/presentation/d/1vMyI7PFTXFXaN7h8ZTqXa5aeTm8ndin6g4oVZ-Z3FM0/edit?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_u7zz6edp"
   },
   {
