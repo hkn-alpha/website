@@ -427,7 +427,7 @@ export const crammingCarnival: ReviewSession[] = [
     keyLink: "https://drive.google.com/file/d/1QhmA73-vLdBFd2W5lOhnE5kEmPTzC1-n/view?usp=sharing",
     keyReleaseTime: "2024-05-02T15:00:00-05:00",
     slidesLink: "https://docs.google.com/presentation/d/1iMMu6iwAZQYGhq-r6cMGx05Qp3ELlfphXmLcVxRBH6I/edit?usp=sharing",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_qly5h9qb",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_9utvtz02",
   },
   {
     course: "ECE 313",
@@ -446,7 +446,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1ViEq9sjt-MGtsu5PVd8cUAdj3YFowUMT/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1kXhCLQTFBdye9PR_6jPwxI50mnq5gGRw/view?usp=sharing",
     slidesLink: "https://docs.google.com/presentation/d/1HLXTdKzjYesI8kfQqmyRgpcTxO5mpsRIj0IwlBaIo1A/edit#slide=id.p",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_gprcymep",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_k6gv0sj6",
 
   },
   {
@@ -456,7 +456,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/1-c5n1eYXoh1zgtKt_juDpg77cnb5V4re/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1tUWm_3Maav82SDEaEcTzClY8127Ty9QG/view?usp=sharing",
     slidesLink: "https://docs.google.com/presentation/d/1vMyI7PFTXFXaN7h8ZTqXa5aeTm8ndin6g4oVZ-Z3FM0/edit?usp=sharing",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_u7zz6edp"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_nc4pkh22"
   },
   {
     course: "ECE 340",
@@ -465,7 +465,7 @@ export const crammingCarnival: ReviewSession[] = [
     worksheetLink: "https://drive.google.com/file/d/18h9MuOni-8TEX8cS9nw5pPqMAAnbcZGk/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1k57IRKvujePXyB3gOXLQM9lTH_YgWphA/view?usp=sharing",
     slidesLink: "https://docs.google.com/presentation/d/1pmCGALsXBvKEJ_CPcXr2sVu2ax1FtyvwB8d3lAzfj_k/edit?usp=sharing",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_y188ysjq",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_np47vmfw",
   },
   {
     course: "ECE 342",
@@ -483,6 +483,7 @@ export const crammingCarnival: ReviewSession[] = [
     keyLink: "https://drive.google.com/file/d/1MICURQdTIvWJZnHI3YjTDLn1H1Q7TFZ-/view?usp=sharing",
     keyReleaseTime: "2024-05-02T15:00:00-05:00",
     slidesLink: "https://docs.google.com/presentation/d/1MECEbz1dDlIxj6KvqyJ6kjCWDwF84mu8R51zR_Jf8UI/edit?usp=sharing",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_7foc80dj"
   },
   {
     course: "CS 374A",
