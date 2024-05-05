@@ -512,5 +512,6 @@ export const crammingCarnival: ReviewSession[] = [
     course: "ECE 411",
     time: "5/5 12:30-3:00PM",
     location: "ECEB 1015",
+    slidesLink: "https://docs.google.com/presentation/d/1saTt_Vpiwl7udDS04x9DtKx1J4lEz-bx6getC6EiyxU/edit?usp=sharing",
   },
 ];
