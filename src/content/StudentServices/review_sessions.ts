@@ -405,7 +405,8 @@ export const crammingCarnival: ReviewSession[] = [
     time: "5/5 3:00-5:30PM",
     location: "ECEB 1015",
     worksheetLink: "https://drive.google.com/file/d/1Reyf0MNfHZx0Fwu56MfwOJs4hmeYdiAA/view?usp=sharing",
-    keyLink: "https://drive.google.com/file/d/1tJvNCfQ4HniZwQBPqXUKCRMJNY038jZW/view?usp=drive_link",
+    
+    keyLink: "https://drive.google.com/file/d/1gffxxO-4vRgngQeJdaESgT8-YVB9qoVX/view?usp=drive_link",
     keyReleaseTime: "2024-05-05T17:30:00-05:00",
     slidesLink: "https://docs.google.com/presentation/d/1CfkrvZaRmbIvkvXor6tDsYa89rXSqG7u3lCB7NwLzIE/edit?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_cui9ujoj",
