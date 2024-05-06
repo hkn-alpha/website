@@ -415,7 +415,7 @@ export const crammingCarnival: ReviewSession[] = [
     time: "5/4 3:00-5:30PM",
     location: "ECEB 2013",
     worksheetLink: "https://drive.google.com/file/d/1H_5uCX3avTifvlBBCbBBSZ88B01P4dOl/view?usp=sharing",
-    keyLink: "https://drive.google.com/file/d/1DXfsl9t33_-SrhjLm-sl1RokncvOhm6x/view?usp=sharing",
+    keyLink: "https://drive.google.com/file/d/1DXfsl9t33_-SrhjLm-sl1RokncvOhm6x/view?usp=drive_link",
     slidesLink: "https://docs.google.com/presentation/d/12HG697kACXEFVtFxx99-T8gVxCguXIe-C98YC_fOkto/edit?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_fdcs3o5t",
   },
