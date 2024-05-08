@@ -391,6 +391,7 @@ export const crammingCarnival: ReviewSession[] = [
     keyLink: "https://drive.google.com/file/d/1E3gmO7KG4qtiMCYEyeerOll93LG5qCUo/view?usp=sharing",
     keyReleaseTime: "2024-05-05T15:00:00-05:00",
     slidesLink: "https://docs.google.com/presentation/d/1195XdMWAw-zQcDaKMiYT4-bIBKBj242_W4NXrQGX5oc/edit?usp=sharing",
+    scribblesLink: "https://drive.google.com/file/d/1KwFbP_ta0-6STMinlwC6fFb5fnadhoQT/view?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_d90ihf5u",
   },
   {
