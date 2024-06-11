@@ -1,48 +1,48 @@
 {
   "leaders": [
     {
-      "name": "Alex Zhang",
-      "image": "/alexprofilepic.jpg",
+      "name": "V Verma",
+      "image": "/vprofilepic.webp",
       "role": "President"
-    },
-    {
-      "name": "Ivan Ramos",
-      "image": "/ivanprofilepic.jpg",
-      "role": "Vice President"
-    },
-    {
-      "name": "Grant McKechnie",
-      "image": "/grantprofilepic.jpg",
-      "role": "Treasurer/Events"
-    },
-    {
-      "name": "Sania Huq",
-      "image": "/saniaprofilepic.webp",
-      "role": "Initiate Affairs"
-    },
-    {
-      "name": "Aidan Rodgers",
-      "image": "/aidanprofilepic.jpg",
-      "role": "Student Services"
-    },
-    {
-      "name": "Ethan Greenwald",
-      "image": "/ethanprofilepic.webp",
-      "role": "Review Sessions"
     },
     {
       "name": "Eisa Kamran",
       "image": "/eisaprofilepic.jpg",
+      "role": "Vice President"
+    },
+    {
+      "name": "David Thomas",
+      "image": "/davidprofilepic.webp",
+      "role": "Treasurer/Events"
+    },
+    {
+      "name": "Colby Steber",
+      "image": "/colbyprofilepic.webp",
+      "role": "Initiate Affairs"
+    },
+    {
+      "name": "Kyle Chung",
+      "image": "/kyleprofilepic.webp",
+      "role": "Student Services"
+    },
+    {
+      "name": "Shomik Chatterjee",
+      "image": "/shomikprofilepic.webp",
+      "role": "Review Sessions"
+    },
+    {
+      "name": "Ryan Ziegler",
+      "image": "/ryanprofilepic.webp",
       "role": "Corporate Affairs"
     },
     {
-      "name": "V Verma",
-      "image": "/vprofilepic.webp",
+      "name": "Albert Jiang",
+      "image": "/albertprofilepic.webp",
       "role": "Publicity"
     },
     {
-      "name": "Udit Pai",
-      "image": "/uditprofilepic.webp",
+      "name": "Ivan Ramos",
+      "image": "/ivanprofilepic.jpg",
       "role": "Secretary"
     }
   ],
