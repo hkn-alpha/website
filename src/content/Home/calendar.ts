@@ -133,43 +133,107 @@ const valentineSocial = (date: Date): Event => ({
   initiatePointsCount: 2,
 });
 
+const resumeReview = (date: Date): Event => ({
+  name: "Resume Review Sessions",
+  date,
+  time: "TBD",
+  virtual: false,
+  locationInfo: commonLocations["rsoOffice"],
+  description:
+    "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
+})
+
+const courseAdvising = (date: Date): Event => ({
+  name: "Course Advising",
+  date,
+  time: "12:00-5:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["atrium"],
+  description:
+    "Stop by if you want some feedback about your schedule or course plan!"
+
+
+})
+
+const infoSessions = (date: Date): Event => ({
+  name: "Info Session",
+  date,
+  time: "7:00-8:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["2017"],
+  description:
+  "Learn more about our society, what we do, and what's in it for you to join our chapter!"
+})
+
+const generalMeeting = (date: Date): Event => ({
+  name: "generalMeeting",
+  date,
+  time: "7:00-8:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["2017"],
+  description:
+  "General Meeting and overview of our society, accomplishments, and plans"
+})
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
-  ...[
-    new Date(2024, 1, 2),
-    new Date(2024, 1, 9),
-    new Date(2024, 1, 16),
-    new Date(2024, 1, 23),
-    new Date(2024, 2, 1),
-    new Date(2024, 2, 8),
-    new Date(2024, 2, 15),
-    new Date(2024, 2, 22),
-    new Date(2024, 2, 29),
-    new Date(2024, 3, 5),
-    new Date(2024, 3, 12),
-    new Date(2024, 3, 19),
-    new Date(2024, 3, 26),
-    new Date(2024, 4, 3)
-  ].map(happyHour),
-  ...[,
-    new Date(2024, 1, 4),
-    new Date(2024, 1, 11),
-    new Date(2024, 1, 18),
-    new Date(2024, 1, 25),
-    new Date(2024, 2, 3),
-    new Date(2024, 2, 10),
-    new Date(2024, 2, 17),
-    new Date(2024, 2, 24),
-    new Date(2024, 2, 31),
-    new Date(2024, 3, 7),
-    new Date(2024, 3, 14),
-    new Date(2024, 3, 21),
-    new Date(2024, 3, 28)
-  ].map(studentServices),
-...[,
-    new Date(2024, 1, 13),
-].map(valentineSocial),
+//   ...[
+//     new Date(2024, 8, 6),
+//     new Date(2024, 8, 13),
+//     new Date(2024, 8, 20),
+//     new Date(2024, 8, 27),
+//     new Date(2024, 9, 4),
+//     new Date(2024, 9, 11),
+//     new Date(2024, 9, 18),
+//     new Date(2024, 9, 25),
+//     new Date(2024, 10, 1),
+//     new Date(2024, 10, 8),
+//     new Date(2024, 10, 15),
+//     new Date(2024, 11, 6),
+//   ].map(happyHour),
+//   ...[,
+//     new Date(2024, 1, 4),
+//     new Date(2024, 1, 11),
+//     new Date(2024, 1, 18),
+//     new Date(2024, 1, 25),
+//     new Date(2024, 2, 3),
+//     new Date(2024, 2, 10),
+//     new Date(2024, 2, 17),
+//     new Date(2024, 2, 24),
+//     new Date(2024, 2, 31),
+//     new Date(2024, 3, 7),
+//     new Date(2024, 3, 14),
+//     new Date(2024, 3, 21),
+//     new Date(2024, 3, 28)
+//   ].map(studentServices),
+// ...[,
+//     new Date(2024, 1, 13),
+// ].map(valentineSocial),
+...[
+  ,new Date(2024, 8, 6)
+  ,new Date(2024, 8, 10)
+].map(resumeReview),
+...[
+  , new Date(2024, 7, 26 )
+, new Date(2024, 7, 27 )
+, new Date(2024, 7, 29 )
+, new Date(2024, 7, 30 )
+, new Date(2024, 8, 2 )
+, new Date(2024, 8, 3 )
+, new Date(2024, 8, 4 )
+, new Date(2024, 8, 5 )
+, new Date(2024, 8, 6 )
+].map(courseAdvising),
+...[
+  , new Date(2024, 8, 3)
+  , new Date(2024, 8, 4)
+].map(infoSessions),
+...[
+  , new Date(2024, 8, 5)
+
+].map(generalMeeting)
+
+
 ];
 
 export default events;
