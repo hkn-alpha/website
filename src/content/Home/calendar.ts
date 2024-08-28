@@ -55,6 +55,10 @@ const commonLocations = {
     addressLine2: "Champaign, IL 61820",
     googleMapsLink: "https://goo.gl/maps/ZRr4eiiWSQG3pQRG6?coh=178571&entry=tt",
   },
+  eceb:{
+    ...eceb,
+    locationName: "ECEB"
+  },
   atrium: {
     ...eceb,
     locationName: "ECEB Atrium",
