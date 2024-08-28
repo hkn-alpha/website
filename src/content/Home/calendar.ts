@@ -160,7 +160,7 @@ const infoSessions = (date: Date): Event => ({
   date,
   time: "7:00-8:00 PM",
   virtual: false,
-  locationInfo: commonLocations["2017"],
+  locationInfo: commonLocations["eceb"],
   description:
   "Learn more about our society, what we do, and what's in it for you to join our chapter!"
 })
