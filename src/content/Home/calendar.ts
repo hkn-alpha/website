@@ -166,7 +166,7 @@ const infoSessions = (date: Date): Event => ({
 })
 
 const generalMeeting = (date: Date): Event => ({
-  name: "generalMeeting",
+  name: "General Meeting",
   date,
   time: "7:00-8:00 PM",
   virtual: false,
