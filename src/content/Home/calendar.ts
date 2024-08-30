@@ -73,7 +73,7 @@ const commonLocations = {
   },
   rsoOffice: {
     ...eceb,
-    locationName: "HKN RSO Office ECEB 1016",
+    locationName: "RSO Office ECEB 1016",
   },
   3013: {
     ...eceb,
@@ -137,16 +137,25 @@ const valentineSocial = (date: Date): Event => ({
   initiatePointsCount: 2,
 });
 
-const resumeReview = (date: Date): Event => ({
+const resumeReview1 = (date: Date): Event => ({
   name: "Resume Review Sessions",
   date,
-  time: "TBD",
+  time: "1:00 PM - 3:00 PM",
   virtual: false,
   locationInfo: commonLocations["rsoOffice"],
   description:
     "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
 })
 
+const resumeReview2 = (date: Date): Event => ({
+  name: "Resume Review Sessions",
+  date,
+  time: "4:00 PM - 6:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["rsoOffice"],
+  description:
+    "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
+})
 const courseAdvising = (date: Date): Event => ({
   name: "Course Advising",
   date,
@@ -215,8 +224,10 @@ const events: Event[] = [
 // ].map(valentineSocial),
 ...[
   ,new Date(2024, 8, 6)
-  ,new Date(2024, 8, 10)
-].map(resumeReview),
+].map(resumeReview1),
+...[
+  ,new Date(2024, 8,10)
+].map(resumeReview2),
 ...[
   , new Date(2024, 7, 26 )
 , new Date(2024, 7, 27 )
