@@ -20,11 +20,11 @@ export const tutors: Tutor[] = [
   //     "ECE374, CS374, ECE 110, ECE 210, ECE313, ECE220, ECE 120, PHYS 211",
   // },
   
-  // {
-  //   name: "Bex Muise",
-  //   email: "rmuise2@illinois.edu",
-  //   courses: "ECE 120, ECE 220, ECE 310, CS 173, CS 225",
-  // },
+  {
+    name: "Bex Muise",
+    email: "rmuise2@illinois.edu",
+    courses: "ECE 120, ECE 220, ECE 310, ECE 342, CS 173, CS 225",
+  },
   // {
   //   name: "Eisa Kamran",
   //   email: "ekamr2@illinois.edu",
@@ -35,16 +35,16 @@ export const tutors: Tutor[] = [
   //   email: "upai3@illinois.edu",
   //   courses: "ECE 120",
   // },
-  // {
-  //   name: "Taowei Huang",
-  //   email: "taoweih2@illinois.edu",
-  //   courses: "ECE 110, ECE 120, ECE 210, ECE 220",
-  // },
-  // {
-  //   name: "Albus Lai",
-  //   email: "albusl2@illinois.edu",
-  //   courses: "ECE 120, ECE 210, ECE 220, PHYS 214, MATH 257",
-  // },
+  {
+    name: "Taowei Huang",
+    email: "taoweih2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, MATH 257",
+  },
+  {
+    name: "Albus Lai",
+    email: "albusl2@illinois.edu",
+    courses: "ECE 120, ECE 210, ECE 220, ECE 329, PHYS 214, MATH 257, MATH 285",
+  },
   // {
   //   name: "David Thomas",
   //   email: "davidvt2@illinois.edu",
@@ -65,11 +65,11 @@ export const tutors: Tutor[] = [
   //   email: "aidanfr2@illinois.edu",
   //   courses: "ECE 330, ECE 342",
   // },
-  // {
-  //   name: "Kyle Chung",
-  //   email: "kbchung2@illinois.edu",
-  //   courses: "ECE 210, ECE 220, ECE 310, ECE 313, ECE 374, MATH 221, PHYS 211, MATH 257, CS 173, CS 225",
-  // },
+  {
+    name: "Kyle Chung",
+    email: "kbchung2@illinois.edu",
+    courses: "ECE 210, ECE 220, ECE 310, ECE 374, MATH 221, PHYS 211, CS 173, CS 225",
+  },
   // {
   //   name: "Evan Schmitz",
   //   email: "evanls3@illinois.edu",
@@ -85,11 +85,11 @@ export const tutors: Tutor[] = [
   //   email: "pradyun2@illinois.edu",
   //   courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, ECE 342, MATH 257, MATH 285, CS 173, CS 225, ECE 391, ECE482, ECE411",
   // },
-  // {
-  //   name: "Ethan Chastain",
-  //   email: "ecc5@illinois.edu",
-  //   courses: "ECE 110, ECE 210, ECE 310, ECE 329, ECE 340, ECE 342, ECE 486, PHYS 212, PHYS 213, PHYS 214, MATH 257",
-  // },
+  {
+    name: "Ethan Chastain",
+    email: "ecc5@illinois.edu",
+    courses: "ECE 329, ECE 340, ECE 342, ECE 486, ECE 489, PHYS 212, PHYS 213, PHYS 214, CS 225, MATH 257",
+  },
   // {
   //   name: "Nestor Gutierrez",
   //   email: "nguti4@illinois.edu",
@@ -125,26 +125,26 @@ export const tutors: Tutor[] = [
   //   email: "zexuany2@illinois.edu",
   //   courses: "ECE 110, ECE 120, ECE 220, MATH 241, MATH 257, CS 225",
   // },
-  // {
-  //   name: "Eddie Dzieza",
-  //   email: "eddiedzieza@gmail.com",
-  //   courses: "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, MATH 257, MATH 285",
-  // },
-  // {
-  //   name: "Jefferson Zhang",
-  //   email: "jyz4@illinois.edu",
-  //   courses: "ECE 110, ECE 120, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 285",
-  // },
+  {
+    name: "Eddie Dzieza",
+    email: "eddiedzieza@gmail.com",
+    courses: "ECE 120, ECE 220",
+  },
+  {
+    name: "Jefferson Zhang",
+    email: "jyz4@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 385",
+  },
   // {
   //   name: "Johail Gerard",
   //   email: "johailg2@illinois.edu",
   //   courses: "ECE 110, ECE 120, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 231, MATH 241, MATH 285",
   // },
-  // {
-  //   name: "Alexander Maiorov",
-  //   email: "maiorov2@illinois.edu",
-  //   courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285, CS 173",
-  // },
+  {
+    name: "Alexander Maiorov",
+    email: "maiorov2@illinois.edu",
+    courses: "ECE 210, ECE 310, ECE 313, ECE 329",
+  },
   // {
   //   name: "Steffen Brown",
   //   email: "sbrown16@illinois.edu",
