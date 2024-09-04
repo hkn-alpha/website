@@ -90,11 +90,11 @@ export const tutors: Tutor[] = [
     email: "ecc5@illinois.edu",
     courses: "ECE 329, ECE 340, ECE 342, ECE 486, ECE 489, PHYS 212, PHYS 213, PHYS 214, CS 225, MATH 257",
   },
-  // {
-  //   name: "Nestor Gutierrez",
-  //   email: "nguti4@illinois.edu",
-  //   courses: "ECE 110, ECE 330, ECE 342",
-  // },
+  {
+    name: "Nestor Gutierrez",
+    email: "nguti4@illinois.edu",
+    courses: "ECE 340, ECE 342",
+  },
   // {
   //   name: "Ansley Tsai",
   //   email: "ansleyt2@illinois.edu",
@@ -160,11 +160,11 @@ export const tutors: Tutor[] = [
   //   email: "sshetye2@illinois.edu",
   //   courses: "ECE 210, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, CS 225",
   // },
-  // {
-  //   name: "Kelly Chang",
-  //   email: "kellyhc2@illinois.edu",
-  //   courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 342, PHYS 212, MATH 257, CS 225",
-  // },
+  {
+    name: "Kelly Chang",
+    email: "kellyhc2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, ECE 342, CS 225",
+  },
   // {
   //   name: "Hongyi Jiang",
   //   email: "hongyi9@illinois.edu",
