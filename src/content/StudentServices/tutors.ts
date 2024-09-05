@@ -93,7 +93,7 @@ export const tutors: Tutor[] = [
   {
     name: "Nestor Gutierrez",
     email: "nguti4@illinois.edu",
-    courses: "ECE 340, ECE 342",
+    courses: "ECE 110, ECE 330, ECE 340, ECE 342",
   },
   // {
   //   name: "Ansley Tsai",
