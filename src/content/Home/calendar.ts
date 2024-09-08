@@ -119,7 +119,7 @@ const studentServices = (date: Date): Event => ({
   date,
   time: "2:00pm-4:00pm",
   virtual: false,
-  locationInfo: commonLocations[3013],
+  locationInfo: commonLocations[2015],
   description:
     "Preparation/Meeting for all things Student Services! (i.e. Review Sessions, Worksheets, Videos, HKN Wiki, etc)",
   initiatePointsCategory: "service",
