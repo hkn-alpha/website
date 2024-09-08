@@ -321,24 +321,24 @@ const events: Event[] = [
 ...[
   ,new Date(2024, 8,10)
 ].map(resumeReview2),
-// ...[
-//   ,new Date(2024, 8, 9)
-// ].map(lutronTalk),
 ...[
   ,new Date(2024, 8, 9)
-].map(milleniumTalk),
-...[
-  ,new Date(2024,8,10)
-].map(BMcDTalk),
-...[
-  ,new Date(2024, 8, 11)
-].map(halliburtonTalk),
+].map(lutronTalk),
+// ...[
+//   ,new Date(2024, 8, 9)
+// ].map(milleniumTalk),
+// ...[
+//   ,new Date(2024,8,10)
+// ].map(BMcDTalk),
+// ...[
+//   ,new Date(2024, 8, 11)
+// ].map(halliburtonTalk),
 // ...[
 //   , new Date(2024, 8, 11)
 // ].map(TSMC_ISSA),
-...[
-  , new Date(2024, 8 , 13)
-].map(TI_ISSA),
+// ...[
+//   , new Date(2024, 8 , 13)
+// ].map(TI_ISSA),
 ...[
   , new Date(2024, 7, 26 )
 , new Date(2024, 7, 27 )
