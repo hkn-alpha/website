@@ -333,9 +333,9 @@ const events: Event[] = [
 ...[
   ,new Date(2024, 8, 11)
 ].map(halliburtonTalk),
-...[
-  , new Date(2024, 8, 11)
-].map(TSMC_ISSA),
+// ...[
+//   , new Date(2024, 8, 11)
+// ].map(TSMC_ISSA),
 ...[
   , new Date(2024, 8 , 13)
 ].map(TI_ISSA),
