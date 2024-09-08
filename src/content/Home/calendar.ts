@@ -83,6 +83,10 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB 2013",
   },
+  2015: {
+    ...eceb,
+    locationName: "ECEB 2015",
+  },
   2017: {
     ...eceb,
     locationName: "ECEB 2017",
