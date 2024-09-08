@@ -324,9 +324,9 @@ const events: Event[] = [
 ...[
   ,new Date(2024, 8, 9)
 ].map(lutronTalk),
-// ...[
-//   ,new Date(2024, 8, 9)
-// ].map(milleniumTalk),
+...[
+  ,new Date(2024, 8, 9)
+].map(milleniumTalk),
 // ...[
 //   ,new Date(2024,8,10)
 // ].map(BMcDTalk),
