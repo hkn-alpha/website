@@ -66,7 +66,7 @@ const commonLocations = {
   1002: {
     ...eceb,
     locationName: "Grainger Auditorium (ECEB 1002)"
-  }
+  },
   1015: {
     ...eceb,
     locationName: "ECEB 1015",
@@ -183,9 +183,9 @@ const infoSessions = (date: Date): Event => ({
 })
 
 const movieNight = (date: Date): Event => ({
-name: "Info Session",
+name: "Movie Night",
   date,
-  time: "7:00-8:00 PM",
+  time: "6:00-10:00 PM",
   virtual: false,
   locationInfo: commonLocations["1002"],
   description:
@@ -240,6 +240,9 @@ const events: Event[] = [
     // new Date(2024, 11, 26), // FALL BREAK
     new Date(2024, 11, 3),
   ].map(tuesdaySocial),
+  ...[
+    new Date (2024, 8, 20)
+  ].map(movieNight),
 //   ...[,
 //     new Date(2024, 1, 4),
 //     new Date(2024, 1, 11),
