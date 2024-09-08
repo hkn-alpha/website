@@ -71,6 +71,10 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB Atrium",
   },
+  1013: {
+    ...eceb,
+    locationName: "ECEB 1013"
+  },
   1015: {
     ...eceb,
     locationName: "ECEB 1015",
