@@ -71,6 +71,10 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB Atrium",
   },
+  1002: {
+    ...eceb,
+    locationName: "Grainger Auditorium (ECEB 1002)"
+  },
   1013: {
     ...eceb,
     locationName: "ECEB 1013"
@@ -194,6 +198,17 @@ const infoSessions = (date: Date): Event => ({
   "Learn more about our society, what we do, and what's in it for you to join our chapter!"
 })
 
+const movieNight = (date: Date): Event => ({
+name: "Movie Night",
+  date,
+  time: "6:00-10:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["1002"],
+  description:
+  "Come to Grainger Auditorium to gather with fellow ECE students and enjoy a movie! Hosted jointly by WECE, IEEE, and HKN!"
+
+})
+
 const generalMeeting = (date: Date): Event => ({
   name: "General Meeting",
   date,
@@ -301,6 +316,9 @@ const events: Event[] = [
     // new Date(2024, 11, 26), // FALL BREAK
     new Date(2024, 11, 3),
   ].map(tuesdaySocial),
+  ...[
+    new Date (2024, 8, 20)
+  ].map(movieNight),
   // ...[,
   //   new Date(2024, 8, 8),
   //   new Date(2024, 8, 15),
