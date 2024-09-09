@@ -45,6 +45,14 @@ const eceb = {
   addressLine2: "Urbana, IL 61801",
   googleMapsLink: "https://goo.gl/maps/3D5E3M8CEyEKEqc3A",
 };
+const cif = {
+  lat: 40.11278821816018, 
+  lon: -88.22853501903802,
+  addressLine1: "1405 W Springfield Ave",
+  addressLine2: "Urbana, IL 61801",
+  googleMapsLink: "https://www.google.com/maps/place/Campus+Instructional+Facility+(CIF)/@40.1124436,-88.2283419,16z/data=!4m14!1m7!3m6!1s0x880cd76d134f9943:0xe67002a644efa20f!2sCampus+Instructional+Facility+(CIF)!8m2!3d40.1124436!4d-88.2283419!16s%2Fg%2F11rb5x95w4!3m5!1s0x880cd76d134f9943:0xe67002a644efa20f!8m2!3d40.1124436!4d-88.2283419!16s%2Fg%2F11rb5x95w4?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D",
+
+};
 
 const commonLocations = {
   legends: {
@@ -62,6 +70,10 @@ const commonLocations = {
   atrium: {
     ...eceb,
     locationName: "ECEB Atrium",
+  },
+  1013: {
+    ...eceb,
+    locationName: "ECEB 1013"
   },
   1015: {
     ...eceb,
@@ -94,6 +106,10 @@ const commonLocations = {
   3002: {
     ...eceb,
     locationName: "ECEB 3002",
+  },
+  CIF_4025:{
+    ...cif,
+    locationName: "CIF 4025",
   },
 };
 
@@ -191,6 +207,66 @@ const generalMeeting = (date: Date): Event => ({
   description:
   "General Meeting and overview of our society, accomplishments, and plans"
 })
+
+const milleniumTalk = (date: Date): Event => ({
+  name: "Millenium Tech Talk",
+  date,
+  time: "5:30 - 7:30 PM",
+  virtual: false,
+  locationInfo: commonLocations["1013"],
+  description:
+  "Come to learn more about Millenium and their career opportunities!"
+})
+
+const lutronTalk = (date: Date): Event => ({
+  name: "Lutron Tech Talk",
+  date,
+  time: "7:00 PM - 9:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["1015"],
+  description:
+  "Come to learn more about Lutron and their career opportunities!"
+})
+
+const BMcDTalk = (date: Date): Event => ({
+  name: "Burns & McDonnell Tech Talk",
+  date,
+  time: "5:30 - 7:30 PM",
+  virtual: false,
+  locationInfo: commonLocations["1013"],
+  description:
+  "Come to learn more about Burns & McDonnell and their career opportunities!"
+})
+
+const TSMC_ISSA = (date: Date): Event => ({
+  name: "TSMC x ISSA",
+  date,
+  time: "5:30 - 7:30 PM",
+  virtual: false,
+  locationInfo: commonLocations["CIF_4025"],
+  description: "Come to the joint HKN x ISSA TSMC talk to learn more about their career opportunities!"
+})
+
+const halliburtonTalk = (date: Date): Event => ({
+  name: "Halliburton Tech Talk",
+  date,
+  time: "7:00 - 9:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["1013"],
+  description: "Come learn more about Halliburton and their career opportunities!"
+})
+
+const TI_ISSA = (date: Date): Event => ({
+  name: "TI x ISSA",
+  date,
+  time: "5:30 - 7:30 PM",
+  virtual: false,
+  locationInfo: commonLocations["1013"],
+  description: "Come to the joint HKN x ISSA TI talk to learn more about their career opportunities!"
+})
+
+
+
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
@@ -244,6 +320,7 @@ const events: Event[] = [
     new Date(2024, 11, 1),
     new Date(2024, 11, 8)
   ].map(studentServices),
+
 // ...[,
 //     new Date(2024, 1, 13),
 // ].map(valentineSocial),
@@ -253,6 +330,24 @@ const events: Event[] = [
 ...[
   ,new Date(2024, 8,10)
 ].map(resumeReview2),
+...[
+  ,new Date(2024, 8, 9)
+].map(lutronTalk),
+...[
+  ,new Date(2024, 8, 9)
+].map(milleniumTalk),
+...[
+  ,new Date(2024,8,10)
+].map(BMcDTalk),
+...[
+  ,new Date(2024, 8, 11)
+].map(halliburtonTalk),
+...[
+  , new Date(2024, 8, 11)
+].map(TSMC_ISSA),
+...[
+  , new Date(2024, 8 , 13)
+].map(TI_ISSA),
 ...[
   , new Date(2024, 7, 26 )
 , new Date(2024, 7, 27 )
