@@ -30,7 +30,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 
   1: [
     {
-      course: "ECE 110",
+      course: "ECE 110", 
       time: "9/21, 12:30-3:00PM",
       location: "ECEB 1002",
     },
