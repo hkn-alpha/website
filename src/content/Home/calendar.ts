@@ -99,6 +99,10 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB 2013",
   },
+  2015: {
+    ...eceb,
+    locationName: "ECEB 2015",
+  },
   2017: {
     ...eceb,
     locationName: "ECEB 2017",
@@ -139,7 +143,7 @@ const studentServices = (date: Date): Event => ({
   date,
   time: "2:00pm-4:00pm",
   virtual: false,
-  locationInfo: commonLocations[3013],
+  locationInfo: commonLocations[2015],
   description:
     "Preparation/Meeting for all things Student Services! (i.e. Review Sessions, Worksheets, Videos, HKN Wiki, etc)",
   initiatePointsCategory: "service",
@@ -316,6 +320,21 @@ const events: Event[] = [
     // new Date(2024, 11, 26), // FALL BREAK
     new Date(2024, 11, 3),
   ].map(tuesdaySocial),
+ ...[,
+    new Date(2024, 8, 8),
+    new Date(2024, 8, 15),
+    new Date(2024, 8, 22),
+    new Date(2024, 8, 29),
+    new Date(2024, 9, 6),
+    new Date(2024, 9, 13),
+    new Date(2024, 9, 20),
+    new Date(2024, 9, 27),
+    new Date(2024, 10, 3),
+    new Date(2024, 10, 10),
+    new Date(2024, 10, 17),
+    new Date(2024, 11, 1),
+    new Date(2024, 11, 8)
+  ].map(studentServices),
   ...[
     new Date (2024, 8, 20)
   ].map(movieNight),
