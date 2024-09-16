@@ -408,7 +408,7 @@ export const tutors: Tutor[] = [
   // },
   {
     name: "Eddie Dzieza",
-    email: "eddiedzie3@illinois.edu",
+    email: "edzie3@illinois.edu",
     courses: "ECE 120, ECE 220",
   },
   {
