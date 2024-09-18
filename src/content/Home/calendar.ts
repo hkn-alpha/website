@@ -67,9 +67,18 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB"
   },
+  northQuad:{
+    lat: 40.1149104,
+    lon: -88.2298627,
+    locationName: "North Quad",
+    addressLine1: "W Main St",
+    addressLine2: "Urbana, IL 61801",
+    googleMapsLink: "https://www.google.com/maps/place/North+Quad/@40.1149104,-88.2298627,16z/data=!3m1!4b1!4m6!3m5!1s0x880cd741c34031a3:0xed8ada33e3421567!8m2!3d40.1149104!4d-88.2272878!16s%2Fg%2F11bytn1hz5?entry=ttu&g_ep=EgoyMDI0MDkxNS4wIKXMDSoASAFQAw%3D%3D",
+  },
   atrium: {
     ...eceb,
     locationName: "ECEB Atrium",
+    
   },
   1002: {
     ...eceb,
@@ -213,6 +222,17 @@ name: "Movie Night",
 
 })
 
+const ecex4 = (date: Date): Event => ({
+  name: "ECEx4 Sports Day",
+  date,
+  time: "1:00-4:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["northQuad"],
+  description:
+  "Come to the North Quad for fun and games! We will have flag football, water balloon fights, and more!"
+
+})
+
 const generalMeeting = (date: Date): Event => ({
   name: "General Meeting",
   date,
@@ -338,6 +358,9 @@ const events: Event[] = [
   ...[
     new Date (2024, 8, 20)
   ].map(movieNight),
+  ...[
+    new Date (2024, 9, 4)
+  ].map(ecex4),
  // ...[,
   //   new Date(2024, 8, 8),
   //   new Date(2024, 8, 15),
