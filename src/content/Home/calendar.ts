@@ -246,7 +246,7 @@ const lutronTalk = (date: Date): Event => ({
 const BMcDTalk = (date: Date): Event => ({
   name: "Burns & McDonnell Tech Talk",
   date,
-  time: "5:30 - 7:30 PM",
+  time: "6:00 - 8:00 PM",
   virtual: false,
   locationInfo: commonLocations["eceb"],
   description:
