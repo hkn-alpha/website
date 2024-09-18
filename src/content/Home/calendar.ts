@@ -229,7 +229,7 @@ const ecex4 = (date: Date): Event => ({
   virtual: false,
   locationInfo: commonLocations["northQuad"],
   description:
-  "Come to the North Quad for fun and games! We will have flag football, water balloon fights, and more!"
+  "Come to the North Quad for fun and games!"
 
 })
 
