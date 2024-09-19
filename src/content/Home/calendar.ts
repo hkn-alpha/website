@@ -266,9 +266,9 @@ const lutronTalk = (date: Date): Event => ({
 const BMcDTalk = (date: Date): Event => ({
   name: "Burns & McDonnell Tech Talk",
   date,
-  time: "5:30 - 7:30 PM",
+  time: "6:00 - 8:00 PM",
   virtual: false,
-  locationInfo: commonLocations["1013"],
+  locationInfo: commonLocations["eceb"],
   description:
   "Come to learn more about Burns & McDonnell and their career opportunities!"
 })
@@ -392,7 +392,7 @@ const events: Event[] = [
   ,new Date(2024, 8, 9)
 ].map(milleniumTalk),
 ...[
-  ,new Date(2024,8,10)
+  ,new Date(2024,8,26)
 ].map(BMcDTalk),
 ...[
   ,new Date(2024, 8, 11)
