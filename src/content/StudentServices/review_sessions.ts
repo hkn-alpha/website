@@ -38,16 +38,19 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 120",
       time: "9/22, 12:30-3:00PM",
       location: "ECEB 1013",
+      worksheetLink: "https://drive.google.com/file/d/1mckQmvNrAqtkdoeaqS7uaZ3RKmqLsUG8/view?usp=drive_link",
     },
     {
       course: "ECE 210",
       time: "9/22, 3:00-5:30PM",
       location: "ECEB 1002",
+      worksheetLink: "https://drive.google.com/file/d/1bB_NfQQvCMEPZxNIE9KnfAAhjhRjNV0J/view?usp=drive_link",
     },
     {
       course: "ECE 220",
       time: "9/22, 12:30-3:00PM",
       location: "ECEB 1002",
+      worksheetLink: "https://drive.google.com/file/d/1NIMFOhouPv7B3ckoA4hq2Afhegv2o3LA/view?usp=sharing",
     },
     {
       course: "ECE 310",
