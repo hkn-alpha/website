@@ -30,8 +30,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 
   1: [
     {
-      course: "ECE 110", 
-      time: "9/21, 12:30-3:00PM",
+      course: "ECE 110",
+      time: "9/21, 10:30-1:00PM",
       location: "ECEB 1002",
     },
     {
@@ -43,8 +43,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     {
       course: "ECE 210",
       time: "9/22, 3:00-5:30PM",
-      location: "ECEB 1002",
       worksheetLink: "https://drive.google.com/file/d/1bB_NfQQvCMEPZxNIE9KnfAAhjhRjNV0J/view?usp=drive_link",
+      location: "ECEB 1013",
     },
     {
       course: "ECE 220",
@@ -110,7 +110,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   2: [
     {
       course: "ECE 110",
-      time: "10/19, 12:30-3:00PM",
+      time: "10/20, 3:00-5:30PM",
       location: "ECEB 1002",
     },
     {
@@ -120,7 +120,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     },
     {
       course: "ECE 210",
-      time: "10/19, 12:30-3:00PM",
+      time: "10/20, 3:00-5:30PM",
       location: "ECEB 1013",
     },
     {
@@ -192,7 +192,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   3: [
     {
       course: "ECE 110",
-      time: "11/16, 12:30-3:00PM",
+      time: "11/17, 3:00-5:30PM",
       location: "ECEB 1002",
     },
     {
@@ -203,7 +203,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     {
       course: "ECE 210",
       time: "11/17, 3:00-5:30PM",
-      location: "ECEB 1002",
+      location: "ECEB 1013",
     },
     {
       course: "ECE 329",
@@ -212,8 +212,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     },
     {
       course: "ECE 342",
-      time: "11/16, 3:00-5:30PM",
-      location: "ECEB 1002",
+      time: "11/17, 12:30-3:00PM",
+      location: "ECEB 1013",
     },
     {
       course: "ECE 374B",
