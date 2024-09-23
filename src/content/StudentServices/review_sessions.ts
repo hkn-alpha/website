@@ -34,25 +34,28 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "9/21, 10:30-1:00PM",
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1AydYT567E4EVwxIV-N0hygYrWK-eLlWg/edit?usp=sharing&ouid=110906352345988467154&rtpof=true&sd=true",
-
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_ygntfzua"
     },
     {
       course: "ECE 120",
       time: "9/22, 12:30-3:00PM",
       location: "ECEB 1013",
       worksheetLink: "https://drive.google.com/file/d/1MzlyALmrmF9-fwIr2RnWiPkjACsG0vPy/view?usp=drive_link",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_u9nfhpai"
     },
     {
       course: "ECE 210",
       time: "9/22, 3:00-5:30PM",
       worksheetLink: "https://drive.google.com/file/d/1bB_NfQQvCMEPZxNIE9KnfAAhjhRjNV0J/view?usp=drive_link",
       location: "ECEB 1013",
+      recordingLink:"https://mediaspace.illinois.edu/media/t/1_fgga5v5m"
     },
     {
       course: "ECE 220",
       time: "9/22, 12:30-3:00PM",
       location: "ECEB 1002",
       worksheetLink: "https://drive.google.com/file/d/1NIMFOhouPv7B3ckoA4hq2Afhegv2o3LA/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_fb3se2h7"
     },
     {
       course: "ECE 310",
@@ -69,6 +72,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 329",
       time: "9/21, 3:00-5:30PM",
       location: "ECEB 1013",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_8jg8q18m"
     },
     {
       course: "ECE 330",
@@ -84,6 +88,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 342",
       time: "9/21, 12:30-3:00PM",
       location: "ECEB 1013",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_ah0a7joh"
     },
     {
       course: "CS 374A",
@@ -104,6 +109,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 411",
       time: "9/22, 3:00-5:30PM",
       location: "ECEB 1002",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_sxn7f3z6"
     },
   ],
 
