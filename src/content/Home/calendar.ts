@@ -268,7 +268,7 @@ const BMcDTalk = (date: Date): Event => ({
   date,
   time: "6:00 - 8:00 PM",
   virtual: false,
-  locationInfo: commonLocations["eceb"],
+  locationInfo: commonLocations["1015"],
   description:
   "Come to learn more about Burns & McDonnell and their career opportunities!"
 })
