@@ -71,6 +71,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 313",
       time: "9/28, 3:00-5:30PM",
       location: "ECEB 1002",
+      slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing"
     },
     {
       course: "ECE 329",
@@ -83,6 +84,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 330",
       time: "9/29, 3:00-5:30PM",
       location: "ECEB 1013",
+      slidesLink: "https://docs.google.com/presentation/d/1pykvZ-E8-MGzG0qgc0rWfxNHjWDJfwAqS0tVmBa7Z78/edit?usp=sharing"
     },
     {
       course: "ECE 340",
