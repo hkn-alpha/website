@@ -74,6 +74,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 313",
       time: "9/28, 3:00-5:30PM",
       location: "ECEB 1002",
+      worksheetLink: "https://drive.google.com/file/d/1O_gHrsvgNOEpAOt8pYx6wqNc-Vgm0VgI/view?usp=sharing",
     },
     {
       course: "ECE 329",
