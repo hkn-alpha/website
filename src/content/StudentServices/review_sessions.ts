@@ -44,12 +44,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1013",
       worksheetLink: "https://drive.google.com/file/d/1MzlyALmrmF9-fwIr2RnWiPkjACsG0vPy/view?usp=drive_link",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_u9nfhpai",
-      slidesLink: "https://docs.google.com/presentation/d/1thwRet9spXwhnKJMuICfc4p4Yp1Ulo-0p89rDok24G4/edit#slide=id.p"
+      slidesLink: "https://docs.google.com/presentation/d/1thwRet9spXwhnKJMuICfc4p4Yp1Ulo-0p89rDok24G4/edit#slide=id.p",
+      keyLink: "https://drive.google.com/file/d/1npsnA239HdGFQji9nd8rGlpwi2spUxzW/view?usp=sharing",
     },
     {
       course: "ECE 210",
       time: "9/22, 3:00-5:30PM",
       worksheetLink: "https://drive.google.com/file/d/1bB_NfQQvCMEPZxNIE9KnfAAhjhRjNV0J/view?usp=drive_link",
+      slidesLink: "https://docs.google.com/presentation/d/1ntQbuGsQ_XgzD037_ANdnmT83o5SFXTLro_Yho12zng/edit?usp=sharing",
       location: "ECEB 1013",
       recordingLink:"https://mediaspace.illinois.edu/media/t/1_fgga5v5m"
     },
@@ -59,7 +61,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1002",
       worksheetLink: "https://drive.google.com/file/d/1NIMFOhouPv7B3ckoA4hq2Afhegv2o3LA/view?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_fb3se2h7",
-      slidesLink: "https://docs.google.com/presentation/d/16F2UjcNDhcQCgHD1CCeXjnm2ucEFXJfqL2NdcIbSvSI/edit#slide=id.g250929c7780_0_6"
+      slidesLink: "https://docs.google.com/presentation/d/16F2UjcNDhcQCgHD1CCeXjnm2ucEFXJfqL2NdcIbSvSI/edit#slide=id.g250929c7780_0_6",
+      keyLink: "https://drive.google.com/file/d/1DewjJD7ZRNwP7g7DjHnhMHYMAKyLOGE2/view?usp=drive_link"
     },
     {
       course: "ECE 310",
@@ -73,6 +76,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "9/28, 3:00-5:30PM",
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing"
+      worksheetLink: "https://drive.google.com/file/d/1O_gHrsvgNOEpAOt8pYx6wqNc-Vgm0VgI/view?usp=sharing",
     },
     {
       course: "ECE 329",
@@ -108,6 +112,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 374B",
       time: "9/21, 3:00-5:30PM",
       location: "ECEB 1002",
+      slidesLink: "https://drive.google.com/file/d/14-E0fS7vKoI8pQpt_dFAnFow64H0MPgV/view?usp=sharing"
     },
     // {
     //   course: "ECE 391",
