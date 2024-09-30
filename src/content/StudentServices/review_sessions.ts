@@ -68,15 +68,15 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 310",
       time: "9/29, 12:30-3:00PM",
       location: "ECEB 1013",
-      slidesLink:"https://docs.google.com/presentation/d/1R08OZnIAiqTT_o0YlK4lCyCFPtuqeMiAoe8lNvIi6-g/edit?usp=sharing"
+      slidesLink:"https://docs.google.com/presentation/d/1R08OZnIAiqTT_o0YlK4lCyCFPtuqeMiAoe8lNvIi6-g/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_oqoaz0u1"
       
     },
     {
       course: "ECE 313",
       time: "9/28, 3:00-5:30PM",
       location: "ECEB 1002",
-      slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing",
-      worksheetLink: "https://drive.google.com/file/d/1O_gHrsvgNOEpAOt8pYx6wqNc-Vgm0VgI/view?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing"
     },
     {
       course: "ECE 329",
@@ -89,7 +89,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 330",
       time: "9/29, 3:00-5:30PM",
       location: "ECEB 1013",
-      slidesLink: "https://docs.google.com/presentation/d/1pykvZ-E8-MGzG0qgc0rWfxNHjWDJfwAqS0tVmBa7Z78/edit?usp=sharing"
+      slidesLink: "https://docs.google.com/presentation/d/1pykvZ-E8-MGzG0qgc0rWfxNHjWDJfwAqS0tVmBa7Z78/edit?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_cjvnzmx8"
     },
     {
       course: "ECE 340",
@@ -107,6 +108,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "CS 374A",
       time: "9/28, 12:30-3:00PM",
       location: "ECEB 1002",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_qu1d7lfy"
     },
     {
       course: "ECE 374B",
