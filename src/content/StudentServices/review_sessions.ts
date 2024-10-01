@@ -109,7 +109,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "CS 374A",
       time: "9/28, 12:30-3:00PM",
       location: "ECEB 1002",
-      recordingLink: "https://mediaspace.illinois.edu/media/t/1_qu1d7lfy"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_qu1d7lfy",
+      slidesLink: "https://drive.google.com/file/d/162vuI5yDVvAEMmUgOwGhthXhEdILJ_Lw/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1Do5wLq4I6OiVzKQHTsEuyKDxBWdwfnwe/view?usp=sharing",
     },
     {
       course: "ECE 374B",
