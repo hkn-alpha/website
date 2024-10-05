@@ -163,7 +163,7 @@ export const tutors: Tutor[] = [
   {
     name: "Sohum Bhan",
     email: "sohumb3@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285",
+    courses: "ECE 110, ECE 120, ECE 220, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285",
   },
   {
     name: "Sid Rau",
