@@ -97,6 +97,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 340",
       time: "10/06, 12:30-3:00PM",
       location: "ECEB 1002",
+      slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1RxtcBlQjLwXuVIMYR6S0X7im1-0V1Bit/view?usp=drive_link",
     },
     {
       course: "ECE 342",
@@ -119,11 +121,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1002",
       slidesLink: "https://drive.google.com/file/d/14-E0fS7vKoI8pQpt_dFAnFow64H0MPgV/view?usp=sharing"
     },
-    {
-      course: "ECE 408",
-      time: "10/13, 12:30-3:00PM",
-      location: "ECEB 1013",
-    },
+    
     {
       course: "ECE 411",
       time: "9/22, 3:00-5:30PM",
@@ -203,11 +201,11 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "11/03, 12:30-3:00PM",
       location: "ECEB 1002",
     },
-    // {
-    //   course: "ECE 391",
-    //   time: "4/6, 3:00-5:30PM",
-    //   location: "ECEB 1013",
-    // },
+   {
+      course: "ECE 408",
+      time: "10/13, 12:30-3:00PM",
+      location: "ECEB 1013",
+    },
     {
       course: "ECE 411",
       time: "10/13, 12:30-3:00PM",
