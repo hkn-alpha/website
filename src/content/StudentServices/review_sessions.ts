@@ -96,7 +96,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 340",
       time: "10/06, 12:30-3:00PM",
       location: "ECEB 1002",
-      recordingLink: "https://mediaspace.illinois.edu/media/t/1_62ac72q2"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_62ac72q2",
       slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
       scribblesLink: "https://drive.google.com/file/d/1RxtcBlQjLwXuVIMYR6S0X7im1-0V1Bit/view?usp=drive_link"
     },
