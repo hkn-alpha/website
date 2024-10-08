@@ -300,6 +300,15 @@ const TI_ISSA = (date: Date): Event => ({
   description: "Come to the joint HKN x ISSA TI talk to learn more about their career opportunities!"
 })
 
+const TownHall = (date: Date): Event => ({
+  name: "ECE Town Hall",
+  date,
+  time: "5:00 - 6:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["1002"],
+  description: "Come to voice your opinions about the ECE curriculum and student body!"
+})
+
 
 
 // Note that the below need not be ordered, the web UI will take care of sorting
@@ -422,6 +431,11 @@ const events: Event[] = [
   , new Date(2024, 8, 5)
 
 ].map(generalMeeting)
+,
+...[
+  , new Date(2024,9, 9)
+
+].map(TownHall)
 
 
 ];
