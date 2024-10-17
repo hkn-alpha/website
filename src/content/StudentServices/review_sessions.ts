@@ -129,7 +129,11 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       recordingLink: "https://drive.google.com/file/d/1u-PtTW4-GVHhTzOK105RBXrWvUsy9Py1/view?usp=sharing",
       slidesLink: "https://drive.google.com/file/d/1MxDHuwNoxpKh1uKjRigo43SlPPdGwJm0/view?usp=sharing"
     },
-    
+    {
+      course: "ECE/CS 438",
+      time: "10/26, 12:30-3:00PM",
+      location: "ECEB 1013",
+    },
     {
       course: "ECE 411",
       time: "9/22, 3:00-5:30PM",
@@ -220,6 +224,11 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 411",
       time: "10/13, 12:30-3:00PM",
       location: "ECEB 1002",
+    },
+    {
+      course: "ECE 438",
+      time: "10/26, 12:30-3:00PM",
+      location: "ECEB 1013",
     },
   ],
 
