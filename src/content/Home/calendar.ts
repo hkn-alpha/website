@@ -309,6 +309,15 @@ const TownHall = (date: Date): Event => ({
   description: "Come to voice your opinions about the ECE curriculum and student body!"
 })
 
+const generalMeetingswap = (date: Date): Event => ({
+  name: "General Meeting",
+  date,
+  time: "6:00 - 7:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["3013"],
+  description: "General Meeting and overview of our society, accomplishments, and plans"
+})
+
 
 
 // Note that the below need not be ordered, the web UI will take care of sorting
@@ -342,7 +351,6 @@ const events: Event[] = [
     new Date(2024, 9, 8),
     new Date(2024, 9, 15),
     new Date(2024, 9, 22),
-    new Date(2024, 9, 29),
     new Date(2024, 10, 5),
     new Date(2024, 10, 12),
     new Date(2024, 10, 19),
@@ -429,14 +437,19 @@ const events: Event[] = [
 ].map(infoSessions),
 ...[
   , new Date(2024, 8, 5)
+  ,
 
 ].map(generalMeeting)
 ,
 ...[
   , new Date(2024,9, 9)
 
-].map(TownHall)
+].map(TownHall),
 
+...[
+  , new Date(2024,9, 29)
+
+].map(generalMeetingswap)
 
 ];
 
