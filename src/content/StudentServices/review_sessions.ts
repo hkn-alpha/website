@@ -144,14 +144,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   2: [
     {
       course: "ECE 110",
-      time: "10/20, 3:00-5:30PM",
+      time: "10/20, 3:00-5:00PM",
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1ANp3B_RQjOAzlhKPM589kiZbGWoK8k8I4WEluFpwCq0/edit?usp=sharing",
       scribblesLink: "https://docs.google.com/presentation/d/1wMU2g0aaN7JgIm3UebliNLA4TO0E3WVtf3gonNrb5sY/edit?usp=sharing"
     },
     {
       course: "ECE 120",
-      time: "10/20, 12:30-3:00PM",
+      time: "10/20, 12:30-2:30PM",
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1pj2_GGltCo2jRIzTmndIn-psupwfPDSnvmaFpNJurVk/edit?usp=sharing",
       worksheetLink: "https://drive.google.com/file/d/1eF9-TfyRcv717JLg4CeDIaC1DkHCsYOe/view?usp=sharing",
@@ -159,44 +159,44 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     },
     {
       course: "ECE 210",
-      time: "10/20, 3:00-5:30PM",
+      time: "10/20, 3:00-5:00PM",
       location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1Kl7bv7apNSZORKBW-CvJvcm7OtS6rcmns9LCqejsB-E/edit?usp=sharing",
       scribblesLink: "https://drive.google.com/file/d/1N9TAJTBIJgCZhnqqkwTxqoaL13RuhWb3/view?usp=sharing",
     },
     {
       course: "ECE 220",
-      time: "10/27, 3:00-5:30PM",
+      time: "10/27, 3:00-5:00PM",
       location: "ECEB 1002",
     },
     {
       course: "ECE 310",
-      time: "11/10, 3:00-5:30PM",
+      time: "11/10, 3:00-5:00PM",
       location: "ECEB 1002",
     },
     {
       course: "ECE 313",
-      time: "11/03, 3:00-5:30PM",
+      time: "11/03, 3:00-5:00PM",
       location: "ECEB 1002",
     },
     {
       course: "ECE 329",
-      time: "10/27, 3:00-5:30PM",
+      time: "10/27, 3:00-5:00PM",
       location: "ECEB 1013",
     },
     {
       course: "ECE 330",
-      time: "11/03, 12:30-3:00PM",
+      time: "11/03, 12:30-2:30PM",
       location: "ECEB 1013",
     },
     {
       course: "ECE 340",
-      time: "11/10, 12:30-3:00PM",
+      time: "11/10, 12:30-2:30PM",
       location: "ECEB 1013",
     },
     {
       course: "ECE 342",
-      time: "10/20, 12:30PM-3:00PM",
+      time: "10/20, 12:30PM-2:30PM",
       location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1rfuhbrXduTzak4xZpl92HTGRV75o8-B0fCDeHi_rTdU/edit#slide=id.g251bd022106_1_0",
       worksheetLink: "https://drive.google.com/file/d/1qYOapQOgArdGJFvP-LaeXroENQl8K6Cr/view?usp=sharing",
@@ -210,23 +210,23 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 //     },
     {
       course: "CS 374A",
-      time: "11/10, 12:30-3:00PM",
+      time: "11/10, 12:30-2:30PM",
       location: "ECEB 1002",
     },
     {
       course: "ECE 374B",
-      time: "11/03, 12:30-3:00PM",
+      time: "11/03, 12:30-2:30PM",
       location: "ECEB 1002",
     },
    {
       course: "ECE 408",
-      time: "10/13, 3:00-5:30PM",
+      time: "10/13, 3:00-5:00PM",
       location: "ECEB 1002",
       slidesLink: "https://drive.google.com/file/d/1MxDHuwNoxpKh1uKjRigo43SlPPdGwJm0/view?usp=drive_link",
     },
     {
       course: "ECE 411",
-      time: "10/13, 12:30-3:00PM",
+      time: "10/13, 12:30-2:30PM",
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/1_bkao2dzv",
@@ -238,32 +238,32 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
   3: [
     {
       course: "ECE 110",
-      time: "11/17, 3:00-5:30PM",
+      time: "11/17, 3:00-5:00PM",
       location: "ECEB 1002",
     },
     {
       course: "ECE 120",
-      time: "11/17, 12:30-3:00PM",
+      time: "11/17, 12:30-2:30PM",
       location: "ECEB 1002",
     },
     {
       course: "ECE 210",
-      time: "11/17, 3:00-5:30PM",
+      time: "11/17, 3:00-5:00PM",
       location: "ECEB 1013",
     },
     {
       course: "ECE 329",
-      time: "12/01, 12:30-3:00PM",
+      time: "12/01, 12:30-2:30PM",
       location: "ECEB 1015",
     },
     {
       course: "ECE 342",
-      time: "11/17, 12:30-3:00PM",
+      time: "11/17, 12:30-2:30PM",
       location: "ECEB 1013",
     },
     {
       course: "ECE 374B",
-      time: "12/01, 12:30-3:00PM",
+      time: "12/01, 12:30-2:30PM",
       location: "ECEB 1002",
     }
   ],
