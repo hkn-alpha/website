@@ -134,6 +134,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "10/26, 12:30-2:30PM",
       location: "ECEB 1013",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_zr2finr9",
+      scribblesLink: "https://academic.acm.illinois.edu/assets/cs438/fa24/mt1/pdf/ACM_438_MT1_Review_scribbles.pdf",
       slidesLink: "https://drive.google.com/file/d/1RqSnWJsyhM_CvzVChLeQ3l6vumhbuaii/view?usp=drive_link",
     },
     {
@@ -242,6 +243,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "10/26, 12:30-2:30PM",
       location: "ECEB 1013",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_zr2finr9",
+      scribblesLink: "https://academic.acm.illinois.edu/assets/cs438/fa24/mt1/pdf/ACM_438_MT1_Review_scribbles.pdf",
       slidesLink: "https://drive.google.com/file/d/1RqSnWJsyhM_CvzVChLeQ3l6vumhbuaii/view?usp=drive_link",
 
     },
