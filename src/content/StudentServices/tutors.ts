@@ -85,15 +85,15 @@ export const tutors: Tutor[] = [
   //   email: "pradyun2@illinois.edu",
   //   courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, ECE 313, ECE 342, MATH 257, MATH 285, CS 173, CS 225, ECE 391, ECE482, ECE411",
   // },
-  {
-    name: "Ethan Chastain",
-    email: "ecc5@illinois.edu",
-    courses: "ECE 329, ECE 340, ECE 342, ECE 486, ECE 489, PHYS 212, PHYS 213, PHYS 214, CS 225, MATH 257",
-  },
+  // {
+  //   name: "Ethan Chastain",
+  //   email: "ecc5@illinois.edu",
+  //   courses: "ECE 329, ECE 340, ECE 342, ECE 486, ECE 489, PHYS 212, PHYS 213, PHYS 214, CS 225, MATH 257",
+  // },
   {
     name: "Nestor Gutierrez",
     email: "nguti4@illinois.edu",
-    courses: "ECE 110, ECE 330, ECE 340, ECE 342",
+    courses: "ECE 342",
   },
   {
     name: "Sreeram Rave",
