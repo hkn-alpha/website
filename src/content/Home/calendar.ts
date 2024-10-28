@@ -104,6 +104,10 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB 3013",
   },
+  3015: {
+    ...eceb,
+    locationName: "ECEB 3015",
+  },
   2013: {
     ...eceb,
     locationName: "ECEB 2013",
@@ -318,6 +322,17 @@ const generalMeetingswap = (date: Date): Event => ({
   description: "General Meeting and overview of our society, accomplishments, and plans"
 })
 
+const CostumeContest = (date: Date): Event => ({
+  name: "HKN Halloween Costume Contest 🎃",
+  date,
+  time: "5:00 - 6:00 PM",
+  virtual: false,
+  initiatePointsCategory: 'social',
+  initiatePointsCount: 1, 
+  locationInfo: commonLocations["3015"],
+  description: "Come show off your best costume!"
+})
+
 
 
 // Note that the below need not be ordered, the web UI will take care of sorting
@@ -415,6 +430,10 @@ const events: Event[] = [
   ,new Date(2024, 8, 11)
 ].map(halliburtonTalk),
 ...[
+  , new Date(2024,9, 29)
+
+].map(generalMeetingswap),
+...[
   , new Date(2024, 8, 11)
 ].map(TSMC_ISSA),
 ...[
@@ -447,10 +466,9 @@ const events: Event[] = [
 ].map(TownHall),
 
 ...[
-  , new Date(2024,9, 29)
+  , new Date(2024,9, 31)
 
-].map(generalMeetingswap)
-
+].map(CostumeContest)
 ];
 
 export default events;
