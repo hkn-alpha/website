@@ -163,6 +163,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       slidesLink: "https://docs.google.com/presentation/d/1pj2_GGltCo2jRIzTmndIn-psupwfPDSnvmaFpNJurVk/edit?usp=sharing",
       worksheetLink: "https://drive.google.com/file/d/1eF9-TfyRcv717JLg4CeDIaC1DkHCsYOe/view?usp=sharing",
       keyLink: "https://drive.google.com/file/d/13BSuHFJMptg7eiuPaET7iO7c8c3ljFqY/view?usp=sharing",
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_8qn9l07n'
     },
     {
       course: "ECE 210",
@@ -170,6 +171,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1Kl7bv7apNSZORKBW-CvJvcm7OtS6rcmns9LCqejsB-E/edit?usp=sharing",
       scribblesLink: "https://drive.google.com/file/d/1N9TAJTBIJgCZhnqqkwTxqoaL13RuhWb3/view?usp=sharing",
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_j2qzxi88'
     },
     {
       course: "ECE 220",
@@ -177,7 +179,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1xc2H24O0wBflOJ7pRLNBUIWaEs48H8Mz8RC8TP1FG-E/edit#slide=id.g250929c7780_0_6",
       worksheetLink: "https://drive.google.com/file/d/1KKp1PTs5MFEe1ZBkO6auLPwjACQP94Wx/view?usp=drive_link",
-      workshetSolution: "https://drive.google.com/file/d/1VRmQ5qJYfrJ3bj82TURex5XLxBs0f62s/view?usp=drive_link",
+      keyLink: "https://drive.google.com/file/d/1VRmQ5qJYfrJ3bj82TURex5XLxBs0f62s/view?usp=drive_link",
       
     },
     {
@@ -213,6 +215,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1rfuhbrXduTzak4xZpl92HTGRV75o8-B0fCDeHi_rTdU/edit#slide=id.g251bd022106_1_0",
       worksheetLink: "https://drive.google.com/file/d/1qYOapQOgArdGJFvP-LaeXroENQl8K6Cr/view?usp=sharing",
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_cn3iz7pe'
     },
 //     {
 //       course: "ECE 350",
