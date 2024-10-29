@@ -177,7 +177,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1xc2H24O0wBflOJ7pRLNBUIWaEs48H8Mz8RC8TP1FG-E/edit#slide=id.g250929c7780_0_6",
       worksheetLink: "https://drive.google.com/file/d/1KKp1PTs5MFEe1ZBkO6auLPwjACQP94Wx/view?usp=drive_link",
-      workshetSolution: "https://drive.google.com/file/d/1VRmQ5qJYfrJ3bj82TURex5XLxBs0f62s/view?usp=drive_link",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_owib1a6k",
+      keyLink: "https://drive.google.com/file/d/1VRmQ5qJYfrJ3bj82TURex5XLxBs0f62s/view?usp=drive_link",
       
     },
     {
@@ -195,7 +196,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "10/27, 3:00-5:00PM",
       location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1k-W7ONZTiSYtAIOWgX_ucW0cgIBprou28fFMKzX8R6E/edit#slide=id.p",
-      
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_kry0oyjz",
     },
     {
       course: "ECE 330",
