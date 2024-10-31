@@ -188,7 +188,7 @@ export const tutors: Tutor[] = [
   {
     name: "Alex Chirita",
     email: "chirita2@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 210, ECE 220, MATH 221, MATH 231",
+    courses: "ECE 210, ECE 220",
   },
   {
     name: "Leo Lin",
@@ -210,11 +210,11 @@ export const tutors: Tutor[] = [
     email: "ps96@illinois.edu",
     courses: "ECE 110, ECE 210, PHYS 211, PHYS 212, PHYS 213, PHYS 214",
   },
-  {
-    name: "Duc Nguyen",
-    email: "ducmn2@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 210, MATH 285, Math 416, math 347",
-  },
+  // {
+  //   name: "Duc Nguyen",
+  //   email: "ducmn2@illinois.edu",
+  //   courses: "ECE 110, ECE 120, ECE 210, MATH 285, Math 416, math 347",
+  // },
   {
     name: "Rithwik Rayani ",
     email: "rrayani2@illinois.edu",
