@@ -95,11 +95,11 @@ export const tutors: Tutor[] = [
     email: "nguti4@illinois.edu",
     courses: "ECE 342",
   },
-  {
-    name: "Sreeram Rave",
-    email: "srave2@illinois.edu",
-    courses: "ECE 120, ECE 220",
-  },
+  // {
+  //   name: "Sreeram Rave",
+  //   email: "srave2@illinois.edu",
+  //   courses: "ECE 120, ECE 220",
+  // },
   {
     name: "Daron Sun",
     email: "daronls2@illinois.edu",
