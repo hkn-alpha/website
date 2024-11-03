@@ -238,7 +238,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       course: "ECE 374B",
       time: "11/03, 12:30-2:30PM",
       location: "ECEB 1002",
-      
+      slidesLink: "https://drive.google.com/file/d/1Flnfz4z6IRdK31DcrF6-Euv7cR6JcXsC/view?usp=drive_link",      
     },
    {
       course: "ECE 408",
