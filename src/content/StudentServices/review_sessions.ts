@@ -314,7 +314,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2024, 9, 6),
-  2: new Date(2024, 10, 10), // ends 11/10
+  2: new Date(2024, 10, 13), // ends 11/10
   3: new Date(2024, 11, 1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
