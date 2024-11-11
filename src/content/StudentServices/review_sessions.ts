@@ -217,6 +217,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "11/10, 12:30-2:30PM",
       location: "ECEB 1013",
       slidesLink: "https://drive.google.com/file/d/1L3e8pseljhjeY5sWscdw8u3d99-jdSw-/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/11nH6Dj_LMVue9-J0vcmd21FYd6oQcR8_/view?usp=sharing",
     },
     {
       course: "ECE 342",
@@ -238,6 +239,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "11/10, 12:30-2:30PM",
       location: "ECEB 1002",
       slidesLink: "https://drive.google.com/file/d/1CO_oQbFAQm0uaQp5HjGQrGlelswYrJjv/view?usp=sharing",
+      scribblesLink: "https://academic.acm.illinois.edu/assets/cs374a/fa24/mt2/pdf/ACM_CS_374A_MT2_Review_scribs.pdf",
+      recordingLink: "https://illinois.zoom.us/rec/play/WwI4uNbV2ani_i0HmU8Cq1Zk--vUbC69bOEZJoR9gSlGGSzUyJZH-iKlDBDPEP4jo8jn60tlTyamQaNS.fULatEDspSRgc1is?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FUZUP0dE9Z6wQVWfOtuJE_Xc9CJHQtVCtYapznfgiBUM2W1aKu7dv847jr06fhmE.rGu5fHCAVGk0Hbwh",
     },
     {
       course: "ECE 374B",
