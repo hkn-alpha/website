@@ -348,9 +348,19 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1015",
   },
   {
-    course: "ECE 313",
+    course: "ECE 310",
     time: "12/12 12:30-2:30PM",
-    location: "ECEB 1013",
+    location: "ECEB 1015",
+  },
+  {
+    course: "ECE 313",
+    time: "12/12 5:30-7:30PM",
+    location: "ECEB 3017",
+  },
+  {
+    course: "ECE 329",
+    time: "12/12 5:30-7:30PM",
+    location: "ECEB 1015",
   },
   {
     course: "ECE 330",
@@ -366,6 +376,11 @@ export const crammingCarnival: ReviewSession[] = [
     course: "ECE 342",
     time: "12/12 10:00-12:00PM",
     location: "ECEB 1015",
+  },
+  {
+    course: "ECE 374A",
+    time: "12/7 12:00-2:30PM",
+    location: "Siebel 1404",
   },
   {
     course: "ECE 374B",
