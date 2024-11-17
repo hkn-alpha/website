@@ -378,7 +378,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1015",
   },
   {
-    course: "ECE 374A",
+    course: "CS 374A",
     time: "12/7 12:00-2:30PM",
     location: "Siebel 1404",
   },
