@@ -283,7 +283,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "11/17, 3:00-5:00PM",
       location: "ECEB 1002",
       slidesLink: "https://drive.google.com/file/d/11RSQbPZuic1zGUUXJqmUsPrYTlD2yctC/view?usp=sharing",
-      recordingLink:'https://mediaspace.illinois.edu/media/t/1_vbqbpbn4'
+      recordingLink:'https://mediaspace.illinois.edu/media/t/1_vbqbpbn4',
+      scribblesLink: "https://drive.google.com/file/d/10iS0mc_REVBJsVjaUyuZgw9oC4zS1dOx/view?usp=sharing"
 
     },
     {
@@ -291,7 +292,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
       time: "11/17, 12:30-2:30PM",
       location: "ECEB 1002",
       slidesLink: "https://drive.google.com/file/d/1rdAxtXYECrMvSjg2tFp8MeFjwqz3TEMB/view?usp=sharing",
-      recordingLink:'https://mediaspace.illinois.edu/media/t/1_6v0vk499'
+      recordingLink:'https://mediaspace.illinois.edu/media/t/1_6v0vk499',
+      worksheetLink: "https://drive.google.com/file/d/14BRfL6vqx8xYCb8LhseqFqLdu4gAknNV/view?usp=drive_link",
+      keyLink: "https://drive.google.com/file/d/1zd-pW1A2F6JVx2rfQK_uzj_TP4o1BXBX/view?usp=drive_link"
     },
     {
       course: "ECE 210",
