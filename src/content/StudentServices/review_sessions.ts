@@ -319,7 +319,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]> = {
     {
       course: "ECE 374B",
       time: "12/01, 12:30-2:30PM",
-      location: "ECEB 1002",
+      location: "ECEB 2015",
     }
   ],
 };
