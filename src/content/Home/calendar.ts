@@ -226,7 +226,7 @@ name: "Movie Night",
 
 })
 
-const ecex4 = (date: Date): Event => ({
+const ecex4 = (date: Date): Event => ({ 
   name: "ECEx4 Sports Day",
   date,
   time: "1:00-4:00 PM",
