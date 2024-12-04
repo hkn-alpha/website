@@ -461,7 +461,7 @@ const events: Event[] = [
 ].map(initiation),
 ...[
   , new Date(2024, 11, 7)
-].map(ediathon),
+].map(editathon),
 ...[
   , new Date(2024, 11, 6)
 ].map(election),
