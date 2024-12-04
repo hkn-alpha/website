@@ -329,7 +329,7 @@ const election = (date: Date): Event => ({
   time: "5:00 - 7:00 PM",
   virtual: false,
   locationInfo: commonLocations["2017"],
-  description: "Elections for HKN! Go vote for you fellow members to be on board!"
+  description: "Elections for HKN! Go vote for your fellow members to be on board!"
 })
 
 const initiation = (date: Date): Event => ({
