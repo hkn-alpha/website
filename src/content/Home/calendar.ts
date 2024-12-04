@@ -331,15 +331,6 @@ const election = (date: Date): Event => ({
   description: "Elections for HKN! Go vote for you fellow members to be on board!"
 })
 
-const election = (date: Date): Event => ({
-  name: "HKN Elections",
-  date,
-  time: "5:00 - 7:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["2017"],
-  description: "Elections for HKN! Go vote for you fellow members to be on board!"
-})
-
 const initiation = (date: Date): Event => ({
   name: "HKN Initiation",
   date,
