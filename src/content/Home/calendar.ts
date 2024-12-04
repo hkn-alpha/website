@@ -316,10 +316,37 @@ const TownHall = (date: Date): Event => ({
 const generalMeetingswap = (date: Date): Event => ({
   name: "General Meeting",
   date,
-  time: "6:00 - 7:00 PM",
+  time: "4:00 - 5:00 PM",
   virtual: false,
   locationInfo: commonLocations["3013"],
   description: "General Meeting and overview of our society, accomplishments, and plans"
+})
+
+const election = (date: Date): Event => ({
+  name: "HKN Elections",
+  date,
+  time: "5:00 - 7:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["2017"],
+  description: "Elections for HKN! Go vote for you fellow members to be on board!"
+})
+
+const election = (date: Date): Event => ({
+  name: "HKN Elections",
+  date,
+  time: "5:00 - 7:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["2017"],
+  description: "Elections for HKN! Go vote for you fellow members to be on board!"
+})
+
+const initiation = (date: Date): Event => ({
+  name: "HKN Initiation",
+  date,
+  time: "11:00 - 1:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["3002"],
+  description: "HKN Initiation!"
 })
 
 const CostumeContest = (date: Date): Event => ({
@@ -356,7 +383,6 @@ const events: Event[] = [
     new Date(2024, 10, 15),
     new Date(2024, 10, 22),
     // new Date(2024, 11, 29), // FALL BREAK
-    new Date(2024, 11, 6),
   ].map(happyHour),
   ...[
     new Date(2024, 8, 10),
@@ -384,8 +410,7 @@ const events: Event[] = [
     new Date(2024, 10, 3),
     new Date(2024, 10, 10),
     new Date(2024, 10, 17),
-    new Date(2024, 11, 1),
-    new Date(2024, 11, 8)
+    new Date(2024, 11, 1)
   ].map(studentServices),
   ...[
     new Date (2024, 8, 20)
@@ -430,7 +455,14 @@ const events: Event[] = [
   ,new Date(2024, 8, 11)
 ].map(halliburtonTalk),
 ...[
+  , new Date(2024, 11, 8)
+].map(initiation),
+...[
+  , new Date(2024, 11, 6)
+].map(election),
+...[
   , new Date(2024,9, 29)
+  , new Date(2024, 11, 6)
 
 ].map(generalMeetingswap),
 ...[
