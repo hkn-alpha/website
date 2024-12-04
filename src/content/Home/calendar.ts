@@ -344,7 +344,7 @@ const initiation = (date: Date): Event => ({
 const editathon = (date: Date): Event => ({
   name: "Student Services Editathon",
   date,
-  time: "1:00 PM - 3:00 PM",
+  time: "12:30 PM - 3:00 PM",
   virtual: false,
   locationInfo: commonLocations["rsoOffice"],
   description:
