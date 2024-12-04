@@ -193,6 +193,7 @@ const resumeReview2 = (date: Date): Event => ({
   description:
     "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
 })
+
 const courseAdvising = (date: Date): Event => ({
   name: "Course Advising",
   date,
@@ -340,6 +341,16 @@ const initiation = (date: Date): Event => ({
   description: "HKN Initiation!"
 })
 
+const editathon = (date: Date): Event => ({
+  name: "Student Services Editathon",
+  date,
+  time: "1:00 PM - 3:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["rsoOffice"],
+  description:
+    "Come to the RSO Office to help edit the HKN wiki!"
+})
+
 const CostumeContest = (date: Date): Event => ({
   name: "HKN Halloween Costume Contest 🎃",
   date,
@@ -448,6 +459,9 @@ const events: Event[] = [
 ...[
   , new Date(2024, 11, 8)
 ].map(initiation),
+...[
+  , new Date(2024, 11, 7)
+].map(ediathon),
 ...[
   , new Date(2024, 11, 6)
 ].map(election),
