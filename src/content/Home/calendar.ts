@@ -318,7 +318,7 @@ const generalMeetingswap = (date: Date): Event => ({
   date,
   time: "4:00 - 5:00 PM",
   virtual: false,
-  locationInfo: commonLocations["3013"],
+  locationInfo: commonLocations["2017"],
   description: "General Meeting and overview of our society, accomplishments, and plans"
 })
 
