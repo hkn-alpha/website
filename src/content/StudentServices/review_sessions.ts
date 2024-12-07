@@ -390,8 +390,8 @@ export const crammingCarnival: ReviewSession[] = [
   },
   {
     course: "CS 374A",
-    time: "12/7 12:00-2:30PM",
-    location: "Siebel 1404",
+    time: "12/7 11:00-4:00PM",
+    location: "Animal Science Lab 150",
   },
   {
     course: "ECE 374B",
