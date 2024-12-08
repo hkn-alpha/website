@@ -360,13 +360,13 @@ export const crammingCarnival: ReviewSession[] = [
   },
   {
     course: "ECE 310",
-    time: "12/12 12:30-2:30PM",
-    location: "ECEB 1015",
+    time: "12/12 5:30-7:30PM",
+    location: "ECEB 3017",
   },
   {
     course: "ECE 313",
-    time: "12/12 5:30-7:30PM",
-    location: "ECEB 3017",
+    time: "12/12 12:30-2:30PM",
+    location: "ECEB 1013",
   },
   {
     course: "ECE 329",
