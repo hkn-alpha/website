@@ -342,51 +342,61 @@ export const crammingCarnival: ReviewSession[] = [
     course: "ECE 110",
     time: "12/12 10:00-12:00PM",
     location: "ECEB 1002",
+    slidesLink: "https://docs.google.com/presentation/d/1DeNuuxpI_ydyBstSJknRO0vcD_Y3yUTrZUUAzzDJ0xE/edit?usp=sharing",
   },
   {
     course: "ECE 120",
     time: "12/12 12:30-2:30PM",
     location: "ECEB 3017",
+    slidesLink: "https://docs.google.com/presentation/d/13-1eGTmgN9eHO2W9MDvysYOz4VGXV2RuyRObYGZbaN4/edit?usp=sharing",
   },
   {
     course: "ECE 210",
     time: "12/12 10:00-12:00PM",
     location: "ECEB 1013",
+    slidesLink: "https://docs.google.com/presentation/d/1jKM5_gCe0g5WDaJVoHkUN0-HrkURrzQktvZbsJbaMJ4/edit?usp=sharing",
   },
   {
     course: "ECE 220",
     time: "12/12 12:30-2:30PM",
     location: "ECEB 1015",
+    slidesLink: "https://docs.google.com/presentation/d/1ztI3-Y1dU5F0GBjFsfRuG_01-b0cAEJ3n_qfiv776U4/edit?usp=sharing",
   },
   {
     course: "ECE 310",
     time: "12/12 5:30-7:30PM",
     location: "ECEB 3017",
+    slidesLink: "https://docs.google.com/presentation/d/1CfLsIPCGmAKQMFQQ2gRIiBDtRUwYWF1tcpHHkbtrAoA/edit?usp=sharing",
   },
   {
     course: "ECE 313",
     time: "12/12 12:30-2:30PM",
     location: "ECEB 1013",
+    
   },
   {
     course: "ECE 329",
     time: "12/12 5:30-7:30PM",
     location: "ECEB 1015",
+    slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
   },
   {
     course: "ECE 330",
     time: "12/12 3:00-5:00PM",
     location: "ECEB 3017",
+    slidesLink: "https://docs.google.com/presentation/d/1zTk7ZubVpZm2k5eMILaZGOhNHmPSDn6YP5XwqlavalE/edit?usp=sharing",
   },
   {
     course: "ECE 340",
     time: "12/12 12:30-2:30PM",
     location: "ECEB 2015",
+    slidesLink: "https://docs.google.com/presentation/d/1tHeoyf1ft4PQ9vZGkXi_WWziCAQgNeKlGOD-ibG2XJ4/edit?usp=sharing",
   },
   {
     course: "ECE 342",
     time: "12/12 10:00-12:00PM",
     location: "ECEB 1015",
+    slidesLink: "https://docs.google.com/presentation/d/1fqTbzjjVLYz9Xkxwheozrm1kwOUrTw6oqHoqnsgCzdw/edit?usp=sharing",
   },
   {
     course: "CS 374A",
