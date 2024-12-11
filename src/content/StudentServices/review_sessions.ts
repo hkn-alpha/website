@@ -402,6 +402,8 @@ export const crammingCarnival: ReviewSession[] = [
     course: "CS 374A",
     time: "12/7 11:00 AM-4:00PM",
     location: "Animal Science Lab 150",
+    slidesLink: "https://drive.google.com/file/d/1Tos8twDP5gnMk8U4yax8GueQj4LWp-PS/view?usp=sharing",
+    scribblesLink: "https://drive.google.com/file/d/18Uwr68m5CE508KSkiBxOxoCG_xXu67Jb/view?usp=sharing",
   },
   {
     course: "ECE 374B",
