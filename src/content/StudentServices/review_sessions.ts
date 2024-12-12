@@ -344,7 +344,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1002",
     slidesLink: "https://docs.google.com/presentation/d/1DeNuuxpI_ydyBstSJknRO0vcD_Y3yUTrZUUAzzDJ0xE/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1rCBMen0mMXcAxE17RNQecPT3XD_x_Mqx/view?usp=sharing",
-    // keyLink: "https://drive.google.com/file/d/1e8kk0mzACNBohMcitIv4bntIn49W_tCq/view?usp=sharing"
+     keyLink: "https://drive.google.com/file/d/1e8kk0mzACNBohMcitIv4bntIn49W_tCq/view?usp=sharing"
   },
   {
     course: "ECE 120",
@@ -360,7 +360,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1013",
     slidesLink: "https://docs.google.com/presentation/d/1jKM5_gCe0g5WDaJVoHkUN0-HrkURrzQktvZbsJbaMJ4/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1Ionw23Ath-knmMd0RlGB7csKc1_a1XXI/view?usp=sharing",
-    // keyLink: "https://drive.google.com/file/d/1MQI8vAae7czcRhLDN7_qNo6PI8FZGOY5/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/1MQI8vAae7czcRhLDN7_qNo6PI8FZGOY5/view?usp=drive_link"
   },
   {
     course: "ECE 220",
@@ -417,7 +417,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1015",
     // slidesLink: "https://docs.google.com/presentation/d/1fqTbzjjVLYz9Xkxwheozrm1kwOUrTw6oqHoqnsgCzdw/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1i9BocR4a3tZqBJ9ocDbQN9ClLF9SBSLK/view?usp=drive_link",
-    // keyLink: "https://drive.google.com/file/d/12AZ8KUPZMg41fJteVmEdM50PEeKn-3c2/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/12AZ8KUPZMg41fJteVmEdM50PEeKn-3c2/view?usp=drive_link"
   },
   {
     course: "CS 374A",
