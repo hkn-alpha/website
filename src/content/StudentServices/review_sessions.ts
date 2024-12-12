@@ -352,7 +352,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 3017",
     slidesLink: "https://docs.google.com/presentation/d/13-1eGTmgN9eHO2W9MDvysYOz4VGXV2RuyRObYGZbaN4/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1ApKzFsfS__0M6oXdeGcbBbWoTcYpULqS/view?usp=sharing",
-    // keyLink: "https://drive.google.com/file/d/1_qRi2UlI5d00v8IJM2wzv64x2GHWPXyR/view?usp=sharing"
+     keyLink: "https://drive.google.com/file/d/1_qRi2UlI5d00v8IJM2wzv64x2GHWPXyR/view?usp=sharing"
   },
   {
     course: "ECE 210",
@@ -368,7 +368,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1015",
     slidesLink: "https://docs.google.com/presentation/d/1ztI3-Y1dU5F0GBjFsfRuG_01-b0cAEJ3n_qfiv776U4/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1wMHGSXF7z90vy81ViLfmaGtEbZwkv4HS/view?usp=drive_link",
-    // keyLink: "https://drive.google.com/file/d/1dZxrIVQcHnAID37VLoRQDbkNd7ttKueW/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/1dZxrIVQcHnAID37VLoRQDbkNd7ttKueW/view?usp=drive_link"
   },
   {
     course: "ECE 310",
@@ -384,7 +384,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1013",
     slidesLink: "https://drive.google.com/file/d/16lpzkpIpUV6x7n-A-2br6smYKQgih9ui/view?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1rSah_32CwFdIzYqOWwPJ8lUItXUkSF0y/view?usp=drive_link",
-    // keyLink: "https://drive.google.com/file/d/1OUgh_TjFgahhHXUP6q_rP-e_yi7HHAWk/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/1OUgh_TjFgahhHXUP6q_rP-e_yi7HHAWk/view?usp=drive_link"
 
   },
   {
@@ -409,7 +409,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 2015",
     slidesLink: "https://docs.google.com/presentation/d/1tHeoyf1ft4PQ9vZGkXi_WWziCAQgNeKlGOD-ibG2XJ4/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
-    // keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link"
   },
   {
     course: "ECE 342",
@@ -432,7 +432,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1002",
     slidesLink: "https://drive.google.com/file/d/1TaL-vqXHCG6IpHNN9OoWXoVQgni4ZUwa/view?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1qIinNE6Q0rymSBXUanQyrIiPqwKrPJwP/view?usp=drive_link",
-    // keyLink:"https://drive.google.com/file/d/14zwwT3PSziCpx5rNDhQfhXX4Dp4RP-vg/view?usp=drive_link"
+     keyLink:"https://drive.google.com/file/d/14zwwT3PSziCpx5rNDhQfhXX4Dp4RP-vg/view?usp=drive_link"
   },
   {
     course: "ECE 408",
