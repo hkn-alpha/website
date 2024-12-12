@@ -372,7 +372,7 @@ export const crammingCarnival: ReviewSession[] = [
     course: "ECE 313",
     time: "12/12 12:30 PM-2:30PM",
     location: "ECEB 1013",
-    
+    slidesLink: "https://drive.google.com/file/d/16lpzkpIpUV6x7n-A-2br6smYKQgih9ui/view?usp=sharing",
   },
   {
     course: "ECE 329",
@@ -402,6 +402,8 @@ export const crammingCarnival: ReviewSession[] = [
     course: "CS 374A",
     time: "12/7 11:00 AM-4:00PM",
     location: "Animal Science Lab 150",
+    slidesLink: "https://drive.google.com/file/d/1Tos8twDP5gnMk8U4yax8GueQj4LWp-PS/view?usp=sharing",
+    scribblesLink: "https://drive.google.com/file/d/18Uwr68m5CE508KSkiBxOxoCG_xXu67Jb/view?usp=sharing",
   },
   {
     course: "ECE 374B",
@@ -420,10 +422,12 @@ export const crammingCarnival: ReviewSession[] = [
     course: "ECE 411",
     time: "12/12 3:00 PM-5:00PM",
     location: "ECEB 1015",
+    slidesLink: "https://drive.google.com/file/d/1af5EeUgWgZBBrRzFiY9JkCoi_6lzjqKs/view?usp=sharing",
   },
   {
     course: "ECE 438",
     time: "12/12 10:00 AM-12:00PM",
     location: "ECEB 2015",
+    slidesLink: "https://drive.google.com/file/d/1vHP4RXQOmSrKMb-2n_jlpjCBqemXYqSE/view?usp=sharing",
   },
 ];
