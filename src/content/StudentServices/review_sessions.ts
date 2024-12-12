@@ -401,7 +401,7 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 3017",
     slidesLink: "https://docs.google.com/presentation/d/1zTk7ZubVpZm2k5eMILaZGOhNHmPSDn6YP5XwqlavalE/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1w5U-IFOIcR1YF4Bw5ed--TBHbcklJR0U/view?usp=drive_link",
-    // keyLink: "https://drive.google.com/file/d/1FSwxntkSRA1ItmaveqB1Mx9M9ZJScXNa/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/1FSwxntkSRA1ItmaveqB1Mx9M9ZJScXNa/view?usp=drive_link"
   },
   {
     course: "ECE 340",
