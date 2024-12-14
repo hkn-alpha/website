@@ -380,7 +380,8 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 3017",
     slidesLink: "https://docs.google.com/presentation/d/1CfLsIPCGmAKQMFQQ2gRIiBDtRUwYWF1tcpHHkbtrAoA/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1mCrhOJGXuQdO7YRTUkHvGJhoD-HS33Fr/view?usp=drive_link",
-     keyLink: "https://drive.google.com/file/d/1V44c_35RREkrs4zfS60XAvoeJ0YcjpTV/view?usp=drive_link"
+    keyLink: "https://drive.google.com/file/d/1V44c_35RREkrs4zfS60XAvoeJ0YcjpTV/view?usp=drive_link",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_5it9131p"
   },
   {
     course: "ECE 313",
@@ -398,7 +399,8 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 1015",
     slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1UURDs4Pnw7ngD2Tz8INEZHJdQJjatQ2b/view?usp=drive_link",
-     keyLink: "https://drive.google.com/file/d/1a5jx26JACwfTyOc9Z1MtPEA3GQaZy-3a/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/1a5jx26JACwfTyOc9Z1MtPEA3GQaZy-3a/view?usp=drive_link",
+     recordingLink: "https://mediaspace.illinois.edu/media/t/1_9jlzhkww"
   },
   {
     course: "ECE 330",
@@ -406,7 +408,8 @@ export const crammingCarnival: ReviewSession[] = [
     location: "ECEB 3017",
     slidesLink: "https://docs.google.com/presentation/d/1zTk7ZubVpZm2k5eMILaZGOhNHmPSDn6YP5XwqlavalE/edit?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1w5U-IFOIcR1YF4Bw5ed--TBHbcklJR0U/view?usp=drive_link",
-     keyLink: "https://drive.google.com/file/d/1FSwxntkSRA1ItmaveqB1Mx9M9ZJScXNa/view?usp=drive_link"
+     keyLink: "https://drive.google.com/file/d/1FSwxntkSRA1ItmaveqB1Mx9M9ZJScXNa/view?usp=drive_link", 
+     recordingLink: "https://mediaspace.illinois.edu/media/t/1_zkg0lmba"
   },
   {
     course: "ECE 340",
@@ -461,5 +464,6 @@ export const crammingCarnival: ReviewSession[] = [
     time: "12/12 10:00 AM-12:00PM",
     location: "ECEB 2015",
     slidesLink: "https://drive.google.com/file/d/1vHP4RXQOmSrKMb-2n_jlpjCBqemXYqSE/view?usp=sharing",
+    recordingLink: "https://illinois.zoom.us/rec/play/0YPh752nLtKieMmbkTEVdCyW9zkD8KtF9Ca2t24UzY7q_VBCnpY6aJ4ch6v0NcEJcaw5qHzS5XSM1wiA.u3IO2AmjGFkFjsEp?canPlayFromShare=true&from=share_recording_detail&startTime=1734019499000&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FyzGwIbe_lUIejcwGGjNAQeGQNUTIL5RlMPtCW0kfoU7ilLUT7YrMTgI7Ukxk9YEO.XSNDMfT7HYlkImHN%3FstartTime%3D1734019499000"
   },
 ];
