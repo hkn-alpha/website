@@ -128,6 +128,10 @@ const commonLocations = {
     ...cif,
     locationName: "CIF 4025",
   },
+  CIF_first_floor:{
+    ...cif,
+    locationName: "CIF First Floor",
+  },
 };
 
 const happyHour = (date: Date): Event => ({
@@ -276,6 +280,17 @@ const BMcDTalk = (date: Date): Event => ({
   locationInfo: commonLocations["1015"],
   description:
   "Come to learn more about Burns & McDonnell and their career opportunities!"
+})
+
+const ece_220_hours = (date: Date): Event => ({
+  name: "ECE 220 Tutoring Hours",
+  date,
+  time: "7 AM - 7 PM",
+  virtual: false,
+  locationInfo: commonLocations["CIF 1st Floor"],
+  description:
+  "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by."
+
 })
 
 const TSMC_ISSA = (date: Date): Event => ({
@@ -505,7 +520,10 @@ const events: Event[] = [
 ...[
   , new Date(2024,9, 31)
 
-].map(CostumeContest)
+].map(CostumeContest),
+...[
+  ,new Date(2024,11, 18)
+].map(ece_220_hours)
 ];
 
 export default events;
