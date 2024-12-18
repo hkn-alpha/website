@@ -287,7 +287,7 @@ const ece_220_hours = (date: Date): Event => ({
   date,
   time: "7 AM - 7 PM",
   virtual: false,
-  locationInfo: commonLocations["CIF 1st Floor"],
+  locationInfo: commonLocations["CIF_first_floor"],
   description:
   "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by."
 
