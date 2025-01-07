@@ -367,7 +367,7 @@ export const until: Record<1 | 2 | 3, Date> = {
 
 // Final review sessions
 
-// export const crammingCarnival: ReviewSession[] = [
+ export const crammingCarnival: ReviewSession[] = [
 //   {
 //     course: "ECE 110",
 //     time: "12/12 10:00 AM-12:00PM",
@@ -496,4 +496,4 @@ export const until: Record<1 | 2 | 3, Date> = {
 //     slidesLink: "https://drive.google.com/file/d/1vHP4RXQOmSrKMb-2n_jlpjCBqemXYqSE/view?usp=sharing",
 //     recordingLink: "https://illinois.zoom.us/rec/play/0YPh752nLtKieMmbkTEVdCyW9zkD8KtF9Ca2t24UzY7q_VBCnpY6aJ4ch6v0NcEJcaw5qHzS5XSM1wiA.u3IO2AmjGFkFjsEp?canPlayFromShare=true&from=share_recording_detail&startTime=1734019499000&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FyzGwIbe_lUIejcwGGjNAQeGQNUTIL5RlMPtCW0kfoU7ilLUT7YrMTgI7Ukxk9YEO.XSNDMfT7HYlkImHN%3FstartTime%3D1734019499000"
 //   },
-// ];
+ ];
