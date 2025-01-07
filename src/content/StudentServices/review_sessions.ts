@@ -365,7 +365,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   3: new Date(2024, 11, 1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
-// // Final review sessions
+// Final review sessions
 
 // export const crammingCarnival: ReviewSession[] = [
 //   {
