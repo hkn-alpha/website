@@ -4,7 +4,7 @@
   import ReviewsCalendar from "../components/ReviewsCalendar.svelte";
   import {
     reviewSessions,
-    //crammingCarnival,
+    crammingCarnival,
     until,
   } from "../content/StudentServices/review_sessions";
   import { tutors as unorderedTutors } from "../content/StudentServices/tutors";
