@@ -407,6 +407,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
  };
 
 // When the UI should rollover stop showing the given review session
+// All Midterms show up on the website, this sets priority of what shows up on the page
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2025, 2, 1),
