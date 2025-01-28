@@ -400,7 +400,7 @@ const CostumeContest = (date: Date): Event => ({
 const events: Event[] = [
   ...[
     new Date(2025, 1, 1),
-  ].map(olympics)
+  ].map(olympics),
   ...[
     new Date(2025, 0, 31),
     new Date(2025, 1, 7),
