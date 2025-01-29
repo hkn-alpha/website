@@ -171,9 +171,9 @@ const studentServices = (date: Date): Event => ({
   initiatePointsCount: 1,
 });
 const olympics = (date: Date): Event => ({
-  name: "Student Services Meeting",
+  name: "Olympics",
   date,
-  time: "11:00am-1:00pm",
+  time: "11:00am-1:00 pm",
   virtual: false,
   locationInfo: commonLocations[2017],
   description:
@@ -399,7 +399,7 @@ const CostumeContest = (date: Date): Event => ({
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
   ...[
-    new Date(2025, 1, 1),
+    new Date(2025, 2, 1),
   ].map(olympics),
   ...[
     new Date(2025, 0, 31),
@@ -409,7 +409,7 @@ const events: Event[] = [
     new Date(2025, 1, 28),
     new Date(2025, 2, 7),
     new Date(2025, 2, 14),
-    new Date(2025, 2, 21),
+    //new Date(2025, 2, 21),
     new Date(2025, 2, 28),
     new Date(2025, 3, 4),
     new Date(2025, 3, 11),
@@ -424,7 +424,7 @@ const events: Event[] = [
     new Date(2025, 1, 25),
     new Date(2025, 2, 4),
     new Date(2025, 2, 11),
-    new Date(2025, 2, 18),
+    //new Date(2025, 2, 18),
     new Date(2025, 2, 25),
     new Date(2025, 3, 1),
     new Date(2025, 3, 8),
@@ -435,21 +435,21 @@ const events: Event[] = [
     // new Date(2024, 11, 26), // FALL BREAK
     new Date(2024, 11, 3),
   ].map(tuesdaySocial),
- ...[,
-    new Date(2024, 2, 1),
-    new Date(2024, 2, 8),
-    new Date(2024, 2, 15),
-    new Date(2024, 2, 22),
-    new Date(2024, 3, 1),
-    new Date(2024, 2, 8),
-    new Date(2024, 2, 15),
-    new Date(2024, 2, 22),
-    new Date(2024, 2, 29),
-    new Date(2024, 3, 5),
-    new Date(2024, 3, 12),
-    new Date(2024, 3, 19),
-    new Date(2024, 3, 26),
-    new Date(2024, 4, 3),
+ ...[
+    new Date(2024, 2, 2),
+    new Date(2024, 2, 9),
+    new Date(2024, 2, 16),
+    new Date(2024, 2, 23),
+    new Date(2024, 3, 2),
+    new Date(2024, 2, 9),
+    new Date(2024, 2, 16),
+    new Date(2024, 2, 23),
+    new Date(2024, 2, 30),
+    new Date(2024, 3, 6),
+    new Date(2024, 3, 13),
+    new Date(2024, 3, 20),
+    new Date(2024, 3, 27),
+    new Date(2024, 4, 4),
   ].map(studentServices),
   ...[
     new Date (2024, 8, 20)
