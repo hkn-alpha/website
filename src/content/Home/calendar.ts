@@ -132,6 +132,10 @@ const commonLocations = {
     ...cif,
     locationName: "CIF First Floor",
   },
+  TBA:{
+    ...eceb,
+    locationName: "TBA",
+  },
 };
 
 const happyHour = (date: Date): Event => ({
@@ -151,7 +155,7 @@ const tuesdaySocial = (date: Date): Event => ({
   description: "Join us for Pizza, Poker, and Smash!",
   time: "6:00-7:00pm",
   virtual: false,
-  locationInfo: commonLocations[3013],
+  locationInfo: commonLocations["TBA"],
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
@@ -166,6 +170,18 @@ const studentServices = (date: Date): Event => ({
   initiatePointsCategory: "service",
   initiatePointsCount: 1,
 });
+const olympics = (date: Date): Event => ({
+  name: "Olympics",
+  date,
+  time: "11:00am-1:00 pm",
+  virtual: false,
+  locationInfo: commonLocations[2017],
+  description:
+    "Olympics! Initiates are required to attend. There will be a penalty if you don't!",
+  initiatePointsCategory: "service",
+  initiatePointsCount: 1,
+});
+
 const valentineSocial = (date: Date): Event => ({
   name: "Valentine's Day Social",
   date,
@@ -341,16 +357,16 @@ const generalMeetingswap = (date: Date): Event => ({
 const election = (date: Date): Event => ({
   name: "HKN Elections",
   date,
-  time: "5:00 - 7:00 PM",
+  time: "5:00 - 8:00 PM",
   virtual: false,
-  locationInfo: commonLocations["2017"],
+  locationInfo: commonLocations[2017],
   description: "Elections for HKN! Go vote for your fellow members to be on board!"
 })
 
 const initiation = (date: Date): Event => ({
   name: "HKN Initiation",
   date,
-  time: "11:00 - 1:00 PM",
+  time: "11:00 - 2:00 PM",
   virtual: false,
   locationInfo: commonLocations["3002"],
   description: "HKN Initiation!"
@@ -383,51 +399,57 @@ const CostumeContest = (date: Date): Event => ({
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
   ...[
-    // new Date(2024, 8, 6),
-    // new Date(2024, 8, 13),
-    // new Date(2024, 8, 20),
-    // new Date(2024, 8, 27),
-    new Date(2024, 8, 6),
-    new Date(2024, 8, 13),
-    new Date(2024, 8, 20),
-    new Date(2024, 8, 27),
-    new Date(2024, 9, 4),
-    new Date(2024, 9, 11),
-    new Date(2024, 9, 18),
-    new Date(2024, 9, 25),
-    new Date(2024, 10, 1),
-    new Date(2024, 10, 8),
-    new Date(2024, 10, 15),
-    new Date(2024, 10, 22),
-    // new Date(2024, 11, 29), // FALL BREAK
+    new Date(2025, 1, 1),
+  ].map(olympics),
+  ...[
+    new Date(2025, 0, 31),
+    new Date(2025, 1, 7),
+    new Date(2025, 1, 14),
+    new Date(2025, 1, 21),
+    new Date(2025, 1, 28),
+    new Date(2025, 2, 7),
+    new Date(2025, 2, 14),
+    //new Date(2025, 2, 21),
+    new Date(2025, 2, 28),
+    new Date(2025, 3, 4),
+    new Date(2025, 3, 11),
+    new Date(2025, 3, 18),
+    new Date(2025, 3, 25),
+    new Date(2025, 4, 2),
   ].map(happyHour),
   ...[
-    new Date(2024, 8, 10),
-    new Date(2024, 8, 17),
-    new Date(2024, 8, 24),
-    new Date(2024, 9, 1),
-    new Date(2024, 9, 8),
-    new Date(2024, 9, 15),
-    new Date(2024, 9, 22),
-    new Date(2024, 10, 5),
-    new Date(2024, 10, 12),
-    new Date(2024, 10, 19),
+    new Date(2025, 1, 4),
+    new Date(2025, 1, 11),
+    new Date(2025, 1, 18),
+    new Date(2025, 1, 25),
+    new Date(2025, 2, 4),
+    new Date(2025, 2, 11),
+    //new Date(2025, 2, 18),
+    new Date(2025, 2, 25),
+    new Date(2025, 3, 1),
+    new Date(2025, 3, 8),
+    new Date(2025, 3, 15),
+    new Date(2025, 3, 22),
+    new Date(2025, 3, 29),
+    new Date(2025, 4, 6),
     // new Date(2024, 11, 26), // FALL BREAK
     new Date(2024, 11, 3),
   ].map(tuesdaySocial),
- ...[,
-    new Date(2024, 8, 8),
-    new Date(2024, 8, 15),
-    new Date(2024, 8, 22),
-    new Date(2024, 8, 29),
-    new Date(2024, 9, 6),
-    new Date(2024, 9, 13),
-    new Date(2024, 9, 20),
-    new Date(2024, 9, 27),
-    new Date(2024, 10, 3),
-    new Date(2024, 10, 10),
-    new Date(2024, 10, 17),
-    new Date(2024, 11, 1)
+ ...[
+    new Date(2024, 2, 2),
+    new Date(2024, 2, 9),
+    new Date(2024, 2, 16),
+    new Date(2024, 2, 23),
+    new Date(2024, 3, 2),
+    new Date(2024, 2, 9),
+    new Date(2024, 2, 16),
+    new Date(2024, 2, 23),
+    new Date(2024, 2, 30),
+    new Date(2024, 3, 6),
+    new Date(2024, 3, 13),
+    new Date(2024, 3, 20),
+    new Date(2024, 3, 27),
+    new Date(2024, 4, 4),
   ].map(studentServices),
   ...[
     new Date (2024, 8, 20)
@@ -472,13 +494,13 @@ const events: Event[] = [
   ,new Date(2024, 8, 11)
 ].map(halliburtonTalk),
 ...[
-  , new Date(2024, 11, 8)
+  , new Date(2024, 4, 4)
 ].map(initiation),
 ...[
   , new Date(2024, 11, 7)
 ].map(editathon),
 ...[
-  , new Date(2024, 11, 6)
+  , new Date(2024, 4, 2)
 ].map(election),
 ...[
   , new Date(2024,9, 29)
