@@ -399,7 +399,7 @@ const CostumeContest = (date: Date): Event => ({
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
   ...[
-    new Date(2025, 2, 1),
+    new Date(2025, 1, 1),
   ].map(olympics),
   ...[
     new Date(2025, 0, 31),
