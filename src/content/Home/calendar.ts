@@ -218,16 +218,7 @@ const resumeReview2 = (date: Date): Event => ({
     "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
 })
 
-const workshopsTue = (date: Date): Event => ({
-  name: "Tutoring and Review Session Workshops",
-  date,
-  time: "5:00 PM - 6:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["TBA"],
-  description:
-    "Come to this workshop to improve your tutoring and lecturing skills."
-})
-const workshopsWED = (date: Date): Event => ({
+const workshops = (date: Date): Event => ({
   name: "Tutoring and Review Session Workshops",
   date,
   time: "6:00 PM - 7:00 PM",
@@ -423,11 +414,9 @@ const CostumeContest = (date: Date): Event => ({
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
   ...[
-    new Date(2025, 1, 11),
-  ].map(workshopsTue),
-  ...[
     new Date(2025, 1, 12),
-  ].map(workshopsWED),
+    new Date(2025, 1, 13),
+  ].map(workshops),
   ...[
     new Date(2025, 1, 1),
   ].map(olympics),
