@@ -109,7 +109,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 340",
       //time: "TBD",
-      location: "1015",
+      location: "ECEB 1015",
       time: "3/2, 12:30-2:30PM",
       // location: "ECEB 1002",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_62ac72q2",
@@ -119,7 +119,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 342",
       time: "2/15, 12:30-2:30PM",
-      location: "1015",
+      location: "ECEB 1015",
       // time: "9/21, 12:30-2:30PM",
       // location: "ECEB 1013",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_ah0a7joh",
@@ -138,7 +138,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 374B",
       //time: "TBD",
-      location: "1002",
+      location: "ECEB 1002",
       time: "2/9, 3:00-5:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://drive.google.com/file/d/14-E0fS7vKoI8pQpt_dFAnFow64H0MPgV/view?usp=sharing"
@@ -147,7 +147,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 408",
       //time: "TBD",
-      location: "1002",
+      location: "ECEB 1002",
       time: "3/1, 3:00-5:30PM",
       // location: "ECEB 1002",
       // recordingLink: "https://drive.google.com/file/d/1u-PtTW4-GVHhTzOK105RBXrWvUsy9Py1/view?usp=sharing",
@@ -156,7 +156,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE/CS 438",
       //time: "TBD",
-      location: "1015",
+      location: "ECEB 1015",
        time: "3/8, 12:30-2:30PM",
       // location: "ECEB 1013",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_zr2finr9",
@@ -166,7 +166,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 411",
       //time: "TBD",
-      location: "1002",
+      location: "ECEB 1002",
       time: "2/22, 12:30-3:00PM",
       // location: "ECEB 1002",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_sxn7f3z6",
@@ -175,7 +175,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 486",
       //time: "TBD",
-      location: "1015",
+      location: "ECEB 1015",
       time: "2/2, 3:00-5:00PM",
       // location: "ECEB 1002",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_sxn7f3z6",
