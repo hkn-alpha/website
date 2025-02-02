@@ -124,6 +124,10 @@ const commonLocations = {
     ...eceb,
     locationName: "ECEB 3002",
   },
+  3081: {
+    ...eceb,
+    locationName: "ECEB 3081",
+  },
   CIF_4025:{
     ...cif,
     locationName: "CIF 4025",
@@ -164,7 +168,7 @@ const studentServices = (date: Date): Event => ({
   date,
   time: "2:00pm-4:00pm",
   virtual: false,
-  locationInfo: commonLocations[2015],
+  locationInfo: commonLocations[3081],
   description:
     "Preparation/Meeting for all things Student Services! (i.e. Review Sessions, Worksheets, Videos, HKN Wiki, etc)",
   initiatePointsCategory: "service",
@@ -213,6 +217,26 @@ const resumeReview2 = (date: Date): Event => ({
   description:
     "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
 })
+
+const workshopsTue = (date: Date): Event => ({
+  name: "Tutoring and Review Session Workshops",
+  date,
+  time: "5:00 PM - 6:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["TBA"],
+  description:
+    "Come to this workshop to improve your tutoring and lecturing skills."
+})
+const workshopsWED = (date: Date): Event => ({
+  name: "Tutoring and Review Session Workshops",
+  date,
+  time: "6:00 PM - 7:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["TBA"],
+  description:
+    "Come to this workshop to improve your tutoring and lecturing skills."
+})
+
 
 const courseAdvising = (date: Date): Event => ({
   name: "Course Advising",
@@ -398,6 +422,12 @@ const CostumeContest = (date: Date): Event => ({
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
+  ...[
+    new Date(2025, 1, 11),
+  ].map(workshopsTue),
+  ...[
+    new Date(2025, 1, 12),
+  ].map(workshopsWED),
   ...[
     new Date(2025, 1, 1),
   ].map(olympics),
