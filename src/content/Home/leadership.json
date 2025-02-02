@@ -2,12 +2,12 @@
   "leaders": [
     {
       "name": "V Verma",
-      "image": "/vprofilepic.webp",
+      "image": "/VProfilePic.jpg",
       "role": "President"
     },
     {
       "name": "Eisa Kamran",
-      "image": "/eisaprofilepic.jpg",
+      "image": "/EisaProfilePic.png",
       "role": "Vice President"
     },
     {
@@ -16,19 +16,14 @@
       "role": "Treasurer/Events"
     },
     {
-      "name": "Colby Steber",
-      "image": "/colbyprofilepic.webp",
+      "name": "David Zhang",
+      "image": "/DavidProfilePic.jpg",
       "role": "Initiate Affairs"
     },
     {
-      "name": "Kyle Chung",
-      "image": "/kyleprofilepic.webp",
+      "name": "Lucas Nguyen",
+      "image": "/LucasProfilePic.JPG",
       "role": "Student Services"
-    },
-    {
-      "name": "Shomik Chatterjee",
-      "image": "/shomikprofilepic.webp",
-      "role": "Review Sessions"
     },
     {
       "name": "Ryan Ziegler",
@@ -37,12 +32,12 @@
     },
     {
       "name": "Albert Jiang",
-      "image": "/albertprofilepic.webp",
+      "image": "/AlbertProfilePic.jpg",
       "role": "Publicity"
     },
     {
-      "name": "Ivan Ramos",
-      "image": "/ivanprofilepic.jpg",
+      "name": "Yash Thakker",
+      "image": "/YashProfilePic.jpeg",
       "role": "Secretary"
     }
   ],
