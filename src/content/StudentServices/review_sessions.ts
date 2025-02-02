@@ -194,7 +194,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 110",
       time: "3/29, " + timeslots["A"],
-      location: "1002",
+      location: "ECEB 1002",
       // time: "10/20, 3:00-5:00PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1ANp3B_RQjOAzlhKPM589kiZbGWoK8k8I4WEluFpwCq0/edit?usp=sharing",
@@ -224,7 +224,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 220",
       time: "4/6, " + timeslots["A"],
-      location: "1002",
+      location: "ECEB 1002",
       // time: "10/27, 3:00-5:00PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1xc2H24O0wBflOJ7pRLNBUIWaEs48H8Mz8RC8TP1FG-E/edit#slide=id.g250929c7780_0_6",
@@ -236,7 +236,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 310",
       time: "4/5, " + timeslots["A"],
-      location: "1002",
+      location: "ECEB 1002",
       // time: "11/03, 3:00-5:00PM",
       // location: "ECEB 1013",
       // slidesLink: "https://docs.google.com/presentation/d/1EpYO2OxbcxIlWUp-gCOdczbsKOMB5IvfTmCKmQU6lEk/edit?usp=sharing",
@@ -245,7 +245,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 313",
       time: "4/7, " + timeslots["B"],
-      location: "1002",
+      location: "ECEB 1002",
       // time: "11/03, 3:00-5:00PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1jYLP52HUwiqrYyPU4Izb9404QtzaYrZAPm4VnO_DEXo/edit?usp=sharing",
@@ -254,7 +254,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 329",
       time: "3/9, " + timeslots["A"],
-      location: "1015",
+      location: "ECEB 1015",
       // time: "10/27, 3:00-5:00PM",
       // location: "ECEB 1013",
       // slidesLink: "https://docs.google.com/presentation/d/1k-W7ONZTiSYtAIOWgX_ucW0cgIBprou28fFMKzX8R6E/edit#slide=id.p",
@@ -263,7 +263,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 330",
       time: "4/6, " + timeslots["A"],
-      location: "1015",
+      location: "ECEB 1015",
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1013",
       // slidesLink: "https://docs.google.com/presentation/d/1sOM12r_XpP6x_M0UuJQEP6sOMoD6yZV8wtiT798MPIg/edit?usp=sharing",
@@ -273,7 +273,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 340",
       time: "4/12, " + timeslots["A"],
-      location: "1015",
+      location: "ECEB 1015",
       // time: "11/10, 12:30-2:30PM",
       // location: "ECEB 1013",
       // slidesLink: "https://drive.google.com/file/d/1L3e8pseljhjeY5sWscdw8u3d99-jdSw-/view?usp=sharing",
@@ -310,7 +310,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 374B",
       time: "3/9, " + timeslots["B"],
-      location: "1002",
+      location: "ECEB 1002",
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://drive.google.com/file/d/1Shhi7je8uIHdXhSiWOmvvlnq04430S9X/view?usp=sharing",     
@@ -328,7 +328,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 411",
       time: "3/29, " + timeslots["B"],
-      location: "1002",
+      location: "ECEB 1002",
       // time: "10/13, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
@@ -348,7 +348,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 486",
       time: "4/6, " + timeslots["B"],
-      location: "1015",
+      location: "ECEB 1015",
       // time: "10/13, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
