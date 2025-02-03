@@ -330,11 +330,11 @@ export const tutors: Tutor[] = [
   //   email: "ccchang9@illinois.edu",
   //   courses: "ECE 110, ECE 120, PHYS 212",
   // },
-  {
-    name: "Meenakshi De",
-    email: "mde6@illinois.edu",
-    courses: "ECE 110, ECE 120, PHYS 211, PHYS 214, MATH 221, MATH 241",
-  }
+  // {
+  //   name: "Meenakshi De",
+  //   email: "mde6@illinois.edu",
+  //   courses: "ECE 110, ECE 120, PHYS 211, PHYS 214, MATH 221, MATH 241",
+  // }
   // {
   //   name: "Rohan Shah",
   //   email: "rohan11@illinois.edu",
