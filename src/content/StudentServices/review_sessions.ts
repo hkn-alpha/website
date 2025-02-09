@@ -147,7 +147,6 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "2/9, 3:00-5:30PM",
       // location: "ECEB 1002",
       slidesLink: "https://drive.google.com/file/d/17L-drxEQNKRLHoSRvSBL7QIub20A1ADJ/view",
-      //worksheetLink: "N/A"
     },
     
     {
