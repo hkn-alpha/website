@@ -2,7 +2,7 @@
   "leaders": [
     {
       "name": "V Verma",
-      "image": "/VProfilePicCroppedandCompress.jpg",
+      "image": "/VProfilePic.jpg",
       "role": "President"
     },
     {
@@ -12,17 +12,17 @@
     },
     {
       "name": "David Thomas",
-      "image": "/davidprofilepic.webp",
+      "image": "/DavidThomasPic.JPG",
       "role": "Treasurer/Events"
     },
     {
       "name": "David Zhang",
-      "image": "/DavidProfilePicCropped.jpg",
+      "image": "/DavidZhangProfilePic.jpg",
       "role": "Initiate Affairs"
     },
     {
       "name": "Lucas Nguyen",
-      "image": "/LucasProfilePicCroppedandCompressed.jpg",
+      "image": "/LucasProfilePic.JPG",
       "role": "Student Services"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "Yash Thakker",
-      "image": "/YashProfilePicCropped.jpeg",
+      "image": "/YashProfilePic.jpg",
       "role": "Secretary"
     }
   ],
