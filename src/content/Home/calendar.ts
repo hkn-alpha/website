@@ -159,7 +159,7 @@ const tuesdaySocial = (date: Date): Event => ({
   description: "Join us for Pizza, Poker, and Smash!",
   time: "6:00-7:00pm",
   virtual: false,
-  locationInfo: commonLocations["TBA"],
+  locationInfo: commonLocations[2015],
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
