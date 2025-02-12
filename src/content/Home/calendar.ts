@@ -276,9 +276,9 @@ const ecex4 = (date: Date): Event => ({
 const generalMeeting = (date: Date): Event => ({
   name: "General Meeting",
   date,
-  time: "7:00-8:00 PM",
+  time: "6:00-7:00 PM",
   virtual: false,
-  locationInfo: commonLocations["2017"],
+  locationInfo: commonLocations[2015],
   description:
   "General Meeting and overview of our society, accomplishments, and plans"
 })
@@ -548,8 +548,7 @@ const events: Event[] = [
   , new Date(2024, 8, 4)
 ].map(infoSessions),
 ...[
-  , new Date(2024, 8, 5)
-  ,
+  , new Date(2025, 1, 18)
 
 ].map(generalMeeting)
 ,
