@@ -223,7 +223,7 @@ const workshops = (date: Date): Event => ({
   date,
   time: "6:00 PM - 7:00 PM",
   virtual: false,
-  locationInfo: commonLocations["TBA"],
+  locationInfo: commonLocations[2017],
   description:
     "Come to this workshop to improve your tutoring and lecturing skills."
 })
