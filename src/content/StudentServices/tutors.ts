@@ -30,6 +30,63 @@ export const tutors: Tutor[] = [
     email: "ekamr2@illinois.edu",
     courses: "ECE 120, ECE 220",
   },
+  {
+    name: "Nick Schroeder",
+    email: "ns58@illinois.edu",
+    courses: "ECE 110,ECE 120,ECE 210,Math 285,PHYS 211,PHYS 212,PHYS 214",
+  },
+  {
+    name: "Keeron Huang",
+    email: "qixuan3@illinois.edu",
+    courses: "ECE 110,ECE 120,ECE 220, CS 401, ECE 313, ECE 330,",
+  },
+  {
+    name: "Mark Sorial",
+    email: "msorial2@illinois.edu",
+    courses: "ECE 110,ECE 120,ECE 220, CS 173, PHYS 225, PHYS 211, PHYS 212",
+  },
+  {
+    name: "Aditya Pola",
+    email: "ekamr2@illinois.edu",
+    courses: "ECE 110,ECE 120,ECE 220, CS 173, CS 225, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 241",
+  },
+  // {
+  //   name: "Lauren Ruan",
+  //   email: "NEEDED",
+  //   courses: "ECE 110,ECE 120, PHYS 211, PHYS 213, PHYS 214",
+  // },
+  {
+    name: "Patrick Zhu",
+    email: "pjz3@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220",
+  },
+  {
+    name: "Rohan Das",
+    email: "rohan24@illinois.edu",
+    courses: "ECE 110,ECE 120,ECE 210, ECE 220, MATH 241",
+  },
+  {
+    name: "Kathleen Lum",
+    email: "kl57@illinois.edu",
+    courses: "ECE 110,ECE 120,ECE 210, ECE 220",
+  },
+  {
+    name: "Sarah Lau",
+    email: "lau29@illinois.edu",
+    courses: "ECE 110,ECE 210,MATH 257, PHYS 211, PHYS 214, PHYS 213",
+  },
+  {
+    name: "Archita Pratihast",
+    email: "ap87@illinois.edu",
+    courses: "MATH 221, MATH 231, MATH 241, ECE 120,ECE 220",
+  },
+  {
+    name: "Barry Xu",
+    email: "muqixu2@illinois.edu",
+    courses: "ECE 120,ECE 110,ECE 210, PHYS 211, PHYS 212, PHYS 213, PHYS 214",
+  },
+  
+
   // {
   //   name: "Udit Pai",
   //   email: "upai3@illinois.edu",
