@@ -50,11 +50,11 @@ export const tutors: Tutor[] = [
     email: "ekamr2@illinois.edu",
     courses: "ECE 110,ECE 120,ECE 220, CS 173, CS 225, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 241",
   },
-  // {
-  //   name: "Lauren Ruan",
-  //   email: "NEEDED",
-  //   courses: "ECE 110,ECE 120, PHYS 211, PHYS 213, PHYS 214",
-  // },
+  {
+    name: "Lauren Ruan",
+    email: "lruan5@illinois.edu",
+    courses: "ECE 110,ECE 120, PHYS 211, PHYS 213, PHYS 214",
+  },
   {
     name: "Patrick Zhu",
     email: "pjz3@illinois.edu",
