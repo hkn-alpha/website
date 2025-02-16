@@ -38,7 +38,7 @@ export const tutors: Tutor[] = [
   {
     name: "Keeron Huang",
     email: "qixuan3@illinois.edu",
-    courses: "ECE 110,ECE 120,ECE 220, CS 401, ECE 313, ECE 330",
+    courses: "ECE 110,ECE 120,ECE 220, CS 411, ECE 313, ECE 330",
   },
   {
     name: "Mark Sorial",
