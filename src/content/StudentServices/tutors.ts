@@ -47,7 +47,7 @@ export const tutors: Tutor[] = [
   },
   {
     name: "Aditya Pola",
-    email: "ekamr2@illinois.edu",
+    email: "pola3@illinois.edu",
     courses: "ECE 110,ECE 120,ECE 220, CS 173, CS 225, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 241",
   },
   {
