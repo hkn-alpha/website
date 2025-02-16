@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
 // Read the file
-const jsonString = fs.readFileSync('path/to/file.json', 'utf-8');
+const jsonString = fs.readFileSync('path/to/tutors_list.json', 'utf-8');
 console.log(jsonString)
 
 type Tutor = {
