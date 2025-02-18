@@ -25,7 +25,7 @@ type ReviewSession = {
 };
 
 const timeslots = {
-  A: "12:00 - 3:00PM",
+  A: "12:30 - 3:00PM",
   B: "3:00 - 5:30PM",
 }
 
@@ -36,7 +36,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
   1: [
     {
       course: "ECE 110",
-      time: "2/22, 10:30-12:30PM",
+      time: "2/22, 3:00-5:30PM",
       location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1AydYT567E4EVwxIV-N0hygYrWK-eLlWg/edit?usp=sharing&ouid=110906352345988467154&rtpof=true&sd=true",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_ygntfzua",
@@ -135,7 +135,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "CS 374A",
       //time: "TBD",
       location: "TBD",
-      time: "2/22, 3:00-5:30PM",
+      time: "2/22,  12:30-3:00",
       // location: "ECEB 1002",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_qu1d7lfy",
       // slidesLink: "https://drive.google.com/file/d/162vuI5yDVvAEMmUgOwGhthXhEdILJ_Lw/view?usp=sharing",
