@@ -63,7 +63,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/1ntQbuGsQ_XgzD037_ANdnmT83o5SFXTLro_Yho12zng/edit?usp=sharing",
       scribblesLink: "https://drive.google.com/drive/folders/1D6LsJFDzgv0g08M2F3IJo5VqSgJX3Q_m?usp=drive_link",
       // location: "ECEB 1013",
-      // recordingLink:"https://mediaspace.illinois.edu/media/t/1_fgga5v5m"
+      recordingLink:"https://mediaspace.illinois.edu/media/t/1_odbmvpo2"
     },
     {
       course: "ECE 220",
