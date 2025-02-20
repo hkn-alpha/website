@@ -408,7 +408,15 @@ const CostumeContest = (date: Date): Event => ({
   description: "Come show off your best costume!"
 })
 
-
+const graduatePanel = (date: Date): Event => ({
+  name: "HKN Graduate Panel",
+  date,
+  time: "6:00 PM - 7:00 PM",
+  virtual: false,
+  locationInfo: commonLocations[3017],
+  description:
+    "Come talk to graduate students!"
+})
 
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
@@ -420,6 +428,9 @@ const events: Event[] = [
   ...[
     new Date(2025, 1, 1),
   ].map(olympics),
+  ...[
+    new Date(2025, 1, 27),
+  ].map(graduatePanel),
   ...[
     new Date(2025, 0, 31),
     new Date(2025, 1, 7),
