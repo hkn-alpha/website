@@ -5,8 +5,6 @@ from collections import defaultdict
 
 sheet_id = "1WnuVYrK_CKNv2iooqLCqYOpvyX8U401lMseo0DQ-Kd8"
 
-
-
 def fetchTutors():
 
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
