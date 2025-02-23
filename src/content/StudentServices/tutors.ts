@@ -1,9 +1,9 @@
+ /**
+   * Comma-separated string of courses
+   */
 type Tutor = {
   name: string;
   email: string;
-  /**
-   * Comma-separated string of courses
-   */
   courses: string;
 };
 
@@ -12,8 +12,13 @@ export let tutors: Tutor[] = [];
 fetch('/tutors_list.json')
   .then((response) => response.json())
   .then((data) => {
-    console.log(data)
-    tutors = data as Tutor[];
+    tutors = data.map((t: string[]) => ({
+      email: t[0],
+      name: t[1],
+      courses: t[3], 
+    }));
+
+    console.log(tutors); // Check the parsed Tutor objects
   })
   .catch((error) => console.error('Error loading tutors:', error));
 
