@@ -12,6 +12,7 @@ export let tutors: Tutor[] = [];
 fetch('/tutors_list.json')
   .then((response) => response.json())
   .then((data) => {
+    console.log(data)
     tutors = data as Tutor[];
   })
   .catch((error) => console.error('Error loading tutors:', error));
