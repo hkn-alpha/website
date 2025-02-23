@@ -28,7 +28,6 @@
     "vitest-dom": "^0.1.1"
   },
   "dependencies": {
-    "@types/node": "^22.13.5",
     "blurhash-to-css": "^0.5.5",
     "svelte-routing": "^1.6.0",
     "svelte-select": "^5.6.1"
