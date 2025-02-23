@@ -1,9 +1,3 @@
-import * as fs from 'fs';
-
-// Read the file
-const jsonString = fs.readFileSync('tutors_list.json', 'utf-8');
-console.log(jsonString)
-
 type Tutor = {
   name: string;
   email: string;
@@ -13,8 +7,14 @@ type Tutor = {
   courses: string;
 };
 
+export let tutors: Tutor[] = [];
 
-export const tutors: Tutor[] = JSON.parse(jsonString) as Tutor[];
+fetch('/tutors_list.json')
+  .then((response) => response.json())
+  .then((data) => {
+    tutors = data as Tutor[];
+  })
+  .catch((error) => console.error('Error loading tutors:', error));
 
 // export const tutors: Tutor[] = [
 //   // {
