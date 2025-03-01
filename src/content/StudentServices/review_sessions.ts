@@ -92,7 +92,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1002",
       time: "3/1, 12:30-3:00PM",
       // location: "ECEB 1002",
-      // slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_8w9dg007"
     },
     {
@@ -118,7 +118,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "3/2, 12:30-2:30PM",
       // location: "ECEB 1002",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_62ac72q2",
-      // slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
+       slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/1RxtcBlQjLwXuVIMYR6S0X7im1-0V1Bit/view?usp=drive_link"
     },
     {
