@@ -122,11 +122,11 @@ export const tutors: Tutor[] = [
   //   email: "aidanfr2@illinois.edu",
   //   courses: "ECE 330, ECE 342",
   // },
-  {
-    name: "Kyle Chung",
-    email: "kbchung2@illinois.edu",
-    courses: "ECE 210, ECE 220, ECE 310, ECE 374, MATH 221, PHYS 211, CS 173, CS 225",
-  },
+  // {
+  //   name: "Kyle Chung",
+  //   email: "kbchung2@illinois.edu",
+  //   courses: "ECE 210, ECE 220, ECE 310, ECE 374, MATH 221, PHYS 211, CS 173, CS 225",
+  // },
   // {
   //   name: "Evan Schmitz",
   //   email: "evanls3@illinois.edu",
