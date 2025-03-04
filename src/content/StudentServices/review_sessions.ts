@@ -159,15 +159,15 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_8plxq3kn",
       slidesLink: "https://drive.google.com/file/d/1Odf4N4U0ZFzdI10nU8UDhnZfbXecSAph/view?usp=sharing408"
     },
-    {
-      course: "ECE/CS 438",
-      //time: "TBD",
-      location: "ECEB 1015",
-       time: "3/8, 12:30-2:30PM",
-      // location: "ECEB 1013",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_zr2finr9",
-      // scribblesLink: "https://academic.acm.illinois.edu/assets/cs438/fa24/mt1/pdf/ACM_438_MT1_Review_scribbles.pdf",
-    },
+    // {
+    //   course: "ECE/CS 438",
+    //   //time: "TBD",
+    //   location: "ECEB 1015",
+    //    time: "3/8, 12:30-2:30PM",
+    //   // location: "ECEB 1013",
+    //   // recordingLink: "https://mediaspace.illinois.edu/media/t/1_zr2finr9",
+    //   // scribblesLink: "https://academic.acm.illinois.edu/assets/cs438/fa24/mt1/pdf/ACM_438_MT1_Review_scribbles.pdf",
+    // },
     {
       course: "ECE 411",
       //time: "TBD",
