@@ -186,6 +186,15 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_yrh3la3k",
       // slidesLink: "https://docs.google.com/presentation/d/1umRdm6g6jMtTdmjKkQ4TOy9RG-BespwyCiBSjszgNoM/edit#slide=id.p"
     },
+    {
+      course: "ECE 489",
+      time: "3/8, " + timeslots["B"],
+      location: "ECEB 1015",
+      // time: "10/13, 12:30-2:30PM",
+      // location: "ECEB 1002",
+      // slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
+      // recordingLink: "https://mediaspace.illinois.edu/media/1_bkao2dzv",
+    },
   ],
 
   //Midterm 2 review sessions
@@ -354,6 +363,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/1_bkao2dzv",
     },
+    
     
   ],
 
