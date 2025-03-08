@@ -217,11 +217,11 @@ export const tutors: Tutor[] = [
   //   email: "abhayh2@illinois.edu",
   //   courses: "ECE 110, ECE 120, PHYS 211, CS 173",
   // },
-  {
-    name: "Sohum Bhan",
-    email: "sohumb3@illinois.edu",
-    courses: "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285",
-  },
+  // {
+  //   name: "Sohum Bhan",
+  //   email: "sohumb3@illinois.edu",
+  //   courses: "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285",
+  // },
   // {
   //   name: "Sid Rau",
   //   email: "sidrau2@illinois.edu",
@@ -307,11 +307,11 @@ export const tutors: Tutor[] = [
   //   email: "kunal6@illinois.edu",
   //   courses: "ECE 110, ECE 120, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 285, CS 173, CS 225",
   // },
-  {
-    name: "Anthony Salemi",
-    email: "asalemi3@illinois.edu",
-    courses: "ECE 120, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 257",
-  },
+  // {
+  //   name: "Anthony Salemi",
+  //   email: "asalemi3@illinois.edu",
+  //   courses: "ECE 120, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 257",
+  // },
   // {
   //   name: "Kush Shah",
   //   email: "kshah236@illinois.edu",
