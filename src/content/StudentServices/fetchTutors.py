@@ -1,15 +1,20 @@
 import os
 import json
+from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
-from dotenv import load_dotenv
 
 sheet_id = "1WnuVYrK_CKNv2iooqLCqYOpvyX8U401lMseo0DQ-Kd8"
-load_dotenv()
-API_KEY = os.getenv("SHEETS_API_KEY")
+netlify_build_hook = "https://api.netlify.com/build_hooks/67bb8caad28293b98a790a50"
 
 def fetchTutors():
 
-    service = build('sheets', 'v4', developerKey=API_KEY)
+    SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+
+    SERVICE_ACCOUNT_FILE = "sheets_api_credentials.json"
+
+    credientials = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+
+    service = build('sheets', 'v4', credentials = credientials)
 
     sheets = service.spreadsheets()
 
