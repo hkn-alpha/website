@@ -19,7 +19,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
+        run: pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests python-dotenv
 
       - name: Create .env file
         run: |
