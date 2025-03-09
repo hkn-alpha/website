@@ -1,15 +1,13 @@
 import os
 import json
-from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
-from collections import defaultdict
 from dotenv import load_dotenv
 
 sheet_id = "1WnuVYrK_CKNv2iooqLCqYOpvyX8U401lMseo0DQ-Kd8"
+load_dotenv()
+API_KEY = os.getenv("SHEETS_API_KEY")
 
 def fetchTutors():
-    load_dotenv()
-    API_KEY = os.getenv("SHEETS_API_KEY")
 
     service = build('sheets', 'v4', developerKey=API_KEY)
 
