@@ -22,7 +22,7 @@ jobs:
         run: pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client python-dotenv
 
       - name: Create Google Credentials File
-        run: echo '${{ secrets.GOOGLESHEETSAPIKEY }}' > credentials.json
+        run: echo '${{ secrets.GOOGLESHEETAPIKEY }}' > credentials.json
 
       - name: Set Environment Variable
         run: echo "GOOGLE_APPLICATION_CREDENTIALS=$GITHUB_WORKSPACE/credentials.json" >> $GITHUB_ENV
