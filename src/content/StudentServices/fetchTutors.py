@@ -10,7 +10,7 @@ def fetchTutors():
 
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
-    SERVICE_ACCOUNT_FILE = os.getenv("GOOGLESHEETAPIJEY")
+    SERVICE_ACCOUNT_FILE = os.getenv("GOOGLESHEETAPIKEY")
 
     credientials = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
