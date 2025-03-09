@@ -25,7 +25,7 @@ jobs:
         run: echo '${{ secrets.GOOGLESHEETAPIKEY }}' > credentials.json
 
       - name: Set Environment Variable
-        run: echo "GOOGLE_APPLICATION_CREDENTIALS=$GITHUB_WORKSPACE/credentials.json" >> $GITHUB_ENV
+        run: echo "GOOGLESHEETAPIKEY=$GITHUB_WORKSPACE/credentials.json" >> $GITHUB_ENV
 
       - name: Run fetchTutors Script
         run: python src/content/StudentServices/fetchTutors.py
