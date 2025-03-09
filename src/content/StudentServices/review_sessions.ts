@@ -262,8 +262,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 329",
-      time: "3/9, " + timeslots["A"],
-      location: "ECEB 1015",
+      time: "Hosted by Staff",
+      location: "Hosted by Staff",
       // time: "10/27, 3:00-5:00PM",
       // location: "ECEB 1013",
       // slidesLink: "https://docs.google.com/presentation/d/1k-W7ONZTiSYtAIOWgX_ucW0cgIBprou28fFMKzX8R6E/edit#slide=id.p",
@@ -404,8 +404,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 329",
-      time: "TBD",
-      location: "TBD",
+      time: "Hosted by Staff",
+      location: "Hosted by Staff",
       // time: "Cancelled",
       // location: "Cancelled",
     },
