@@ -223,7 +223,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 210",
       time: "3/24, " + timeslots["B"],
-      location: "TBD",
+      location: "ECEB 1013",
       // time: "10/20, 3:00-5:00PM",
       // location: "ECEB 1013",
       // slidesLink: "https://docs.google.com/presentation/d/1Kl7bv7apNSZORKBW-CvJvcm7OtS6rcmns9LCqejsB-E/edit?usp=sharing",
@@ -292,7 +292,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 342",
       time: "3/24, " + timeslots["B"],
-      location: "TBD",
+      location: "ECEB 1015",
     //   time: "10/20, 12:30PM-2:30PM",
     //   location: "ECEB 1013",
     //   slidesLink: "https://docs.google.com/presentation/d/1rfuhbrXduTzak4xZpl92HTGRV75o8-B0fCDeHi_rTdU/edit#slide=id.g251bd022106_1_0",
