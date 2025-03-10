@@ -324,7 +324,6 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 1002",
       slidesLink: "https://drive.google.com/file/d/1HLcP5ff9SwwOEbzDbIeyF2Ep0XiGk96l/view?usp=sharing",     
       // scribblesLink: "https://drive.google.com/file/d/1h5CEVdjpaCNrD9B-wGt7sBmfUMS4JEZt/view?usp=sharing",
-      recordingLink: "None", 
     },
    {
       course: "ECE 408",
