@@ -322,9 +322,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "Cancelled",
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1002",
-      // slidesLink: "https://drive.google.com/file/d/1Shhi7je8uIHdXhSiWOmvvlnq04430S9X/view?usp=sharing",     
+      slidesLink: "https://drive.google.com/file/d/1HLcP5ff9SwwOEbzDbIeyF2Ep0XiGk96l/view?usp=sharing",     
       // scribblesLink: "https://drive.google.com/file/d/1h5CEVdjpaCNrD9B-wGt7sBmfUMS4JEZt/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_gy8ts18v", 
     },
    {
       course: "ECE 408",
