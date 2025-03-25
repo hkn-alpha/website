@@ -228,7 +228,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 1013",
       // slidesLink: "https://docs.google.com/presentation/d/1Kl7bv7apNSZORKBW-CvJvcm7OtS6rcmns9LCqejsB-E/edit?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/1N9TAJTBIJgCZhnqqkwTxqoaL13RuhWb3/view?usp=sharing",
-      // recordingLink: 'https://mediaspace.illinois.edu/media/t/1_j2qzxi88'
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_pzu1094e'
     },
     {
       course: "ECE 220",
@@ -293,6 +293,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 342",
       time: "3/24, 5:00-7:30 PM",
       location: "ECEB 1015",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_j3no6sp8",
       scribblesLink: "https://drive.google.com/file/d/1GqrO_lFo7YKQJuKQLliPEZPeZ9oxzAlE/view?usp=sharing",
       slidesLink: "https://docs.google.com/presentation/d/1rfuhbrXduTzak4xZpl92HTGRV75o8-B0fCDeHi_rTdU/edit?usp=sharing",
 
