@@ -338,7 +338,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "3/29, " + timeslots["B"],
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/1_bkao2dzv",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_fxytfy22",
     },
     // {
     //   course: "ECE/CS 438",
