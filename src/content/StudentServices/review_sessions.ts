@@ -206,8 +206,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1002",
       // time: "10/20, 3:00-5:00PM",
       // location: "ECEB 1002",
-      // slidesLink: "https://docs.google.com/presentation/d/1ANp3B_RQjOAzlhKPM589kiZbGWoK8k8I4WEluFpwCq0/edit?usp=sharing",
-      // scribblesLink: "https://docs.google.com/presentation/d/1wMU2g0aaN7JgIm3UebliNLA4TO0E3WVtf3gonNrb5sY/edit?usp=sharing"
+      slidesLink: "https://docs.google.com/presentation/d/1ANp3B_RQjOAzlhKPM589kiZbGWoK8k8I4WEluFpwCq0/edit?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1kaBXfsxJntD-N6sVD8HOFJR0ECKJxUmZ/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_o73vl37e",
     },
     {
       course: "ECE 120",
@@ -228,7 +229,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1EtBuQC3HtP7tXVFpdgbNQrAK_5gQl8ow/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       scribblesLink: "https://drive.google.com/file/d/141rB6V7uGe4xj-dPNHt7iHBzFMR_Yn26/view?usp=sharing",
-      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_pzu1094e'
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_pzu1094e',
     },
     {
       course: "ECE 220",
@@ -336,8 +337,6 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 411",
       time: "3/29, " + timeslots["B"],
       location: "ECEB 1002",
-      // time: "10/13, 12:30-2:30PM",
-      // location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/1_bkao2dzv",
     },
