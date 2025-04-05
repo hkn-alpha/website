@@ -255,7 +255,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 313",
       time: "Cancelled",
-      location: "Cancelled, materials online",
+      location: "Cancelled",
       // time: "11/03, 3:00-5:00PM",
       // location: "ECEB 1002",
        slidesLink: "https://docs.google.com/presentation/d/1jYLP52HUwiqrYyPU4Izb9404QtzaYrZAPm4VnO_DEXo/edit?usp=sharing",
