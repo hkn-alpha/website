@@ -277,7 +277,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1015",
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1013",
-      // slidesLink: "https://docs.google.com/presentation/d/1sOM12r_XpP6x_M0UuJQEP6sOMoD6yZV8wtiT798MPIg/edit?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/1uW0145AcWdDptKZFOc1tOSPSdagzi_hpSdNq9zSPdI0/edit?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/16nidHUgBV9Fjac1yg75pTPiCek6iGe8_/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_6xdgx0l3",
     },
