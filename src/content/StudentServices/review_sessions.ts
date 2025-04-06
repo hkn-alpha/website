@@ -370,7 +370,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
   3: [
     {
       course: "ECE 110",
-      time: "4/26" + timeslots["B"],
+      time: "4/26, " + timeslots["B"],
       location: "ECEB 1015",
       // time: "11/17, 3:00-5:00PM",
       // location: "ECEB 102",
@@ -392,7 +392,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 210",
-      time: "4/20" + timeslots["A"],
+      time: "4/20, " + timeslots["A"],
       location: "ECEB 1015",
       // time: "11/17, 3:00-5:00PM",
       // location: "ECEB 1013",
@@ -409,7 +409,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 342",
-      time: "4/20" + timeslots["B"] ,
+      time: "4/20, " + timeslots["B"] ,
       location: "ECEB 1015",
       // time: "11/17, 12:30-2:30PM",
       // location: "ECEB 1013",
