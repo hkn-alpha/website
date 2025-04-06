@@ -370,8 +370,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
   3: [
     {
       course: "ECE 110",
-      time: "TBD",
-      location: "TBD",
+      time: "4/26" + timeslots["B"],
+      location: "ECEB 1015",
       // time: "11/17, 3:00-5:00PM",
       // location: "ECEB 102",
       // slidesLink: "https://drive.google.com/file/d/11RSQbPZuic1zGUUXJqmUsPrYTlD2yctC/view?usp=sharing",
@@ -392,8 +392,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 210",
-      time: "TBD",
-      location: "TBD",
+      time: "4/20" + timeslots["A"],
+      location: "ECEB 1015",
       // time: "11/17, 3:00-5:00PM",
       // location: "ECEB 1013",
       // slidesLink: "https://drive.google.com/file/d/1zWwK3Kksp-J1XtWDtFAv6nTe_yKSgMP7/view?usp=sharing",
@@ -409,8 +409,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 342",
-      time: "TBD",
-      location: "TBD",
+      time: "4/20" + timeslots["B"] ,
+      location: "ECEB 1015",
       // time: "11/17, 12:30-2:30PM",
       // location: "ECEB 1013",
       // slidesLink: "https://drive.google.com/file/d/124bT4lyYZeAqiTwWp_jJPadDFfAuIj_U/view?usp=sharing",
@@ -418,8 +418,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 374B",
-      time: "TBD",
-      location: "TBD",
+      time: "Cancelled",
+      location: "Cancelled",
       // time: "12/01, 12:30-2:30PM",
       // location: "ECEB 2015",
       // slidesLink: "https://drive.google.com/file/d/1bhIRKnLBD4ZPfOBTRWmb76GsO2N0q0rz/view?usp=sharing",
@@ -434,7 +434,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2025, 2 , 6),
-  2: new Date(2025, 3, 5), // ends 11/10
+  2: new Date(2025, 3, 10), // ends 11/10
   3: new Date(2025, 4, 1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
