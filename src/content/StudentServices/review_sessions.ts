@@ -422,7 +422,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "Cancelled",
       // time: "12/01, 12:30-2:30PM",
       // location: "ECEB 2015",
-      // slidesLink: "https://drive.google.com/file/d/1bhIRKnLBD4ZPfOBTRWmb76GsO2N0q0rz/view?usp=sharing",
+      slidesLink: "https://drive.google.com/file/d/1_dTPpDR2eOytHFa51vF1SjfGXnnsEJPJ/view?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/1D7IKMFqFiCZmyWV34G1UxsfJEDJyoL7y/view?usp=sharing",
       // recordingLink: "https://illinois.zoom.us/rec/play/S2OQDukkNTBpsAu1q4dRo83699qoD6qXViLV5z-Ss9jF92tQry_Us0utAk_NfF4lUwqkOoiYp6ywbwbQ.C11YOjGW16Plgrkc?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FPMgoORxPdbLfn8-_kd6vhb8Y0Ls6oUgtWgXnMNGWoc8EbMparW_bRFGyaocqgga0.0isgU01snlleT6bi",
     }
