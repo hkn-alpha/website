@@ -397,7 +397,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // time: "11/17, 3:00-5:00PM",
       // location: "ECEB 1013",
       // slidesLink: "https://drive.google.com/file/d/1zWwK3Kksp-J1XtWDtFAv6nTe_yKSgMP7/view?usp=sharing",
-      // recordingLink: 'https://mediaspace.illinois.edu/media/t/1_y4bjhuxh',
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_aehbtfe8',
       // scribblesLink: "https://drive.google.com/file/d/1q_RMMNwJ3EBhc0b1YXpzkvBSkgJ7mnx6/view?usp=sharing",
     },
     {
@@ -414,7 +414,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // time: "11/17, 12:30-2:30PM",
       // location: "ECEB 1013",
       // slidesLink: "https://drive.google.com/file/d/124bT4lyYZeAqiTwWp_jJPadDFfAuIj_U/view?usp=sharing",
-      // recordingLink:'https://mediaspace.illinois.edu/media/t/1_frfssah5'
+      recordingLink:'https://mediaspace.illinois.edu/media/t/1_yza8t1e8'
     },
     {
       course: "ECE 374B",
