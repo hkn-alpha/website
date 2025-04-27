@@ -445,8 +445,8 @@ export const until: Record<1 | 2 | 3, Date> = {
  export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 110",
-    time: "TBD",
-    location: "TBD",
+    time: "5/8" + timeslots["B"],
+    location: "1002",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1002",
     // slidesLink: "https://docs.google.com/presentation/d/1DeNuuxpI_ydyBstSJknRO0vcD_Y3yUTrZUUAzzDJ0xE/edit?usp=sharing",
@@ -456,8 +456,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 120",
-    time: "TBD",
-    location: "TBD",
+    time: "Hosted by Class",
+    location: "Hosted by Class",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 3017",
     // slidesLink: "https://docs.google.com/presentation/d/13-1eGTmgN9eHO2W9MDvysYOz4VGXV2RuyRObYGZbaN4/edit?usp=sharing",
@@ -467,8 +467,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 210",
-    time: "TBD",
-    location: "TBD",
+    time: "5/11" + timeslots["B"],
+    location: "1015",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1jKM5_gCe0g5WDaJVoHkUN0-HrkURrzQktvZbsJbaMJ4/edit?usp=sharing",
@@ -478,8 +478,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 220",
-    time: "TBD",
-    location: "TBD",
+    time: "5/10" + timeslots["B"],
+    location: "1002",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1015",
     // slidesLink: "https://docs.google.com/presentation/d/1ztI3-Y1dU5F0GBjFsfRuG_01-b0cAEJ3n_qfiv776U4/edit?usp=sharing",
@@ -489,8 +489,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 310",
-    time: "TBD",
-      location: "TBD",
+    time: "5/8" + timeslots["B"],
+      location: "1015",
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 3017",
     // slidesLink: "https://docs.google.com/presentation/d/1CfLsIPCGmAKQMFQQ2gRIiBDtRUwYWF1tcpHHkbtrAoA/edit?usp=sharing",
@@ -500,8 +500,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 313",
-    time: "TBD",
-      location: "TBD",
+    time: "5/8" + timeslots["B"],
+    location: "1013",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1013",
     // slidesLink: "https://drive.google.com/file/d/16lpzkpIpUV6x7n-A-2br6smYKQgih9ui/view?usp=sharing",
@@ -523,8 +523,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 330",
-    time: "TBD",
-      location: "TBD",
+    time: "5/11" + timeslots["A"],
+      location: "1015",
     // time: "12/12 3:00 PM-5:00PM",
     // location: "ECEB 3017",
     // slidesLink: "https://docs.google.com/presentation/d/1zTk7ZubVpZm2k5eMILaZGOhNHmPSDn6YP5XwqlavalE/edit?usp=sharing",
@@ -534,8 +534,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 340",
-    time: "TBD",
-      location: "TBD",
+    time: "5/8" + timeslots["A"],
+    location: "1015",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 2015",
     // slidesLink: "https://docs.google.com/presentation/d/1tHeoyf1ft4PQ9vZGkXi_WWziCAQgNeKlGOD-ibG2XJ4/edit?usp=sharing",
@@ -545,8 +545,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 342",
-    time: "TBD",
-      location: "TBD",
+    time: "5/10" + timeslots["A"],
+    location: "TBD",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1015",
     // // slidesLink: "https://docs.google.com/presentation/d/1fqTbzjjVLYz9Xkxwheozrm1kwOUrTw6oqHoqnsgCzdw/edit?usp=sharing",
@@ -585,7 +585,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 411",
-    time: "TBD",
+    time: "5/11" + timeslots["B"],
       location: "TBD",
     // time: "12/12 3:00 PM-5:00PM",
     // location: "ECEB 1015",
