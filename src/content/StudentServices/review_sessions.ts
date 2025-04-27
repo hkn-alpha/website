@@ -381,8 +381,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 120",
-      time: "TBD",
-      location: "TBD",
+      time: "Hosted by Course Staff",
+      location: "Hosted by Course Staff",
       // time: "11/17, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://drive.google.com/file/d/1rdAxtXYECrMvSjg2tFp8MeFjwqz3TEMB/view?usp=sharing",
@@ -512,8 +512,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 329",
-    time: "TBD",
-      location: "TBD",
+    time: "Hosted by Course Staff",
+      location: "Hosted by Course Staff",
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 1015",
     // slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
@@ -565,8 +565,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 374B",
-    time: "TBD",
-      location: "TBD",
+    time: "Slides Only",
+      location: "Worksheet Only",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1002",
     // slidesLink: "https://drive.google.com/file/d/1TaL-vqXHCG6IpHNN9OoWXoVQgni4ZUwa/view?usp=sharing",
@@ -574,15 +574,15 @@ export const until: Record<1 | 2 | 3, Date> = {
     // keyLink:"https://drive.google.com/file/d/14zwwT3PSziCpx5rNDhQfhXX4Dp4RP-vg/view?usp=drive_link",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_zec18y08"
   },
-  {
-    course: "ECE 408",
-    time: "TBD",
-      location: "TBD",
-    // time: "12/8 3:00 PM-5:00PM",
-    // location: "ECEB 1002",
-    // recordingLink: "https://illinois.zoom.us/rec/play/U3FRcuGJ56GdDPg8kqmS9ZRJWqLQF6XT40pN0f7dbE8jzm9qswyVZZzKpURl4jKN3DiCa2YeX2gkR9B1.2TR1ye2klAlMNVu8?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FtnwpmqmAAYd94e3Ii-t84XPOzyhvENZk8vTpTB_kouI0F5299hMTi4VFxGKP1eVe.hkkVTX9jnvpgbYza",
-    // slidesLink: "https://drive.google.com/file/d/1jjEE2Es-zuGlNMqPKjx8U39fXY04r8bQ/view?usp=sharing",
-  },
+  // {
+  //   course: "ECE 408",
+  //   time: "TBD",
+  //     location: "TBD",
+  //   // time: "12/8 3:00 PM-5:00PM",
+  //   // location: "ECEB 1002",
+  //   // recordingLink: "https://illinois.zoom.us/rec/play/U3FRcuGJ56GdDPg8kqmS9ZRJWqLQF6XT40pN0f7dbE8jzm9qswyVZZzKpURl4jKN3DiCa2YeX2gkR9B1.2TR1ye2klAlMNVu8?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FtnwpmqmAAYd94e3Ii-t84XPOzyhvENZk8vTpTB_kouI0F5299hMTi4VFxGKP1eVe.hkkVTX9jnvpgbYza",
+  //   // slidesLink: "https://drive.google.com/file/d/1jjEE2Es-zuGlNMqPKjx8U39fXY04r8bQ/view?usp=sharing",
+  // },
   {
     course: "ECE 411",
     time: "5/11, " + timeslots["B"],
@@ -594,8 +594,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 438",
-    time: "TBD",
-      location: "TBD",
+    time: "Slides Only",
+    location: "Slides Only",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 2015",
     // slidesLink: "https://drive.google.com/file/d/1vHP4RXQOmSrKMb-2n_jlpjCBqemXYqSE/view?usp=sharing",
