@@ -546,7 +546,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 342",
     time: "5/10, " + timeslots["A"],
-    location: "TBD",
+    location: "1013",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1015",
     // // slidesLink: "https://docs.google.com/presentation/d/1fqTbzjjVLYz9Xkxwheozrm1kwOUrTw6oqHoqnsgCzdw/edit?usp=sharing",
@@ -586,7 +586,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 411",
     time: "5/11, " + timeslots["B"],
-      location: "TBD",
+      location: "1002",
     // time: "12/12 3:00 PM-5:00PM",
     // location: "ECEB 1015",
     // slidesLink: "https://drive.google.com/file/d/1af5EeUgWgZBBrRzFiY9JkCoi_6lzjqKs/view?usp=sharing",
