@@ -376,7 +376,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 102",
       slidesLink: "https://drive.google.com/file/d/19XBS0LriQFRYxhls_Kgny_vtxahlbSLs/view?usp=sharing",
       recordingLink:'https://mediaspace.illinois.edu/media/t/1_8qlal3ub',
-      // scribblesLink: "https://drive.google.com/file/d/10iS0mc_REVBJsVjaUyuZgw9oC4zS1dOx/view?usp=sharing"
+      scribblesLink: "https://drive.google.com/file/d/1jVTbYx0zbNMvkyjpsVVSvFBHGdL-_Mok/view?usp=sharing"
 
     },
     {
