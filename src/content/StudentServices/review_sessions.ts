@@ -445,7 +445,7 @@ export const until: Record<1 | 2 | 3, Date> = {
  export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 110",
-    time: "5/8" + timeslots["B"],
+    time: "5/8, " + timeslots["B"],
     location: "1002",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1002",
@@ -467,7 +467,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 210",
-    time: "5/11" + timeslots["B"],
+    time: "5/11, " + timeslots["B"],
     location: "1015",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1013",
@@ -478,7 +478,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 220",
-    time: "5/10" + timeslots["B"],
+    time: "5/10, " + timeslots["B"],
     location: "1002",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1015",
@@ -489,7 +489,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 310",
-    time: "5/8" + timeslots["B"],
+    time: "5/8, " + timeslots["B"],
       location: "1015",
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 3017",
@@ -500,7 +500,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 313",
-    time: "5/8" + timeslots["B"],
+    time: "5/8, " + timeslots["B"],
     location: "1013",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1013",
@@ -523,7 +523,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 330",
-    time: "5/11" + timeslots["A"],
+    time: "5/11, " + timeslots["A"],
       location: "1015",
     // time: "12/12 3:00 PM-5:00PM",
     // location: "ECEB 3017",
@@ -534,7 +534,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 340",
-    time: "5/8" + timeslots["A"],
+    time: "5/8, " + timeslots["A"],
     location: "1015",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 2015",
@@ -545,7 +545,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 342",
-    time: "5/10" + timeslots["A"],
+    time: "5/10, " + timeslots["A"],
     location: "TBD",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1015",
@@ -585,7 +585,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 411",
-    time: "5/11" + timeslots["B"],
+    time: "5/11, " + timeslots["B"],
       location: "TBD",
     // time: "12/12 3:00 PM-5:00PM",
     // location: "ECEB 1015",
