@@ -390,7 +390,7 @@ const initiation = (date: Date): Event => ({
 const editathon = (date: Date): Event => ({
   name: "Student Services Editathon",
   date,
-  time: "12:30 PM - 3:00 PM",
+  time: "3:00 - 5:00 PM",
   virtual: false,
   locationInfo: commonLocations["rsoOffice"],
   description:
@@ -524,13 +524,13 @@ const events: Event[] = [
   ,new Date(2024, 8, 11)
 ].map(halliburtonTalk),
 ...[
-  , new Date(2024, 4, 4)
+  , new Date(2025, 4, 4)
 ].map(initiation),
 ...[
-  , new Date(2024, 11, 7)
+  , new Date(2025, 3, 16)
 ].map(editathon),
 ...[
-  , new Date(2024, 4, 2)
+  , new Date(2025, 4, 2)
 ].map(election),
 ...[
   , new Date(2024,9, 29)
