@@ -450,8 +450,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1002",
     // slidesLink: "https://docs.google.com/presentation/d/1DeNuuxpI_ydyBstSJknRO0vcD_Y3yUTrZUUAzzDJ0xE/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1rCBMen0mMXcAxE17RNQecPT3XD_x_Mqx/view?usp=sharing",
-    // keyLink: "https://drive.google.com/file/d/1e8kk0mzACNBohMcitIv4bntIn49W_tCq/view?usp=sharing",
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/solutions.pdf",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hkocw8id"
   },
   {
@@ -461,8 +461,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 3017",
     // slidesLink: "https://docs.google.com/presentation/d/13-1eGTmgN9eHO2W9MDvysYOz4VGXV2RuyRObYGZbaN4/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1ApKzFsfS__0M6oXdeGcbBbWoTcYpULqS/view?usp=sharing",
-    //  keyLink: "https://drive.google.com/file/d/1_qRi2UlI5d00v8IJM2wzv64x2GHWPXyR/view?usp=sharing",
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece120/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece120/final/solutions.pdf",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_lbwrxpvx"
   },
   {
@@ -472,8 +472,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1jKM5_gCe0g5WDaJVoHkUN0-HrkURrzQktvZbsJbaMJ4/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1Ionw23Ath-knmMd0RlGB7csKc1_a1XXI/view?usp=sharing",
-    //  keyLink: "https://drive.google.com/file/d/1MQI8vAae7czcRhLDN7_qNo6PI8FZGOY5/view?usp=drive_link",
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece210/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece210/final/solutions.pdf ",
     //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_tnk5lk8s"
   },
   {
@@ -483,8 +483,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1015",
     // slidesLink: "https://docs.google.com/presentation/d/1ztI3-Y1dU5F0GBjFsfRuG_01-b0cAEJ3n_qfiv776U4/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1wMHGSXF7z90vy81ViLfmaGtEbZwkv4HS/view?usp=drive_link",
-    //  keyLink: "https://drive.google.com/file/d/1dZxrIVQcHnAID37VLoRQDbkNd7ttKueW/view?usp=drive_link",
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece220/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece220/final/solutions.pdf",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_7xfxpd4y"
   },
   {
@@ -494,8 +494,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 3017",
     // slidesLink: "https://docs.google.com/presentation/d/1CfLsIPCGmAKQMFQQ2gRIiBDtRUwYWF1tcpHHkbtrAoA/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1mCrhOJGXuQdO7YRTUkHvGJhoD-HS33Fr/view?usp=drive_link",
-    // keyLink: "https://drive.google.com/file/d/1V44c_35RREkrs4zfS60XAvoeJ0YcjpTV/view?usp=drive_link",
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece310/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece310/final/solutions.pdf",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_5it9131p"
   },
   {
@@ -505,8 +505,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1013",
     // slidesLink: "https://drive.google.com/file/d/16lpzkpIpUV6x7n-A-2br6smYKQgih9ui/view?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1rSah_32CwFdIzYqOWwPJ8lUItXUkSF0y/view?usp=drive_link",
-    // keyLink: "https://drive.google.com/file/d/1OUgh_TjFgahhHXUP6q_rP-e_yi7HHAWk/view?usp=drive_link",
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece313/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece313/final/solutions.pdf",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_ixq4mqse"
 
   },
@@ -517,8 +517,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 1015",
     // slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1UURDs4Pnw7ngD2Tz8INEZHJdQJjatQ2b/view?usp=drive_link",
-    //  keyLink: "https://drive.google.com/file/d/1a5jx26JACwfTyOc9Z1MtPEA3GQaZy-3a/view?usp=drive_link",
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/solutions.pdf",
     //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_9jlzhkww"
   },
   {
@@ -528,8 +528,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 3:00 PM-5:00PM",
     // location: "ECEB 3017",
     // slidesLink: "https://docs.google.com/presentation/d/1zTk7ZubVpZm2k5eMILaZGOhNHmPSDn6YP5XwqlavalE/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1w5U-IFOIcR1YF4Bw5ed--TBHbcklJR0U/view?usp=drive_link",
-    //  keyLink: "https://drive.google.com/file/d/1FSwxntkSRA1ItmaveqB1Mx9M9ZJScXNa/view?usp=drive_link", 
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece330/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece330/final/solutions.pdf",
     //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_zkg0lmba"
   },
   {
@@ -550,8 +550,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1015",
     // // slidesLink: "https://docs.google.com/presentation/d/1fqTbzjjVLYz9Xkxwheozrm1kwOUrTw6oqHoqnsgCzdw/edit?usp=sharing",
-    // worksheetLink: "https://drive.google.com/file/d/1i9BocR4a3tZqBJ9ocDbQN9ClLF9SBSLK/view?usp=drive_link",
-    //  keyLink: "https://drive.google.com/file/d/12AZ8KUPZMg41fJteVmEdM50PEeKn-3c2/view?usp=drive_link"
+    worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece342/final/worksheet.pdf",
+    keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece342/final/solutions.pdf",
   },
   {
     course: "CS 374A",
