@@ -500,14 +500,14 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 313",
-    time: "5/8, " + timeslots["B"],
-    location: "1013",
+    time: "Slides Only",
+    location: "Worksheet Only",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1013",
     // slidesLink: "https://drive.google.com/file/d/16lpzkpIpUV6x7n-A-2br6smYKQgih9ui/view?usp=sharing",
     worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece313/final/worksheet.pdf",
     keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece313/final/solutions.pdf",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_ixq4mqse"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_ixq4mqse"
 
   },
   {
