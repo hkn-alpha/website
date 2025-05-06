@@ -27,6 +27,7 @@ type ReviewSession = {
 const timeslots = {
   A: "12:30 - 3:00PM",
   B: "3:00 - 5:30PM",
+  C: "2:00 - 5:00PM"
 }
 
 export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
@@ -512,11 +513,11 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 329",
-    time: "5/10, " + timeslots["B"],
+    time: "5/10, " + timeslots["C"],
     location: "Hosted by Course Staff",
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 1015",
-    slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
+    // slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
     worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/worksheet.pdf",
     keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/solutions.pdf",
     //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_9jlzhkww"
