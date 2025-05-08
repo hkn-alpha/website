@@ -539,7 +539,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     location: "1015",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 2015",
-    slidesLink: "https://docs.google.com/presentation/d/1tHeoyf1ft4PQ9vZGkXi_WWziCAQgNeKlGOD-ibG2XJ4/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/11tphISHiF842PKN2r9dhhNfEST4cY-3bKwOJQ5WT-bY/edit?usp=sharing",
     // worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
     // keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_sad6ndph"
