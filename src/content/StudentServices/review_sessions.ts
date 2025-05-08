@@ -453,6 +453,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1xOmfKUggvRTa3h7Vz5qLXt9vT9DkJbpGQLiWbrJxJrc/edit?usp=sharing",
     worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/worksheet.pdf",
     keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/solutions.pdf",
+    scribblesLink: "https://docs.google.com/presentation/d/1mVzZl1TIc3VeCNCC2YnkxjFe3ocNHwnf/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hkocw8id"
   },
   {
