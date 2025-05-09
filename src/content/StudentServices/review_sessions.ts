@@ -453,7 +453,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1xOmfKUggvRTa3h7Vz5qLXt9vT9DkJbpGQLiWbrJxJrc/edit?usp=sharing",
     worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/worksheet.pdf",
     keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/solutions.pdf",
-    scribblesLink: "https://docs.google.com/presentation/d/1mVzZl1TIc3VeCNCC2YnkxjFe3ocNHwnf/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+    scribblesLink: "https://drive.google.com/file/d/1lQEncdub2hvT8CSZqYQU2x1haK3In_u1/view?usp=sharing",
     recordingLink: "https://mediaspace.illinois.edu/media/t/1_vst27vxe"
   },
   {
@@ -568,10 +568,10 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 374B",
     time: "Slides Only",
-      location: "Worksheet Only",
+    location: "Slides Only",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1002",
-    //slidesLink: "https://drive.google.com/file/d/1TaL-vqXHCG6IpHNN9OoWXoVQgni4ZUwa/view?usp=sharing",
+    slidesLink: "https://drive.google.com/file/d/1TaL-vqXHCG6IpHNN9OoWXoVQgni4ZUwa/view?usp=sharing",
     // worksheetLink: "https://drive.google.com/file/d/1qIinNE6Q0rymSBXUanQyrIiPqwKrPJwP/view?usp=drive_link",
     // keyLink:"https://drive.google.com/file/d/14zwwT3PSziCpx5rNDhQfhXX4Dp4RP-vg/view?usp=drive_link",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_zec18y08"
