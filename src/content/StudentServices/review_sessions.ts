@@ -487,7 +487,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1ztI3-Y1dU5F0GBjFsfRuG_01-b0cAEJ3n_qfiv776U4/edit?usp=sharing",
     worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece220/final/worksheet.pdf",
     keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece220/final/solutions.pdf",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_7xfxpd4y"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_kmjr1q6l"
   },
   {
     course: "ECE 310",
@@ -555,6 +555,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     scribblesLink: "https://drive.google.com/file/d/1iREa72-I-30EQzHZkMLVDkXrMdwAdZeT/view?usp=drive_link",
     worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece342/final/worksheet.pdf",
     keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece342/final/solutions.pdf",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_sngknj2c",
   },
   {
     course: "CS 374A",
