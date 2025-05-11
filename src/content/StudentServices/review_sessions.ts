@@ -474,6 +474,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1013",
     slidesLink: "https://docs.google.com/presentation/d/1UfPZly7LEUDpxDS882YPFkMwT_VZui-2bZEY6jV2Q20/edit?usp=sharing",
+    scribblesLink: "https://drive.google.com/file/d/1Wat6QBL5SFRFEeKUIURrta8jhfuzmaES/view?usp=sharing",
     worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece210/final/worksheet.pdf",
     keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece210/final/solutions.pdf ",
     //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_tnk5lk8s"
