@@ -45,8 +45,8 @@
 
   body {
     margin: 0;
-    background-color: #0f2040;
-    color: white;
+    background-color: white;
+    color: #0f2040;
     font-family: sans-serif;
   }
 
@@ -54,7 +54,7 @@
     max-width: 900px;
     padding: 24px;
     margin: auto;
-    background-color: #0f2040;
+    background-color: white;
   }
 
   .footer-push {
