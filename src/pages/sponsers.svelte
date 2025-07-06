@@ -16,14 +16,19 @@
 <div class="container">
   <div class="footer-push">
     <Nav />
-    <div class="container2">
-      <h1>Sponsors</h1>
+    <div class="content">
+      <h1 class="sponsor-heading">Sponsors</h1>
       <div class="md-container">
         <Description />
       </div>
       <div class="logo-grid">
         {#each sponsors_json.sponsorships as sponsor}
-          <a href={sponsor.link} target="_blank" class="logo" rel="noopener noreferrer">
+          <a
+            href={sponsor.link}
+            target="_blank"
+            class="logo"
+            rel="noopener noreferrer"
+          >
             <img
               src={sponsor.image}
               class="sponsor-image"
@@ -39,35 +44,33 @@
 </div>
 
 <style>
-  * {
-    box-sizing: border-box;
+  .container {
+    background-color: #0f2040;
+    min-height: 100vh;
+    color: white;
   }
 
-  body {
-    margin: 0;
-    background-color: white;
-    color: #0f2040;
-    font-family: sans-serif;
+  .footer-push {
+    min-height: calc(100vh - 70px);
   }
 
-  .container2 {
+  .content {
     max-width: 900px;
     padding: 24px;
     margin: auto;
     background-color: #0f2040;
   }
 
-  .footer-push {
-    min-height: calc(100vh - 70px); /* adjust to match Footer height */
-  }
-
-  h1 {
+  .sponsor-heading {
     text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
   }
 
   .md-container {
+    font-size: 19px;
+    color: white;
     margin-bottom: 2rem;
   }
 
@@ -94,7 +97,7 @@
   }
 
   .logo:hover {
-    background-color: #1f4180;
+    background-color: #546482;
     color: white;
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
@@ -112,9 +115,16 @@
     text-align: center;
   }
 
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
+    .content {
+      padding: 16px;
+    }
     .sponsor-image {
       height: 80px;
     }
+  }
+
+  a {
+    color: white;
   }
 </style>
