@@ -1,7 +1,8 @@
 <script>
   import Footer from "../components/Footer.svelte";
   import Nav from "../components/Nav.svelte";
-  import Description from "../content/Sponsors/sponsor_text.md"
+  import Description from "../content/Sponsors/sponsor_text.md";
+  import sponsors_json from "../content/Home/sponsors.json";
 </script>
 
 <svelte:head>
@@ -23,6 +24,16 @@
         support in empowering the next generation of engineers.
       </p> -->
       <div class="md-container"><Description /></div>
+      <div class="leadership_grid">
+            {#each sponsors_json.sponsorships as sponsor}
+              <div class="leader">
+                <img src={sponsor.image} class="sponsor_image" alt={"Image of " + sponsor.name} role="presentation" />
+                <div class="leader_name">
+                  {sponsor.name}
+                </div>
+              </div>
+            {/each}
+        </div>
       <!-- <div class="logo-grid">
         <a href="https://www.imc.com/" target="_blank" class="logo">
           <img src="public/imc.webp" alt="IMC Trading Logo" />
