@@ -27,6 +27,9 @@
         >Student Services</Link
       >
     </span>
+    <span class= "nav-link not-icon">
+      <Link to="/sponsors" style= "color: white; text-decoration: none;">Sponsors</Link>
+    </span>
     {#each links as NLink}
       <span
         class={NLink.icon ? `nav-link adjusted-nav-link` : `nav-link not-icon`}
