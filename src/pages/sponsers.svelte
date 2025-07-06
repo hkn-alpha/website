@@ -9,7 +9,7 @@
   <title>Sponsors</title>
   <meta
     name="description"
-    content="HKN partners with these corporate sponsors."
+    content="Eta Kappa Nu (HKN) partners with industry leaders who support the next generation of engineers."
   />
 </svelte:head>
 
@@ -18,65 +18,21 @@
     <Nav />
     <div class="container2">
       <h1>Sponsors</h1>
-      <!-- <p>
-        Eta Kappa Nu (HKN) is proud to partner with industry leaders who share our commitment
-        to academic excellence and professional growth in engineering. We are grateful for their
-        support in empowering the next generation of engineers.
-      </p> -->
-      <div class="md-container"><Description /></div>
-      <div class="leadership_grid">
-            {#each sponsors_json.sponsorships as sponsor}
-              <div class="leader">
-                <img src={sponsor.image} class="sponsor_image" alt={"Image of " + sponsor.name} role="presentation" />
-                <div class="leader_name">
-                  {sponsor.name}
-                </div>
-              </div>
-            {/each}
-        </div>
-      <!-- <div class="logo-grid">
-        <a href="https://www.imc.com/" target="_blank" class="logo">
-          <img src="public/imc.webp" alt="IMC Trading Logo" />
-          IMC Trading
-        </a>
-        <a href="https://www.burnsmcd.com/" target="_blank" class="logo">
-          <img src="public/burnsmc.png" alt="Burns & McDonnell Logo" />
-         Burns & McDonnell
-        </a>
-        <a href="https://www.lutron.com/" target="_blank" class="logo">
-          <img src="public/lutron.png" alt="Lutron Logo" />
-          Lutron
-        </a>
-        <a href="https://www.mlp.com/" target="_blank" class="logo">
-          <img src="public/millennium.png" alt="Millennium Logo" />
-          Millennium Financial 
-        </a>
-
-        <a href="https://www.ti.com/" target="_blank" class="logo">
-          <img src="public/texasinst.jpg" alt="Texas Instruments Logo" />
-          Texas Instruments
-        </a>
-
-        <a href="https://www.halliburton.com/" target="_blank" class="logo">
-          <img src="public/halliburton.jpg" alt="Halliburton Logo" />
-         Halliburton
-        </a>
-
-
-
-
-        <a href="https://www.apple.com/" target="_blank" class="logo">
-          <img src="public/apple.jpg" alt="Apple Logo" />Apple
-        </a>
-
-
-
-        <a href="https://www.tsmc.com/" target="_blank" class="logo">
-          <img src="public/tsmc.png" alt="TSMC Logo" />
-          TSMC
-        </a>
-
-      </div> -->
+      <div class="md-container">
+        <Description />
+      </div>
+      <div class="logo-grid">
+        {#each sponsors_json.sponsorships as sponsor}
+          <a href={sponsor.link} target="_blank" class="logo" rel="noopener noreferrer">
+            <img
+              src={sponsor.image}
+              class="sponsor-image"
+              alt={"Logo of " + sponsor.name}
+            />
+            <div class="sponsor-name">{sponsor.name}</div>
+          </a>
+        {/each}
+      </div>
     </div>
   </div>
   <Footer />
@@ -84,59 +40,81 @@
 
 <style>
   * {
-    background-color: #0f2040;
+    box-sizing: border-box;
   }
-  .container2 {
+
+  body {
+    margin: 0;
+    background-color: #0f2040;
     color: white;
-    max-width: 746px;
-    padding: 23px;
+    font-family: sans-serif;
+  }
+
+  .container2 {
+    max-width: 900px;
+    padding: 24px;
     margin: auto;
     background-color: #0f2040;
   }
+
   .footer-push {
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px); /* adjust to match Footer height */
   }
+
   h1 {
     text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
   }
-  p {
-    text-align: center;
+
+  .md-container {
+    margin-bottom: 2rem;
   }
+
   .logo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 30px;
     justify-items: center;
-    margin-top: 20px;
+    padding-bottom: 60px;
   }
+
   .logo {
     background-color: #ffffff;
-    border: 1px solid #df631b;
-    border-width: 5px;
-    border-radius: 8px;
+    border: 3px solid #df631b;
+    border-radius: 10px;
     padding: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.2s, box-shadow 0.2s;
     text-decoration: none;
-    color: #000; /* Default text color */
+    color: black;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
   }
+
   .logo:hover {
     background-color: #1f4180;
+    color: white;
     transform: scale(1.05);
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
-    color: white; /* Changes text color on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
   }
-  .logo img {
+
+  .sponsor-image {
     max-width: 100%;
-    height: 100px; /* Uniform height for all logos */
-    object-fit: cover; /* Crops and maintains aspect ratio */
+    height: 100px;
+    object-fit: contain;
     margin-bottom: 10px;
-    border-radius: 4px;
   }
-  
+
+  .sponsor-name {
+    font-style: italic;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .sponsor-image {
+      height: 80px;
+    }
+  }
 </style>
