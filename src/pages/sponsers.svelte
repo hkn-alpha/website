@@ -22,21 +22,32 @@
         <Description />
       </div>
       <div class="logo-grid">
-        {#each sponsors_json.sponsorships as sponsor}
-          <a
-            href={sponsor.link}
-            target="_blank"
-            class="logo"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={sponsor.image}
-              class="sponsor-image"
-              alt={"Logo of " + sponsor.name}
-            />
-            <div class="sponsor-name">{sponsor.name}</div>
-          </a>
-        {/each}
+          {#each sponsors_json.sponsorships as sponsor}
+            {#if sponsor.link}
+              <a
+                href={sponsor.link}
+                target="_blank"
+                class="logo"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={sponsor.image}
+                  class="sponsor-image"
+                  alt={"Logo of " + sponsor.name}
+                />
+                <div class="sponsor-name">{sponsor.name}</div>
+              </a>
+            {:else}
+              <div class="logo">
+                <img
+                  src={sponsor.image}
+                  class="sponsor-image"
+                  alt={"Logo of " + sponsor.name}
+                />
+                <div class="sponsor-name">{sponsor.name}</div>
+              </div>
+            {/if}
+          {/each}
       </div>
     </div>
   </div>
