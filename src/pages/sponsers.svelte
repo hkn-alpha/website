@@ -2,7 +2,7 @@
   import Footer from "../components/Footer.svelte";
   import Nav from "../components/Nav.svelte";
   import Description from "../content/Sponsors/sponsor_text.md";
-  import sponsors_json from "../content/Home/sponsors.json";
+  import sponsors_json from "../content/Sponsors/sponsors.json";
 </script>
 
 <svelte:head>
