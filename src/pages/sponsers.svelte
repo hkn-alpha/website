@@ -45,8 +45,8 @@
 
   body {
     margin: 0;
-    background-color: #0f2040;
-    color: white;
+    background-color: white;
+    color: #0f2040;
     font-family: sans-serif;
   }
 
