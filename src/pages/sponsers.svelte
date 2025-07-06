@@ -23,31 +23,32 @@
       </div>
       <div class="logo-grid">
           {#each sponsors_json.sponsorships as sponsor}
-            {#if sponsor.link}
-              <a
-                href={sponsor.link}
-                target="_blank"
-                class="logo"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={sponsor.image}
-                  class="sponsor-image"
-                  alt={"Logo of " + sponsor.name}
-                />
-                <div class="sponsor-name">{sponsor.name}</div>
-              </a>
-            {:else}
-              <div class="logo">
-                <img
-                  src={sponsor.image}
-                  class="sponsor-image"
-                  alt={"Logo of " + sponsor.name}
-                />
-                <div class="sponsor-name">{sponsor.name}</div>
-              </div>
-            {/if}
-          {/each}
+          {#if sponsor.link}
+            <a
+              href={sponsor.link}
+              target="_blank"
+              class="logo clickable"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={sponsor.image}
+                class="sponsor-image"
+                alt={"Logo of " + sponsor.name}
+              />
+              <div class="sponsor-name">{sponsor.name}</div>
+            </a>
+          {:else}
+            <div class="logo">
+              <img
+                src={sponsor.image}
+                class="sponsor-image"
+                alt={"Logo of " + sponsor.name}
+              />
+              <div class="sponsor-name">{sponsor.name}</div>
+            </div>
+          {/if}
+        {/each}
+
       </div>
     </div>
   </div>
@@ -94,25 +95,30 @@
   }
 
   .logo {
-    background-color: #ffffff;
-    border: 3px solid #df631b;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  background-color: #ffffff;
+  border: 3px solid #df631b;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .logo:hover {
-    background-color: #546482;
-    color: white;
-    transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
-  }
+.logo.clickable {
+  cursor: pointer;
+}
+
+.logo.clickable:hover {
+  background-color: #546482;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+}
+
 
   .sponsor-image {
     max-width: 100%;
