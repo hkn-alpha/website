@@ -1,38 +1,43 @@
 {
   "leaders": [
     {
-      "name": "V Verma",
-      "image": "/VProfilePic.jpg",
+      "name": "Lucas Nguyen",
+      "image": "/BoardPhotos/FA25/LucasNguyen.jpg",
       "role": "President"
     },
     {
-      "name": "Eisa Kamran",
-      "image": "/EisaProfilePic.png",
+      "name": "David Zhang",
+      "image": "/BoardPhotos/FA25/DavidZhangProfilePic.jpg",
       "role": "Vice President"
     },
     {
-      "name": "David Thomas",
-      "image": "/DavidThomasPic.JPG",
+      "name": "Nick Kozub",
+      "image": "/BoardPhotos/FA25/NickKozub.jpg",
       "role": "Treasurer/Events"
     },
     {
-      "name": "David Zhang",
-      "image": "/DavidZhangProfilePic.jpg",
+      "name": "Erin Rothenbaum",
+      "image": "/BoardPhotos/FA25/ErinRothenbaum.jpg",
       "role": "Initiate Affairs"
     },
     {
-      "name": "Lucas Nguyen",
-      "image": "/LucasProfilePic.JPG",
+      "name": "Meenakshi De",
+      "image": "/BoardPhotos/FA25/MeenakshiDe.jpg",
       "role": "Student Services"
     },
     {
       "name": "Albert Jiang",
-      "image": "/AlbertProfilePic.jpg",
+      "image": "/BoardPhotos/FA25/AlbertProfilePic.jpg",
+      "role": "Coporate Affairs"
+    },
+    {
+      "name": "Xainab Khan",
+      "image": "/BoardPhotos/FA25/XainabKhan.png",
       "role": "Publicity"
     },
     {
       "name": "Yash Thakker",
-      "image": "/YashProfilePic.jpg",
+      "image": "/BoardPhotos/FA25/YashProfilePic.jpg",
       "role": "Secretary"
     }
   ],
