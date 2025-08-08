@@ -426,7 +426,7 @@ const events: Event[] = [
     new Date(2025, 1, 13),
   ].map(workshops),
   ...[
-    new Date(2025, 1, 1),
+    new Date(2026, 1, 1),
   ].map(olympics),
   ...[
     new Date(2025, 1, 27),
