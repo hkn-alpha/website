@@ -38,6 +38,23 @@ type Event = {
  * BELOW THIS POINT!
  */
 
+const fridaySchedule: [Date, string][] = [
+  [new Date(2025, 8, 12), "Board Games + Snacks"],   
+  [new Date(2025, 8, 19), "Trivia Night"],
+  [new Date(2025, 8, 26), "Brain Food + Lockbox"],
+  [new Date(2025, 9, 3), "Picnic + Movie Night"], 
+  [new Date(2025, 9, 10), "Spooky Music Study Party"],
+  [new Date(2025, 9, 17), "Mini Pumpkin Making"],
+  [new Date(2025, 9, 24), "Spooky Cookie Decorating"],   
+  [new Date(2025, 9, 31), "Halloween Costume Contest"],
+  [new Date(2025, 10, 7), "Scarecrow Keychains"],
+  [new Date(2025, 10, 14), "Winter/Autumn Treats Study Party"],
+  [new Date(2025, 10, 21), "Friendsgiving Potluck"],
+  [new Date(2025, 11, 5), "Gingerbread Houses!"],
+
+];
+
+
 const eceb = {
   lat: 40.11487240610786,
   lon: -88.22795431703628,
@@ -161,6 +178,18 @@ const happyHour = (date: Date): Event => ({
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
+
+const fridayEvent = (activity: string) => (date: Date): Event => ({
+  name: activity,
+  date,
+  time: "5:00–6:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["eceb"],
+  description: `Join us for ${activity}!`,
+  initiatePointsCount: 1,
+  initiatePointsCategory: "social",
+});
+
 const quadDay = (date: Date): Event => ({
   name: "Quad Day",
   date,
@@ -255,8 +284,6 @@ const courseAdvising = (date: Date): Event => ({
   locationInfo: commonLocations["atrium"],
   description:
     "Stop by if you want some feedback about your schedule or course plan!"
-
-
 })
 
 const infoSessions = (date: Date): Event => ({
@@ -448,6 +475,7 @@ const graduatePanel = (date: Date): Event => ({
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
+  ...fridaySchedule.map(([date, activity]) => fridayEvent(activity)(date)),
   ...[
     new Date(2025, 1, 12),
     new Date(2025, 1, 13),
