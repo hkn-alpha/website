@@ -75,6 +75,14 @@ const commonLocations = {
     addressLine2: "Urbana, IL 61801",
     googleMapsLink: "https://www.google.com/maps/place/North+Quad/@40.1149104,-88.2298627,16z/data=!3m1!4b1!4m6!3m5!1s0x880cd741c34031a3:0xed8ada33e3421567!8m2!3d40.1149104!4d-88.2272878!16s%2Fg%2F11bytn1hz5?entry=ttu&g_ep=EgoyMDI0MDkxNS4wIKXMDSoASAFQAw%3D%3D",
   },
+  southQuad:{
+    lat: 40.10289,
+    lon: -88.22718,
+    locationName: "South Quad (McFarland Memorial Bell Tower)",
+    addressLine1: "607 S Mathews Ave",
+    addressLine2: "Urbana, IL 61801",
+    googleMapsLink: "https://maps.google.com/?q=40.10289,-88.22718"
+  },
   atrium: {
     ...eceb,
     locationName: "ECEB Atrium",
@@ -153,6 +161,16 @@ const happyHour = (date: Date): Event => ({
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
+const quadDay = (date: Date): Event => ({
+  name: "Quad Day",
+  date,
+  description:
+    "HKN has a table at Quad Day! Stop by to learn more about our chapter!",
+  time: "12:00am - 4:00pm",
+  virtual: false,
+  locationInfo: commonLocations["southQuad"],
+});
+
 const tuesdaySocial = (date: Date): Event => ({
   name: "Tuesday Social",
   date,
@@ -244,11 +262,20 @@ const courseAdvising = (date: Date): Event => ({
 const infoSessions = (date: Date): Event => ({
   name: "Info Session",
   date,
-  time: "7:00-8:00 PM",
+  time: "4:45-5:30 PM",
   virtual: false,
   locationInfo: commonLocations["eceb"],
   description:
   "Learn more about our society, what we do, and what's in it for you to join our chapter!"
+})
+const ECEliftoff = (date: Date): Event => ({
+  name: "ECE Liftoff",
+  date,
+  time: "5:30-6:15 PM",
+  virtual: false,
+  locationInfo: commonLocations["atrium"],
+  description:
+    "Come get introduced to the ECE department and meet your fellow ECE students!"
 })
 
 const movieNight = (date: Date): Event => ({
@@ -426,44 +453,30 @@ const events: Event[] = [
     new Date(2025, 1, 13),
   ].map(workshops),
   ...[
-    new Date(2026, 1, 1),
+    new Date(2025, 7, 24),
+  ].map(quadDay),
+  ...[
+    
+    new Date(2025, 8, 4),
+    new Date(2025, 8, 7),
   ].map(olympics),
   ...[
     new Date(2025, 1, 27),
   ].map(graduatePanel),
   ...[
-    new Date(2025, 0, 31),
-    new Date(2025, 1, 7),
-    new Date(2025, 1, 14),
-    new Date(2025, 1, 21),
-    new Date(2025, 1, 28),
-    new Date(2025, 2, 7),
-    new Date(2025, 2, 14),
-    //new Date(2025, 2, 21),
-    new Date(2025, 2, 28),
-    new Date(2025, 3, 4),
-    new Date(2025, 3, 11),
-    new Date(2025, 3, 18),
-    new Date(2025, 3, 25),
-    new Date(2025, 4, 2),
-  ].map(happyHour),
-  ...[
-    new Date(2025, 1, 4),
-    new Date(2025, 1, 11),
-    new Date(2025, 1, 18),
-    new Date(2025, 1, 25),
-    new Date(2025, 2, 4),
-    new Date(2025, 2, 11),
-    //new Date(2025, 2, 18),
-    new Date(2025, 2, 25),
-    new Date(2025, 3, 1),
-    new Date(2025, 3, 8),
-    new Date(2025, 3, 15),
-    new Date(2025, 3, 22),
-    new Date(2025, 3, 29),
-    new Date(2025, 4, 6),
-    // new Date(2024, 11, 26), // FALL BREAK
-    new Date(2024, 11, 3),
+    new Date(2025, 8, 9),
+    new Date(2025, 8, 16),
+    new Date(2025, 8, 23),
+    new Date(2025, 8, 30),
+    new Date(2025, 9, 7),
+    new Date(2025, 9, 14),
+    new Date(2025, 9, 21),
+    new Date(2025, 9, 28),
+    new Date(2025, 10, 4),
+    new Date(2025, 10, 11),
+    new Date(2025, 10, 18),
+    new Date(2025, 11, 2),
+    new Date(2025, 11, 9),
   ].map(tuesdaySocial),
  ...[
     new Date(2024, 2, 2),
@@ -555,9 +568,11 @@ const events: Event[] = [
 , new Date(2024, 8, 6 )
 ].map(courseAdvising),
 ...[
-  , new Date(2024, 8, 3)
-  , new Date(2024, 8, 4)
+  , new Date(2025, 7, 27)
 ].map(infoSessions),
+...[
+  , new Date(2025, 7, 27)
+].map(ECEliftoff),
 ...[
   , new Date(2025, 1, 18)
 
