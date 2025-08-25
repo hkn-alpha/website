@@ -210,6 +210,7 @@ const tuesdaySocial = (date: Date): Event => ({
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
+
 const studentServices = (date: Date): Event => ({
   name: "Student Services Meeting",
   date,
@@ -221,10 +222,11 @@ const studentServices = (date: Date): Event => ({
   initiatePointsCategory: "service",
   initiatePointsCount: 1,
 });
+
 const olympics = (date: Date): Event => ({
   name: "Olympics",
   date,
-  time: "11:00am-1:00 pm",
+  time: "2:00pm-4:00 pm",
   virtual: false,
   locationInfo: commonLocations[2017],
   description:
@@ -279,22 +281,46 @@ const workshops = (date: Date): Event => ({
 const courseAdvising = (date: Date): Event => ({
   name: "Course Advising",
   date,
-  time: "12:00-5:00 PM",
+  time: "12:00-4:00 PM",
   virtual: false,
   locationInfo: commonLocations["atrium"],
   description:
     "Stop by if you want some feedback about your schedule or course plan!"
 })
 
-const infoSessions = (date: Date): Event => ({
+const initiateWelcome = (date: Date): Event => ({
+  name: "Initiate Welcome",
+  date,
+  time: "5:00-6:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["eceb"],
+  description:
+    "Welcome new initiates to HKN! Learn more about our society and what's in it for you to join our chapter!",
+  initiatePointsCategory: "service",
+  initiatePointsCount: 1,
+})
+  
+
+const infoSessions1 = (date: Date): Event => ({
   name: "Info Session",
   date,
-  time: "4:45-5:30 PM",
+  time: "4:30-5:30 PM",
   virtual: false,
   locationInfo: commonLocations["eceb"],
   description:
   "Learn more about our society, what we do, and what's in it for you to join our chapter!"
 })
+
+const infoSessions2 = (date: Date): Event => ({
+  name: "Info Session",
+  date,
+  time: "7:00-8:00 PM",
+  virtual: false,
+  locationInfo: commonLocations["eceb"],
+  description:
+  "Learn more about our society, what we do, and what's in it for you to join our chapter!"
+})
+
 const ECEliftoff = (date: Date): Event => ({
   name: "ECE Liftoff",
   date,
@@ -484,9 +510,7 @@ const events: Event[] = [
     new Date(2025, 7, 24),
   ].map(quadDay),
   ...[
-    
-    new Date(2025, 8, 4),
-    new Date(2025, 8, 7),
+    new Date(2025, 8, 6),
   ].map(olympics),
   ...[
     new Date(2025, 1, 27),
@@ -525,6 +549,9 @@ const events: Event[] = [
   ...[
     new Date (2024, 8, 20)
   ].map(movieNight),
+  ...[
+    new Date (2025, 8, 5)
+  ].map(initiateWelcome),
   ...[
     new Date (2024, 9, 4)
   ].map(ecex4),
@@ -585,19 +612,18 @@ const events: Event[] = [
   , new Date(2024, 8 , 13)
 ].map(TI_ISSA),
 ...[
-  , new Date(2024, 7, 26 )
-, new Date(2024, 7, 27 )
-, new Date(2024, 7, 29 )
-, new Date(2024, 7, 30 )
-, new Date(2024, 8, 2 )
-, new Date(2024, 8, 3 )
-, new Date(2024, 8, 4 )
-, new Date(2024, 8, 5 )
-, new Date(2024, 8, 6 )
+  new Date(2025, 7, 26),
+  new Date(2025, 7, 27),
+  new Date(2025, 7, 28),
+  new Date(2025, 7, 29)
+
 ].map(courseAdvising),
 ...[
   , new Date(2025, 7, 27)
-].map(infoSessions),
+].map(infoSessions1),
+...[
+  , new Date(2025, 9, 4)
+].map(infoSessions2),
 ...[
   , new Date(2025, 7, 27)
 ].map(ECEliftoff),
