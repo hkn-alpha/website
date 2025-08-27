@@ -15,6 +15,13 @@ export type VirtualInfo = {
 
 type InitiatePointsCategory = "social" | "service";
 
+type BaseEvent = {
+  name: string;
+  description: string;
+  virtual: boolean;
+};
+
+
 type Event = {
   name: string;
   date: Date;
@@ -166,6 +173,26 @@ const commonLocations = {
     locationName: "TBA",
   },
 };
+
+function makeEvent(BaseEvent: Omit<Event, "date" | "time" | "locationInfo" | "virtualInfo"> & { virtual: false }) {
+  return (date: Date, time: string, locationInfo: LocationInfo): Event => ({
+    ...BaseEvent,
+    virtual: false,
+    date,
+    time,
+    locationInfo,
+  });
+}
+
+function makeVirtualEvent(BaseEvent: Omit<Event, "date" | "time" | "locationInfo" | "virtualInfo"> & { virtual: true }) {
+  return (date: Date, time: string, virtualInfo: VirtualInfo): Event => ({
+    ...BaseEvent,
+    virtual: true,
+    date,
+    time,
+    virtualInfo,
+  });
+}
 
 const happyHour = (date: Date): Event => ({
   name: "Happy Hour",
@@ -393,16 +420,13 @@ const BMcDTalk = (date: Date): Event => ({
   "Come to learn more about Burns & McDonnell and their career opportunities!"
 })
 
-const ece_220_hours = (date: Date): Event => ({
-  name: "ECE 220 Tutoring Hours",
-  date,
-  time: "7 AM - 7 PM",
-  virtual: false,
-  locationInfo: commonLocations["CIF_first_floor"],
-  description:
-  "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by."
 
-})
+const ece_220_hours = makeEvent({
+  name: "ECE 220 Tutoring Hours",
+  description: "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by.",
+  virtual: false,
+});
+
 
 const TSMC_ISSA = (date: Date): Event => ({
   name: "TSMC x ISSA",
@@ -502,6 +526,7 @@ const graduatePanel = (date: Date): Event => ({
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
   ...fridaySchedule.map(([date, activity]) => fridayEvent(activity)(date)),
+  ece_220_hours(new Date(2026, 1, 12), "7 AM - 7 PM", commonLocations["CIF_first_floor"]),
   ...[
     new Date(2025, 1, 12),
     new Date(2025, 1, 13),
@@ -640,10 +665,7 @@ const events: Event[] = [
 ...[
   , new Date(2024,9, 31)
 
-].map(CostumeContest),
-...[
-  ,new Date(2024,11, 18)
-].map(ece_220_hours)
+].map(CostumeContest)
 ];
 
 export default events;
