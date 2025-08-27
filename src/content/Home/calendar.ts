@@ -65,22 +65,12 @@ function makeVirtualEvent(base: Omit<Event, "date" | "time" | "locationInfo" | "
  * BELOW THIS POINT!
  */
 
-const fridaySchedule: [Date, string][] = [
-  [new Date(2025, 8, 12), "Board Games + Snacks"],   
-  [new Date(2025, 8, 19), "Trivia Night"],
-  [new Date(2025, 8, 26), "Brain Food + Lockbox"],
-  [new Date(2025, 9, 3), "Picnic + Movie Night"], 
-  [new Date(2025, 9, 10), "Spooky Music Study Party"],
-  [new Date(2025, 9, 17), "Mini Pumpkin Making"],
-  [new Date(2025, 9, 24), "Spooky Cookie Decorating"],   
-  [new Date(2025, 9, 31), "Halloween Costume Contest"],
-  [new Date(2025, 10, 7), "Scarecrow Keychains"],
-  [new Date(2025, 10, 14), "Winter/Autumn Treats Study Party"],
-  [new Date(2025, 10, 21), "Friendsgiving Potluck"],
-  [new Date(2025, 11, 5), "Gingerbread Houses!"],
 
-];
-
+/* Common locations used in events
+  Fill out all fields for each location
+  Defined by the locationInfo type above
+  You can add more locations if needed, otherwise use the commonLocations object below
+*/
 
 const eceb = {
   lat: 40.11487240610786,
@@ -195,6 +185,24 @@ const commonLocations = {
 };
 
 
+//Friday events are formatted differently because the activities change weekly
+// Don't use this method if you're making another event that repeats weekly, see below for other examples
+
+const fridaySchedule: [Date, string][] = [
+  [new Date(2025, 8, 12), "Board Games + Snacks"],   
+  [new Date(2025, 8, 19), "Trivia Night"],
+  [new Date(2025, 8, 26), "Brain Food + Lockbox"],
+  [new Date(2025, 9, 3), "Picnic + Movie Night"], 
+  [new Date(2025, 9, 10), "Spooky Music Study Party"],
+  [new Date(2025, 9, 17), "Mini Pumpkin Making"],
+  [new Date(2025, 9, 24), "Spooky Cookie Decorating"],   
+  [new Date(2025, 9, 31), "Halloween Costume Contest"],
+  [new Date(2025, 10, 7), "Scarecrow Keychains"],
+  [new Date(2025, 10, 14), "Winter/Autumn Treats Study Party"],
+  [new Date(2025, 10, 21), "Friendsgiving Potluck"],
+  [new Date(2025, 11, 5), "Gingerbread Houses!"],
+
+];
 
 const fridayEvent = (activity: string) => (date: Date): Event => ({
   name: activity,
@@ -207,6 +215,14 @@ const fridayEvent = (activity: string) => (date: Date): Event => ({
   initiatePointsCategory: "social",
 });
 
+//--- ADD NEW EVENTS BELOW THIS LINE ---------------------------------------------------------------
+
+/* Use the makeEvent function for in-person events
+  Use the makeVirtualEvent function for virtual events
+  Make sure to fill out all fields in the event object
+  THIS SECTION IS FOR CREATING THE EVENT TEMPLATES ONLY
+  TO ADD THE EVENT TO THE CALENDAR OR MODIFY THE CALENDAR, SEE THE SECTION BELOW
+*/
 const quadDay = makeEvent({
   name: "Quad Day",
   description:
@@ -386,17 +402,36 @@ const graduatePanel = makeEvent({
 });
 
 
-// Note that the below need not be ordered, the web UI will take care of sorting
-// Also note that months are zero indexed but days are not!
-const events: Event[] = [
-  ...fridaySchedule.map(([date, activity]) => fridayEvent(activity)(date)), //this one is weird, 
-  ece_220_hours(new Date(2025, 1, 12), "7 AM - 7 PM", commonLocations["CIF_first_floor"]),
+/* IF YOU ARE ADDING AN EVENT TEMPLATE, PLEASE ADD IT TO THE LIST ABOVE!
+   -----------------------------------------------------------------------------
+  IF YOU ARE MODIFYING THE CALENDAR, PLEASE MODIFY THE LIST BELOW!
+*/
+
+/* These events are the ones that are displayed on the calendar
+  Note that the below need not be ordered, the web UI will take care of sorting
+
+  MONTHS ARE ZERO-INDEXED (0 = JANUARY, 1 = FEBRUARY, etc.)
+  DAYS ARE ONE-INDEXED (1 = 1st of the month, 2 = 2nd of the month, etc.)
+
+  Using the events created by the makeEvent function above, you add them to the calendar here
+
+  example for single, one time event
+  ece_220_hours(new Date(2025, 1, 12), "7:00 AM - 7:00 PM", commonLocations["CIF_first_floor"]), 
+
+  example for repeat event
   ...[
-    new Date(2025, 1, 12),
-    new Date(2025, 1, 13),
-  ].map(date => tutoringWorkshop(date, "6:00 PM - 7:00 PM", commonLocations[2017])),
+    new Date(2025, 1, 12), //(FEB 12 2025)
+    new Date(2025, 0, 13), //(JAN 13 2025)
+    new Date(2025, 2, 14), //(MAR 14 2025)
+  ].map(date => tutoringWorkshop(date, "6:00 PM - 7:00 PM", commonLocations[2017]))
+*/
+
+const events: Event[] = [
+  ...fridaySchedule.map(([date, activity]) => fridayEvent(activity)(date)), //this one is weird, don't use this method for other events
+
   quadDay(new Date(2025, 7, 24), "12:00am - 4:00pm", commonLocations["southQuad"]),
   olympics(new Date(2025, 8, 6), "2:00pm-4:00 pm", commonLocations[2017]),
+
   ...[
     new Date(2025, 8, 9),
     new Date(2025, 8, 16),
@@ -412,6 +447,7 @@ const events: Event[] = [
     new Date(2025, 11, 2),
     new Date(2025, 11, 9),
   ].map(date => tuesdaySocial(date, "6:00-7:00pm", commonLocations[2015])),
+
   ...[
     new Date(2024, 2, 2),
     new Date(2024, 2, 9),
@@ -430,8 +466,6 @@ const events: Event[] = [
   ].map(date => studentServices(date, "2:00pm-4:00pm", commonLocations[3081])),
 
   initiateWelcome(new Date (2025, 8, 5), "6:00-7:00 PM", commonLocations["3015"]),
-
-
   ...[
     new Date(2024, 8, 6),
     new Date(2024, 8,10)
@@ -443,6 +477,7 @@ const events: Event[] = [
   new Date(2025, 7, 29)
   ].map(date => courseAdvising(date, "12:00 PM - 4:00 PM", commonLocations[2015])),
   courseAdvising(new Date(2025, 7, 27), "12:00 PM - 4:00 PM", commonLocations["rsoOffice"]),
+
   infoSessions(new Date(2025, 8, 27), "4:30-5:30 PM", commonLocations["rsoOffice"]),
   infoSessions(new Date(2025, 9, 4), "7:00-8:00 PM", commonLocations["TBA"]),
   ECEliftoff(new Date(2025, 7, 27), "5:30-6:15 PM", commonLocations["atrium"]),
