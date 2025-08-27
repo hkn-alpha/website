@@ -15,6 +15,13 @@ export type VirtualInfo = {
 
 type InitiatePointsCategory = "social" | "service";
 
+type BaseEvent = {
+  name: string;
+  description: string;
+  virtual: boolean;
+};
+
+
 type Event = {
   name: string;
   date: Date;
@@ -32,6 +39,26 @@ type Event = {
       virtualInfo: VirtualInfo;
     }
 );
+
+function makeEvent(base: Omit<Event, "date" | "time" | "locationInfo" | "virtualInfo"> & { virtual: false }) {
+  return (date: Date, time: string, locationInfo: LocationInfo): Event => ({
+    ...base,
+    date,
+    time,
+    locationInfo,
+    virtual: false,
+  });
+}
+
+function makeVirtualEvent(base: Omit<Event, "date" | "time" | "locationInfo" | "virtualInfo"> & { virtual: true }) {
+  return (date: Date, time: string, virtualInfo: VirtualInfo): Event => ({
+    ...base,
+    date,
+    time,
+    virtualInfo,
+    virtual: true,
+  });
+}
 
 /**
  * HKN editors: Unless you're modifying website functionality, ONLY EDIT LINES
@@ -167,17 +194,7 @@ const commonLocations = {
   },
 };
 
-const happyHour = (date: Date): Event => ({
-  name: "Happy Hour",
-  date,
-  description:
-    "Free fry friday! Join HKN and chat with some of your fellow members!",
-  time: "5:00PM",
-  virtual: false,
-  locationInfo: commonLocations["legends"],
-  initiatePointsCount: 1,
-  initiatePointsCategory: "social",
-});
+
 
 const fridayEvent = (activity: string) => (date: Date): Event => ({
   name: activity,
@@ -190,331 +207,196 @@ const fridayEvent = (activity: string) => (date: Date): Event => ({
   initiatePointsCategory: "social",
 });
 
-const quadDay = (date: Date): Event => ({
+const quadDay = makeEvent({
   name: "Quad Day",
-  date,
   description:
     "HKN has a table at Quad Day! Stop by to learn more about our chapter!",
-  time: "12:00am - 4:00pm",
-  virtual: false,
-  locationInfo: commonLocations["southQuad"],
+    virtual: false,
 });
 
-const tuesdaySocial = (date: Date): Event => ({
+const tuesdaySocial = makeEvent({
   name: "Tuesday Social",
-  date,
   description: "Join us for Pizza, Poker, and Smash!",
-  time: "6:00-7:00pm",
   virtual: false,
-  locationInfo: commonLocations[2015],
   initiatePointsCount: 1,
   initiatePointsCategory: "social",
 });
 
-const studentServices = (date: Date): Event => ({
+const studentServices = makeEvent({
   name: "Student Services Meeting",
-  date,
-  time: "2:00pm-4:00pm",
-  virtual: false,
-  locationInfo: commonLocations[3081],
   description:
     "Preparation/Meeting for all things Student Services! (i.e. Review Sessions, Worksheets, Videos, HKN Wiki, etc)",
+  virtual: false,
   initiatePointsCategory: "service",
   initiatePointsCount: 1,
 });
 
-const olympics = (date: Date): Event => ({
+const olympics = makeEvent({
   name: "Olympics",
-  date,
-  time: "2:00pm-4:00 pm",
-  virtual: false,
-  locationInfo: commonLocations[2017],
   description:
     "Olympics! Initiates are required to attend. There will be a penalty if you don't!",
+  virtual: false,
   initiatePointsCategory: "service",
   initiatePointsCount: 1,
 });
 
-const valentineSocial = (date: Date): Event => ({
+const valentineSocial = makeEvent({
   name: "Valentine's Day Social",
-  date,
-  time: "5:00pm-7:00pm",
+  description: "Join us for a Valentine's Day Social with snacks and games!",
   virtual: false,
-  locationInfo: commonLocations["rsoOffice"],
-  description:
-    "Come make custom cards with HKN! We have papercraft, fun stickers, markers, and more for everyone! All are welcome!!",
+  initiatePointsCount: 1,
   initiatePointsCategory: "social",
-  initiatePointsCount: 2,
 });
 
-const resumeReview1 = (date: Date): Event => ({
+const resumeReview = makeEvent({
   name: "Resume Review Sessions",
-  date,
-  time: "1:00 PM - 3:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["rsoOffice"],
   description:
-    "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
-})
-
-const resumeReview2 = (date: Date): Event => ({
-  name: "Resume Review Sessions",
-  date,
-  time: "4:00 PM - 6:00 PM",
+    "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!",
   virtual: false,
-  locationInfo: commonLocations["rsoOffice"],
-  description:
-    "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!"
-})
+});
 
-const workshops = (date: Date): Event => ({
-  name: "Tutoring and Review Session Workshops",
-  date,
-  time: "6:00 PM - 7:00 PM",
+const tutoringWorkshop = makeEvent({
+  name: "Tutoring and Review Session Workshop",
+  description:
+    "Come to this workshop to improve your tutoring and lecturing skills.",
   virtual: false,
-  locationInfo: commonLocations[2017],
-  description:
-    "Come to this workshop to improve your tutoring and lecturing skills."
-})
+});
 
-
-const courseAdvising = (date: Date): Event => ({
+const courseAdvising = makeEvent({
   name: "Course Advising",
-  date,
-  time: "12:00-4:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["atrium"],
   description:
-    "Stop by if you want some feedback about your schedule or course plan!"
-})
-
-const initiateWelcome = (date: Date): Event => ({
-  name: "Initiate Welcome",
-  date,
-  time: "5:00-6:00 PM",
+    "Stop by if you want some feedback about your schedule or course plan!",
   virtual: false,
-  locationInfo: commonLocations["eceb"],
+});
+
+const initiateWelcome = makeEvent({
+  name: "Initiate Welcome",
   description:
     "Welcome new initiates to HKN! Learn more about our society and what's in it for you to join our chapter!",
+  virtual: false,
   initiatePointsCategory: "service",
   initiatePointsCount: 1,
-})
-  
+});
 
-const infoSessions1 = (date: Date): Event => ({
+const infoSessions = makeEvent({
   name: "Info Session",
-  date,
-  time: "4:30-5:30 PM",
-  virtual: false,
-  locationInfo: commonLocations["eceb"],
   description:
-  "Learn more about our society, what we do, and what's in it for you to join our chapter!"
-})
-
-const infoSessions2 = (date: Date): Event => ({
-  name: "Info Session",
-  date,
-  time: "7:00-8:00 PM",
+    "Learn more about our society, what we do, and what's in it for you to join our chapter!",
   virtual: false,
-  locationInfo: commonLocations["eceb"],
-  description:
-  "Learn more about our society, what we do, and what's in it for you to join our chapter!"
-})
+});
 
-const ECEliftoff = (date: Date): Event => ({
-  name: "ECE Liftoff",
-  date,
-  time: "5:30-6:15 PM",
+const ECEliftoff = makeEvent({
+  name: "ECE Liftoff",  
+  description:
+    "Come get introduced to the ECE department and meet your fellow ECE students!",
   virtual: false,
-  locationInfo: commonLocations["atrium"],
-  description:
-    "Come get introduced to the ECE department and meet your fellow ECE students!"
-})
+});
 
-const movieNight = (date: Date): Event => ({
-name: "Movie Night",
-  date,
-  time: "6:00-10:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["1002"],
-  description:
-  "Come to Grainger Auditorium to gather with fellow ECE students and enjoy a movie! Hosted jointly by WECE, IEEE, and HKN!"
-
-})
-
-const ecex4 = (date: Date): Event => ({
+const ecex4 = makeEvent({ 
   name: "ECEx4 Sports Day",
-  date,
-  time: "1:00-4:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["northQuad"],
   description:
-  "Come to the North Quad for fun and games!"
+    "Come to the North Quad for fun and games!",
+  virtual: false,
+});
 
-})
-
-const generalMeeting = (date: Date): Event => ({
+const generalMeeting = makeEvent({
   name: "General Meeting",
-  date,
-  time: "6:00-7:00 PM",
-  virtual: false,
-  locationInfo: commonLocations[2015],
   description:
-  "General Meeting and overview of our society, accomplishments, and plans"
-})
+    "General Meeting and overview of our society, accomplishments, and plans",
+  virtual: false,
+});
 
-const milleniumTalk = (date: Date): Event => ({
+const milleniumTalk = makeEvent({
   name: "Millenium Tech Talk",
-  date,
-  time: "5:30 - 7:30 PM",
-  virtual: false,
-  locationInfo: commonLocations["1013"],
   description:
-  "Come to learn more about Millenium and their career opportunities!"
-})
+    "Come to learn more about Millenium and their career opportunities!",
+  virtual: false,
+});
 
-const lutronTalk = (date: Date): Event => ({
+const lutronTalk = makeEvent({
   name: "Lutron Tech Talk",
-  date,
-  time: "7:00 PM - 9:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["1015"],
   description:
-  "Come to learn more about Lutron and their career opportunities!"
-})
+    "Come to learn more about Lutron and their career opportunities!",
+  virtual: false,
+});
 
-const BMcDTalk = (date: Date): Event => ({
+const BMcDTalk = makeEvent({
   name: "Burns & McDonnell Tech Talk",
-  date,
-  time: "6:00 - 8:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["1015"],
   description:
-  "Come to learn more about Burns & McDonnell and their career opportunities!"
-})
+    "Come to learn more about Burns & McDonnell and their career opportunities!",
+  virtual: false,
+});
 
-const ece_220_hours = (date: Date): Event => ({
+const ece_220_hours = makeEvent({
   name: "ECE 220 Tutoring Hours",
-  date,
-  time: "7 AM - 7 PM",
+  description: "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by.",
   virtual: false,
-  locationInfo: commonLocations["CIF_first_floor"],
-  description:
-  "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by."
+});
 
-})
-
-const TSMC_ISSA = (date: Date): Event => ({
+const TSMC_ISSA = makeEvent({
   name: "TSMC x ISSA",
-  date,
-  time: "5:30 - 7:30 PM",
+  description: "Come to the joint HKN x ISSA TSMC talk to learn more about their career opportunities!",
   virtual: false,
-  locationInfo: commonLocations["CIF_4025"],
-  description: "Come to the joint HKN x ISSA TSMC talk to learn more about their career opportunities!"
-})
+});
 
-const halliburtonTalk = (date: Date): Event => ({
+const halliburtonTalk = makeEvent({
   name: "Halliburton Tech Talk",
-  date,
-  time: "7:00 - 9:00 PM",
+  description: "Come learn more about Halliburton and their career opportunities!",
   virtual: false,
-  locationInfo: commonLocations["1013"],
-  description: "Come learn more about Halliburton and their career opportunities!"
-})
+});
 
-const TI_ISSA = (date: Date): Event => ({
+const TI_ISSA = makeEvent({
   name: "TI x ISSA",
-  date,
-  time: "5:30 - 7:30 PM",
+  description: "Come to the joint HKN x ISSA TI talk to learn more about their career opportunities!",
   virtual: false,
-  locationInfo: commonLocations["1013"],
-  description: "Come to the joint HKN x ISSA TI talk to learn more about their career opportunities!"
-})
+});
 
-const TownHall = (date: Date): Event => ({
+const TownHall = makeEvent({
   name: "ECE Town Hall",
-  date,
-  time: "5:00 - 6:00 PM",
+  description: "Come to voice your opinions about the ECE curriculum and student body!",
   virtual: false,
-  locationInfo: commonLocations["1002"],
-  description: "Come to voice your opinions about the ECE curriculum and student body!"
-})
+});
 
-const generalMeetingswap = (date: Date): Event => ({
-  name: "General Meeting",
-  date,
-  time: "4:00 - 5:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["2017"],
-  description: "General Meeting and overview of our society, accomplishments, and plans"
-})
-
-const election = (date: Date): Event => ({
+const election = makeEvent({
   name: "HKN Elections",
-  date,
-  time: "5:00 - 8:00 PM",
+  description: "Elections for HKN! Go vote for your fellow members to be on board!",
   virtual: false,
-  locationInfo: commonLocations[2017],
-  description: "Elections for HKN! Go vote for your fellow members to be on board!"
-})
+});
 
-const initiation = (date: Date): Event => ({
+const initiation = makeEvent({
   name: "HKN Initiation",
-  date,
-  time: "11:00 - 2:00 PM",
+  description: "HKN Initiation!",
   virtual: false,
-  locationInfo: commonLocations["3002"],
-  description: "HKN Initiation!"
-})
+});
 
-const editathon = (date: Date): Event => ({
+const editathon = makeEvent({
   name: "Student Services Editathon",
-  date,
-  time: "3:00 - 5:00 PM",
-  virtual: false,
-  locationInfo: commonLocations["rsoOffice"],
   description:
-    "Come to the RSO Office to help edit the HKN wiki!"
-})
-
-const CostumeContest = (date: Date): Event => ({
-  name: "HKN Halloween Costume Contest 🎃",
-  date,
-  time: "5:00 - 6:00 PM",
+    "Come to the RSO Office to help edit the HKN wiki!",
   virtual: false,
-  initiatePointsCategory: 'social',
-  initiatePointsCount: 1, 
-  locationInfo: commonLocations["3015"],
-  description: "Come show off your best costume!"
-})
+  initiatePointsCategory: "service",
+  initiatePointsCount: 1,
+});
 
-const graduatePanel = (date: Date): Event => ({
+const graduatePanel = makeEvent({
   name: "HKN Graduate Panel",
-  date,
-  time: "6:00 PM - 7:00 PM",
-  virtual: false,
-  locationInfo: commonLocations[3017],
   description:
-    "Come talk to graduate students!"
-})
+    "Come talk to graduate students!",
+  virtual: false,
+});
+
 
 // Note that the below need not be ordered, the web UI will take care of sorting
 // Also note that months are zero indexed but days are not!
 const events: Event[] = [
-  ...fridaySchedule.map(([date, activity]) => fridayEvent(activity)(date)),
+  ...fridaySchedule.map(([date, activity]) => fridayEvent(activity)(date)), //this one is weird, 
+  ece_220_hours(new Date(2025, 1, 12), "7 AM - 7 PM", commonLocations["CIF_first_floor"]),
   ...[
     new Date(2025, 1, 12),
     new Date(2025, 1, 13),
-  ].map(workshops),
-  ...[
-    new Date(2025, 7, 24),
-  ].map(quadDay),
-  ...[
-    new Date(2025, 8, 6),
-  ].map(olympics),
-  ...[
-    new Date(2025, 1, 27),
-  ].map(graduatePanel),
+  ].map(date => tutoringWorkshop(date, "6:00 PM - 7:00 PM", commonLocations[2017])),
+  quadDay(new Date(2025, 7, 24), "12:00am - 4:00pm", commonLocations["southQuad"]),
+  olympics(new Date(2025, 8, 6), "2:00pm-4:00 pm", commonLocations[2017]),
   ...[
     new Date(2025, 8, 9),
     new Date(2025, 8, 16),
@@ -529,8 +411,8 @@ const events: Event[] = [
     new Date(2025, 10, 18),
     new Date(2025, 11, 2),
     new Date(2025, 11, 9),
-  ].map(tuesdaySocial),
- ...[
+  ].map(date => tuesdaySocial(date, "6:00-7:00pm", commonLocations[2015])),
+  ...[
     new Date(2024, 2, 2),
     new Date(2024, 2, 9),
     new Date(2024, 2, 16),
@@ -545,105 +427,26 @@ const events: Event[] = [
     new Date(2024, 3, 20),
     new Date(2024, 3, 27),
     new Date(2024, 4, 4),
-  ].map(studentServices),
-  ...[
-    new Date (2024, 8, 20)
-  ].map(movieNight),
-  ...[
-    new Date (2025, 8, 5)
-  ].map(initiateWelcome),
-  ...[
-    new Date (2024, 9, 4)
-  ].map(ecex4),
- // ...[,
-  //   new Date(2024, 8, 8),
-  //   new Date(2024, 8, 15),
-  //   new Date(2024, 8, 22),
-  //   new Date(2024, 8, 29),
-  //   new Date(2024, 9, 6),
-  //   new Date(2024, 9, 13),
-  //   new Date(2024, 9, 20),
-  //   new Date(2024, 9, 27),
-  //   new Date(2024, 10, 3),
-  //   new Date(2024, 10, 10),
-  //   new Date(2024, 10, 17),
-  //   new Date(2024, 11, 1),
-  //   new Date(2024, 11, 8)
-  // ].map(studentServices),
-// ...[,
-//     new Date(2024, 1, 13),
-// ].map(valentineSocial),
-...[
-  ,new Date(2024, 8, 6)
-].map(resumeReview1),
-...[
-  ,new Date(2024, 8,10)
-].map(resumeReview2),
-...[
-  ,new Date(2024, 8, 9)
-].map(lutronTalk),
-...[
-  ,new Date(2024, 8, 9)
-].map(milleniumTalk),
-...[
-  ,new Date(2024,8,26)
-].map(BMcDTalk),
-...[
-  ,new Date(2024, 8, 11)
-].map(halliburtonTalk),
-...[
-  , new Date(2025, 4, 4)
-].map(initiation),
-...[
-  , new Date(2025, 3, 16)
-].map(editathon),
-...[
-  , new Date(2025, 4, 2)
-].map(election),
-...[
-  , new Date(2024,9, 29)
-  , new Date(2024, 11, 6)
+  ].map(date => studentServices(date, "2:00pm-4:00pm", commonLocations[3081])),
 
-].map(generalMeetingswap),
-...[
-  , new Date(2024, 8, 11)
-].map(TSMC_ISSA),
-...[
-  , new Date(2024, 8 , 13)
-].map(TI_ISSA),
-...[
+  initiateWelcome(new Date (2025, 8, 5), "6:00-7:00 PM", commonLocations["3015"]),
+
+
+  ...[
+    new Date(2024, 8, 6),
+    new Date(2024, 8,10)
+  ].map(date => resumeReview(date, "5:00-7:00 PM", commonLocations["rsoOffice"])),
+
+  ...[
   new Date(2025, 7, 26),
-  new Date(2025, 7, 27),
   new Date(2025, 7, 28),
   new Date(2025, 7, 29)
+  ].map(date => courseAdvising(date, "12:00 PM - 4:00 PM", commonLocations[2015])),
+  courseAdvising(new Date(2025, 7, 27), "12:00 PM - 4:00 PM", commonLocations["rsoOffice"]),
+  infoSessions(new Date(2025, 8, 27), "4:30-5:30 PM", commonLocations["rsoOffice"]),
+  infoSessions(new Date(2025, 9, 4), "7:00-8:00 PM", commonLocations["TBA"]),
+  ECEliftoff(new Date(2025, 7, 27), "5:30-6:15 PM", commonLocations["atrium"]),
 
-].map(courseAdvising),
-...[
-  , new Date(2025, 7, 27)
-].map(infoSessions1),
-...[
-  , new Date(2025, 9, 4)
-].map(infoSessions2),
-...[
-  , new Date(2025, 7, 27)
-].map(ECEliftoff),
-...[
-  , new Date(2025, 1, 18)
-
-].map(generalMeeting)
-,
-...[
-  , new Date(2024,9, 9)
-
-].map(TownHall),
-
-...[
-  , new Date(2024,9, 31)
-
-].map(CostumeContest),
-...[
-  ,new Date(2024,11, 18)
-].map(ece_220_hours)
 ];
 
 export default events;
