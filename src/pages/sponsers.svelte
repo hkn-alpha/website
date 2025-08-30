@@ -56,7 +56,6 @@
         <div class="md-container">
           <SponsorHKNText />
         </div>
-      <img src="/WebsiteImages/SponsorsPage/Sponsorship_Flyer_Fall_2025.jpg" alt="Sponsor HKN promotional image" class="sponsor-hkn-img"/>
       </div>  
     </div>
   </div>
@@ -172,10 +171,11 @@
   margin-bottom: 1.5rem;
 }
 
-.sponsor-hkn-img {
-  max-width: 300px;
+.sponsor-hkn img {
+  max-width: 900px;
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  margin-top: 1rem;
 }
 </style>
