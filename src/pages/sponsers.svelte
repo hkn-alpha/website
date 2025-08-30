@@ -3,6 +3,7 @@
   import Nav from "../components/Nav.svelte";
   import Description from "../content/Sponsors/sponsor_text.md";
   import sponsors_json from "../content/Sponsors/sponsors.json";
+  import sponsors_message from "../content/Sponsors/sponsor_ad.md";
 </script>
 
 <svelte:head>
@@ -48,8 +49,11 @@
             </div>
           {/if}
         {/each}
-
-      </div>
+      <main>
+        <sponsors_message />
+      </main>
+            
+      
     </div>
   </div>
   <Footer />
