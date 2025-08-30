@@ -3,7 +3,7 @@
   import Nav from "../components/Nav.svelte";
   import Description from "../content/Sponsors/sponsor_text.md";
   import sponsors_json from "../content/Sponsors/sponsors.json";
-  import sponsors_message from "../content/Sponsors/sponsor_ad.md";
+  import SponsorHKNText from "../content/Sponsors/sponsor_ad.md";
 </script>
 
 <svelte:head>
@@ -49,16 +49,20 @@
             </div>
           {/if}
         {/each}
-      <main>
-        <sponsors_message />
-      </main>
-            
-      
+      </div>
+
+      <div class="sponsor-hkn">
+        <h2>Sponsor HKN</h2>
+        <div class="md-container">
+          <SponsorHKNText />
+        </div>
+      <img src="/WebsiteImages/SponsorsPage/Sponsorship_Flyer_Fall_2025.jpg" alt="Sponsor HKN promotional image" class="sponsor-hkn-img"/>
+      </div>  
     </div>
   </div>
   <Footer />
 </div>
-</div>
+
 
 <style>
   .container {
@@ -149,4 +153,29 @@
   a {
     color: white;
   }
+
+  .sponsor-hkn {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  border-top: 2px solid #df631b;
+}
+
+.sponsor-hkn h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.sponsor-hkn .md-container {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.sponsor-hkn-img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
 </style>
