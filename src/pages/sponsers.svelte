@@ -172,6 +172,8 @@
 }
 
 .sponsor-hkn img {
+  display: block;          
+  margin: 1rem auto;  
   max-width: 900px;
   width: 100%;
   border-radius: 10px;
