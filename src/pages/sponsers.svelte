@@ -169,6 +169,10 @@
 .sponsor-hkn .md-container {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  text-align: center;
 }
 
 .sponsor-hkn img {
