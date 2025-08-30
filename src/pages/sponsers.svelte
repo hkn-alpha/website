@@ -58,6 +58,7 @@
   </div>
   <Footer />
 </div>
+</div>
 
 <style>
   .container {
