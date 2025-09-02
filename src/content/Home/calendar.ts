@@ -267,7 +267,7 @@ const valentineSocial = makeEvent({
 const resumeReview = makeEvent({
   name: "Resume Review Sessions",
   description:
-    "Come to the RSO Office to have your resume reviewed before the Engineering Career Fair!",
+    "Come on by to have your resume reviewed before the Engineering Career Fair!",
   virtual: false,
 });
 
@@ -431,6 +431,26 @@ const events: Event[] = [
 
   quadDay(new Date(2025, 7, 24), "12:00am - 4:00pm", commonLocations["southQuad"]),
   olympics(new Date(2025, 8, 6), "2:00pm-4:00 pm", commonLocations[2017]),
+  resumeReview(new Date(2025, 8, 8), "6:30-8:00 PM", commonLocations["rsoOffice"]),
+  resumeReview(new Date(2025, 8, 9), "5:00-6:00 PM", commonLocations["rsoOffice"]),
+  initiation(new Date(2025, 11, 7), "TBA", commonLocations["TBA"]),
+  election(new Date(2025, 11, 5), "TBA", commonLocations["TBA"]),
+  
+  ...[
+    new Date(2025, 8, 30),
+    new Date(2025, 11, 5),
+  ].map(date => generalMeeting(date, "TBA", commonLocations["TBA"])),
+
+  ...[
+    new Date(2025, 10, 13),
+    new Date(2025, 10, 14),
+    new Date(2025, 10, 15),
+    new Date(2025, 10, 16),
+    new Date(2025, 10, 17),
+  ].map(date => ecex4(date, "TBA", commonLocations["TBA"])),
+  
+
+  tuesdaySocial(new Date(2025, 8, 2), "6:00-7:00pm", commonLocations["rsoOffice"]),
 
   ...[
     new Date(2025, 8, 9),
@@ -448,6 +468,7 @@ const events: Event[] = [
     new Date(2025, 11, 9),
   ].map(date => tuesdaySocial(date, "6:00-7:00pm", commonLocations[2015])),
 
+  
   ...[
     new Date(2024, 2, 2),
     new Date(2024, 2, 9),
