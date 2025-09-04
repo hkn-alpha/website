@@ -343,6 +343,14 @@ const BMcDTalk = makeEvent({
   virtual: false,
 });
 
+const AsteraTalk = makeEvent({
+  name: "Astera Labs Tech Talk",
+  description:
+    "Come to learn more about Astera Labs and their career opportunities!",
+  virtual: false,
+});
+
+
 const ece_220_hours = makeEvent({
   name: "ECE 220 Tutoring Hours",
   description: "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by.",
@@ -436,6 +444,8 @@ const events: Event[] = [
   initiation(new Date(2025, 11, 7), "TBA", commonLocations["TBA"]),
   election(new Date(2025, 11, 5), "TBA", commonLocations["TBA"]),
   
+  AsteraTalk(new Date(2025, 8, 10), "5:30 - 7:30 PM", commonLocations[1013]),
+
   ...[
     new Date(2025, 8, 30),
     new Date(2025, 11, 5),
