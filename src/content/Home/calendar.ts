@@ -336,6 +336,13 @@ const lutronTalk = makeEvent({
   virtual: false,
 });
 
+const klaTalk = makeEvent({
+  name: "KLA Tech Talk",
+  description:
+    "Come to learn more about KLA and their career opportunities!",
+  virtual: false,
+});
+
 const BMcDTalk = makeEvent({
   name: "Burns & McDonnell Tech Talk",
   description:
@@ -445,6 +452,7 @@ const events: Event[] = [
   election(new Date(2025, 11, 5), "TBA", commonLocations["TBA"]),
   
   AsteraTalk(new Date(2025, 8, 10), "5:30 - 7:30 PM", commonLocations[1013]),
+  klaTalk(new Date(2025, 8, 11), "6:30 - 7:30 PM", commonLocations[1015]),
 
   ...[
     new Date(2025, 8, 30),
