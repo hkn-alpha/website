@@ -510,7 +510,7 @@ const events: Event[] = [
   courseAdvising(new Date(2025, 7, 27), "12:00 PM - 4:00 PM", commonLocations["rsoOffice"]),
 
   infoSessions(new Date(2025, 7, 27), "4:30-5:30 PM", commonLocations["rsoOffice"]),
-  infoSessions(new Date(2025, 8, 4), "7:00-8:00 PM", commonLocations["TBA"]),
+  infoSessions(new Date(2025, 8, 4), "7:00-8:00 PM", commonLocations["rsoOffice"]),
   ECEliftoff(new Date(2025, 7, 27), "5:30-6:15 PM", commonLocations["atrium"]),
 
 ];
