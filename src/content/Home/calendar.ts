@@ -308,8 +308,8 @@ const ECEliftoff = makeEvent({
   virtual: false,
 });
 
-const ecex4 = makeEvent({ 
-  name: "ECEx4 Sports Day",
+const ecex = makeEvent({ 
+  name: "ECEx Sports Day",
   description:
     "Come to the North Quad for fun and games!",
   virtual: false,
@@ -465,7 +465,7 @@ const events: Event[] = [
     new Date(2025, 10, 15),
     new Date(2025, 10, 16),
     new Date(2025, 10, 17),
-  ].map(date => ecex4(date, "TBA", commonLocations["TBA"])),
+  ].map(date => ecex(date, "TBA", commonLocations["TBA"])),
   
 
   tuesdaySocial(new Date(2025, 8, 2), "6:00-7:00pm", commonLocations["rsoOffice"]),
@@ -504,7 +504,7 @@ const events: Event[] = [
     new Date(2024, 4, 4),
   ].map(date => studentServices(date, "2:00pm-4:00pm", commonLocations[3081])),
 
-  initiateWelcome(new Date (2025, 8, 5), "6:00-7:00 PM", commonLocations["3015"]),
+  initiateWelcome(new Date (2025, 8, 5), "6:00-7:00 PM", commonLocations[2017]),
   ...[
     new Date(2024, 8, 6),
     new Date(2024, 8,10)
