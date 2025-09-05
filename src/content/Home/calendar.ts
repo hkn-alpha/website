@@ -504,7 +504,8 @@ const events: Event[] = [
     new Date(2024, 4, 4),
   ].map(date => studentServices(date, "2:00pm-4:00pm", commonLocations[3081])),
 
-  initiateWelcome(new Date (2025, 8, 5), "6:00-7:00 PM", commonLocations[2017]),
+  
+  initiateWelcome(new Date (2025, 8, 5), "5:00-6:00 PM", commonLocations[2017]),
   ...[
     new Date(2024, 8, 6),
     new Date(2024, 8,10)
