@@ -366,7 +366,7 @@ const ece_220_hours = makeEvent({
 });
 
 const TSMCtalk = makeEvent({
-  name: "TSMC",
+  name: "TSMC Tech Talk",
   description: "Come learn more about TSMC and their career opportunities!",
   virtual: false,
 });
