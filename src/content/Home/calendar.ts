@@ -1,4 +1,4 @@
-import app from "../../main";
+//import app from "../../main";
 
 export type LocationInfo = {
   lon: number;
