@@ -67,7 +67,6 @@ function makeVirtualEvent(base: Omit<Event, "date" | "time" | "locationInfo" | "
  * BELOW THIS POINT!
  */
 
-
 /* Common locations used in events
   Fill out all fields for each location
   Defined by the locationInfo type above
