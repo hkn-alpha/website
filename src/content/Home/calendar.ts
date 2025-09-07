@@ -359,7 +359,6 @@ const AsteraTalk = makeEvent({
   virtual: false,
 });
 
-
 const ece_220_hours = makeEvent({
   name: "ECE 220 Tutoring Hours",
   description: "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by.",
