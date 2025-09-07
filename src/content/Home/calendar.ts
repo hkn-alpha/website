@@ -1,4 +1,4 @@
-import app from "../../main";
+//import app from "../../main";
 
 export type LocationInfo = {
   lon: number;
@@ -66,7 +66,6 @@ function makeVirtualEvent(base: Omit<Event, "date" | "time" | "locationInfo" | "
  * HKN editors: Unless you're modifying website functionality, ONLY EDIT LINES
  * BELOW THIS POINT!
  */
-
 
 /* Common locations used in events
   Fill out all fields for each location
