@@ -1,3 +1,5 @@
+import app from "../../main";
+
 export type LocationInfo = {
   lon: number;
   lat: number;
@@ -184,7 +186,6 @@ const commonLocations = {
   },
 };
 
-
 //Friday events are formatted differently because the activities change weekly
 // Don't use this method if you're making another event that repeats weekly, see below for other examples
 
@@ -357,22 +358,27 @@ const AsteraTalk = makeEvent({
   virtual: false,
 });
 
-
 const ece_220_hours = makeEvent({
   name: "ECE 220 Tutoring Hours",
   description: "Eisa and Kyle are holding extra tutoring hours for ECE 220; please stop by.",
   virtual: false,
 });
 
-const TSMC_ISSA = makeEvent({
-  name: "TSMC x ISSA",
-  description: "Come to the joint HKN x ISSA TSMC talk to learn more about their career opportunities!",
+const TSMCtalk = makeEvent({
+  name: "TSMC Tech Talk",
+  description: "Come learn more about TSMC and their career opportunities!",
   virtual: false,
 });
 
 const halliburtonTalk = makeEvent({
   name: "Halliburton Tech Talk",
   description: "Come learn more about Halliburton and their career opportunities!",
+  virtual: false,
+});
+
+const appleTalk = makeEvent({
+  name: "Apple Tech Talk",
+  description: "Come learn more about Apple and their career opportunities!",
   virtual: false,
 });
 
@@ -451,8 +457,10 @@ const events: Event[] = [
   initiation(new Date(2025, 11, 7), "TBA", commonLocations["TBA"]),
   election(new Date(2025, 11, 5), "TBA", commonLocations["TBA"]),
   
-  AsteraTalk(new Date(2025, 8, 10), "5:30 - 7:30 PM", commonLocations[1013]),
-  klaTalk(new Date(2025, 8, 11), "6:30 - 7:30 PM", commonLocations[1015]),
+  AsteraTalk(new Date(2025, 8, 10), "4:45 - 7:00 PM", commonLocations[1015]),
+  klaTalk(new Date(2025, 8, 11), "5:45 - 8:00 PM", commonLocations[1015]),
+  TSMCtalk(new Date(2025, 8, 11), "6:45 - 9:00 PM", commonLocations[1013]),
+  appleTalk(new Date(2025, 8, 15), "4:45 - 7:00 PM", commonLocations[1013]),
 
   ...[
     new Date(2025, 8, 30),
