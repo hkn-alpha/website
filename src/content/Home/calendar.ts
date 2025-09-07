@@ -186,7 +186,6 @@ const commonLocations = {
   },
 };
 
-
 //Friday events are formatted differently because the activities change weekly
 // Don't use this method if you're making another event that repeats weekly, see below for other examples
 
