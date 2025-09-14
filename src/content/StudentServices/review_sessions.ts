@@ -37,7 +37,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
   1: [
     {
       course: "ECE 110",
-      time: "9/20," + timeslots["A"],
+      time: "9/20, " + timeslots["A"],
       location: "ECEB 1002",
 
       //slidesLink: "https://docs.google.com/presentation/d/1AydYT567E4EVwxIV-N0hygYrWK-eLlWg/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
@@ -436,9 +436,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
 // All Midterms show up on the website, this sets priority of what shows up on the page
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
-  1: new Date(2025, 8 , 14),
-  2: new Date(2025, 9, 12), // ends 11/10
-  3: new Date(2025, 10, 10), // Date(1) makes sure this will never be default bc it occured in the past
+  1: new Date(2025, 9 , 12),
+  2: new Date(2025, 10, 10), // ends 11/10
+  3: new Date(2025, 11, 13), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
 // Final review sessions
