@@ -19,7 +19,166 @@ export const tutors: Tutor[] = [
   //   courses:
   //     "ECE374, CS374, ECE 110, ECE 210, ECE313, ECE220, ECE 120, PHYS 211",
   // },
-  
+  {
+  name: "Rohan Das",
+  email: "rohan24@illinois.edu",
+  courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 329, PHYS 211, PHYS 212",
+  },
+  {
+    name: "Jazlyn Teoh",
+    email: "jazlynt2@illinois.edu",
+    courses: "ECE 110, ECE 220, PHYS 211, MATH 241",
+  },
+  {
+    name: "Paige Nothelfer",
+    email: "paigetn2@illinois.edu",
+    courses: "ECE 110, ECE 120, PHYS 211, MATH 285",
+  },
+  {
+    name: "Samridhi Verma",
+    email: "sv49@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 313, CS 173, MATH 221, MATH 231, MATH 285, PHYS 211, PHYS 212",
+  },
+  {
+    name: "Dillon Barnes",
+    email: "dbarnes5@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220, PHYS 212, MATH 257",
+  },
+  {
+    name: "Isha Shah",
+    email: "ishaas2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, PHYS 212, MATH 285",
+  },
+  {
+    name: "Brian Law",
+    email: "brainl10@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, MATH 285, MATH 241",
+  },
+  {
+    name: "Alex Chang",
+    email: "aec14@illinois.edu",
+    courses: "ECE 110",
+  },
+  {
+    name: "Advaith Anand",
+    email: "aanand10@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220",
+  },
+  {
+    name: "Lanz Galdo",
+    email: "lanzg2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220, PHYS 211, MATH 241",
+  },
+  {
+    name: "Daniel Elliot",
+    email: "dje4@illinois.edu",
+    courses: "ECE 110, ECE 120, MATH 213, MATH 221, MATH 231, MATH 241, MATH 257",
+  },
+  {
+    name: "Viyun Gupta",
+    email: "viyung2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220",
+  },
+  {
+    name: "Ben Zhao",
+    email: "bz22@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, MATH 347",
+  },
+  {
+    name: "Adam O'Brian",
+    email: "adammo2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220, MATH 213, MATH 347",
+  },
+  {
+    name: "Claire Zhu",
+    email: "cyz4@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220, PHYS 211, PHYS 212",
+  },
+  {
+    name: "Sai Venkatakrishnnan",
+    email: "sv34@illinois.edu",
+    courses: "ECE 220, ECE 330, ECE 411",
+  },
+  {
+    name: "Sukwon Lee",
+    email: "sukwonl2@illinois.edu",
+    courses: "ECE 210, ECE 220",
+  },
+  {
+    name: "Jack Chang",
+    email: "jackc6@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 342, PHYS 211, PHYS 212, PHYS 213, PHYS 214",
+  },
+  {
+    name: "Jack Bowman",
+    email: "johnb11@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 313, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 257, MATH 285, CS 225, CS 173",
+  },
+  {
+    name: "Tim Liu",
+    email: "tiliu2@illinois.edu",
+    courses: "ECE 110, ECE 120",
+  },
+  {
+    name: "Lucas Lessard",
+    email: "lucastl2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220, PHYS 211, PHYS 212",
+  },
+  {
+    name: "Mia Fang",
+    email: "miafang2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, PHYS 211, PHYS 212",
+  },
+  {
+    name: "Andy Zhong",
+    email: "azhong4@illinois.edu",
+    courses: "ECE 110, MATH 221, MATH 231, PHYS 211, CHEM 102, ECON 202",
+  },
+  {
+    name: "Nam Hoang",
+    email: "namh2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 313, MATH 285",
+  },
+  {
+    name: "Alex Yao",
+    email: "alexyao2@illinois.edu",
+    courses: "ECE 220",
+  },
+  {
+    name: "Aniketh Tarikonda",
+    email: "aniketh8@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220",
+  },
+  {
+    name: "Emre Anik",
+    email: "emreta2@illinois.edu",
+    courses: "ECE 110, ECE 210, ECE 330, ECE 340, ECE 342",
+  },
+  {
+    name: "Pranav Narang",
+    email: "pn24@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220",
+  },
+  {
+    name: "Aiden Ye",
+    email: "aidenye2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 374A",
+  },
+  {
+    name: "Siddharth Vadyalam",
+    email: "sidv2@illinois.edu",
+    courses: "ECE 110, ECE 210, ECE 220, ECE 313",
+  },
+  {
+    name: "Kevin Shi",
+    email: "kyshi2@illinois.edu",
+    courses: "ECE 110, ECE 120, MATH 241",
+  },
+  {
+    name: "Kai Karidi",
+    email: "kaick2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 313, ECE 411, PHYS 213/214, CS 225",
+  },
   {
     name: "Bex Muise",
     email: "rmuise2@illinois.edu",
