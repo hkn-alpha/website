@@ -134,8 +134,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "CS 374A",
       //time: "TBD",
-      location: "TBD",
-      time: "TBD",
+      location: "DCL 1320",
+      time: "9/27, 12:00 - 3:00PM",
       // location: "ECEB 1002",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_qu1d7lfy",
       // slidesLink: "https://drive.google.com/file/d/162vuI5yDVvAEMmUgOwGhthXhEdILJ_Lw/view?usp=sharing",
