@@ -311,11 +311,11 @@ export const tutors: Tutor[] = [
   //   email: "ecc5@illinois.edu",
   //   courses: "ECE 329, ECE 340, ECE 342, ECE 486, ECE 489, PHYS 212, PHYS 213, PHYS 214, CS 225, MATH 257",
   // },
-  {
-    name: "Nestor Gutierrez",
-    email: "nguti4@illinois.edu",
-    courses: "ECE 342",
-  },
+  // {
+  //   name: "Nestor Gutierrez",
+  //   email: "nguti4@illinois.edu",
+  //   courses: "ECE 342",
+  // },
   // {
   //   name: "Sreeram Rave",
   //   email: "srave2@illinois.edu",
