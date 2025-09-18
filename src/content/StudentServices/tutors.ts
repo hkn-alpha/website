@@ -276,12 +276,12 @@ export const tutors: Tutor[] = [
   //   email: "xrouth2@illinois.edu",
   //   courses: "ECE 220, CS 173, CS 225",
   // },
-  {
-    name: "Lucas Nguyen",
-    email: "lnguy7@illinois.edu",
-    courses: "ECE 310, ECE 374, ECE 438",
-  },
   // {
+  //   name: "Lucas Nguyen",
+  //   email: "lnguy7@illinois.edu",
+  //   courses: "ECE 310, ECE 374, ECE 438",
+  // },
+  // // {
   //   name: "Aidan Rodgers",
   //   email: "aidanfr2@illinois.edu",
   //   courses: "ECE 330, ECE 342",
