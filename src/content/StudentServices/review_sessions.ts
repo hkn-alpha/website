@@ -107,7 +107,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 330",
-      time: "9/27, " + timeslots["A"],
+      time: "9/27, " + timeslots["B"],
       location: "ECEB 1013",
       //slidesLink: "https://docs.google.com/presentation/d/1Ou5T4czG2p9rtF7ImFrKNwR_Hw9r1scYGgJeJ0PUhus/edit?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_xfxf1cgm"
@@ -172,8 +172,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 411",
       //time: "TBD",
-      location: "ECEB 1002",
-      time: "9/27, " + timeslots["B"],
+      location: "ECEB 1013",
+      time: "9/27, " + timeslots["A"],
       // location: "ECEB 1002",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9yoy58c6",
       //slidesLink: "https://docs.google.com/presentation/d/1umRdm6g6jMtTdmjKkQ4TOy9RG-BespwyCiBSjszgNoM/edit?usp=sharing"
