@@ -436,11 +436,11 @@ export const tutors: Tutor[] = [
   //   email: "ducmn2@illinois.edu",
   //   courses: "ECE 110, ECE 120, ECE 210, MATH 285, Math 416, math 347",
   // },
-  {
-    name: "Rithwik Rayani ",
-    email: "rrayani2@illinois.edu",
-    courses: "ECE 329, ECE 340, ECE 342, PHYS 214, MATH 241, MATH 257, MATH 285",
-  },
+  // {
+  //   name: "Rithwik Rayani ",
+  //   email: "rrayani2@illinois.edu",
+  //   courses: "ECE 329, ECE 340, ECE 342, PHYS 214, MATH 241, MATH 257, MATH 285",
+  // },
   // {
   //   name: "Cher Rui Tan",
   //   email: "cherrui2@illinois.edu",
