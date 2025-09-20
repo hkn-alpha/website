@@ -39,8 +39,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 110",
       time: "9/20, " + timeslots["A"],
       location: "ECEB 1002",
-
-      //slidesLink: "https://docs.google.com/presentation/d/1AydYT567E4EVwxIV-N0hygYrWK-eLlWg/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+      slidesLink: "https://docs.google.com/presentation/d/1WTvsCjM3ZLmWROSjiXIKaMCjrihn2Jrp/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_0r07hl75",
       //scribblesLink: "https://drive.google.com/file/d/1BrJEUJUDX6XCH7oz60ClK_1qnd3WeHkd/view?usp=sharing"
       
@@ -61,8 +60,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // time: "TBD",
       location: "ECEB 1015",
       time: "9/20, " + timeslots["B"],
-      // worksheetLink: "https://drive.google.com/file/d/1bB_NfQQvCMEPZxNIE9KnfAAhjhRjNV0J/view?usp=drive_link",
-      //slidesLink: "https://docs.google.com/presentation/d/1ntQbuGsQ_XgzD037_ANdnmT83o5SFXTLro_Yho12zng/edit?usp=sharing",
+      worksheetLink: "https://drive.google.com/file/d/1O6ZFvXh96aDgWirLl0rnfmHARDG2OTHM/view?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/1ZNkj9BHRA2T1fcJvEghvdrxWfxUJVAtG/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+      keyLink: "https://drive.google.com/file/d/119A7bHiqQiaSEU2D4RLGAuqntrZ9wmqa/view?usp=sharing",
       //scribblesLink: "https://drive.google.com/drive/folders/1D6LsJFDzgv0g08M2F3IJo5VqSgJX3Q_m?usp=drive_link",
       // location: "ECEB 1013",
       //recordingLink:"https://mediaspace.illinois.edu/media/t/1_odbmvpo2"
@@ -73,10 +73,10 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1002",
       time: "9/21, " + timeslots["B"],
       // location: "ECEB 1002",
-      //worksheetLink: "https://drive.google.com/file/d/1FaJIclJpOrT65OdPvomXFQx8cXgmgoCP/view?usp=sharing",
+      worksheetLink: "https://drive.google.com/file/d/1JkROts44OUQ7JnNYFdzAP4EZ1xlM7VwU/view?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_0vwbtwjd",
-      //slidesLink: "https://docs.google.com/presentation/d/1CDqhLYSjKhukTXjye4Ktdc2EprXnNVOK4SlMkXN4bYY/edit?usp=sharing",
-      //keyLink: "https://drive.google.com/file/d/1IB7AW7tvBxGMhYIeUURIXCVok1eS8ex-/view?usp=sharing"
+      slidesLink: "https://docs.google.com/presentation/d/1-xBhlkA78eSVJ9DylGd29rhBBBEWHAVc/edit?usp=drive_link&ouid=114909937515227017827&rtpof=true&sd=true",
+      keyLink: "https://drive.google.com/file/d/1Q-27VqNKuLOtL_KHgistLxKPNC2VSiw_/view?usp=sharing"
     },
     {
       course: "ECE 310",
@@ -129,7 +129,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // time: "9/21, 12:30-2:30PM",
       // location: "ECEB 1013",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_xdw3kcbg",
-      //slidesLink: "https://docs.google.com/presentation/d/17v8e5_1x7SJDarAbFpqQXUKnI3aZLW_QJs9tjsGrAkk/edit?usp=sharing"
+      slidesLink: "https://docs.google.com/presentation/d/1YyydPBu5BG1j07NQnoa8xAqfyMY6wGeq/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true"
     },
     {
       course: "CS 374A",
@@ -146,6 +146,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //time: "TBD",
       location: "ECEB 1002",
       time: "9/21, " + timeslots["B"],
+      slidesLink: "https://drive.google.com/file/d/1PqZk5yHhHdsjW-gnhtKwqElYZe75timO/view?usp=sharing"
       // location: "ECEB 1002",
       //slidesLink: "https://drive.google.com/file/d/17L-drxEQNKRLHoSRvSBL7QIub20A1ADJ/view",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_ztkmfu8q"
