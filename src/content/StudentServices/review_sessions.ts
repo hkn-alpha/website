@@ -146,7 +146,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //time: "TBD",
       location: "ECEB 1002",
       time: "9/21, " + timeslots["B"],
-      slidesLink: "https://drive.google.com/file/d/1PqZk5yHhHdsjW-gnhtKwqElYZe75timO/view?usp=sharing"
+      slidesLink: "https://drive.google.com/file/d/1tXm1lNcqi4ELQpWtfsfWXzvIRPPRW3n3/view?usp=sharing"
       // location: "ECEB 1002",
       //slidesLink: "https://drive.google.com/file/d/17L-drxEQNKRLHoSRvSBL7QIub20A1ADJ/view",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_ztkmfu8q"
