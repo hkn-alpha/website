@@ -132,7 +132,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/1YyydPBu5BG1j07NQnoa8xAqfyMY6wGeq/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true"
     },
     {
-      course: "CS 374A",
+      course: "CS 374A (Hosted by ACM)",
       //time: "TBD",
       location: "DCL 1320",
       time: "9/27, 12:00 - 3:00PM",
