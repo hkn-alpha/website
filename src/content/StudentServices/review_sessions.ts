@@ -151,6 +151,12 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //slidesLink: "https://drive.google.com/file/d/17L-drxEQNKRLHoSRvSBL7QIub20A1ADJ/view",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_wf3i1rhm"
     },
+    {
+      course: "ECE 391",
+      time: "9/27, 2:00 - 4:00PM",
+      location: "ECEB 1002",
+      slidesLink: "Hosted By Course Staff",
+    },
     
     // {
     //   course: "ECE 408",
