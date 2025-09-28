@@ -121,7 +121,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 340",
       //time: "TBD",
       location: "ECEB 1015",
-      time: "10/5, " + timeslots["B"],
+      time: "10/4, " + timeslots["A"],
       // location: "ECEB 1002",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_fgsc2kgj",
       //slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
@@ -188,16 +188,16 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1013 (Hosted by Course Staff)",
       time: "9/27, " + timeslots["A"],
       // location: "ECEB 1002",
-      recordingLink: "https://mediaspace.illinois.edu/media/t/1_vuka64ov",
+      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9yoy58c6",
       //slidesLink: "https://docs.google.com/presentation/d/1umRdm6g6jMtTdmjKkQ4TOy9RG-BespwyCiBSjszgNoM/edit?usp=sharing"
     },
     {
       course: "ECE 486",
       //time: "TBD",
-      location: "ECEB 1015",
-      time: "10/4 , 3:00-5:00PM",
+      location: "Old Recording Provided",
+      time: "Cancelled",
       // location: "ECEB 1002",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_yrh3la3k",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_yrh3la3k",
       slidesLink: "https://docs.google.com/presentation/d/1o6E7UCAE5esdGP7pWxJwpEOk3ecJTyvA/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true"
     },
     // {
