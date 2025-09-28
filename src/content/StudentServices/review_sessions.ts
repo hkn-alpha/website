@@ -188,7 +188,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1013 (Hosted by Course Staff)",
       time: "9/27, " + timeslots["A"],
       // location: "ECEB 1002",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9yoy58c6",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_vuka64ov",
       //slidesLink: "https://docs.google.com/presentation/d/1umRdm6g6jMtTdmjKkQ4TOy9RG-BespwyCiBSjszgNoM/edit?usp=sharing"
     },
     {
