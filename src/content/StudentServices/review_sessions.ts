@@ -87,7 +87,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       keyLink: "https://drive.google.com/file/d/1D9HfGxgcOEL7jBjOyGek7puuh-LdAeCV/view?usp=sharing",
       worksheetLink: "https://drive.google.com/file/d/1zS5lYeekL36DMtABIW6tzdWsXN3edY_G/view?usp=sharing",
       //slidesLink:"https://docs.google.com/presentation/d/1ZWYsGUlNdoQa6J2ZV6Q6EROGR6ZoSDly/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_k8jwax9d"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_chlhn7vn"
     },
     {
       course: "ECE 313",
