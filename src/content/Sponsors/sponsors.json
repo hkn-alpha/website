@@ -5,6 +5,26 @@
       "image":"/CorporateSponsorLogos/XPENG.jpg",
       "link":"https://www.xpeng.com/"
 
+    },
+    {
+      "name":"KLA",
+      "image":"/CorporateSponsorLogos/KLA.jpg",
+      "link":"https://www.kla.com/"
+    },
+    {
+      "name":"Apple",
+      "image":"/CorporateSponsorLogos/Apple.png",
+      "link":"https://www.apple.com/"
+    },
+    {
+      "name":"TSMC",
+      "image":"/CorporateSponsorLogos/TSMC.jpg",
+      "link":"https://www.tsmc.com/english"
+    },
+    {
+      "name":"Astera Labs",
+      "image":"/CorporateSponsorLogos/Astera_Labs.jpg",
+      "link":"https://www.asteralabs.com/"
     }
-    ]
+  ]
 }
