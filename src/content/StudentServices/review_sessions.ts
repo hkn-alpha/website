@@ -197,7 +197,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 484",
       time: "10/4, 12:00 - 2:00PM",
-      location: "Hosted by Course Staff",
+      location: "1013(Hosted By Course Staff)",
 
     },
     {
