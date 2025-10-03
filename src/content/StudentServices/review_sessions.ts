@@ -93,8 +93,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 313",
       //time: "TBD",
-      location: "ECEB 1002",
-      time: "10/4, " + timeslots["B"],
+      location: "Hosted By Course Staff",
+      time: "TBA",
       // location: "ECEB 1002",
       //slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9ncupom3"
@@ -194,6 +194,12 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9yoy58c6",
       //slidesLink: "https://docs.google.com/presentation/d/1umRdm6g6jMtTdmjKkQ4TOy9RG-BespwyCiBSjszgNoM/edit?usp=sharing"
     },
+    {
+      course: "ECE 484",
+      time: "10/4, 12:00 - 2:00PM",
+      location: "Hosted by Course Staff",
+
+    }
     {
       course: "ECE 486",
       //time: "TBD",
