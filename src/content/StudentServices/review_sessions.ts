@@ -95,6 +95,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //time: "TBD",
       location: "Hosted By Course Staff",
       time: "TBA",
+      slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+      
       // location: "ECEB 1002",
       //slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9ncupom3"
@@ -123,6 +125,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //time: "TBD",
       location: "ECEB 1015",
       time: "10/4, " + timeslots["A"],
+      slidesLink: "https://docs.google.com/presentation/d/1PNxVCSzaNfFp_87W6FTncQ_cdfmlclVU/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+
       // location: "ECEB 1002",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_fgsc2kgj",
       //slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
