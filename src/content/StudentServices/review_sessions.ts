@@ -96,7 +96,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "Hosted By Course Staff",
       time: "TBA",
       slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-      
+      worksheetLink: "https://drive.google.com/file/d/1zMi-hcFkEcRYFAyzuUcLLuI1llXpBxGx/view?usp=sharing",  
+      keyLink: "https://drive.google.com/file/d/1X3Sxht1hRB1-x5i-Z25-PlWRm1TAfo14/view?usp=sharing",
       // location: "ECEB 1002",
       //slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9ncupom3"
