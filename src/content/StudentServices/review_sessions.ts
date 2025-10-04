@@ -129,7 +129,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/1PNxVCSzaNfFp_87W6FTncQ_cdfmlclVU/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
 
       // location: "ECEB 1002",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_fgsc2kgj",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_uoypbvzj",
       //slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/1RxtcBlQjLwXuVIMYR6S0X7im1-0V1Bit/view?usp=drive_link"
     },
