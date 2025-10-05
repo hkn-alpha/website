@@ -462,7 +462,7 @@ const events: Event[] = [
   appleTalk(new Date(2025, 8, 15), "4:45 - 7:00 PM", commonLocations[1013]),
 
   ...[
-    new Date(2025, 8, 30),
+    new Date(2025, 9, 7),
     new Date(2025, 11, 5),
   ].map(date => generalMeeting(date, "TBA", commonLocations["TBA"])),
 
