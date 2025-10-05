@@ -533,8 +533,8 @@ const events: Event[] = [
 
 //Everything above this line is currently extraenous, keeping temporaily until confimred good
 export const googleCalendar = {
-  calendarId: "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com",
-  embedUrl: "https://calendar.google.com/calendar/embed?height=650&wkst=1&ctz=America%2FChicago&showPrint=0&showTabs=0&showCalendars=0&title=HKN%20Events&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=aGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%230b8043&color=%23ad1457"
+  calendarId: "c_35069970d4beb167265d77e2cad2a843c88e0d62c68d4f8d59dfe9fd06dedb20@group.calendar.google.com",
+  embedUrl: "https://calendar.google.com/calendar/embed?src=c_35069970d4beb167265d77e2cad2a843c88e0d62c68d4f8d59dfe9fd06dedb20%40group.calendar.google.com&ctz=America%2FChicago"
 };
 // Keep the default export for backward compatibility
 export default events;
