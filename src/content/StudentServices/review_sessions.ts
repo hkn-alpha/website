@@ -93,8 +93,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 313",
       //time: "TBD",
-      location: "Hosted By Course Staff",
-      time: "TBA",
+      location: "1015(Hosted By Course Staff)",
+      time: "10/5, 7:00 - 9:00PM",
       slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       worksheetLink: "https://drive.google.com/file/d/1zMi-hcFkEcRYFAyzuUcLLuI1llXpBxGx/view?usp=sharing",  
       keyLink: "https://drive.google.com/file/d/1X3Sxht1hRB1-x5i-Z25-PlWRm1TAfo14/view?usp=sharing",
@@ -127,7 +127,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1015",
       time: "10/4, " + timeslots["A"],
       slidesLink: "https://docs.google.com/presentation/d/1PNxVCSzaNfFp_87W6FTncQ_cdfmlclVU/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-
+      scribblesLink: "https://drive.google.com/file/d/1GO-SHVQDemw2dh7lpxMQFu1R2iR3OYRT/view?usp=sharing",
       // location: "ECEB 1002",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_uoypbvzj",
       //slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
