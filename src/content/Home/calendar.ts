@@ -531,4 +531,13 @@ const events: Event[] = [
 
 ];
 
+//Everything above this line is currently extraenous, keeping temporaily until confimred good
+export const googleCalendar = {
+  // Replace YOUR_CALENDAR_ID with your actual Google Calendar ID
+  // Find it at: Google Calendar → Settings → Your calendar → Integrate calendar
+  calendarId: "YOUR_CALENDAR_ID@group.calendar.google.com",
+  embedUrl: "https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID%40group.calendar.google.com&ctz=America/Chicago&mode=AGENDA&showTitle=0&showPrint=0&showCalendars=0",
+};
+
+// Keep the default export for backward compatibility
 export default events;

@@ -1,6 +1,7 @@
 <script>
     import Events from "../../components/Events.svelte";
     import calendar from "./calendar";
+    import { googleCalendar } from "./calendar";
 </script>
 
 # Our Mission
@@ -14,4 +15,12 @@ HKN membership is selective. Prospective members, known as initiates, must be in
 # Upcoming Events
 
 HKN regularly hosts events for both members and non-members, ranging from tech talks to fun social gatherings like Friday Activities. To encourage involvement, HKN initiates earn points by attending events. Learn more about each event by clicking or tapping it.
-<Events events={calendar}/>
+<!-- <Events events={calendar}/> -->
+<!-- New way with Google Calendar -->
+<iframe
+  src={googleCalendar.embedUrl}
+  style="border: 0; width: 100%; height: 600px;"
+  frameborder="0"
+  scrolling="no"
+  title="HKN Calendar">
+</iframe>
