@@ -18,20 +18,20 @@ HKN regularly hosts events for both members and non-members, ranging from tech t
 <!-- <Events events={calendar}/> -->
 <!-- New way with Google Calendar -->
 <div style="
-  max-width: 1200px;
-  margin: 3rem auto;
-  padding: 2rem;
-  background: linear-gradient(135deg, #1a2332 0%, #0f1419 100%);
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: rgba(26, 35, 50, 0.4);
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 ">
   <iframe
     src={googleCalendar.embedUrl}
     style="
       border: 0;
       width: 100%;
-      height: 650px;
-      border-radius: 8px;
+      height: 600px;
+      border-radius: 10px;
       display: block;
     "
     frameborder="0"
