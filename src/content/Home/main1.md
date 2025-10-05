@@ -16,10 +16,9 @@ HKN membership is selective. Prospective members, known as initiates, must be in
 
 HKN regularly hosts events for both members and non-members, ranging from tech talks to fun social gatherings like Friday Activities. To encourage involvement, HKN initiates earn points by attending events. Learn more about each event by clicking or tapping it.
 <!-- <Events events={calendar}/> -->
-</main>
-
-<div class="wide-calendar-wrapper" style="
+<div style="
   width: 90%;
+  max-width: none !important;
   margin: 2rem auto;
   padding: 1.5rem;
   background: rgba(26, 35, 50, 0.4);
