@@ -49,6 +49,10 @@ body {
   clear: both;
 }
 
+main.wide-calendar {
+  max-width: 90%;
+}
+
 .triangle_inner {
   background-color: #0f2040;
   padding-top: 3px;
