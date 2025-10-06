@@ -1,5 +1,12 @@
 //import app from "../../main";
 
+//****IMPORTANT********
+// This file is has two formats for storing events
+// The first format is a manual list of events stored in this file, in the "events" array at the bottom
+// The second format is a Google Calendar that is embedded in the website, defined by the "googleCalendar" object at the bottom
+// The Google Calendar is the preferred method for adding events, and is currently the one that is displayed on the website
+// If you are adding events, please add them to the Google Calendar instead
+
 export type LocationInfo = {
   lon: number;
   lat: number;
@@ -534,7 +541,7 @@ const events: Event[] = [
 //Everything above this line is currently extraenous, keeping temporaily until confimred good
 export const googleCalendar = {
   calendarId: "c_35069970d4beb167265d77e2cad2a843c88e0d62c68d4f8d59dfe9fd06dedb20@group.calendar.google.com",
-  embedUrl: "https://calendar.google.com/calendar/embed?src=c_35069970d4beb167265d77e2cad2a843c88e0d62c68d4f8d59dfe9fd06dedb20%40group.calendar.google.com&ctz=America%2FChicago"
+  embedUrl: "https://calendar.google.com/calendar/embed?src=c_35069970d4beb167265d77e2cad2a843c88e0d62c68d4f8d59dfe9fd06dedb20%40group.calendar.google.com&ctz=America%2FChicago&mode=AGENDA",
 };
 // Keep the default export for backward compatibility
 export default events;
