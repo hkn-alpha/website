@@ -28,8 +28,8 @@ HKN regularly hosts events for both members and non-members, ranging from tech t
   <iframe
     src={googleCalendar.embedUrl}
     style="
-      border: 0;
-      width: 100%;
+      border: 10;
+      width: 50%;
       height: 600px;
       border-radius: 10px;
       display: block;
