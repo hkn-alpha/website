@@ -530,8 +530,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 313",
-    time: "Old Recording - Slides Only",
-    location: "Worksheet Only",
+    time: "TBA",
+    location: "TBA",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1zrJaOJCdGzcRGK47m3SP2u345Fd29rDNClcKoByTDzw/edit?usp=sharing",
@@ -626,8 +626,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 438",
-    time: "Slides Only",
-    location: "Slides Only",
+    time: "TBA",
+    location: "TBA",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 2015",
     // slidesLink: "https://drive.google.com/file/d/1vHP4RXQOmSrKMb-2n_jlpjCBqemXYqSE/view?usp=sharing",
