@@ -25,6 +25,11 @@ export const tutors: Tutor[] = [
   courses: "ECE 110, ECE 120, ECE 210, ECE 220, ECE 329, PHYS 211, PHYS 212",
   },
   {
+    name: "Aditya Kudre",
+    email: "akudre2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 220, ECE 310, ECE 365, ECE 374A, ECE 380, ECE 418, ECE 313, CS 446, ECE 440, ECE 486",
+  },
+  {
     name: "Qianjun Sun",
     email: "qianjun2@illinois.edu",
     courses: "ECE 110, ECE 120, ECE 220, MATH 231, MATH 241"
@@ -163,6 +168,11 @@ export const tutors: Tutor[] = [
     name: "Emre Anik",
     email: "emreta2@illinois.edu",
     courses: "ECE 110, ECE 210, ECE 330, ECE 340, ECE 342",
+  },
+  {
+    name: "Reet Sinha",
+    email: "reet2@illinois.edu",
+    courses: "ECE 110, ECE 120, ECE 210"
   },
   {
     name: "Pranav Narang",
