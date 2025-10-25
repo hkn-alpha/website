@@ -265,12 +265,10 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 220",
       time: "10/26, " + timeslots["B"],
       location: "ECEB 1002",
-      // time: "10/27, 3:00-5:00PM",
-      // location: "ECEB 1002",
-      // slidesLink: "https://docs.google.com/presentation/d/1xc2H24O0wBflOJ7pRLNBUIWaEs48H8Mz8RC8TP1FG-E/edit?usp=sharing",
-      // worksheetLink: "https://drive.google.com/file/d/19Ci9FdEZylUra50BCvze6yylVxnml08o/view?usp=drive_link",
+      slidesLink: "https://docs.google.com/presentation/d/1Ikh9Wv0DNbQ0D6EyIGW-DBIDtc1SlhoQ/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+      keyLink: "https://drive.google.com/file/d/1kmveEZ1Qwh-c9zn-ZKGD5pZS_vIl_h2N/view?usp=sharing",
+      worksheetLink: "https://drive.google.com/file/d/1amoVPx4KAx6sMH8Zsyj6ZRT214mHW0K8/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_8a0i32qa",
-      // keyLink: "https://drive.google.com/file/d/1DA7txNMtkDsrlfysFsKr3m95My6mqGnT/view?usp=drive_link",
       
     },
     {
