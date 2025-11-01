@@ -277,8 +277,10 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1013",
       // time: "11/03, 3:00-5:00PM",
       // location: "ECEB 1013",
-      // slidesLink: "https://docs.google.com/presentation/d/1EpYO2OxbcxIlWUp-gCOdczbsKOMB5IvfTmCKmQU6lEk/edit?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/14hgD51Gy4sfcSuorNfkqzI_jRuzeWFWV/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_rnzwu4ra",
+      keyLink: "https://drive.google.com/file/d/1QHWL1zIfWk8mcxosbvZ4p9MtivP5gRha/view?usp=sharing",
+      worksheetLink: "https://drive.google.com/file/d/1o4M3FvVabt3IDQyd3MFwYDiEDFxISnBA/view?usp=sharing"
     },
     {
       course: "ECE 313",
@@ -286,7 +288,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1002(Hosted By Class)",
       // time: "11/03, 3:00-5:00PM",
       // location: "ECEB 1002",
-      // slidesLink: "https://docs.google.com/presentation/d/1jYLP52HUwiqrYyPU4Izb9404QtzaYrZAPm4VnO_DEXo/edit?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/16M_uYixMyUd5jZFSLvOSP_Uu5hs9zdYh/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       // worksheetLink: "https://drive.google.com/file/d/1mBGVoN3EIE-K5ckPHjrQtdxplw1Fj0q5/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_2vmyhndm", // this is an old video
     },
@@ -305,7 +307,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1013",
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1013",
-      // slidesLink: "https://docs.google.com/presentation/d/1uW0145AcWdDptKZFOc1tOSPSdagzi_hpSdNq9zSPdI0/edit?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/1zYHsfNIpaztyFu4SN3rM7G7999UcFPuF/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       // scribblesLink: "https://drive.google.com/file/d/16nidHUgBV9Fjac1yg75pTPiCek6iGe8_/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_6xdgx0l3",
     },
@@ -348,8 +350,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
      },
     {
       course: "ECE 374B",
-      time: "11/1, "+ timeslots["B"],
-      location: "ECEB 1015",
+      time: "11/1, 10:00AM - 12:00AM",
+      location: "ECEB 2017(Hosted By Class)",
+      slidesLink: "https://drive.google.com/file/d/1gykQmYi_uJGwR_RskRaAdOHAoyPfzJ8m/view?usp=sharing",
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://drive.google.com/file/d/1HLcP5ff9SwwOEbzDbIeyF2Ep0XiGk96l/view?usp=sharing",     
@@ -383,8 +386,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     // },
     {
       course: "ECE 486",
-      time: "TBA",
-      location: "TBA",
+      time: "11/2, " + timeslots["B"],
+      location: "ECEB 1015",
+      slidesLink: "https://docs.google.com/presentation/d/1RXlJamyLpHWCEZW_JJlXFCPK0sUaN5Uc/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       // time: "10/13, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
