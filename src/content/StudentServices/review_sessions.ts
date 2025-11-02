@@ -386,13 +386,15 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     // },
     {
       course: "ECE 486",
-      time: "11/2, " + timeslots["B"],
-      location: "ECEB 1015",
+      location: "Old Recording Provided",
+      time: "Cancelled",
+      // time: "11/2, " + timeslots["B"],
+      // location: "ECEB 1015",
       slidesLink: "https://docs.google.com/presentation/d/1RXlJamyLpHWCEZW_JJlXFCPK0sUaN5Uc/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       // time: "10/13, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_13v27142",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_13v27142",
     },
     
     
