@@ -13,6 +13,7 @@
  */
 
 import { YoutubeIcon } from "svelte-feather-icons";
+import {InstagramIcon} from "svelte-feather-icons";
 
 type Link = {
   href: string;
@@ -30,4 +31,9 @@ export const links: Link[] = [
     name: "YouTube",
     icon: YoutubeIcon,
   },
+  {
+    href: "https://www.instagram.com/hkn_alpha/",
+    name: "Instagram",
+    icon: InstagramIcon
+  }
 ];
