@@ -280,7 +280,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/14hgD51Gy4sfcSuorNfkqzI_jRuzeWFWV/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_59lpn1kh",
       keyLink: "https://drive.google.com/file/d/1QHWL1zIfWk8mcxosbvZ4p9MtivP5gRha/view?usp=sharing",
-      worksheetLink: "https://drive.google.com/file/d/1o4M3FvVabt3IDQyd3MFwYDiEDFxISnBA/view?usp=sharing"
+      worksheetLink: "https://drive.google.com/file/d/1o4M3FvVabt3IDQyd3MFwYDiEDFxISnBA/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1gWuyoDHljmSobvVRKRAlh8rVvduQo0pe/view?usp=sharing"
     },
     {
       course: "ECE 313",
