@@ -3,10 +3,6 @@
     import CalendarWidget from "../../components/CalendarWidget.svelte";
     import { GOOGLE_API_KEY } from "../../config";
     import { googleCalendar } from "./calendar";
-    
-    // You'll need to add your Google API key here
-    calendarId={googleCalendar.calendarId}
-    apiKey={GOOGLE_API_KEY}
 </script>
 
 # Our Mission
@@ -24,7 +20,7 @@ HKN regularly hosts events for both members and non-members, ranging from tech t
 <!-- Replace the iframe with the custom calendar widget -->
 <CalendarWidget 
   calendarId={googleCalendar.calendarId}
-  apiKey={API_KEY}
+  apiKey={GOOGLE_API_KEY}
 />
 
 
