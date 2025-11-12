@@ -25,6 +25,11 @@
       "name":"Astera Labs",
       "image":"/CorporateSponsorLogos/Astera_Labs.jpg",
       "link":"https://www.asteralabs.com/"
+    },
+    {
+      "name":"Boeing",
+      "image":"/CorporateSponsorLogos/BOEING.jpg",
+      "link":"https://www.boeing.com/"
     }
   ]
 }
