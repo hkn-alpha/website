@@ -98,6 +98,9 @@
     return currentMonth.getMonth() === now.getMonth() && 
            currentMonth.getFullYear() === now.getFullYear();
   }
+  
+  // Reactive statement to update the display
+  $: monthDisplay = getCurrentMonthYear();
 </script>
 
 <div class="calendar-container">
@@ -110,7 +113,7 @@
         </svg>
       </button>
       
-      <span class="date-range">{getCurrentMonthYear()}</span>
+      <span class="date-range">{monthDisplay}</span>
       
       <div class="header-actions">
         <button class="nav-btn" on:click={nextMonth} aria-label="Next month">
@@ -157,7 +160,7 @@
             <line x1="3" y1="10" x2="21" y2="10"></line>
           </svg>
           <p class="empty-title">No events scheduled</p>
-          <p class="empty-message">There are no events for {getCurrentMonthYear()}</p>
+          <p class="empty-message">There are no events for {monthDisplay}</p>
           {#if !isCurrentMonth()}
             <button class="today-btn" on:click={goToToday}>Go to current month</button>
           {/if}
@@ -202,7 +205,8 @@
 <style>
   .calendar-container {
     width: 100%;
-    margin: 2rem 0;
+    max-width: 500px;
+    margin: 2rem auto;
   }
 
   .calendar-widget {
@@ -217,7 +221,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
+    padding: 1.25rem 1.5rem;
     border-bottom: 1px solid #e5e7eb;
   }
 
@@ -231,7 +235,7 @@
     transition: all 0.2s ease;
   }
 
-  .nav-btn:hover, .icon-btn:hover {
+  .nav-btn:hover:not(:disabled), .icon-btn:hover:not(:disabled) {
     background-color: #f3f4f6;
     border-color: #9ca3af;
   }
@@ -239,11 +243,6 @@
   .icon-btn:disabled {
     opacity: 0.4;
     cursor: not-allowed;
-  }
-
-  .icon-btn:disabled:hover {
-    background-color: #f9fafb;
-    border-color: #d1d5db;
   }
 
   .date-range {
@@ -258,8 +257,9 @@
   }
 
   .events-list {
-    padding: 1rem 1.5rem;
-    max-height: 420px;
+    padding: 1.5rem;
+    min-height: 400px;
+    max-height: 600px;
     overflow-y: auto;
   }
 
@@ -352,13 +352,17 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    padding: 1rem 1rem 0.5rem;
+    padding: 1rem 0 0.5rem;
+  }
+
+  .date-header:first-child {
+    padding-top: 0;
   }
 
   .event-row {
     display: flex;
     gap: 1rem;
-    padding: 0.75rem 1rem;
+    padding: 0.875rem 1rem;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.2s;
@@ -377,7 +381,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    min-width: 80px;
+    min-width: 85px;
   }
 
   .time-dot {
@@ -408,5 +412,11 @@
     color: #6b7280;
     font-size: 0.875rem;
     margin-top: 0.25rem;
+  }
+
+  @media (max-width: 640px) {
+    .calendar-container {
+      max-width: 100%;
+    }
   }
 </style>
