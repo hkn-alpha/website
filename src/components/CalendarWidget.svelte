@@ -77,10 +77,6 @@
     return !event.start.dateTime;
   }
   
-  function getCurrentMonthYear() {
-    return currentMonth.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
-  }
-  
   function shouldShowDateHeader(index) {
     if (index === 0) return true;
     
@@ -93,14 +89,14 @@
     return currentDate.day !== prevDate.day || currentDate.month !== prevDate.month;
   }
   
-  function isCurrentMonth() {
-    const now = new Date();
-    return currentMonth.getMonth() === now.getMonth() && 
-           currentMonth.getFullYear() === now.getFullYear();
-  }
+ $: isCurrentMonth = (() => {
+  const now = new Date();
+  return currentMonth.getMonth() === now.getMonth() && 
+         currentMonth.getFullYear() === now.getFullYear();
+})();
   
   // Reactive statement to update the display
-  $: monthDisplay = getCurrentMonthYear();
+  $: monthDisplay = currentMonth.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 </script>
 
 <div class="calendar-container">
@@ -124,7 +120,7 @@
         <button 
           class="icon-btn" 
           on:click={goToToday}
-          disabled={isCurrentMonth()}
+          disabled={isCurrentMonth}
           aria-label="Go to current month"
           title="Today"
         >
@@ -161,7 +157,7 @@
           </svg>
           <p class="empty-title">No events scheduled</p>
           <p class="empty-message">There are no events for {monthDisplay}</p>
-          {#if !isCurrentMonth()}
+          {#if !isCurrentMonth}
             <button class="today-btn" on:click={goToToday}>Go to current month</button>
           {/if}
         </div>
