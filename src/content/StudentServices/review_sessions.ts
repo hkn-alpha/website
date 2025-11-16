@@ -413,7 +413,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 102",
       slidesLink: "https://docs.google.com/presentation/d/1LyNt1byVaoWe_Uh_SJQJS7q0uVbgylZ6/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       recordingLink:'https://mediaspace.illinois.edu/media/t/1_lj4nq9f4',
-      // scribblesLink: "https://drive.google.com/file/d/1jVTbYx0zbNMvkyjpsVVSvFBHGdL-_Mok/view?usp=sharing"
+      scribblesLink: "https://drive.google.com/file/d/16UDKn4OkCz3htVKX846Cqy0G-DwcOj5F/view?usp=sharing"
 
     },
     // {
@@ -435,7 +435,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/12FNJHQ79X4rcNcqPcAQQ08pA9V6RKJfe/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true  ",
       recordingLink: 'https://mediaspace.illinois.edu/media/t/1_tn6thx9m',
-      // scribblesLink: "https://drive.google.com/file/d/16qfo38tLxu04U28Bi2U5JI3bxetZRGMk/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1qdtlWyTr2IxHMcKmyzTZxD0xWXdhAQPB/view?usp=sharing"
     },
     {
       course: "ECE 329",
