@@ -27,6 +27,10 @@
 </div>
 
 <style>
+    .container {
+    background-color: #0f2040;
+    min-height: 100vh;
+    }
     .page-heading {
         margin-bottom: 20px;
     }
