@@ -1,7 +1,7 @@
 <script>
   import Footer from "../components/Footer.svelte";
   import Nav from "../components/Nav.svelte";
-  import HowToJoinText from "../content/HowToJoin/how_to_join.md";
+  import HowToJoinText from "../content/HowToJoin/information.md";
 </script>
 
 <svelte:head>
