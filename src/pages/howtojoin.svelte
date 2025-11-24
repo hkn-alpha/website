@@ -40,6 +40,8 @@
         color: white;
         padding-left: 23px;
         padding-right: 23px;
+        margin-left: auto;
+        margin-right: auto;
     }
 </style>
 
