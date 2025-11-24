@@ -42,6 +42,7 @@
         padding-right: 23px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 100px;
     }
 </style>
 
