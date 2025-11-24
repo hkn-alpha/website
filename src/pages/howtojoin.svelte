@@ -12,37 +12,44 @@
   />
 </svelte:head>
 
-<div class="container">
-  <div class="footer-push">
-    <Nav />
-    <div class="content">
-      <h1 class="page-heading">How to Join HKN</h1>
-      <div class="md-container">
-        <HowToJoinText />
-      </div>
+<div class="page-wrapper">
+  <Nav />
+
+  <div class="content">
+    <h1 class="page-heading">How to Join HKN</h1>
+    <div class="md-container">
+      <HowToJoinText />
     </div>
   </div>
-  <Footer />
 
+  <Footer />
 </div>
 
 <style>
-    .container {
-        background-color: #0f2040;
-        min-height: 100vh;
-    }
-    .page-heading {
-        margin-bottom: 20px;
-        color: white;
-    }
-    .md-container {
-        max-width: 800px;
-        color: white;
-        padding-left: 23px;
-        padding-right: 23px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-    }
-</style>
+  /* Make a vertical layout that fills the page */
+  .page-wrapper {
+    background-color: #0f2040;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
+  /* Expands to push footer to the bottom when short */
+  .content {
+    flex: 1;
+  }
+
+  .page-heading {
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .md-container {
+    max-width: 800px;
+    color: white;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
