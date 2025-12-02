@@ -20,6 +20,7 @@
     <div class="md-container">
       <HowToJoinText />
     </div>
+
   </div>
 
   <Footer />
