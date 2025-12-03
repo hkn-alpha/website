@@ -482,7 +482,7 @@ export const until: Record<1 | 2 | 3, Date> = {
  export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 110",
-    time: "12/11, + " + timeslots["A"],
+    time: "12/11, " + timeslots["A"],
     location: "ECEB 1013",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1002",
@@ -506,7 +506,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 210",
     time: "12/13, " + timeslots["A"],
-    location: "1002",
+    location: "ECEB 1002",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1UfPZly7LEUDpxDS882YPFkMwT_VZui-2bZEY6jV2Q20/edit?usp=sharing",
@@ -528,8 +528,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 310",
-    time: "12/13  , " + timeslots["B"],
-    location: "1015",
+    time: "12/13, " + timeslots["B"],
+    location: "ECEB 1015",
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 3017",
     // slidesLink: "https://docs.google.com/presentation/d/1CfLsIPCGmAKQMFQQ2gRIiBDtRUwYWF1tcpHHkbtrAoA/edit?usp=sharing",
@@ -540,7 +540,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 313",
     time: "12/11, " + timeslots["B"],
-    location: "1013",
+    location: "ECEB 1013",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1zrJaOJCdGzcRGK47m3SP2u345Fd29rDNClcKoByTDzw/edit?usp=sharing",
@@ -574,7 +574,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 340",
     time: "12/11, " + timeslots["A"],
-    location: "1015",
+    location: "ECEB 1015",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 2015",
     // slidesLink: "https://docs.google.com/presentation/d/11tphISHiF842PKN2r9dhhNfEST4cY-3bKwOJQ5WT-bY/edit?usp=sharing",
@@ -585,7 +585,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 342",
     time: "12/13, " + timeslots["A"],
-    location: "1015",
+    location: "ECEB 1015",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1015",
     // slidesLink: "https://docs.google.com/presentation/d/1DhlbuSYjU67Cp2OLar3Cbpslt6BBjqoilLxlkp-OgGc/edit?usp=sharing",
