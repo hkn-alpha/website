@@ -576,7 +576,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1cx1ep0AEK2VYRpf62RXuJ4f12kiB37Pu/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     // worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
     // keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_66tx6dsv"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_jxr0f9gq"
   },
   {
     course: "ECE 342",
