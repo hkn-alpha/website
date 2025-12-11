@@ -580,8 +580,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 342",
-    time: "12/13, " + timeslots["A"],
-    location: "ECEB 1015",
+    time: "Cancelled",
+    location: "Cancelled",
     // time: "12/12 10:00 AM-12:00PM",
     // location: "ECEB 1015",
     // slidesLink: "https://docs.google.com/presentation/d/1DhlbuSYjU67Cp2OLar3Cbpslt6BBjqoilLxlkp-OgGc/edit?usp=sharing",
