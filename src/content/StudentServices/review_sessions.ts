@@ -484,9 +484,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     course: "ECE 110",
     time: "12/11, " + timeslots["A"],
     location: "ECEB 1013",
-    // time: "12/12 10:00 AM-12:00PM",
-    // location: "ECEB 1002",
-    //slidesLink: "https://docs.google.com/presentation/d/1xOmfKUggvRTa3h7Vz5qLXt9vT9DkJbpGQLiWbrJxJrc/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/12ePwpG-iZyu1bXUUp5nW-W9eLaZJoUYV/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     //worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/worksheet.pdf",
     //keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/solutions.pdf",
     //scribblesLink: "https://drive.google.com/file/d/1lQEncdub2hvT8CSZqYQU2x1haK3In_u1/view?usp=sharing",
@@ -537,10 +535,10 @@ export const until: Record<1 | 2 | 3, Date> = {
     // keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece310/final/solutions.pdf",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_p8ufunrr"
   },
-  {
+  { 
     course: "ECE 313",
-    time: "12/11, " + timeslots["B"],
-    location: "ECEB 1013",
+    time: "Hosted by Class",
+    location: "Hosted by Class",
     // time: "12/12 12:30 PM-2:30PM",
     // location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1zrJaOJCdGzcRGK47m3SP2u345Fd29rDNClcKoByTDzw/edit?usp=sharing",
@@ -575,9 +573,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     course: "ECE 340",
     time: "12/11, " + timeslots["A"],
     location: "ECEB 1015",
-    // time: "12/12 12:30 PM-2:30PM",
-    // location: "ECEB 2015",
-    // slidesLink: "https://docs.google.com/presentation/d/11tphISHiF842PKN2r9dhhNfEST4cY-3bKwOJQ5WT-bY/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/1cx1ep0AEK2VYRpf62RXuJ4f12kiB37Pu/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     // worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
     // keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_66tx6dsv"
