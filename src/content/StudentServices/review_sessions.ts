@@ -485,6 +485,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     time: "12/11, " + timeslots["A"],
     location: "ECEB 1013",
     slidesLink: "https://docs.google.com/presentation/d/12ePwpG-iZyu1bXUUp5nW-W9eLaZJoUYV/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+    scribblesLink: "https://drive.google.com/file/d/1eU1BSM89317BV_a02iuLLOJaCVeisdAm/view?usp=sharing",
     //worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/worksheet.pdf",
     //keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/solutions.pdf",
     //scribblesLink: "https://drive.google.com/file/d/1lQEncdub2hvT8CSZqYQU2x1haK3In_u1/view?usp=sharing",
@@ -574,6 +575,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     time: "12/11, " + timeslots["A"],
     location: "ECEB 1015",
     slidesLink: "https://docs.google.com/presentation/d/1cx1ep0AEK2VYRpf62RXuJ4f12kiB37Pu/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+    scribblesLink: "https://drive.google.com/file/d/1jc9KEC80l6BPhyGPvFn4RzKcVfM1IAsq/view?usp=sharing",
     // worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
     // keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link",
     recordingLink: "https://mediaspace.illinois.edu/media/t/1_jxr0f9gq"
