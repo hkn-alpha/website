@@ -489,7 +489,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     //worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/worksheet.pdf",
     //keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/solutions.pdf",
     //scribblesLink: "https://drive.google.com/file/d/1lQEncdub2hvT8CSZqYQU2x1haK3In_u1/view?usp=sharing",
-    //recordingLink: "https://mediaspace.illinois.edu/media/t/1_vst27vxe"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_ddcodj9o"
   },
   {
     course: "ECE 120",
