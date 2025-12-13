@@ -528,7 +528,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1YC9jrht9hM2bMv_qCHs8U7hOrQ75zBQB/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     // worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece310/final/worksheet.pdf",
     // keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece310/final/solutions.pdf",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_p8ufunrr"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_ol13xf7s"
   },
   { 
     course: "ECE 313",
