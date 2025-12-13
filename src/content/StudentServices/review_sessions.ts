@@ -512,7 +512,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     // scribblesLink: "https://drive.google.com/file/d/1Wat6QBL5SFRFEeKUIURrta8jhfuzmaES/view?usp=sharing",  
     // worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece210/final/worksheet.pdf",
     // keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece210/final/solutions.pdf ",
-    // //recordingLink: "https://mediaspace.illinois.edu/media/t/1_as7y7ztf"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_as7y7ztf"
   },
   {
     course: "ECE 220",
