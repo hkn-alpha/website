@@ -2,7 +2,6 @@
   import Footer from "../components/Footer.svelte";
   import Nav from "../components/Nav.svelte";
   import HowToJoinText from "../content/HowToJoin/information.md";
-  import ImageTest from "../content/HowToJoin/image.md"
 </script>
 
 <svelte:head>
@@ -20,10 +19,6 @@
     <h1 class="page-heading">How to Join HKN</h1>
     <div class="md-container">
       <HowToJoinText />
-    </div>
-    <div class="md-container-img">
-      <ImageTest />
-
     </div>
 
   </div>
@@ -57,15 +52,5 @@
     padding-right: 23px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md-container-img {
-    max-width: 700px;
-    width: 100%;
-    margin: 23px auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
   }
 </style>
