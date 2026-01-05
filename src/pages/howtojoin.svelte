@@ -63,6 +63,6 @@
     display: block;
     max-width: 700px;   /* or 800px */
     width: 100%;
-    margin: 0 auto;
+    margin: 23px auto;
   }
 </style>
