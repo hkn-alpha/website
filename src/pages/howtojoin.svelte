@@ -61,8 +61,8 @@
 
   .md-container-img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+    max-width: 700px;   /* or 800px */
+    width: 100%;
+    margin: 0 auto;
   }
 </style>
