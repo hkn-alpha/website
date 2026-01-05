@@ -60,9 +60,12 @@
   }
 
   .md-container-img {
-    display: block;
-    max-width: 700px;   /* or 800px */
+    max-width: 700px;
     width: 100%;
     margin: 23px auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 </style>
