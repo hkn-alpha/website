@@ -48,8 +48,8 @@
   .md-container {
     max-width: 800px;
     color: white;
-    padding-left: 23px;
-    padding-right: 23px;
+    padding-left: 22px;
+    padding-right: 22px;
     margin-left: auto;
     margin-right: auto;
   }
