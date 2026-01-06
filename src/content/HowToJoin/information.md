@@ -7,5 +7,3 @@ To become a fully inducted member of HKN, you must first be invited to initiate.
 3. You demonstrate outstanding commitment to both the ECE community and to excellence within ECE, and the HKN Board directly invites you to initate.
 
 Once invited to initiate, initates will have a semester to show both their commitment to HKN and to the ECE community through the various outreach activities that HKN partakes in. At the end of the semester, initiates who have successfully show that commitment will be inducted as full members into HKN.
-
-![Sponsor HKN promotional image](/WebsiteImages/GetInvolvedPage/ResizedPotluck.jpg)
