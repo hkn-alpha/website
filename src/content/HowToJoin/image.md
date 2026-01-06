@@ -1,0 +1,1 @@
+![Sponsor HKN promotional image](/WebsiteImages/GetInvolvedPage/ResizedPotluck.jpg)
