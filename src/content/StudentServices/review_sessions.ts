@@ -485,7 +485,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     time: "TBA",
     location: "TBA",
     // time: "12/12 10:00 AM-12:00PM",
-    // location: "ECEB 1002",
+    // location: "ECEB 1015",
     //slidesLink: "https://docs.google.com/presentation/d/1xOmfKUggvRTa3h7Vz5qLXt9vT9DkJbpGQLiWbrJxJrc/edit?usp=sharing",
     //worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/worksheet.pdf",
     //keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece110/final/solutions.pdf",
