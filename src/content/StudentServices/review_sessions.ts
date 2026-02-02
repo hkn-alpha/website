@@ -445,14 +445,14 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "Cancelled",
     },
     {
-      // course: "ECE 342",
-      // time: "11/15, " + timeslots["B"],
+      course: "ECE 342",
+      time: "4/18, " + timeslots["B"],
+      location: "ECEB 1013",
+      // time: "11/17, 12:30-2:30PM",
       // location: "ECEB 1013",
-      // // time: "11/17, 12:30-2:30PM",
-      // // location: "ECEB 1013",
-      // slidesLink: "https://docs.google.com/presentation/d/134prOQ1FJWk5uMk-5NK877EpJih72a0e/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-      // recordingLink:'https://mediaspace.illinois.edu/media/t/1_vmb24eq6',
-      // // scribblesLink: "https://drive.google.com/file/d/1SH3SsoVrOHvtMxBxPZrpOMXhm1HVehqA/view?usp=drive_link"
+      //slidesLink: "https://docs.google.com/presentation/d/134prOQ1FJWk5uMk-5NK877EpJih72a0e/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+      //recordingLink:'https://mediaspace.illinois.edu/media/t/1_vmb24eq6',
+      // scribblesLink: "https://drive.google.com/file/d/1SH3SsoVrOHvtMxBxPZrpOMXhm1HVehqA/view?usp=drive_link"
 
     },
     {
