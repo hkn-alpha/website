@@ -340,7 +340,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
 //       slidesLink:
 //         "https://docs.google.com/presentation/d/1l6_uKIay8u91N4YVJg_nCMIETB0GxrmWy0NC9qB9DGY/edit?usp=sharing",
 //     },
-    {
+    //{
       // course: "CS 374A",
       // time: "TBA",
       // location: "TBD",
@@ -349,7 +349,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     //   slidesLink: "https://drive.google.com/file/d/1CO_oQbFAQm0uaQp5HjGQrGlelswYrJjv/view?usp=sharing",
     //   scribblesLink: "https://academic.acm.illinois.edu/assets/cs374a/fa24/mt2/pdf/ACM_CS_374A_MT2_Review_scribs.pdf",
     //   recordingLink: "https://illinois.zoom.us/rec/play/WwI4uNbV2ani_i0HmU8Cq1Zk--vUbC69bOEZJoR9gSlGGSzUyJZH-iKlDBDPEP4jo8jn60tlTyamQaNS.fULatEDspSRgc1is?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FUZUP0dE9Z6wQVWfOtuJE_Xc9CJHQtVCtYapznfgiBUM2W1aKu7dv847jr06fhmE.rGu5fHCAVGk0Hbwh",
-     },
+     //},
     {
       course: "ECE 374B",
       time: "3/7, " + timeslots["A"],
