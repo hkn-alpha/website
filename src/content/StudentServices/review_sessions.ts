@@ -106,7 +106,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 329",
       //time: "TBD",
       location: "1015",
-      time: "2/21" + timeslot["B"],
+      time: "2/21" + timeslots["B"],
       // location: "ECEB 1013",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_8jg8q18m",
       // slidesLink: "https://docs.google.com/presentation/d/1cfZuQMG5YbsN0gTOjXI0eaAMsLecXsowMUUbrpWnshY/edit?usp=sharing"
