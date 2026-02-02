@@ -471,24 +471,24 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
 // When the UI should rollover stop showing the given review session
 // All Midterms show up on the website, this sets priority of what shows up on the page
 // Remember that months are zero indexed but days are not.
-// export const until: Record<1 | 2 | 3, Date> = {
-//   1: new Date(2025, 9 , 12),
-//   2: new Date(2025, 10, 10), // ends 11/10
-//   3: new Date(2025, 11, 5), // Date(1) makes sure this will never be default bc it occured in the past
+export const until: Record<1 | 2 | 3, Date> = {
+  1: new Date(2026, 2 , 4),
+  2: new Date(2026, 3 11), // ends 11/10
+  3: new Date(2026, 5, 6), // Date(1) makes sure this will never be default bc it occured in the past
+};
+
+// export const until: Record<1 | 2 | 3, string> = {
+//   1: "2026-03-04",
+//   2: "2026-04-11",
+//   3: "2026-06-06",
 // };
 
-export const until: Record<1 | 2 | 3, string> = {
-  1: "2026-03-04",
-  2: "2026-04-11",
-  3: "2026-06-06",
-};
-
-// then at runtime:
-const untilDates: Record<1 | 2 | 3, Date> = {
-  1: new Date(until[1]),
-  2: new Date(until[2]),
-  3: new Date(until[3]),
-};
+// // then at runtime:
+// const untilDates: Record<1 | 2 | 3, Date> = {
+//   1: new Date(until[1]),
+//   2: new Date(until[2]),
+//   3: new Date(until[3]),
+// };
 
 // Final review sessions
 
