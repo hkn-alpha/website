@@ -477,6 +477,19 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
 //   3: new Date(2025, 11, 5), // Date(1) makes sure this will never be default bc it occured in the past
 // };
 
+export const until: Record<1 | 2 | 3, string> = {
+  1: "2026-03-04",
+  2: "2026-04-11",
+  3: "2026-06-06",
+};
+
+// then at runtime:
+const untilDates: Record<1 | 2 | 3, Date> = {
+  1: new Date(until[1]),
+  2: new Date(until[2]),
+  3: new Date(until[3]),
+};
+
 // Final review sessions
 
  export const crammingCarnival: ReviewSession[] = [
