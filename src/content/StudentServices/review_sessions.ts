@@ -143,7 +143,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_bpomyaz8",
       //slidesLink: "https://docs.google.com/presentation/d/1YyydPBu5BG1j07NQnoa8xAqfyMY6wGeq/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true"
     },
-    {
+    //{
       // course: "CS 374A (Hosted by ACM)",
       // //time: "TBD",
       // location: "TBD",
@@ -154,7 +154,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_qu1d7lfy",
       // slidesLink: "https://drive.google.com/file/d/162vuI5yDVvAEMmUgOwGhthXhEdILJ_Lw/view?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/1Do5wLq4I6OiVzKQHTsEuyKDxBWdwfnwe/view?usp=sharing",
-    },
+    //},
     {
       course: "ECE 374B",
       //time: "TBD",
