@@ -166,6 +166,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1002",
       time: "2/7, " + timeslots["A"],
       slidesLink: "https://docs.google.com/presentation/d/1LSeXqLaOcbbOTSMemswDt-HGzj3lqslD/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+      scribblesLink: "https://drive.google.com/file/d/1aFgMszFN9ea28noUR86RURI0rIhpy-Le/view?usp=sharing",
       //slidesLink: "https://drive.google.com/file/d/1tXm1lNcqi4ELQpWtfsfWXzvIRPPRW3n3/view?usp=sharing",
       // location: "ECEB 1002",
       //slidesLink: "https://drive.google.com/file/d/17L-drxEQNKRLHoSRvSBL7QIub20A1ADJ/view",
