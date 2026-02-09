@@ -45,7 +45,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 120",
-      time: "Hosted By Class: 2/14",
+      time: "Hosted By Class",
       location: "Hosted By Class",
       // time: "9/22, 12:30-2:30PM",
       // location: "ECEB 1013",
@@ -57,8 +57,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 210",
       // time: "TBD",
-      time: "2/14, " + timeslots["B"],
-      location: "ECEB 1015",
+      time: "2/14, " + timeslots["A"],
+      location: "ECEB 1002",
       //worksheetLink: "https://drive.google.com/file/d/1O6ZFvXh96aDgWirLl0rnfmHARDG2OTHM/view?usp=sharing",
       //slidesLink: "https://docs.google.com/presentation/d/1ZNkj9BHRA2T1fcJvEghvdrxWfxUJVAtG/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       //keyLink: "https://drive.google.com/file/d/119A7bHiqQiaSEU2D4RLGAuqntrZ9wmqa/view?usp=sharing",
@@ -145,8 +145,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 350",
-      time: "2/21, " + timeslots["A"],
-      location: "ECEB 1013",
+      time: "Hosted By Class",
+      location: "Hosted By Class",
     },
     //{
       // course: "CS 374A (Hosted by ACM)",
@@ -247,8 +247,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 120",
-      time: "3/23, 5-7pm",
-      location: "ECEB 1002",
+      time: "Hosted By Class",
+      location: "Hosted By Class",
       // time: "10/20, 12:30-2:30PM",
       // location: "ECEB 1002",
       // slidesLink: "https://docs.google.com/presentation/d/1pj2_GGltCo2jRIzTmndIn-psupwfPDSnvmaFpNJurVk/edit?usp=sharing",
@@ -259,7 +259,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     {
       course: "ECE 210",
       time: "3/23, 5-8pm", //+ timeslots["B"],
-      location: "ECEB 1013",
+      location: "ECEB 2013",
       // time: "10/20, 3:00-5:00PM",
       // location: "ECEB 1013",
       //scribblesLink: "https://drive.google.com/file/d/1JWe3kv1MmYyhryoKxVFEnDnvAafEw-Vk/view?usp=sharing",
@@ -376,8 +376,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
    //  },
     {
       course: "ECE 411",
-      time: "4/4, " + timeslots["B"],
-      location: "ECEB 1013",
+      time: "Hosted By Class",
+      location: "Hosted By Class",
       // slidesLink: "https://docs.google.com/presentation/d/1RxGG7Xf054iLV-8icGPAlUTB2qeHHKJSVdlnov44-80/edit?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_fxytfy22",
     },
@@ -435,8 +435,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 210",
-      time: "4/18, " + timeslots["B"],
-      location: "ECEB 1015",
+      time: "4/18, " + timeslots["A"],
+      location: "ECEB 1002",
       // time: "11/17, 3:00-5:00PM",
       // location: "ECEB 1013",
       //slidesLink: "https://docs.google.com/presentation/d/12FNJHQ79X4rcNcqPcAQQ08pA9V6RKJfe/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true  ",
