@@ -60,7 +60,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "2/14, " + timeslots["A"],
       location: "ECEB 1002",
       //worksheetLink: "https://drive.google.com/file/d/1O6ZFvXh96aDgWirLl0rnfmHARDG2OTHM/view?usp=sharing",
-      //slidesLink: "https://docs.google.com/presentation/d/1ZNkj9BHRA2T1fcJvEghvdrxWfxUJVAtG/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+      slidesLink: "https://docs.google.com/presentation/d/1ZNkj9BHRA2T1fcJvEghvdrxWfxUJVAtG/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
       //keyLink: "https://drive.google.com/file/d/119A7bHiqQiaSEU2D4RLGAuqntrZ9wmqa/view?usp=sharing",
       //scribblesLink: "https://drive.google.com/file/d/1nBktwRO2-inPuV3EoDtQ85Mq5Vcrbkc2/view?usp=sharing",
       // location: "ECEB 1013",
@@ -141,7 +141,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 1013",
       //scribblesLink: "https://drive.google.com/file/d/1HQ48wLdAhkKxsjBbKFSpyD3mFbhZ9L3A/view?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_bpomyaz8",
-      //slidesLink: "https://docs.google.com/presentation/d/1YyydPBu5BG1j07NQnoa8xAqfyMY6wGeq/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true"
+      slidesLink: "https://docs.google.com/presentation/d/1YyydPBu5BG1j07NQnoa8xAqfyMY6wGeq/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true"
     },
     {
       course: "ECE 350",
