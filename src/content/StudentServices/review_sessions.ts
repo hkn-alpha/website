@@ -87,7 +87,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //worksheetLink: "https://drive.google.com/file/d/1zS5lYeekL36DMtABIW6tzdWsXN3edY_G/view?usp=sharing",
       //scribblesLink: "https://drive.google.com/file/d/1STz7__8jOnrYWx8WCOHzOtlivDXRtJ11/view?usp=sharing",
       //slidesLink:"https://docs.google.com/presentation/d/1ZWYsGUlNdoQa6J2ZV6Q6EROGR6ZoSDly/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_chlhn7vn"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_vxgq6pw2"
     },
     {
       course: "ECE 313",
@@ -107,7 +107,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 2017",
       time: "2/21, " + timeslots["A"],
       // location: "ECEB 1013",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_8jg8q18m",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_at5usth0",
       slidesLink: "https://docs.google.com/presentation/d/1wg_pE8BB2IMmhAw37HS8dX8GF0R-AJyB/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true"
     },
     {
