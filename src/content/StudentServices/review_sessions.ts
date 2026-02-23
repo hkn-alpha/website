@@ -74,6 +74,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_h8zp8k94",
       slidesLink: "https://docs.google.com/presentation/d/1-xBhlkA78eSVJ9DylGd29rhBBBEWHAVc/edit?usp=drive_link&ouid=114909937515227017827&rtpof=true&sd=true",
       worksheetLink: "https://drive.google.com/file/d/1X3r-DiWya_grxC-mAd0jOKzC9Kn8NV6Y/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/14gUtZXVG2U_ZB_RYZ0Mt3VzcpZmuxqiG/view?usp=sharing",
       keyLink: "https://drive.google.com/file/d/1sbIVhEBfygCSzu51sBehhGUwBsnm8RfE/view?usp=sharing"
     },
     {
@@ -115,7 +116,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "2/22, " + timeslots["B"],
       location: "ECEB 1013",
       slidesLink:"https://docs.google.com/presentation/d/14XvCOwC8nwyqQqmCyUJ6BsGh876TpvCE/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      //scribblesLink: "https://drive.google.com/file/d/1XN_1STvNET2_7ieqPVUivPYPKVja4utf/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1InQloKUP9GXBv8Z9HyUzugytjb2rR3RT/view?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_rg19jyv1",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_xfxf1cgm"
     },
