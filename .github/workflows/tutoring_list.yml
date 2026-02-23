@@ -1,0 +1,17 @@
+name: Generate tutors_list.json
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Runs every 30 minutes
+  workflow_dispatch:
+  push:
+
+jobs:
+  generate-tutors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate tutors_list.json
+        run: node src/content/StudentServices/generateTutors.js
+        env:
+          SHEETS_API_KEY: ${{ secrets.SHEETS_API_KEY }}

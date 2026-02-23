@@ -29,7 +29,12 @@
   },
   "dependencies": {
     "blurhash-to-css": "^0.5.5",
+    "googleapis": "^171.4.0",
+    "node-fetch": "^3.3.2",
     "svelte-routing": "^1.6.0",
     "svelte-select": "^5.6.1"
+  },
+  "scripts": {
+  "generate:tutors": "node src/content/StudentServices/generateTutors.js"
   }
 }
