@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Generate tutors_list.json
-        run: node src/content/StudentServices/generateTutors.js
+        run: npm install && node src/content/StudentServices/generateTutors.js       
         env:
           SHEETS_API_KEY: ${{ secrets.SHEETS_API_KEY }}
