@@ -118,7 +118,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink:"https://docs.google.com/presentation/d/14XvCOwC8nwyqQqmCyUJ6BsGh876TpvCE/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       scribblesLink: "https://drive.google.com/file/d/1InQloKUP9GXBv8Z9HyUzugytjb2rR3RT/view?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_rg19jyv1",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_xfxf1cgm"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_usmq1lze"
     },
     {
       course: "ECE 340",
