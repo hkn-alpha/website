@@ -1,0 +1,77 @@
+[
+  {
+    "email": "xkhan2@illinois.edu",
+    "name": "Xainab Khan",
+    "courses": "ECE 110, ECE 120, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285, CS 173"
+  },
+  {
+    "email": "da24@illinois.edu",
+    "name": "Dominic Andrejek",
+    "courses": "ECE 110, ECE 210, PHYS 213, MATH 221, MATH 231, MATH 241, MATH 285"
+  },
+  {
+    "email": "ayushtm2@illinois.edu",
+    "name": "Ayush Mehendale",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285, CS 173"
+  },
+  {
+    "email": "msorial2@illinois.edu",
+    "name": "Mark Sorial",
+    "courses": "ECE 110, ECE 120, ECE 220, MATH 221, MATH 231, CS 173, CS 225"
+  },
+  {
+    "email": "rbahary2@illinois.edu",
+    "name": "Ryan Bahary",
+    "courses": "CS 225"
+  },
+  {
+    "email": "pjz3@illinois.edu",
+    "name": "Patrick",
+    "courses": "ECE 110, ECE 120, ECE 220"
+  },
+  {
+    "email": "jqunell2@illinois.edu",
+    "name": "Jonathan Qunell",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 257, MATH 285"
+  },
+  {
+    "email": "lau29@illinois.edu",
+    "name": "Sarah Lau",
+    "courses": "ECE 110, ECE 210, PHYS 211, PHYS 213, PHYS 214, MATH 257, MATH 285"
+  },
+  {
+    "email": "wsturn2@illinois.edu",
+    "name": "Wyatt Sturn",
+    "courses": "ECE 110, ECE 120, ECE 210, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285"
+  },
+  {
+    "email": "pola3@illinois.edu",
+    "name": "Aditya Pola",
+    "courses": "ECE 110, ECE 120, ECE 220, PHYS 212, CS 173"
+  },
+  {
+    "email": "qixuan3@illinois.edu",
+    "name": "Keeron Huang",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 330, CS 225"
+  },
+  {
+    "email": "mtrigo2@illinois.edu",
+    "name": "Mateus",
+    "courses": "ECE 110, ECE 120, ECE 220, ECE 310, ECE 313, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 241, MATH 257, CS 225"
+  },
+  {
+    "email": "muqixu2@illinois.edu",
+    "name": "Barry Xu",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, PHYS 211, PHYS 212, PHYS 213, PHYS 214, CS 173"
+  },
+  {
+    "email": "ns58@illinois.edu",
+    "name": "Nick Schroeder",
+    "courses": "ECE 110, ECE 120, ECE 210, PHYS 211, PHYS 212, PHYS 214, MATH 285"
+  },
+  {
+    "email": "lau29@illinois.edu",
+    "name": "Sarah Lau",
+    "courses": "ECE 110, ECE 210, PHYS 211, PHYS 213, PHYS 214, MATH 257, MATH 285"
+  }
+]
