@@ -95,9 +95,9 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //time: "TBD",
       location: "ECEB 1013",
       time: "2/28, " + timeslots["B"],
-      slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true"
-      //worksheetLink: "https://drive.google.com/file/d/1zMi-hcFkEcRYFAyzuUcLLuI1llXpBxGx/view?usp=sharing",  
-      //keyLink: "https://drive.google.com/file/d/1X3Sxht1hRB1-x5i-Z25-PlWRm1TAfo14/view?usp=sharing",
+      slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
+      worksheetLink: "https://drive.google.com/file/d/1aTxSO4e0UuhfewCY6x9Fd6NT5rYjEsIZ/view?usp=sharing",  
+      keyLink: "https://drive.google.com/file/d/1ba02eJ-teWv_DMPFETWN_6fgCccRZcli/view?usp=sharing"
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9ncupom3"
     },
     {
