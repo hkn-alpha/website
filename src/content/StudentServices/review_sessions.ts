@@ -98,6 +98,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       worksheetLink: "https://drive.google.com/file/d/1aTxSO4e0UuhfewCY6x9Fd6NT5rYjEsIZ/view?usp=sharing",  
       keyLink: "https://drive.google.com/file/d/1ba02eJ-teWv_DMPFETWN_6fgCccRZcli/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1DUm4iBmC9LORE3VQbyaqn5DGflOTiPcs/view?usp=drive_link",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_2snvl59e"
     },
     {
