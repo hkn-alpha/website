@@ -68,5 +68,10 @@
     "email": "ns58@illinois.edu",
     "name": "Nick Schroeder",
     "courses": "ECE 110, ECE 120, ECE 210, PHYS 211, PHYS 212, PHYS 214, MATH 285"
+  },
+  {
+    "email": "lukew6@illinois.edu",
+    "name": "Luke Wang",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 313"
   }
 ]
