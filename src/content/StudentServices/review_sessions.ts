@@ -40,7 +40,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "2/22, " + timeslots["B"],
       location: "ECEB 1002",
       slidesLink: "https://docs.google.com/presentation/d/1WTvsCjM3ZLmWROSjiXIKaMCjrihn2Jrp/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_r0svsi14",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_r0svsi14",
       scribblesLink: "https://drive.google.com/file/d/1h9WimB8RdcNlrRZDDcL6VyDoz8u0oG_D/view?usp=sharing"
     },
     {
@@ -95,12 +95,11 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       //time: "TBD",
       location: "ECEB 1013",
       time: "2/28, " + timeslots["B"],
-      //slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-      //worksheetLink: "https://drive.google.com/file/d/1zMi-hcFkEcRYFAyzuUcLLuI1llXpBxGx/view?usp=sharing",  
-      //keyLink: "https://drive.google.com/file/d/1X3Sxht1hRB1-x5i-Z25-PlWRm1TAfo14/view?usp=sharing",
-      // location: "ECEB 1002",
-      //slidesLink: "https://docs.google.com/presentation/d/19l5Q0Mjm69xzzUl7FrrWWUm31HYSmzojdz-zmIBDEFc/edit?usp=sharing",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_9ncupom3"
+      slidesLink: "https://docs.google.com/presentation/d/1cUuZfWjGyfpU0UTow9K2oC_LzhtGOlO_/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
+      worksheetLink: "https://drive.google.com/file/d/1aTxSO4e0UuhfewCY6x9Fd6NT5rYjEsIZ/view?usp=sharing",  
+      keyLink: "https://drive.google.com/file/d/1ba02eJ-teWv_DMPFETWN_6fgCccRZcli/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1DUm4iBmC9LORE3VQbyaqn5DGflOTiPcs/view?usp=drive_link",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_2snvl59e"
     },
     {
       course: "ECE 329",
@@ -118,19 +117,16 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink:"https://docs.google.com/presentation/d/14XvCOwC8nwyqQqmCyUJ6BsGh876TpvCE/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       scribblesLink: "https://drive.google.com/file/d/1InQloKUP9GXBv8Z9HyUzugytjb2rR3RT/view?usp=sharing",
       //recordingLink: "https://mediaspace.illinois.edu/media/t/1_rg19jyv1",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_xfxf1cgm"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_usmq1lze"
     },
     {
       course: "ECE 340",
       //time: "TBD",
       location: "ECEB 1013",
       time: "2/28, " + timeslots["A"],
-      //slidesLink: "https://docs.google.com/presentation/d/1PNxVCSzaNfFp_87W6FTncQ_cdfmlclVU/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
-      //scribblesLink: "https://drive.google.com/file/d/1GO-SHVQDemw2dh7lpxMQFu1R2iR3OYRT/view?usp=sharing",
-      // location: "ECEB 1002",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_uoypbvzj",
-      //slidesLink: "https://docs.google.com/presentation/d/1C0HQQyX06zU-OHyXn4jSx28pRKEzV3pKMmOWJcYgx_8/edit?usp=sharing",
-      // scribblesLink: "https://drive.google.com/file/d/1RxtcBlQjLwXuVIMYR6S0X7im1-0V1Bit/view?usp=drive_link"
+      slidesLink: "https://docs.google.com/presentation/d/1PNxVCSzaNfFp_87W6FTncQ_cdfmlclVU/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
+      scribblesLink: "https://drive.google.com/file/d/1KOKidghXdNwY8MX5sRdwY1AI6ViLQAfp/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_uoypbvzj"
     },
     {
       course: "ECE 342",
@@ -358,8 +354,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
      //},
     {
       course: "ECE 374B",
-      time: "3/7, " + timeslots["A"],
-      location: "ECEB 1015",
+      time: "Cancelled",
+      location: "Cancelled",
       //slidesLink: "https://drive.google.com/file/d/1gykQmYi_uJGwR_RskRaAdOHAoyPfzJ8m/view?usp=sharing",
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1002",

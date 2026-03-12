@@ -2,16 +2,41 @@ name: Generate tutors_list.json
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Runs every 30 minutes
+    - cron: '*/59 1 * * *'
   workflow_dispatch:
   push:
 
 jobs:
   generate-tutors:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Generate tutors_list.json
-        run: npm install && node src/content/StudentServices/generateTutors.js       
+        run: node src/content/StudentServices/generateTutors.js
         env:
           SHEETS_API_KEY: ${{ secrets.SHEETS_API_KEY }}
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet public/tutors_list.json; then
+            echo "No changes detected"
+          else
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add public/tutors_list.json
+            git commit -m "Auto-update tutors_list.json"
+            git push
+          fi
