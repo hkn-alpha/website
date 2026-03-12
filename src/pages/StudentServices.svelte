@@ -26,21 +26,16 @@
       const standardizedTutorCourses = tutor.courses
         .split(",")
         .map(standardizeClassName);
-      let found = false;
-      requestedCourses.forEach((c) => {
-        found =
-          found ||
-          standardizedTutorCourses.includes(c) ||
-          standardizedTutorCourses.reduce(
-            (v, x) =>
-              v ||
-              (c.length >= 3 &&
-                c[0].toLowerCase() == c[0].toUpperCase() &&
-                x.includes(c)),
-            false
-          );
-      });
-      return found;
+
+      return requestedCourses.some((c) =>
+        standardizedTutorCourses.includes(c) ||
+        standardizedTutorCourses.some(
+          (x) =>
+            c.length >= 3 &&
+            /^\d/.test(c) &&
+            x.includes(c)
+        )
+      );
     });
   }
 
