@@ -40,6 +40,7 @@
   }
 
   let query = "";
+  $: matchingTutors = query ? getMatchingTutors(query) : [];
 
   let reviewSessionsAvailable = Object.keys(reviewSessions)
     .filter((x) => reviewSessions[x].length > 0)
@@ -141,7 +142,7 @@
               </tr>
             </thead>
             <tbody>
-              {#each getMatchingTutors(query) as tutor}
+              {#each matchingTutors as tutor}
                 <tr>
                   <td>{tutor.name}</td>
                   <td><a href={`mailto:${tutor.email}`}>{tutor.email}</a></td>
