@@ -260,7 +260,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/1zf704H7WEg6DEMtx2v9NiCiYVQ7B1uBs/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       worksheetLink: "https://drive.google.com/file/d/1F1JVFi67bGBl7OnCp05WZjkaqMDPDHze/view?usp=sharing",
       keyLink: "https://drive.google.com/file/d/1wzV7va0YPdwMBIMa_7UrB6er_c_LFkt1/view?usp=sharing",
-      //recordingLink: 'https://mediaspace.illinois.edu/media/t/1_rzcsybzm',
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_nbt48g7y',
     },
     {
       course: "ECE 220",
@@ -329,7 +329,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "3/23, 5-8pm", //+ timeslots["B"],
       location: "ECEB 1015",
       slidesLink: "https://docs.google.com/presentation/d/1daUoQMPJCXqhiKagqnTmwE6aI6CznFYM/edit?slide=id.p1#slide=id.p1",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_r65nvd24",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_7vgt6u8w",
       // scribblesLink: "https://drive.google.com/file/d/1GqrO_lFo7YKQJuKQLliPEZPeZ9oxzAlE/view?usp=sharing",
 
      },
