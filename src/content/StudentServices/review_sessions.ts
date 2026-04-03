@@ -286,7 +286,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 313",
-      time: "4/4, " + timeslots["A"],
+      time: "4/11, " + timeslots["A"],
       location: "ECEB 1013",
       // time: "11/03, 3:00-5:00PM",
       // location: "ECEB 1002",
