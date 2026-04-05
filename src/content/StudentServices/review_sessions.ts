@@ -116,7 +116,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1013",
       slidesLink:"https://docs.google.com/presentation/d/14XvCOwC8nwyqQqmCyUJ6BsGh876TpvCE/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       scribblesLink: "https://drive.google.com/file/d/1InQloKUP9GXBv8Z9HyUzugytjb2rR3RT/view?usp=sharing",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_rg19jyv1",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_usmq1lze",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_usmq1lze"
     },
     {
@@ -311,7 +311,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1zYHsfNIpaztyFu4SN3rM7G7999UcFPuF/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       //scribblesLink: "https://drive.google.com/file/d/1nKr-2g92GPrSIJ8g4Ekmnl9KhquCeZbM/view?usp=sharing",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_v4i8smud",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_jseywww6",
     },
     {
       course: "ECE 340",
