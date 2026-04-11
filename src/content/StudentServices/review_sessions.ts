@@ -313,11 +313,11 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     },
     {
       course: "ECE 340",
-      time: "4/11, " + timeslots["B"],
-      location: "ECEB 1013",
+      time: "Cancelled",
+      location: "Cancelled",
       slidesLink: "https://docs.google.com/presentation/d/16KmkLnP2_I4o7z4mVP2_t_FsfuZVe1FY/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // scribblesLink: "https://drive.google.com/file/d/11nH6Dj_LMVue9-J0vcmd21FYd6oQcR8_/view?usp=sharing",
-      //recordingLink: "https://mediaspace.illinois.edu/media/t/1_p0n2vref",
+      scribblesLink: "https://drive.google.com/file/d/11nH6Dj_LMVue9-J0vcmd21FYd6oQcR8_/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_p0n2vref",
     },
     {
       course: "ECE 342",
