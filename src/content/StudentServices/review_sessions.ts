@@ -291,8 +291,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/16M_uYixMyUd5jZFSLvOSP_Uu5hs9zdYh/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       // worksheetLink: "https://drive.google.com/file/d/1mBGVoN3EIE-K5ckPHjrQtdxplw1Fj0q5/view?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_2vmyhndm", // this is an old video
-      keyLink: "https://drive.google.com/file/d/1OWtI_mcMXzNSR8Y16O3YyWK4ZxXsi3hG/view?usp=sharing",
-      worksheetLink: "https://drive.google.com/file/d/10ksdY3uRnbHpxemixlfdGZpoAGoqcZfm/view?usp=sharing",
+      //keyLink: "https://drive.google.com/file/d/1OWtI_mcMXzNSR8Y16O3YyWK4ZxXsi3hG/view?usp=sharing",
+      //worksheetLink: "https://drive.google.com/file/d/10ksdY3uRnbHpxemixlfdGZpoAGoqcZfm/view?usp=sharing",
 
     },
     {
