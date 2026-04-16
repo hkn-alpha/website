@@ -542,7 +542,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   { 
     course: "ECE 313",
-    time: "5/7," + timeslots["B"],
+    time: "5/7, " + timeslots["B"],
     location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1zrJaOJCdGzcRGK47m3SP2u345Fd29rDNClcKoByTDzw/edit?usp=sharing",
     //keyLink: "https://drive.google.com/file/d/1QzVROQYCScq4iViyzFV04EmFAuwG1-SU/view?usp=sharing",
@@ -552,7 +552,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 329",
-    time: "5/9," + timeslots["A"],
+    time: "5/9, " + timeslots["A"],
     location: "ECEB 1013"
     // time: "12/12 5:30 PM-7:30PM",
     // location: "ECEB 1015",
@@ -583,7 +583,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 342",
-    time: "5/9," + timeslots["B"],
+    time: "5/9, " + timeslots["B"],
     location: "ECEB 1013",
     //slidesLink: "https://docs.google.com/presentation/d/1iCSgmaAaJAMmcuo5si1l2HvQj9Y66XiF/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     // scribblesLink: "https://drive.google.com/file/d/1iREa72-I-30EQzHZkMLVDkXrMdwAdZeT/view?usp=drive_link",
