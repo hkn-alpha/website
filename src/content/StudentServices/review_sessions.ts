@@ -493,8 +493,8 @@ export const until: Record<1 | 2 | 3, Date> = {
  export const crammingCarnival: ReviewSession[] = [
   {
     course: "ECE 110",
-    time: "12/11, " + timeslots["A"],
-    location: "ECEB 1013",
+    time: "5/7, " + timeslots["B"],
+    location: "ECEB 1002",
     //slidesLink: "https://docs.google.com/presentation/d/12ePwpG-iZyu1bXUUp5nW-W9eLaZJoUYV/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     //scribblesLink: "https://drive.google.com/file/d/1eU1BSM89317BV_a02iuLLOJaCVeisdAm/view?usp=sharing",
     //worksheetLink: "https://drive.google.com/file/d/1BWjwxSlsPC7mFAj-VFYUyuh2sHJs0jz4/view?usp=sharing",
@@ -513,7 +513,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 210",
-    time: "12/13, " + timeslots["A"],
+    time: "5/9, " + timeslots["A"],
     location: "ECEB 1002",
     //slidesLink: "https://docs.google.com/presentation/d/1VLyfL_a3Za7NB0BosJwT5YmSOt72gop9/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     // scribblesLink: "https://drive.google.com/file/d/1Wat6QBL5SFRFEeKUIURrta8jhfuzmaES/view?usp=sharing",  
@@ -523,7 +523,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 220",
-    time: "12/14, " + timeslots["A"],
+    time: "5/10, " + timeslots["A"],
     location: "ECEB 1002",
     //slidesLink: "https://docs.google.com/presentation/d/1mUBpwM_a9jPA7rjQSJmpJXZHr7GNLxq1/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     //worksheetLink: "https://drive.google.com/file/d/12z6UBcO1TphZwxkHE1zeQ9yyKl6q6Psq/view?usp=sharing",
@@ -532,8 +532,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 310",
-    time: "12/13, " + timeslots["B"],
-    location: "ECEB 1015",
+    time: "5/10, " + timeslots["B"],
+    location: "ECEB 1013",
     //slidesLink: "https://docs.google.com/presentation/d/1YC9jrht9hM2bMv_qCHs8U7hOrQ75zBQB/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     //keyLink: "https://drive.google.com/file/d/1ewq8pHWfcsXfvhsw_TG02XMxv_j8vjBV/view?usp=sharing",
     //worksheetLink: "https://drive.google.com/file/d/1bbWByVdfpOHKsPHyD1sHjipOrHN9BJ3m/view?usp=sharing",
@@ -542,28 +542,28 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   { 
     course: "ECE 313",
-    time: "Hosted by Class",
-    location: "Hosted by Class",
+    time: "5/7," + timeslots["B"],
+    location: "ECEB 1013",
     // slidesLink: "https://docs.google.com/presentation/d/1zrJaOJCdGzcRGK47m3SP2u345Fd29rDNClcKoByTDzw/edit?usp=sharing",
     //keyLink: "https://drive.google.com/file/d/1QzVROQYCScq4iViyzFV04EmFAuwG1-SU/view?usp=sharing",
     //worksheetLink: "https://drive.google.com/file/d/1xTY4le91bkBRWV7LFNYT1AjVmUnCTytD/view?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_ixq4mqse"
 
   },
-  // {
-  //   course: "ECE 329",
-  //   time: "TBA",
-  //   location: "TBA"
-  //   // time: "12/12 5:30 PM-7:30PM",
-  //   // location: "ECEB 1015",
-  //   // slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
-  //   // worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/worksheet.pdf",
-  //   // keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/solutions.pdf",
-  //   //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_9jlzhkww"
-  // },
+  {
+    course: "ECE 329",
+    time: "5/9," + timeslots["A"],
+    location: "ECEB 1013"
+    // time: "12/12 5:30 PM-7:30PM",
+    // location: "ECEB 1015",
+    // slidesLink: "https://docs.google.com/presentation/d/1Gybm2m75-tYJ1wMDYbxVAw4pMjjQxvkjA9UTpaCQZlA/edit?usp=sharing",
+    // worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/worksheet.pdf",
+    // keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece329/final/solutions.pdf",
+    //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_9jlzhkww"
+  },
   {
     course: "ECE 330",
-    time: "12/14, " + timeslots["B"],
+    time: "5/10, " + timeslots["B"],
     location: "ECEB 1015",
     //slidesLink: "https://docs.google.com/presentation/d/1Jc4j8TkrgTpx9cZBq2k_PgENoIlfGSWP/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     //worksheetLink: "https://drive.google.com/file/d/1BEXhB8PYrwqMw6NTWH8uw5gVCnlz-atq/view?usp=sharing",
@@ -573,8 +573,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 340",
-    time: "12/11, " + timeslots["A"],
-    location: "ECEB 1015",
+    time: "5/7, " + timeslots["A"],
+    location: "ECEB 1013",
     //slidesLink: "https://docs.google.com/presentation/d/1cx1ep0AEK2VYRpf62RXuJ4f12kiB37Pu/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     //scribblesLink: "https://drive.google.com/file/d/1jc9KEC80l6BPhyGPvFn4RzKcVfM1IAsq/view?usp=sharing",
     // worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
@@ -583,8 +583,8 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 342",
-    time: "Cancelled",
-    location: "Cancelled",
+    time: "5/9," + timeslots["B"],
+    location: "ECEB 1013",
     //slidesLink: "https://docs.google.com/presentation/d/1iCSgmaAaJAMmcuo5si1l2HvQj9Y66XiF/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
     // scribblesLink: "https://drive.google.com/file/d/1iREa72-I-30EQzHZkMLVDkXrMdwAdZeT/view?usp=drive_link",
     // worksheetLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece342/final/worksheet.pdf",
