@@ -437,6 +437,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 329",
       time: "4/25, " + timeslots["B"],
       location: "ECEB 1013",
+      slidesLink: "https://docs.google.com/presentation/d/1YQAgOLYy2yOSX2IN0JOClO-VFoxI6yN5/edit?usp=sharing&ouid=116076189588729701102&rtpof=true&sd=true",
       // time: "Cancelled",
       // location: "Cancelled",
     },
