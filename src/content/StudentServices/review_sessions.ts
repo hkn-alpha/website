@@ -437,8 +437,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1YQAgOLYy2yOSX2IN0JOClO-VFoxI6yN5/edit?usp=sharing&ouid=116076189588729701102&rtpof=true&sd=true",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_hkyyk4bi",
-      // time: "Cancelled",
-      // location: "Cancelled",
+      scribblesLink: "https://drive.google.com/file/d/1GWST2G6iOB0iS8qsV7fR0g_ZH4kag9wG/view?usp=sharing"
     },
     {
       course: "ECE 342",
