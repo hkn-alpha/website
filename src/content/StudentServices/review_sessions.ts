@@ -490,7 +490,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     course: "ECE 110",
     time: "5/7, " + timeslots["B"],
     location: "ECEB 1002",
-    //slidesLink: "https://docs.google.com/presentation/d/12ePwpG-iZyu1bXUUp5nW-W9eLaZJoUYV/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+    slidesLink: "https://docs.google.com/presentation/d/12ePwpG-iZyu1bXUUp5nW-W9eLaZJoUYV/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     //scribblesLink: "https://drive.google.com/file/d/1eU1BSM89317BV_a02iuLLOJaCVeisdAm/view?usp=sharing",
     //worksheetLink: "https://drive.google.com/file/d/1BWjwxSlsPC7mFAj-VFYUyuh2sHJs0jz4/view?usp=sharing",
     //keyLink: "https://drive.google.com/file/d/1lMyQLnJ9kpzTV9bHaGfTekP3iDaWkdNl/view?usp=sharing",
@@ -539,7 +539,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     course: "ECE 313",
     time: "5/7, " + timeslots["B"],
     location: "ECEB 1013",
-    // slidesLink: "https://docs.google.com/presentation/d/1zrJaOJCdGzcRGK47m3SP2u345Fd29rDNClcKoByTDzw/edit?usp=sharing",
+    slidesLink: "https://docs.google.com/presentation/d/1bo8bFXbbv30zet_VfbXrr5-X-K6q3nx1/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     //keyLink: "https://drive.google.com/file/d/1QzVROQYCScq4iViyzFV04EmFAuwG1-SU/view?usp=sharing",
     //worksheetLink: "https://drive.google.com/file/d/1xTY4le91bkBRWV7LFNYT1AjVmUnCTytD/view?usp=sharing",
     // recordingLink: "https://mediaspace.illinois.edu/media/t/1_ixq4mqse"
