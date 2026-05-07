@@ -492,9 +492,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     location: "ECEB 1002",
     slidesLink: "https://docs.google.com/presentation/d/12ePwpG-iZyu1bXUUp5nW-W9eLaZJoUYV/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     //scribblesLink: "https://drive.google.com/file/d/1eU1BSM89317BV_a02iuLLOJaCVeisdAm/view?usp=sharing",
-    //worksheetLink: "https://drive.google.com/file/d/1BWjwxSlsPC7mFAj-VFYUyuh2sHJs0jz4/view?usp=sharing",
-    //keyLink: "https://drive.google.com/file/d/1lMyQLnJ9kpzTV9bHaGfTekP3iDaWkdNl/view?usp=sharing",
-    //scribblesLink: "https://drive.google.com/file/d/1lQEncdub2hvT8CSZqYQU2x1haK3In_u1/view?usp=sharing",
+    worksheetLink: "https://drive.google.com/file/d/1-E-r9PLQvbZEazMQuViKRUdJHzMyc9sw/view?usp=sharing",
+    keyLink: "https://drive.google.com/file/d/1fEjNmGThvBhsL99cfytRuHSnwKicNovV/view?usp=sharing",
     //recordingLink: "https://mediaspace.illinois.edu/media/t/1_ddcodj9o"
   },
   {
