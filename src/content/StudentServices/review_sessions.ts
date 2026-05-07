@@ -467,7 +467,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
 export const until: Record<1 | 2 | 3, Date> = {
   1: new Date(2026, 2 , 4),
   2: new Date(2026, 3, 11), // ends 11/10
-  3: new Date(2026, 5, 6), // Date(1) makes sure this will never be default bc it occured in the past
+  3: new Date(2026, 4, 5), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
 // export const until: Record<1 | 2 | 3, string> = {
