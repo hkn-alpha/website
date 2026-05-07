@@ -569,7 +569,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     course: "ECE 340",
     time: "5/7, " + timeslots["A"],
     location: "ECEB 1013",
-    //slidesLink: "https://docs.google.com/presentation/d/1cx1ep0AEK2VYRpf62RXuJ4f12kiB37Pu/edit?usp=sharing&ouid=114909937515227017827&rtpof=true&sd=true",
+    slidesLink: "https://docs.google.com/presentation/d/12SoLcya143x_Y1W_wf9Z8ilPqzHQyW26/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     //scribblesLink: "https://drive.google.com/file/d/1jc9KEC80l6BPhyGPvFn4RzKcVfM1IAsq/view?usp=sharing",
     // worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
     // keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link",
