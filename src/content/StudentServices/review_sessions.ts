@@ -536,13 +536,12 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   { 
     course: "ECE 313",
-    time: "5/7, " + timeslots["B"],
+    time: "Cancelled",
     location: "ECEB 1013",
     slidesLink: "https://docs.google.com/presentation/d/1bo8bFXbbv30zet_VfbXrr5-X-K6q3nx1/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-    //keyLink: "https://drive.google.com/file/d/1QzVROQYCScq4iViyzFV04EmFAuwG1-SU/view?usp=sharing",
-    //worksheetLink: "https://drive.google.com/file/d/1xTY4le91bkBRWV7LFNYT1AjVmUnCTytD/view?usp=sharing",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_ixq4mqse"
-
+    keyLink: "https://drive.google.com/file/d/1QzVROQYCScq4iViyzFV04EmFAuwG1-SU/view?usp=sharing",
+    worksheetLink: "https://drive.google.com/file/d/1xTY4le91bkBRWV7LFNYT1AjVmUnCTytD/view?usp=sharing",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_ixq4mqse"
   },
   {
     course: "ECE 329",
