@@ -494,7 +494,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     //scribblesLink: "https://drive.google.com/file/d/1eU1BSM89317BV_a02iuLLOJaCVeisdAm/view?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1-E-r9PLQvbZEazMQuViKRUdJHzMyc9sw/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1fEjNmGThvBhsL99cfytRuHSnwKicNovV/view?usp=sharing",
-    //recordingLink: "https://mediaspace.illinois.edu/media/t/1_ddcodj9o"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_9g5jx8y4"
   },
   {
     course: "ECE 120",
@@ -572,7 +572,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     //scribblesLink: "https://drive.google.com/file/d/1jc9KEC80l6BPhyGPvFn4RzKcVfM1IAsq/view?usp=sharing",
     // worksheetLink: "https://drive.google.com/file/d/1rIH525Xakr1k7IbjlBj76D0eJ8Fdf8pS/view?usp=drive_link",
     // keyLink: "https://drive.google.com/file/d/1vTX3C6JHfh1NDaruQ4NC4uLtEMW_M0nN/view?usp=drive_link",
-    //recordingLink: "https://mediaspace.illinois.edu/media/t/1_jxr0f9gq"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_wcxw59bc"
   },
   {
     course: "ECE 342",
