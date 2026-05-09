@@ -514,7 +514,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   {
     course: "ECE 220",
     time: "5/10, " + timeslots["A"],
-    location: "ECEB 1002",
+    location: "https://illinois.zoom.us/j/84738557638?pwd=NrcyFoJ4PzbJ7EtlAlq2uCTqdctEN4.1",
     slidesLink: "https://docs.google.com/presentation/d/1mUBpwM_a9jPA7rjQSJmpJXZHr7GNLxq1/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     worksheetLink: "https://drive.google.com/file/d/1shgo5BpuZjQacqSWgqAlP_rCBhiTC_yC/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1sKfHZGtq3KN27EfCH9rI0i0-EqXMANtd/view?usp=sharing",
@@ -576,7 +576,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     scribblesLink: "https://drive.google.com/drive/folders/1Wxr3WUWe93oTvSvoW-mWLEtEOTXFJAfx?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1VvARW7eWCNgjC6CjvL86clXYVa-y3YEr/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1iXXsDVItfZ_0tNRYXD3yvRFy0peT30aN/view?usp=sharing",
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_sngknj2c",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_sngknj2c",
   },
   // {
   //   course: "CS 374A",
