@@ -507,8 +507,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     location: "ECEB 1002",
     slidesLink: "https://docs.google.com/presentation/d/1VLyfL_a3Za7NB0BosJwT5YmSOt72gop9/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     //scribblesLink: "https://drive.google.com/file/d/1Wat6QBL5SFRFEeKUIURrta8jhfuzmaES/view?usp=sharing",  
-    //worksheetLink: "https://drive.google.com/file/d/1A4ibBTbAeQcyxb42Jysd8tUN9CCRVSyr/view?usp=sharing",
-    //keyLink: "https://drive.google.com/file/d/1fCpUEEywHAnG5sKKawTeN0K1dB1EFTxt/view?usp=sharing",
+    worksheetLink: "https://drive.google.com/file/d/1LD-1QF4u02HLjbKBYQAcqPLEFOwXBTZf/view?usp=sharing",
+    keyLink: "https://drive.google.com/file/d/1wK_P-skyrFCeJT3Q5N4BwAenx4zUBB2Z/view?usp=sharing",
     //recordingLink: "https://mediaspace.illinois.edu/media/t/1_as7y7ztf"
   },
   {
