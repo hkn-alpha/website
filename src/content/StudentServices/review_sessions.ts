@@ -516,8 +516,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     time: "5/10, " + timeslots["A"],
     location: "ECEB 1002",
     slidesLink: "https://docs.google.com/presentation/d/1mUBpwM_a9jPA7rjQSJmpJXZHr7GNLxq1/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-    //worksheetLink: "https://drive.google.com/file/d/12z6UBcO1TphZwxkHE1zeQ9yyKl6q6Psq/view?usp=sharing",
-    //keyLink: "https://drive.google.com/file/d/1CiW3oLMHZ1PavUzqJo6n4WTuCv6CymhE/view?usp=sharing",
+    worksheetLink: "https://drive.google.com/file/d/1shgo5BpuZjQacqSWgqAlP_rCBhiTC_yC/view?usp=sharing",
+    keyLink: "https://drive.google.com/file/d/1sKfHZGtq3KN27EfCH9rI0i0-EqXMANtd/view?usp=sharing",
     recordingLink: "https://mediaspace.illinois.edu/media/t/1_tck8l90j"
   },
   {
