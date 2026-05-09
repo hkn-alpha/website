@@ -549,7 +549,7 @@ export const until: Record<1 | 2 | 3, Date> = {
   },
   {
     course: "ECE 330",
-    time: "5/10, " + timeslots["B"],
+    time: "Cancelled",
     location: "ECEB 1015",
     slidesLink: "https://docs.google.com/presentation/d/1Jc4j8TkrgTpx9cZBq2k_PgENoIlfGSWP/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     worksheetLink: "https://drive.google.com/file/d/1GOT2VcWSKMvXFhG1AL9UklDDGj4mxlDK/view?usp=sharing",
