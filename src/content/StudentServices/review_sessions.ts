@@ -500,17 +500,13 @@ export const until: Record<1 | 2 | 3, Date> = {
     course: "ECE 120",
     time: "Hosted by Class",
     location: "Hosted by Class",
-    //keyLink: "https://drive.google.com/file/d/1DR4bxqfcTjHCbpQszkiN6_qBnj-NBR_b/view?usp=sharing",
-    //worksheetLink: "https://drive.google.com/file/d/1EbtiOog06x09W3rruxk45enZt_RRYfX9/view?usp=sharing",
-    
-    // recordingLink: "https://mediaspace.illinois.edu/media/t/1_lbwrxpvx"
   },
   {
     course: "ECE 210",
     time: "5/9, " + timeslots["A"],
     location: "ECEB 1002",
     slidesLink: "https://docs.google.com/presentation/d/1VLyfL_a3Za7NB0BosJwT5YmSOt72gop9/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-    // scribblesLink: "https://drive.google.com/file/d/1Wat6QBL5SFRFEeKUIURrta8jhfuzmaES/view?usp=sharing",  
+    //scribblesLink: "https://drive.google.com/file/d/1Wat6QBL5SFRFEeKUIURrta8jhfuzmaES/view?usp=sharing",  
     //worksheetLink: "https://drive.google.com/file/d/1A4ibBTbAeQcyxb42Jysd8tUN9CCRVSyr/view?usp=sharing",
     //keyLink: "https://drive.google.com/file/d/1fCpUEEywHAnG5sKKawTeN0K1dB1EFTxt/view?usp=sharing",
     //recordingLink: "https://mediaspace.illinois.edu/media/t/1_as7y7ztf"
@@ -522,7 +518,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1mUBpwM_a9jPA7rjQSJmpJXZHr7GNLxq1/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     //worksheetLink: "https://drive.google.com/file/d/12z6UBcO1TphZwxkHE1zeQ9yyKl6q6Psq/view?usp=sharing",
     //keyLink: "https://drive.google.com/file/d/1CiW3oLMHZ1PavUzqJo6n4WTuCv6CymhE/view?usp=sharing",
-    //recordingLink: "https://mediaspace.illinois.edu/media/t/1_tck8l90j"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_tck8l90j"
   },
   {
     course: "ECE 310",
@@ -559,8 +555,8 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1Jc4j8TkrgTpx9cZBq2k_PgENoIlfGSWP/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     //worksheetLink: "https://drive.google.com/file/d/1BEXhB8PYrwqMw6NTWH8uw5gVCnlz-atq/view?usp=sharing",
     //keyLink: "https://drive.google.com/file/d/1Db3z-m3_NaL04KhZs3cgS-hxJJqXL3Xz/view?usp=sharing",
-    // keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece330/final/solutions.pdf",
-    //recordingLink: "https://mediaspace.illinois.edu/media/t/1_f6s3268r"
+    //keyLink: "https://github.com/hkn-alpha/worksheets/blob/main/ece330/final/solutions.pdf",
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_f6s3268r"
   },
   {
     course: "ECE 340",
