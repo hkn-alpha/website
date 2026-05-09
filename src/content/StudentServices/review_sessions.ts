@@ -546,7 +546,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     scribblesLink: "https://drive.google.com/file/d/1WTxqSeqcOljO_PeODv9D5EBzrWo1xN8X/view?usp=sharing",
     worksheetLink: "https://drive.google.com/file/d/1zEiGkf5R8PgvhyFDZEVDTlZclV4PGK0R/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1Hkviz9tcwYBYYoz6zHQurRKbcboHDHaG/view?usp=sharing",
-    //  recordingLink: "https://mediaspace.illinois.edu/media/t/1_9jlzhkww"
+    recordingLink: "https://mediaspace.illinois.edu/media/t/1_9jlzhkww"
   },
   {
     course: "ECE 330",
