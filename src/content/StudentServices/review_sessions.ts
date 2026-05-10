@@ -518,7 +518,7 @@ export const until: Record<1 | 2 | 3, Date> = {
     slidesLink: "https://docs.google.com/presentation/d/1mUBpwM_a9jPA7rjQSJmpJXZHr7GNLxq1/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
     worksheetLink: "https://drive.google.com/file/d/1shgo5BpuZjQacqSWgqAlP_rCBhiTC_yC/view?usp=sharing",
     keyLink: "https://drive.google.com/file/d/1sKfHZGtq3KN27EfCH9rI0i0-EqXMANtd/view?usp=sharing",
-    recordingLink: "https://mediaspace.illinois.edu/media/t/1_tck8l90j"
+    recordingLink: "https://illinois.zoom.us/rec/play/2QktmJq37nYiu0AH3xQhMwy_-sRcQ8vbi_dnwvNW6Vl67pK6N3uZz4Fk_1qvwlLm817_TVkZGyw4IB-j.dhS4MUdI7KHkrHtK?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&oldStyle=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fillinois.zoom.us%2Frec%2Fshare%2FYVSQlaHH9ntrMp9vJxFvVW6-iYw6eS3EdS1x9dXVRe16db552_jOeloNyi77TRXJ.tJ5UstOJdm24olGH"
   },
   {
     course: "ECE 310",
