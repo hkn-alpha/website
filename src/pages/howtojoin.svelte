@@ -52,5 +52,12 @@
     padding-right: 23px;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .md-container {
+      font-size: 17px;
+    }
   }
 </style>
