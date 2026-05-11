@@ -3,7 +3,7 @@
   import Home from "./pages/Home.svelte";
   import StudentServices from "./pages/StudentServices.svelte";
   import FourOhFour from "./pages/FourOhFour.svelte";
-  import Sponsors from "./pages/sponsers.svelte"
+  import Sponsors from "./pages/sponsors.svelte"
   import Howtojoin from "./pages/howtojoin.svelte";
 </script>
 
