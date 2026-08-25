@@ -75,7 +75,7 @@
   }
 
   .content {
-    max-width: 900px;
+    max-width: 800px;
     padding: 24px;
     margin: auto;
     background-color: #0f2040;
@@ -92,6 +92,13 @@
     font-size: 19px;
     color: white;
     margin-bottom: 2rem;
+    text-align: justify;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .md-container {
+      font-size: 17px;
+    }
   }
 
   .logo-grid {
@@ -145,7 +152,7 @@
       padding: 16px;
     }
     .sponsor-image {
-      height: 80px;
+      height: 100px;
     }
   }
 
@@ -161,9 +168,15 @@
 }
 
 .sponsor-hkn h2 {
-  font-size: 2rem;
+  font-family: "DM Serif Display", Garamond, serif;
+  font-weight: 600;
+  font-size: 36px;
   margin-bottom: 1rem;
   color: white;
+  text-decoration: underline;
+  text-decoration-color: #e84a27;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 5px;
 }
 
 .sponsor-hkn .md-container {
@@ -175,11 +188,11 @@
   text-align: center;
 }
 
-.sponsor-hkn img {
+:global(.sponsor-hkn .md-container img) {
   display: block;          
   margin: 1rem auto;  
-  max-width: 900px;
   width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.25);
   margin-top: 1rem;

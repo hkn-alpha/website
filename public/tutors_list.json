@@ -78,5 +78,10 @@
     "email": "rohan24@illinois.edu",
     "name": "Rohan Das",
     "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 329, PHYS 212, ECE 342"
+  },
+  {
+    "email": "shabbir4@illinois.edu",
+    "name": "Abdullah Shabbir",
+    "courses": "ECE 110, ECE 220"
   }
 ]

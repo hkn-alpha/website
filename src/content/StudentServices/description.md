@@ -2,4 +2,4 @@ HKN offers many student services, the most popular of which are exam review sess
 
 We're committed to continuously improving our services. If you've recently attended or watched a review session, please consider filling out our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdw3kWh2bGqrUcBFtWbEoZ6nTNc9q5_NAxYruvesSDRuEtkcw/viewform?usp=sf_link).
 
-***To access these resources, please use your @illinois.edu account!***
+***To access these resources, please use your NetID@illinois.edu account!***

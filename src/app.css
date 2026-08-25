@@ -315,7 +315,7 @@ body {
 }
 
 main {
-  max-width: 626px;
+  max-width: 800px;
   padding-left: 23px;
   padding-right: 23px;
   margin-left: auto;
@@ -340,6 +340,14 @@ p {
   font-size: 19px;
   margin-top: 5px;
   line-height: 25.5px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 17px;
+    line-height: 23px;
+  }
 }
 
 main img {
@@ -419,7 +427,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
-  max-width: 650px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -492,12 +500,12 @@ html {
 
 .link_icon svg {
   position: relative;
-  top: 8px;
 }
 
 .cta p {
   font-family: "DM Serif Text", sans-serif;
   font-size: 30px;
+  text-align: center;
 }
 
 .select input {

@@ -301,8 +301,8 @@
   /* CONTAINER: Outer wrapper for centering */
   .calendar-container {
     width: 100%;
-    max-width: 500px;
-    margin: 2rem auto; /* Center horizontally with auto margins */
+    max-width: 100%;
+    margin: 2rem 0; /* Align with text margins */
   }
 
   /* WIDGET: Main calendar card */
@@ -399,7 +399,7 @@
     width: 2rem;
     height: 2rem;
     border: 3px solid #e5e7eb; /* Light gray circle */
-    border-top-color: #6366f1; /* Blue top for spinning effect */
+    border-top-color: #0f2040; /* HKN Dark Blue */
     border-radius: 50%; /* Make it circular */
     animation: spin 1s linear infinite; /* Continuous rotation */
     margin-bottom: 1rem;
@@ -438,7 +438,7 @@
   /* ACTION BUTTONS: Retry and Today buttons */
   .retry-btn, .today-btn {
     padding: 0.5rem 1rem;
-    background-color: #6366f1; /* Indigo background */
+    background-color: #0f2040; /* HKN Dark Blue */
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -448,7 +448,7 @@
   }
 
   .retry-btn:hover, .today-btn:hover {
-    background-color: #4f46e5; /* Darker indigo on hover */
+    background-color: #1a325c; /* Lighter shade of HKN Dark Blue */
   }
 
   /* EVENTS CONTAINER: Vertical stack of events */
@@ -507,7 +507,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%; /* Make it circular */
-    background-color: #6366f1; /* Indigo color */
+    background-color: #e84a27; /* HKN Orange */
     flex-shrink: 0; /* Don't shrink this element */
   }
 

@@ -7,8 +7,8 @@
   <input type="checkbox" id="nav-check" />
   <div class="nav-header">
     <div class="nav-title">
-      <Link to="/" class="coola" style="color: white; text-decoration: none;">
-        <img src="/logo.svg" alt="Eta Kappa Nu" width="100px" height="auto" />
+      <Link to="/" class="coola">
+        <img src="/logo.svg" alt="Eta Kappa Nu" />
       </Link>
     </div>
   </div>
@@ -20,23 +20,21 @@
 
   <div class="nav-links">
     <span class="nav-link not-icon">
-      <Link to="/" style="color: white; text-decoration: none;">Home</Link>
+      <Link to="/">Home</Link>
     </span>
     <span class="nav-link not-icon">
-      <Link to="/services" style="color: white; text-decoration: none;"
-        >Student Services</Link
-      >
+      <Link to="/services">Student Services</Link>
     </span>
     <span class= "nav-link not-icon">
-      <Link to="/sponsors" style= "color: white; text-decoration: none;">Sponsors</Link>
+      <Link to="/sponsors">Sponsors</Link>
     </span>
     <span class= "nav-link not-icon">
-      <Link to="/howtojoin" style= "color: white; text-decoration: none;">Get Involved</Link>
+      <Link to="/howtojoin">Get Involved</Link>
     </span>
     
     {#each links as NLink}
       <span
-        class={NLink.icon ? `nav-link adjusted-nav-link` : `nav-link not-icon`}
+        class={NLink.icon ? `nav-link` : `nav-link not-icon`}
       >
         <a href={NLink.href}>
           {#if NLink.icon}
@@ -53,40 +51,67 @@
 
 <style>
   .nav {
-    height: 50px;
+    display: flex;
+    align-items: center;
+    height: 80px;
     width: 100%;
     position: relative;
+    padding: 0 10px;
   }
 
   .nav > .nav-header {
-    display: inline;
+    display: flex;
+    align-items: center;
     z-index: 3;
-    position: sticky;
+    height: 100%;
   }
 
   .nav > .nav-header > .nav-title {
-    display: inline-block;
     font-size: 22px;
     color: #fff;
-    padding: 10px 10px 10px 10px;
     z-index: 3;
+    display: flex;
+    align-items: center;
+    height: 100%;
   }
+
+  .nav > .nav-header > .nav-title :global(.coola) {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav > .nav-header > .nav-title img {
+    display: block;
+    height: 100px;
+    width: auto;
+    transform: translateY(25px);
+  }
+
 
   .nav > .nav-btn {
     display: none;
   }
 
   .nav > .nav-links {
-    display: inline;
-    float: right;
-    font-size: 18px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    padding-right: 120px; /* Offset for the logo to ensure true centering */
   }
 
-  .nav > .nav-links > .nav-link {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
+  .nav > .nav-links > .nav-link :global(a) {
+    display: flex;
+    align-items: center;
+    color: white;
     text-decoration: none;
-    color: #efefef;
+    padding: 0px 15px;
+  }
+
+  .nav > .nav-links > .nav-link:hover {
+    transition: background-color 0.2s;
   }
   @media only screen and (max-width: 600px) {
     .nav > .nav-links > .nav-link:hover {
@@ -111,18 +136,25 @@
   }
 
   @media (max-width: 600px) {
+    .nav {
+      height: 60px; /* Slightly shorter on mobile */
+      justify-content: space-between;
+      padding: 0 0 0 0px; /* Removed right padding */
+    }
     .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       z-index: 2;
+      height: 100%;
     }
     .nav > .nav-btn > label {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 50px;
       height: 50px;
-      padding: 13px;
+      cursor: pointer;
     }
     .nav > .nav-btn > label:hover,
     .nav #nav-check:checked ~ .nav-btn > label {
@@ -136,14 +168,17 @@
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      padding-top: 125px;
+      padding-top: 120px;
+      padding-right: 0; /* Remove desktop offset */
       top: 0px;
       left: 0px;
       z-index: 1;
+      flex: none; /* Reset flex from desktop */
     }
     .nav > .nav-links > .nav-link {
       display: block;
       width: 100%;
+      padding: 15px 0px;
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
       height: 0px;
@@ -163,7 +198,6 @@
       height: 2px;
       position: relative;
       width: 22px;
-      margin-top: 10px;
     }
     .hamb-line::before,
     .hamb-line::after {
@@ -187,13 +221,13 @@
     }
     .nav > #nav-check:checked ~ .nav-btn label .hamb-line::before {
       transform: rotate(-45deg);
-      top: -1px;
-      left: -1.5px;
+      top: 0;
+      left: 0;
     }
     .nav > #nav-check:checked ~ .nav-btn label .hamb-line::after {
       transform: rotate(45deg);
-      top: -1px;
-      left: -1.5px;
+      top: 0;
+      left: 0;
     }
   }
 
@@ -212,12 +246,15 @@
     .link_text {
       display: none;
     }
-    .adjusted-nav-link {
-      margin-top: -25px;
-    }
 
     .nav-links {
       padding-right: 10px;
+    }
+
+    .link_icon {
+      display: flex;
+      align-items: center;
+      transform: translateY(-2px); /* Slight upward shift to visually center */
     }
   }
 </style>
