@@ -10,5 +10,11 @@ import ServicesWithRouter from "./ServicesWithRouter.svelte";
 
 test("student services", async () => {
   render(ServicesWithRouter);
-  expect(screen.getByText("Find a Tutor")).toBeInTheDocument();
+  expect(screen.getByText("Request a Tutor")).toBeInTheDocument();
+  expect(screen.getByLabelText("Your name")).toBeInTheDocument();
+  expect(
+    screen.getByLabelText("Courses you need tutoring in")
+  ).toBeInTheDocument();
+  expect(screen.getByLabelText("Your Illinois email")).toBeInTheDocument();
+  expect(screen.getByLabelText("Days and times you're free")).toBeInTheDocument();
 });

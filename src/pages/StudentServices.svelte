@@ -7,40 +7,79 @@
     crammingCarnival,
     until,
   } from "../content/StudentServices/review_sessions";
-  import { tutors as unorderedTutors } from "../content/StudentServices/tutors";
   import Select from "svelte-select";
   import Description from "../content/StudentServices/description.md";
   import Tutoring from "../content/StudentServices/tutoring.md";
-  const tutors = unorderedTutors
-    .map((x) => ({ v: x, r: Math.random() }))
-    .sort((x,y) => x.r - y.r)
-    .map((x) => x.v);
+  import { submitTutoringRequest } from "../content/StudentServices/tutoringRequest";
 
-  function standardizeClassName(name) {
-    return name.toUpperCase().replaceAll(" ", "").replaceAll(",", "");
+  let name = "";
+  let courses = "";
+  let email = "";
+  let availability = "";
+  let honeypot = "";
+  let status = "idle";
+  let errorMessage = "";
+
+  const RATE_LIMIT_KEY = "hkn-tutoring-request-last-sent";
+  const RATE_LIMIT_MS = 30000;
+
+  function lastSubmissionTime() {
+    try {
+      return parseInt(localStorage.getItem(RATE_LIMIT_KEY)) || 0;
+    } catch {
+      return 0;
+    }
   }
 
-  function getMatchingTutors(query) {
-    const requestedCourses = query.split(",").map(standardizeClassName);
-    return tutors.filter((tutor) => {
-      const standardizedTutorCourses = tutor.courses
-        .split(",")
-        .map(standardizeClassName);
-
-      return requestedCourses.some((c) =>
-        standardizedTutorCourses.includes(c) ||
-        standardizedTutorCourses.some(
-          (x) =>
-            c.length >= 3 &&
-            /^\d/.test(c) &&
-            x.includes(c)
-        )
-      );
-    });
+  function recordSubmission() {
+    try {
+      localStorage.setItem(RATE_LIMIT_KEY, Date.now().toString());
+    } catch {
+      // Private browsing or blocked storage; the rate limit is best-effort
+    }
   }
 
-  let query = "";
-  $: matchingTutors = query ? getMatchingTutors(query) : [];
+  function validate() {
+    if (!name.trim()) return "Please enter your name.";
+    if (!courses.trim()) return "Please enter the course(s) you need help with.";
+    if (!/^[^\s@]+@illinois\.edu$/i.test(email.trim()))
+      return "Please enter your Illinois email (ending in @illinois.edu).";
+    if (!availability.trim())
+      return "Please let us know when you're free.";
+    if (Date.now() - lastSubmissionTime() < RATE_LIMIT_MS)
+      return "You just sent a request. Please wait a moment before sending another.";
+    return "";
+  }
+
+  async function handleSubmit() {
+    if (honeypot) return;
+
+    errorMessage = validate();
+    if (errorMessage) {
+      status = "error";
+      return;
+    }
+
+    status = "submitting";
+    try {
+      await submitTutoringRequest({
+        name: name.trim(),
+        courses: courses.trim(),
+        email: email.trim(),
+        availability: availability.trim(),
+      });
+      recordSubmission();
+      name = "";
+      courses = "";
+      email = "";
+      availability = "";
+      status = "success";
+    } catch (e) {
+      errorMessage =
+        "We couldn't send your request. Please try again, or email us using the link on our homepage.";
+      status = "error";
+    }
+  }
 
   let reviewSessionsAvailable = Object.keys(reviewSessions)
     .filter((x) => reviewSessions[x].length > 0)
@@ -115,50 +154,59 @@
         </p>
       {/if}
 
-      <h1 id="tutoring">Find a Tutor</h1>
+      <h1 id="tutoring">Request a Tutor</h1>
       <div class="instructions md-container">
         <Tutoring />
       </div>
-      <input
-        class="tutor-search"
-        type="text"
-        placeholder="Search for courses (comma-separated, e.x. ECE110, ECE120)"
-        spellcheck="false"
-        bind:value={query}
-      />
-      {#if getMatchingTutors(query).length > 0}
-        <div class="table-container">
-          <table>
-            <colgroup>
-              <col span="1" style="width: 30%;" />
-              <col span="1" style="width: 30%;" />
-              <col span="1" style="width: 40%;" />
-            </colgroup>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Courses offered</th>
-              </tr>
-            </thead>
-            <tbody>
-              {#each matchingTutors as tutor}
-                <tr>
-                  <td>{tutor.name}</td>
-                  <td><a href={`mailto:${tutor.email}`}>{tutor.email}</a></td>
-                  <td>{tutor.courses}</td>
-                </tr>
-              {/each}
-            </tbody>
-          </table>
-        </div>
-      {:else if query == ""}
-        <p class="needs-query">Start typing to see results...</p>
-      {:else}
-        <p class="no-results">
-          We couldn't find any tutors. Make sure your course names and numbers
-          are correct.
+      <form class="tutor-form" on:submit|preventDefault={handleSubmit}>
+        <input
+          class="tutor-field honeypot"
+          type="text"
+          tabindex="-1"
+          autocomplete="off"
+          aria-hidden="true"
+          bind:value={honeypot}
+        />
+        <input
+          class="tutor-field"
+          type="text"
+          placeholder="Your name"
+          aria-label="Your name"
+          bind:value={name}
+        />
+        <input
+          class="tutor-field"
+          type="text"
+          placeholder="Courses you need tutoring in (e.x. ECE 110, MATH 257)"
+          aria-label="Courses you need tutoring in"
+          spellcheck="false"
+          bind:value={courses}
+        />
+        <input
+          class="tutor-field"
+          type="email"
+          placeholder="Your Illinois email"
+          aria-label="Your Illinois email"
+          spellcheck="false"
+          bind:value={email}
+        />
+        <textarea
+          class="tutor-field"
+          rows="3"
+          placeholder="Days and times you're free (e.x. Mon/Wed after 3pm, Sat mornings)"
+          aria-label="Days and times you're free"
+          bind:value={availability}
+        />
+        <button class="tutor-submit" type="submit" disabled={status === "submitting"}>
+          {status === "submitting" ? "Sending..." : "Send request"}
+        </button>
+      </form>
+      {#if status === "success"}
+        <p class="form-success">
+          Thanks! We've received your request and a tutor will email you soon.
         </p>
+      {:else if status === "error"}
+        <p class="form-error">{errorMessage}</p>
       {/if}
     </div>
   </div>
@@ -204,12 +252,16 @@
       font-size: 17px;
     }
   }
-  a {
-    color: white !important;
+
+  .tutor-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
   }
 
-  .tutor-search {
+  .tutor-field {
     width: 100%;
+    box-sizing: border-box;
     background-color: #0f2040;
     border: none;
     padding-top: 8px;
@@ -220,52 +272,38 @@
     font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
     font-size: 18px;
     border-bottom: 3px solid #546482;
-    /* margin-top: -120px; */
     margin-bottom: 20px;
+    resize: vertical;
   }
 
-  .tutor-search::placeholder {
+  .tutor-field::placeholder {
     color: #ddd;
     font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
   }
 
-  table {
-    width: 100%;
+  .honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+  }
+
+  .tutor-submit {
+    align-self: flex-start;
+    background-color: #e84a27;
+    border: none;
+    border-radius: 3px;
     color: white;
-    border-collapse: collapse;
-    margin-bottom: 60px;
-    min-width: 700px;
+    cursor: pointer;
+    font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 24px;
   }
 
-  .table-container {
-    overflow-x: scroll;
-    scrollbar-width: none;
-  }
-
-  .table-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  tr {
-    border-bottom: 2px solid white;
-    line-height: 50px;
-  }
-
-  thead tr {
-    border-bottom: 4px solid white;
-  }
-
-  tbody tr:nth-child(even) {
-    /** CSS 1-indexes children */
-    background-color: #2f3e59;
-  }
-
-  td {
-    text-align: center;
-  }
-
-  a {
-    color: white !important;
+  .tutor-submit:disabled {
+    background-color: #546482;
+    cursor: default;
   }
 
   .instructions {
@@ -273,9 +311,14 @@
   }
 
   .needs-query,
-  .no-results {
+  .form-success,
+  .form-error {
     margin-top: 5px;
     text-align: center;
+  }
+
+  .form-error {
+    color: #ffb3a1;
   }
 
   @media only screen and (max-width: 457px) {
