@@ -1,0 +1,6 @@
+name = "hkn-tutoring-request"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# DISCORD_WEBHOOK_URL is set with `npx wrangler secret put DISCORD_WEBHOOK_URL`.
+# Never add it here: this file is committed.
