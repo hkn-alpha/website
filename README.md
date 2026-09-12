@@ -58,6 +58,14 @@ Want to edit something you see on the website? Below is a (hopefully-updated) ma
 
 If the process to edit one of these files is non-obvious, you can find documentation in the file itself, and/or in the sections below.
 
+### Tutoring Request Form
+
+The "Request a Tutor" form on the Student Services page posts to `/api/tutoring-request`, which is the Netlify function in `netlify/functions/tutoring-request.mjs`. That function forwards the submission to a Discord webhook and is the only place the webhook URL exists.
+
+The URL is read from the `TUTORS_WEBHOOK` environment variable, which must be set in the Netlify site settings (Site configuration > Environment variables). Keeping it there rather than in the code means it is never included in the JavaScript sent to visitors, so it cannot be scraped off the site.
+
+Note that `npm run dev` serves the Svelte app only, so the form returns a 404 locally. To test it, install the Netlify CLI and run `netlify dev`, with `TUTORS_WEBHOOK` set in a local `.env` file (`.env` is gitignored; never commit the webhook URL).
+
 ### Uploading Images/Media
 
 Images should be placed in the `public` folder with a descriptive name. You can reference images from that folder in Markdown like this:

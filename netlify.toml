@@ -1,3 +1,11 @@
+[build]
+    functions = "netlify/functions"
+
+[[redirects]]
+    from = "/api/tutoring-request"
+    to = "/.netlify/functions/tutoring-request"
+    status = 200
+
 [[redirects]]
     from = "/initiates"
     to = "/"
