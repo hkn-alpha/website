@@ -55,6 +55,7 @@ Want to edit something you see on the website? Below is a (hopefully-updated) ma
 9. List of tutors: `StudentServices/tutors.ts`
 10. Description of student services (below "Student Services" heading): `StudentServices/description.md`
 11. Description of tutoring: `StudentServices/tutoring.md`
+12. Where tutoring requests are sent: see "Tutoring Request Form" below
 
 If the process to edit one of these files is non-obvious, you can find documentation in the file itself, and/or in the sections below.
 
@@ -78,6 +79,30 @@ Some dont's:
 - Delete images that are still in use (use Ctrl + F to find uses of a filename)
 - Delete `logo.svg`, ever
 - Delete anything that starts with `favicon` or is not an image file.
+
+## Tutoring Request Form
+
+The "Request a Tutor" form on the Student Services page posts to a Cloudflare Worker (`worker/`), which forwards the request to Discord. The Discord webhook URL lives only in a Worker secret, so it is never in this repo and never in the JavaScript we ship to visitors. Putting the webhook back into the site, even encrypted or injected from a GitHub secret at build time, would make it scrapable again: anything the browser can decrypt or read, a bot can too.
+
+The Worker rebuilds the Discord message itself, so a caller cannot choose the username, the message content, or mentions. It only accepts `@illinois.edu` addresses and requests from our own origins.
+
+**Deploying the Worker** (needed only when `worker/src/index.js` changes):
+
+1. `cd worker`
+2. `npx wrangler login` (once per machine, free Cloudflare account)
+3. `npx wrangler deploy`
+
+Wrangler prints a `*.workers.dev` URL. Put it in `WORKER_URL` in `src/content/StudentServices/tutoringRequest.ts`. That URL is public and fine to commit.
+
+**Setting the webhook** (once, and again whenever the webhook is rotated):
+
+```
+npx wrangler secret put DISCORD_WEBHOOK_URL
+```
+
+Paste the webhook when prompted. It is stored on Cloudflare and survives later deploys. Never put it in `wrangler.toml`, a GitHub secret, a commit, or a PR. If a webhook is ever leaked, delete it in Discord and create a new one: deleting it is what actually stops the spam, since the old URL stays in git history forever.
+
+**Testing locally:** create `worker/.dev.vars` (gitignored) containing `DISCORD_WEBHOOK_URL="..."`, then run `npx wrangler dev` in `worker/` alongside `npm run dev`. In dev the form posts to `http://127.0.0.1:8787` automatically.
 
 ## Adding a New Page
 

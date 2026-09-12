@@ -1,5 +1,8 @@
-export const WEBHOOK_URL =
-  "https://discord.com/api/webhooks/1546227360083214446/KcPIO_RKHCfFIG6_HbjL4Tr8oGLh_khX9lduwxq_8GCHRt_H0hjpvEizUoiTA5jwTDzr";
+// Requests go through a Cloudflare Worker (see `worker/`) that holds the Discord
+// webhook. This URL is public; the webhook itself never reaches the browser.
+const WORKER_URL = "https://hkn-tutoring-request.hkn-tutoring.workers.dev";
+
+const ENDPOINT = import.meta.env.DEV ? "http://127.0.0.1:8787" : WORKER_URL;
 
 export type TutoringRequest = {
   name: string;
@@ -14,32 +17,13 @@ export async function submitTutoringRequest({
   email,
   availability,
 }: TutoringRequest): Promise<void> {
-  const body = {
-    username: "HKN Tutoring",
-    // Keeps @everyone / @here in the submitted text from pinging the channel
-    allowed_mentions: { parse: [] },
-    embeds: [
-      {
-        title: "New Tutoring Request",
-        color: 0xe84a27,
-        timestamp: new Date().toISOString(),
-        fields: [
-          { name: "Name", value: name },
-          { name: "Courses", value: courses },
-          { name: "Email", value: email },
-          { name: "Availability", value: availability },
-        ],
-      },
-    ],
-  };
-
-  const response = await fetch(WEBHOOK_URL, {
+  const response = await fetch(ENDPOINT, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
+    body: JSON.stringify({ name, courses, email, availability }),
   });
 
   if (!response.ok) {
-    throw new Error(`Discord returned ${response.status}`);
+    throw new Error(`Tutoring request failed with ${response.status}`);
   }
 }

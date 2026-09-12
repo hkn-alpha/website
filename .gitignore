@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Local-only Worker secrets (the Discord webhook)
+worker/.dev.vars
+worker/.wrangler
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
