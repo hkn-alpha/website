@@ -17,4 +17,6 @@ test("student services", async () => {
   ).toBeInTheDocument();
   expect(screen.getByLabelText("Your Illinois email")).toBeInTheDocument();
   expect(screen.getByLabelText("Days and times you're free")).toBeInTheDocument();
+  expect(screen.getByText("Find a Tutor")).toBeInTheDocument();
+  expect(screen.getByLabelText("Search for courses")).toBeInTheDocument();
 });
