@@ -83,5 +83,75 @@
     "email": "shabbir4@illinois.edu",
     "name": "Abdullah Shabbir",
     "courses": "ECE 110, ECE 220"
+  },
+  {
+    "email": "hyunwoo8@illinois.edu",
+    "name": "Charlie Kim",
+    "courses": "ECE 110, ECE 120, ECE 210"
+  },
+  {
+    "email": "Ekemp@illinois.edu",
+    "name": "Evan Kemph",
+    "courses": "ECE 120, ECE 110, ECE 220, PHYS 211, PHYS 212, ECE 210, MATH 285, MATH 257"
+  },
+  {
+    "email": "kylejm3@illinois.edu",
+    "name": "Kyle McCoskey",
+    "courses": "ECE 120, ECE 110, ECE 220"
+  },
+  {
+    "email": "jwk11@illinois.edu",
+    "name": "Jay Kim",
+    "courses": "ECE 110, ECE 120, PHYS 214, MATH 285"
+  },
+  {
+    "email": "wspang2@illinois.edu",
+    "name": "Warren Spang",
+    "courses": "ECE 110, ECE 120"
+  },
+  {
+    "email": "xuanyu5@illinois.edu",
+    "name": "Xuanyu Zhou",
+    "courses": "ECE 110, ECE 210, ECE 120, ECE 220, MATH 213, ECE 313, MATH 257, MATH 285, MATH 231, MATH 241, CS 225, PHYS 214"
+  },
+  {
+    "email": "xiruil2@illinois.edu",
+    "name": "Xirui Liu",
+    "courses": "ECE 110, ECE 120, ECE 220, MATH 231, MATH 241, MATH 257, MATH 213, MATH 285, PHYS 212"
+  },
+  {
+    "email": "msolc@illinois.edu",
+    "name": "Marc Solc",
+    "courses": "ECE 110, ECE 120, ECE 220"
+  },
+  {
+    "email": "nq3@illinois.edu",
+    "name": "Nicholas Qualizza",
+    "courses": "ECE 110, ECE 120, ECE 313, ECE 340, PHYS 211, MATH 241"
+  },
+  {
+    "email": "ali79@illinois.edu",
+    "name": "Annabel Li",
+    "courses": "ECE 110, ECE 120, ECE 210, MATH 241, MATH 257, MATH 285, PHYS 214"
+  },
+  {
+    "email": "cz105@illinois.edu",
+    "name": "Catharine Zhou",
+    "courses": "ECE 110, ECE 120, MATH 241, MATH 257, MATH 285"
+  },
+  {
+    "email": "amdani2@illinois.com",
+    "name": "Shehzeen Amdani",
+    "courses": "ECE 340, ECE 210, ECE 329"
+  },
+  {
+    "email": "alexfei2@illinois.edu",
+    "name": "Alex Fei",
+    "courses": "ECE 110, ECE 120, ECE 220, PHYS 211, MATH 221, MATH 231, MATH 241"
+  },
+  {
+    "email": "yklim3@illinois.edu",
+    "name": "",
+    "courses": ""
   }
 ]
