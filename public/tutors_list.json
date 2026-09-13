@@ -1,87 +1,82 @@
 [
   {
-    "email": "xkhan2@illinois.edu",
-    "name": "Xainab Khan",
-    "courses": "ECE 110, ECE 120, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 257, MATH 285, CS 173"
+    "email": "hyunwoo8@illinois.edu",
+    "name": "Charlie Kim",
+    "courses": "ECE 110, ECE 120, ECE 210"
   },
   {
-    "email": "da24@illinois.edu",
-    "name": "Dominic Andrejek",
-    "courses": "ECE 110, ECE 210, PHYS 213, MATH 221, MATH 231, MATH 241, MATH 285"
+    "email": "Ekemp@illinois.edu",
+    "name": "Evan Kemph",
+    "courses": "ECE 120, ECE 110, ECE 220, PHYS 211, PHYS 212, ECE 210, MATH 285, MATH 257"
   },
   {
-    "email": "ayushtm2@illinois.edu",
-    "name": "Ayush Mehendale",
-    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285, CS 173"
+    "email": "kylejm3@illinois.edu",
+    "name": "Kyle McCoskey",
+    "courses": "ECE 120, ECE 110, ECE 220"
   },
   {
-    "email": "msorial2@illinois.edu",
-    "name": "Mark Sorial",
-    "courses": "ECE 110, ECE 120, ECE 220, MATH 221, MATH 231, CS 173, CS 225"
+    "email": "jwk11@illinois.edu",
+    "name": "Jay Kim",
+    "courses": "ECE 110, ECE 120, PHYS 214, MATH 285"
   },
   {
-    "email": "rbahary2@illinois.edu",
-    "name": "Ryan Bahary",
-    "courses": "CS 225"
+    "email": "wspang2@illinois.edu",
+    "name": "Warren Spang",
+    "courses": "ECE 110, ECE 120"
   },
   {
-    "email": "pjz3@illinois.edu",
-    "name": "Patrick",
+    "email": "xuanyu5@illinois.edu",
+    "name": "Xuanyu Zhou",
+    "courses": "ECE 110, ECE 210, ECE 120, ECE 220, MATH 213, ECE 313, MATH 257, MATH 285, MATH 231, MATH 241, CS 225, PHYS 214"
+  },
+  {
+    "email": "xiruil2@illinois.edu",
+    "name": "Xirui Liu",
+    "courses": "ECE 110, ECE 120, ECE 220, MATH 231, MATH 241, MATH 257, MATH 213, MATH 285, PHYS 212"
+  },
+  {
+    "email": "msolc@illinois.edu",
+    "name": "Marc Solc",
     "courses": "ECE 110, ECE 120, ECE 220"
   },
   {
-    "email": "jqunell2@illinois.edu",
-    "name": "Jonathan Qunell",
-    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 257, MATH 285"
+    "email": "nq3@illinois.edu",
+    "name": "Nicholas Qualizza",
+    "courses": "ECE 110, ECE 120, ECE 313, ECE 330, ECE 340, PHYS 211, MATH 241"
   },
   {
-    "email": "lau29@illinois.edu",
-    "name": "Sarah Lau",
-    "courses": "ECE 110, ECE 210, PHYS 211, PHYS 213, PHYS 214, MATH 257, MATH 285"
+    "email": "ali79@illinois.edu",
+    "name": "Annabel Li",
+    "courses": "ECE 110, ECE 120, ECE 210, MATH 241, MATH 257, MATH 285, PHYS 214"
   },
   {
-    "email": "wsturn2@illinois.edu",
-    "name": "Wyatt Sturn",
-    "courses": "ECE 110, ECE 120, ECE 210, PHYS 211, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285"
+    "email": "cz105@illinois.edu",
+    "name": "Catharine Zhou",
+    "courses": "ECE 110, ECE 120, MATH 241, MATH 257, MATH 285"
   },
   {
-    "email": "pola3@illinois.edu",
-    "name": "Aditya Pola",
-    "courses": "ECE 110, ECE 120, ECE 220, PHYS 212, CS 173"
+    "email": "amdani2@illinois.com",
+    "name": "Shehzeen Amdani",
+    "courses": "ECE 340, ECE 210, ECE 329"
   },
   {
-    "email": "qixuan3@illinois.edu",
-    "name": "Keeron Huang",
-    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 330, CS 225"
+    "email": "alexfei2@illinois.edu",
+    "name": "Alex Fei",
+    "courses": "ECE 110, ECE 120, ECE 220, PHYS 211, MATH 221, MATH 231, MATH 241"
   },
   {
-    "email": "mtrigo2@illinois.edu",
-    "name": "Mateus",
-    "courses": "ECE 110, ECE 120, ECE 220, ECE 310, ECE 313, PHYS 211, PHYS 212, MATH 221, MATH 231, MATH 241, MATH 257, CS 225"
+    "email": "yklim3@illinois.edu",
+    "name": "Yee Kian Lim",
+    "courses": "ECE 110, ECE 210, ECE 310"
   },
   {
-    "email": "muqixu2@illinois.edu",
-    "name": "Barry Xu",
-    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 310, PHYS 211, PHYS 212, PHYS 213, PHYS 214, CS 173"
+    "email": "jshin203@illinois.edu",
+    "name": "Jiseob Shin",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 330, ECE 342, ECE 464"
   },
   {
-    "email": "ns58@illinois.edu",
-    "name": "Nick Schroeder",
-    "courses": "ECE 110, ECE 120, ECE 210, PHYS 211, PHYS 212, PHYS 214, MATH 285"
-  },
-  {
-    "email": "lukew6@illinois.edu",
-    "name": "Luke Wang",
-    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 313"
-  },
-  {
-    "email": "rohan24@illinois.edu",
-    "name": "Rohan Das",
-    "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 329, PHYS 212, ECE 342"
-  },
-  {
-    "email": "shabbir4@illinois.edu",
-    "name": "Abdullah Shabbir",
-    "courses": "ECE 110, ECE 220"
+    "email": "akotwal2@illinois.edu",
+    "name": "Aditya Ranjeet Kotwal",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 340, ECE 342"
   }
 ]
