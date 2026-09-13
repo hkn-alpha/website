@@ -1,21 +1,18 @@
-type Tutor = {
+export type Tutor = {
   name: string;
   email: string;
   courses: string;
 };
 
-export let tutors: Tutor[] = [];
+// tutors_list.json is regenerated from the sign-up sheet by the
+// "Generate tutors_list.json" workflow, so it is not edited by hand.
+export async function loadTutors(): Promise<Tutor[]> {
+  const response = await fetch("/tutors_list.json");
+  const data = await response.json();
 
-// created by Martin
-fetch('/tutors_list.json')
-  .then((response) => response.json())
-  .then((data) => {
-    tutors = data.map((t: any) => ({ //instead of using indexing we directly access the field now
-      email: t.email, 
-      name: t.name,
-      courses: t.courses, 
-    }));
-
-    console.log(tutors); // Check the parsed Tutor objects
-  })
-  .catch((error) => console.error('Error loading tutors:', error));
+  return data.map((t: any) => ({
+    name: t.name,
+    email: t.email,
+    courses: t.courses,
+  }));
+}

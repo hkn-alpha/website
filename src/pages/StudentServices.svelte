@@ -7,10 +7,53 @@
     crammingCarnival,
     until,
   } from "../content/StudentServices/review_sessions";
+  import { onMount } from "svelte";
   import Select from "svelte-select";
   import Description from "../content/StudentServices/description.md";
   import Tutoring from "../content/StudentServices/tutoring.md";
   import { submitTutoringRequest } from "../content/StudentServices/tutoringRequest";
+  import { loadTutors } from "../content/StudentServices/tutors";
+
+  let tutors = [];
+  let query = "";
+
+  onMount(async () => {
+    try {
+      const loaded = await loadTutors();
+      // Shuffled so the same tutors aren't always contacted first
+      tutors = loaded
+        .map((x) => ({ v: x, r: Math.random() }))
+        .sort((x, y) => x.r - y.r)
+        .map((x) => x.v);
+    } catch (e) {
+      console.error("Error loading tutors:", e);
+    }
+  });
+
+  function standardizeClassName(name) {
+    return name.toUpperCase().replaceAll(" ", "").replaceAll(",", "");
+  }
+
+  function getMatchingTutors(query) {
+    const requestedCourses = query.split(",").map(standardizeClassName);
+    return tutors.filter((tutor) => {
+      const standardizedTutorCourses = tutor.courses
+        .split(",")
+        .map(standardizeClassName);
+
+      return requestedCourses.some((c) =>
+        standardizedTutorCourses.includes(c) ||
+        standardizedTutorCourses.some(
+          (x) =>
+            c.length >= 3 &&
+            /^\d/.test(c) &&
+            x.includes(c)
+        )
+      );
+    });
+  }
+
+  $: matchingTutors = query && tutors.length > 0 ? getMatchingTutors(query) : [];
 
   let name = "";
   let courses = "";
@@ -208,6 +251,53 @@
       {:else if status === "error"}
         <p class="form-error">{errorMessage}</p>
       {/if}
+
+      <h1 class="tutor-heading">Find a Tutor</h1>
+      <p class="instructions">
+        If you would prefer to contact a tutor directly, here is the list.
+      </p>
+      <input
+        class="tutor-search"
+        type="text"
+        placeholder="Search for courses (comma-separated, e.x. ECE110, ECE120)"
+        aria-label="Search for courses"
+        spellcheck="false"
+        bind:value={query}
+      />
+      {#if matchingTutors.length > 0}
+        <div class="table-container">
+          <table>
+            <colgroup>
+              <col span="1" style="width: 30%;" />
+              <col span="1" style="width: 30%;" />
+              <col span="1" style="width: 40%;" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Courses offered</th>
+              </tr>
+            </thead>
+            <tbody>
+              {#each matchingTutors as tutor}
+                <tr>
+                  <td>{tutor.name}</td>
+                  <td><a href={`mailto:${tutor.email}`}>{tutor.email}</a></td>
+                  <td>{tutor.courses}</td>
+                </tr>
+              {/each}
+            </tbody>
+          </table>
+        </div>
+      {:else if query == ""}
+        <p class="needs-query">Start typing to see results...</p>
+      {:else}
+        <p class="no-results">
+          We couldn't find any tutors. Make sure your course names and numbers
+          are correct.
+        </p>
+      {/if}
     </div>
   </div>
   <Footer />
@@ -251,6 +341,10 @@
     .md-container {
       font-size: 17px;
     }
+  }
+
+  a {
+    color: white !important;
   }
 
   .tutor-form {
@@ -306,11 +400,67 @@
     cursor: default;
   }
 
+  .tutor-search {
+    width: 100%;
+    background-color: #0f2040;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: white;
+    font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-bottom: 3px solid #546482;
+    margin-bottom: 20px;
+  }
+
+  .tutor-search::placeholder {
+    color: #ddd;
+    font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
+  }
+
+  table {
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+    min-width: 700px;
+  }
+
+  .table-container {
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+
+  .table-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  tr {
+    border-bottom: 2px solid white;
+    line-height: 50px;
+  }
+
+  thead tr {
+    border-bottom: 4px solid white;
+  }
+
+  tbody tr:nth-child(even) {
+    /** CSS 1-indexes children */
+    background-color: #2f3e59;
+  }
+
+  td {
+    text-align: center;
+  }
+
   .instructions {
     margin-bottom: 15px;
   }
 
   .needs-query,
+  .no-results,
   .form-success,
   .form-error {
     margin-top: 5px;
@@ -371,7 +521,8 @@
     min-height: calc(100vh - 70px);
   }
 
-  #tutoring {
+  #tutoring,
+  .tutor-heading {
     text-decoration: none;
   }
 </style>
