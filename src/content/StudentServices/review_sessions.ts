@@ -150,7 +150,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // time: "TBD",
       // location: "TBD",
       location: rooms[2],
-      time: "9/24, " + timeslots["B"],
+      time: "9/20, " + timeslots["B"],
       // time: "9/21, 12:30-2:30PM",
       // location: "ECEB 1013",
       // scribblesLink: "https://drive.google.com/file/d/1TnR0iD8ASA5i6IF9FRp0AfZW5WOEQ9-d/view?usp=sharing",
