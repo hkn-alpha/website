@@ -15,6 +15,7 @@
   import { loadTutors } from "../content/StudentServices/tutors";
 
   let tutors = [];
+  let tutorsLoaded = false;
   let query = "";
 
   onMount(async () => {
@@ -27,11 +28,33 @@
         .map((x) => x.v);
     } catch (e) {
       console.error("Error loading tutors:", e);
+    } finally {
+      tutorsLoaded = true;
     }
   });
 
   function standardizeClassName(name) {
     return name.toUpperCase().replaceAll(" ", "").replaceAll(",", "");
+  }
+
+  function courseMatchesTutorCourses(course, tutorCourses) {
+    const c = standardizeClassName(course);
+    if (!c) return false;
+    return (
+      tutorCourses.includes(c) ||
+      tutorCourses.some(
+        (x) => c.length >= 3 && /^\d/.test(c) && x.includes(c)
+      )
+    );
+  }
+
+  function courseHasTutor(course) {
+    return tutors.some((tutor) =>
+      courseMatchesTutorCourses(
+        course,
+        tutor.courses.split(",").map(standardizeClassName)
+      )
+    );
   }
 
   function getMatchingTutors(query) {
@@ -42,13 +65,7 @@
         .map(standardizeClassName);
 
       return requestedCourses.some((c) =>
-        standardizedTutorCourses.includes(c) ||
-        standardizedTutorCourses.some(
-          (x) =>
-            c.length >= 3 &&
-            /^\d/.test(c) &&
-            x.includes(c)
-        )
+        courseMatchesTutorCourses(c, standardizedTutorCourses)
       );
     });
   }
@@ -82,9 +99,40 @@
     }
   }
 
+  $: courseTokens = courses
+    .split(",")
+    .map((c) => c.trim())
+    .filter((c) => c.length > 0);
+  $: coursesWithTutors = courseTokens.filter((c) => courseHasTutor(c));
+  $: coursesWithoutTutors = courseTokens.filter((c) => !courseHasTutor(c));
+  $: canSubmitCourses =
+    tutorsLoaded && coursesWithTutors.length > 0;
+  $: courseCheckMessage = (() => {
+    if (!courses.trim()) return "";
+    if (!tutorsLoaded) return "Checking availability...";
+    const parts = [];
+    if (coursesWithTutors.length > 0) {
+      parts.push(
+        coursesWithTutors.length === 1
+          ? `A tutor is available for ${coursesWithTutors[0]}.`
+          : `Tutors are available for ${coursesWithTutors.join(", ")}.`
+      );
+    }
+    if (coursesWithoutTutors.length > 0) {
+      parts.push(
+        `No tutors listed for ${coursesWithoutTutors.join(", ")}.`
+      );
+    }
+    return parts.join(" ");
+  })();
+  $: courseCheckOk = coursesWithTutors.length > 0 && coursesWithoutTutors.length === 0;
+  $: courseCheckPartial = coursesWithTutors.length > 0 && coursesWithoutTutors.length > 0;
+
   function validate() {
     if (!name.trim()) return "Please enter your name.";
     if (!courses.trim()) return "Please enter the course(s) you need help with.";
+    if (!canSubmitCourses)
+      return "Please enter a course that has a tutor listed before sending a request.";
     if (!/^[^\s@]+@illinois\.edu$/i.test(email.trim()))
       return "Please enter your Illinois email (ending in @illinois.edu).";
     if (!availability.trim())
@@ -219,12 +267,24 @@
         />
         <input
           class="tutor-field"
+          class:tutor-field-tight={!!courseCheckMessage}
           type="text"
           placeholder="Courses you need tutoring in (e.x. ECE 110, MATH 257)"
           aria-label="Courses you need tutoring in"
           spellcheck="false"
           bind:value={courses}
         />
+        {#if courseCheckMessage}
+          <p
+            class="course-check"
+            class:course-check-ok={courseCheckOk}
+            class:course-check-partial={courseCheckPartial}
+            class:course-check-missing={!canSubmitCourses && tutorsLoaded}
+            role="status"
+          >
+            {courseCheckMessage}
+          </p>
+        {/if}
         <input
           class="tutor-field"
           type="email"
@@ -240,7 +300,11 @@
           aria-label="Days and times you're free"
           bind:value={availability}
         />
-        <button class="tutor-submit" type="submit" disabled={status === "submitting"}>
+        <button
+          class="tutor-submit"
+          type="submit"
+          disabled={status === "submitting" || !canSubmitCourses}
+        >
           {status === "submitting" ? "Sending..." : "Send request"}
         </button>
       </form>
@@ -373,6 +437,30 @@
   .tutor-field::placeholder {
     color: #ddd;
     font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
+  }
+
+  .tutor-field-tight {
+    margin-bottom: 8px;
+  }
+
+  .course-check {
+    margin: 0 0 20px;
+    font-family: "Schibsted Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ddd;
+    text-align: left;
+  }
+
+  .course-check-ok {
+    color: #b8e0c2;
+  }
+
+  .course-check-partial {
+    color: #ffe0a3;
+  }
+
+  .course-check-missing {
+    color: #ffb3a1;
   }
 
   .honeypot {
