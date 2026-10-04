@@ -83,5 +83,30 @@
     "email": "rohan24@illinois.edu",
     "name": "Rohan Das",
     "courses": "ECE 110, ECE 120, ECE 210, ECE 220, ECE 313, ECE 329, ECE 342, PHYS 213, PHYS 214"
+  },
+  {
+    "email": "dkhim@illinois.edu",
+    "name": "Denys Khimoni",
+    "courses": "ECE 120, ECE 110, ECE 220, PHYS 214, PHYS 213, PHYS 212, PHYS 211, MATH 285, MATH 241, MATH 231, MATH 221, CS 173"
+  },
+  {
+    "email": "spagey2@illinois.edu",
+    "name": "Sahir Pagey",
+    "courses": "ECE 330, ECE 342, ECE 110, ECE 329"
+  },
+  {
+    "email": "ethanl12@illinois.edu",
+    "name": "Ethan Lin",
+    "courses": "ECE 110, ECE 120, ECE 220, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285, PHYS 213, PHYS 214"
+  },
+  {
+    "email": "ryanlin5@illinois.edu",
+    "name": "Ryan Lin",
+    "courses": "ECE 110, ECE 120, ECE 220, PHYS 212, PHYS 213, PHYS 214, MATH 221, MATH 231, MATH 241, MATH 257, MATH 285"
+  },
+  {
+    "email": "nhw3@illinois.edu",
+    "name": "Nathan Wang",
+    "courses": "ECE 110, ECE 210, MATH 241, PHYS 212"
   }
 ]
