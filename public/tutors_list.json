@@ -108,5 +108,10 @@
     "email": "nhw3@illinois.edu",
     "name": "Nathan Wang",
     "courses": "ECE 110, ECE 210, MATH 241, PHYS 212"
+  },
+  {
+    "email": "mikeh2@illinois.edu",
+    "name": "Mike Hung",
+    "courses": "ECE 329, ECE 110, ECE 120, ECE 210"
   }
 ]
