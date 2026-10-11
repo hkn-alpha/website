@@ -113,5 +113,10 @@
     "email": "mikeh2@illinois.edu",
     "name": "Mike Hung",
     "courses": "ECE 329, ECE 110, ECE 120, ECE 210"
+  },
+  {
+    "email": "lukew6@illinois.edu",
+    "name": "Luke Wang",
+    "courses": "ECE 110, ECE 120, ECE 210, ECE 310, ECE 313, ECE 340"
   }
 ]
