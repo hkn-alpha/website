@@ -143,7 +143,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "10/11, " + timeslots["B"],
       slidesLink: "https://docs.google.com/presentation/d/1PNxVCSzaNfFp_87W6FTncQ_cdfmlclVU/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       scribblesLink: "https://drive.google.com/file/d/1BELQfN-1EbJCKdGJZm0oD4Q4q2r8jldq/view?usp=sharing",
-      recordingLink: "https://mediaspace.illinois.edu/media/t/1_uoypbvzj"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_v2w6qb3s"
     },
     {
       course: "ECE 342",
