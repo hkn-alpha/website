@@ -111,7 +111,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // worksheetLink: "https://drive.google.com/file/d/1aTxSO4e0UuhfewCY6x9Fd6NT5rYjEsIZ/view?usp=sharing",  
       // keyLink: "https://drive.google.com/file/d/1ba02eJ-teWv_DMPFETWN_6fgCccRZcli/view?usp=sharing",
       // scribblesLink: "https://drive.google.com/file/d/1DUm4iBmC9LORE3VQbyaqn5DGflOTiPcs/view?usp=drive_link",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_2snvl59e"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_kknhl1f3"
     },
     {
       course: "ECE 329",
@@ -142,8 +142,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: rooms[1],
       time: "10/11, " + timeslots["B"],
       slidesLink: "https://docs.google.com/presentation/d/1PNxVCSzaNfFp_87W6FTncQ_cdfmlclVU/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // scribblesLink: "https://drive.google.com/file/d/1KOKidghXdNwY8MX5sRdwY1AI6ViLQAfp/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_uoypbvzj"
+      scribblesLink: "https://drive.google.com/file/d/1BELQfN-1EbJCKdGJZm0oD4Q4q2r8jldq/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_uoypbvzj"
     },
     {
       course: "ECE 342",
