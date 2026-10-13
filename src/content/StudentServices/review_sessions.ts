@@ -526,8 +526,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
 // All Midterms show up on the website, this sets priority of what shows up on the page
 // Remember that months are zero indexed but days are not.
 export const until: Record<1 | 2 | 3, Date> = {
-  1: new Date(2026, 10 , 16), // ends 2/4 or 10/16
-  2: new Date(2026, 11, 10), // ends 11/10 or 3/11
+  1: new Date(2026, 10 , 11), // ends 2/4 or 10/16
+  2: new Date(2026, 11, 9), // ends 11/10 or 3/11
   3: new Date(2026, 12, 1), // Date(1) makes sure this will never be default bc it occured in the past
 };
 
