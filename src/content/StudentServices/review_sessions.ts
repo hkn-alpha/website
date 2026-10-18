@@ -280,11 +280,11 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "TBD",
       location: rooms[1],
       time: "10/18, " + timeslots["B"],
-      //scribblesLink: "https://drive.google.com/file/d/1JWe3kv1MmYyhryoKxVFEnDnvAafEw-Vk/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1zxzn1HHj5mamWihNcoJJeVr3zQd_3ZU7/view?usp=sharing",
       slidesLink: "https://docs.google.com/presentation/d/1zf704H7WEg6DEMtx2v9NiCiYVQ7B1uBs/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       worksheetLink: "https://drive.google.com/file/d/1JIeyZRHfhH3mnQMe0quFUKXKj2mdzY0R/view?usp=sharing",
       keyLink: "https://drive.google.com/file/d/1tOuqhkUTmLTeop2EqUOsyQIkJN6KZMhH/view?usp=sharing",
-      // recordingLink: 'https://mediaspace.illinois.edu/media/t/1_nbt48g7y',
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_e2g04pok',
     },
     {
       course: "ECE 220",
@@ -364,8 +364,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: rooms[2],
       time: "10/18, " + timeslots["B"],
       slidesLink: "https://docs.google.com/presentation/d/1daUoQMPJCXqhiKagqnTmwE6aI6CznFYM/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_7vgt6u8w",
-      // scribblesLink: "https://drive.google.com/file/d/1GqrO_lFo7YKQJuKQLliPEZPeZ9oxzAlE/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_aaqw52mz",
+      scribblesLink: "https://drive.google.com/file/d/1OKod_413qprQASO-WtuvD1RhDY_amA7K/view?usp=sharing",
 
      }
 //     {
