@@ -261,7 +261,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "ECEB 1002",
       scribblesLink: "https://drive.google.com/file/d/1R4_MmAkrdFrCDufy5l6hKf9rg63fFaxs/view?usp=sharing",
       slidesLink: "https://docs.google.com/presentation/d/10su8d0mvieO1TrY1lysmjaisZOR7ghmT/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_02dcd9vc",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_lq44zkih",
     },
     // {
     //   course: "ECE 120",
