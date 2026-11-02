@@ -295,8 +295,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       slidesLink: "https://docs.google.com/presentation/d/1Ikh9Wv0DNbQ0D6EyIGW-DBIDtc1SlhoQ/edit?usp=sharing&ouid=114920807436269533529&rtpof=true&sd=true",
       keyLink: "https://drive.google.com/file/d/1USuqUZHC2s7_WEaAXoz9WjrWNITns3gh/view?usp=sharing",
       worksheetLink: "https://drive.google.com/file/d/165c8ideTH1Ycn_gC_b5fgGbrOlqn2iZL/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_8r8gu1n3",
-      
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_2tev1g1f",
+      //scribblesLink: ""
     },
     {
       course: "ECE 310",
@@ -308,7 +308,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_vupu3mtz",
       keyLink: "https://drive.google.com/file/d/1R5ht6aRPcz9I3xpowzyvWwDNmkoPsFZb/view?usp=sharing",
       worksheetLink: "https://drive.google.com/file/d/1fmmxn-3y0orLsn1X-IfXrN4ic2GSFZF9/view?usp=sharing",
-      //scribblesLink: "https://drive.google.com/file/d/1gWuyoDHljmSobvVRKRAlh8rVvduQo0pe/view?usp=sharing"
+      scribblesLink: "https://drive.google.com/file/d/14uFiHuMCurRXGEv15FB4CL0pBCwUq30M/view?usp=sharing"
     },
     {
       course: "ECE 313",
@@ -344,8 +344,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // time: "11/03, 12:30-2:30PM",
       // location: "ECEB 1013",
       slidesLink: "https://docs.google.com/presentation/d/1zYHsfNIpaztyFu4SN3rM7G7999UcFPuF/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // scribblesLink: "https://drive.google.com/file/d/1OWMObMTQ4SYQWkbnCYIGs1FoyHhYSBhp/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_jseywww6",
+      scribblesLink: "https://drive.google.com/file/d/1_x-lMqanxSHXMgHktiDdw0WVW8WMPtgg/view?usp=sharing",
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_mfalb49r",
     },
     // {
     //   course: "ECE 340",
