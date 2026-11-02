@@ -296,7 +296,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       keyLink: "https://drive.google.com/file/d/1USuqUZHC2s7_WEaAXoz9WjrWNITns3gh/view?usp=sharing",
       worksheetLink: "https://drive.google.com/file/d/165c8ideTH1Ycn_gC_b5fgGbrOlqn2iZL/view?usp=sharing",
       recordingLink: "https://mediaspace.illinois.edu/media/t/1_2tev1g1f",
-      //scribblesLink: ""
+      scribblesLink: "https://drive.google.com/file/d/19blo3CnvaiRhE9Vm71aWSrP5vYeU6kdi/view?usp=sharing"
     },
     {
       course: "ECE 310",
