@@ -358,7 +358,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
     //   // recordingLink: "https://mediaspace.illinois.edu/media/t/1_p0n2vref",
     // },
     {
-      course: "ECE 342",
+      course: "ECE 342 (Check Midterm 3 section for Exam 2 details)",
       // time: "TBD",
       // location: "TBD",
       location: rooms[2],
@@ -453,19 +453,19 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // scribblesLink: "https://drive.google.com/file/d/1W2pp3zp-dDKc4j24Zh7w-0lkztQnvFUf/view?usp=sharing"
 
     },
-    {
-      course: "ECE 120 (Exam 1)",
-      // time: "TBD",
-      // location: "TBD",
-      location: rooms[1],
-      time: "11/14, " + timeslots["B"],
-      // time: "11/17, 12:30-2:30PM",
-      // location: "ECEB 1002",
-      // slidesLink: "https://drive.google.com/file/d/1rdAxtXYECrMvSjg2tFp8MeFjwqz3TEMB/view?usp=sharing",
-      // recordingLink:'https://mediaspace.illinois.edu/media/t/1_6v0vk499',
-      // worksheetLink: "https://drive.google.com/file/d/14BRfL6vqx8xYCb8LhseqFqLdu4gAknNV/view?usp=drive_link",
-      // keyLink: "https://drive.google.com/file/d/1zd-pW1A2F6JVx2rfQK_uzj_TP4o1BXBX/view?usp=drive_link"
-    },
+    // {
+    //   course: "ECE 120 (Exam 1)",
+    //   // time: "TBD",
+    //   // location: "TBD",
+    //   location: rooms[1],
+    //   time: "11/14, " + timeslots["B"],
+    //   // time: "11/17, 12:30-2:30PM",
+    //   // location: "ECEB 1002",
+    //   // slidesLink: "https://drive.google.com/file/d/1rdAxtXYECrMvSjg2tFp8MeFjwqz3TEMB/view?usp=sharing",
+    //   // recordingLink:'https://mediaspace.illinois.edu/media/t/1_6v0vk499',
+    //   // worksheetLink: "https://drive.google.com/file/d/14BRfL6vqx8xYCb8LhseqFqLdu4gAknNV/view?usp=drive_link",
+    //   // keyLink: "https://drive.google.com/file/d/1zd-pW1A2F6JVx2rfQK_uzj_TP4o1BXBX/view?usp=drive_link"
+    // },
     {
       course: "ECE 210",
       // time: "TBD",
