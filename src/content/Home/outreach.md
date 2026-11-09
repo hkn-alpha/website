@@ -1,0 +1,1 @@
+HKN hosts outreach events that teach fundamental ECE concepts to the surrounding community. Past examples include Boy Scout circuitry workshops, soldering sessions, and electronics info sessions at Champaign Public Library.
