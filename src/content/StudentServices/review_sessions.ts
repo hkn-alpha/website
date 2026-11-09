@@ -318,10 +318,10 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "11/8, " + timeslots["A"],
       slidesLink: "https://docs.google.com/presentation/d/16M_uYixMyUd5jZFSLvOSP_Uu5hs9zdYh/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       // worksheetLink: "https://drive.google.com/file/d/1mBGVoN3EIE-K5ckPHjrQtdxplw1Fj0q5/view?usp=sharing",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_2vmyhndm", // this is an old video
-      // keyLink: "https://drive.google.com/file/d/1OWtI_mcMXzNSR8Y16O3YyWK4ZxXsi3hG/view?usp=sharing",
-      // worksheetLink: "https://drive.google.com/file/d/10ksdY3uRnbHpxemixlfdGZpoAGoqcZfm/view?usp=sharing",
-
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_fjpcqz56",
+      keyLink: "https://drive.google.com/file/d/1OWtI_mcMXzNSR8Y16O3YyWK4ZxXsi3hG/view?usp=sharing",
+      worksheetLink: "https://drive.google.com/file/d/10ksdY3uRnbHpxemixlfdGZpoAGoqcZfm/view?usp=sharing",
+      scribblesLink: "https://drive.google.com/file/d/1UyxnCGyEbEwN-NbfIRd8rQi1Wa65QnN6/view?usp=sharing"
     },
     {
       course: "ECE 329",
@@ -480,7 +480,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       course: "ECE 329",
       // time: "TBD",
       // location: "TBD",
-      time: "11/14, " + timeslots["A"],
+      // time: "11/14, " + timeslots["A"],
+      time: "11/14, 1:00 - 3:00PM",
       location: rooms[2],
       // slidesLink: "https://docs.google.com/presentation/d/1YQAgOLYy2yOSX2IN0JOClO-VFoxI6yN5/edit?usp=sharing&ouid=116076189588729701102&rtpof=true&sd=true",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hkyyk4bi",
