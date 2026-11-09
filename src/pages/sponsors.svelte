@@ -3,7 +3,6 @@
   import Nav from "../components/Nav.svelte";
   import Description from "../content/Sponsors/sponsor_text.md";
   import sponsors_json from "../content/Sponsors/sponsors.json";
-  import SponsorHKNText from "../content/Sponsors/sponsor_ad.md";
 </script>
 
 <svelte:head>
@@ -14,27 +13,34 @@
   />
 </svelte:head>
 
-<div class="container">
-  <div class="footer-push">
-    <Nav />
-    <div class="content">
-      <h1 class="sponsor-heading">Sponsors</h1>
-      <div class="md-container">
-        <Description />
-      </div>
+<div class="page">
+  <Nav />
+  <div class="page-body">
+    <div class="container">
+      <header class="page-header">
+        <h1>Sponsors</h1>
+        <div class="prose">
+          <Description />
+        </div>
+      </header>
+
       <div class="logo-grid">
-          {#each sponsors_json.sponsorships as sponsor}
+        {#each sponsors_json.sponsorships as sponsor}
           {#if sponsor.link}
             <a
               href={sponsor.link}
               target="_blank"
-              class="logo clickable"
+              class="logo"
               rel="noopener noreferrer"
             >
               <img
                 src={sponsor.image}
                 class="sponsor-image"
                 alt={"Logo of " + sponsor.name}
+                width="160"
+                height="80"
+                loading="lazy"
+                decoding="async"
               />
               <div class="sponsor-name">{sponsor.name}</div>
             </a>
@@ -44,6 +50,10 @@
                 src={sponsor.image}
                 class="sponsor-image"
                 alt={"Logo of " + sponsor.name}
+                width="160"
+                height="80"
+                loading="lazy"
+                decoding="async"
               />
               <div class="sponsor-name">{sponsor.name}</div>
             </div>
@@ -51,150 +61,108 @@
         {/each}
       </div>
 
-      <div class="sponsor-hkn">
+      <section class="sponsor-hkn section">
         <h2>Sponsor HKN</h2>
-        <div class="md-container">
-          <SponsorHKNText />
-        </div>
-      </div>  
+        <p>
+          Interested in sponsoring HKN? We're flexible about packages and happy
+          to discuss options.
+        </p>
+        <a class="text-link" href="mailto:hkn@illinois.edu"
+          >hkn@illinois.edu</a
+        >
+        <img
+          src="/WebsiteImages/SponsorsPage/Sponsorship_Flyer_Fall_2025.jpg"
+          alt="HKN sponsorship packages flyer"
+          width="720"
+          height="960"
+          loading="lazy"
+          decoding="async"
+          class="flyer"
+        />
+      </section>
     </div>
   </div>
   <Footer />
 </div>
 
-
 <style>
-  .container {
-    background-color: #0f2040;
-    min-height: 100vh;
-    color: white;
+  .page-header {
+    margin-bottom: var(--space-6);
   }
 
-  .footer-push {
-    min-height: calc(100vh - 70px);
-  }
-
-  .content {
-    max-width: 800px;
-    padding: 24px;
-    margin: auto;
-    background-color: #0f2040;
-  }
-
-  .sponsor-heading {
-    text-align: center;
-    font-size: 2.5rem;
-    color: white;
-    margin-bottom: 1rem;
-  }
-
-  .md-container {
-    font-size: 19px;
-    color: white;
-    margin-bottom: 2rem;
-    text-align: justify;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .md-container {
-      font-size: 17px;
-    }
+  .prose :global(p) {
+    margin-bottom: var(--space-4);
   }
 
   .logo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-5) var(--space-4);
     justify-items: center;
-    padding-bottom: 60px;
+    margin-bottom: var(--space-7);
   }
 
   .logo {
-  background-color: #ffffff;
-  border: 3px solid #df631b;
-  border-radius: 10px;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-text);
+    width: 100%;
+    max-width: 160px;
+  }
 
-.logo.clickable {
-  cursor: pointer;
-}
-
-.logo.clickable:hover {
-  background-color: #546482;
-  color: white;
-  transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
-}
-
+  .logo:hover {
+    color: var(--color-orange);
+    text-decoration: none;
+  }
 
   .sponsor-image {
-    max-width: 100%;
-    height: 100px;
+    width: 100%;
+    height: 72px;
     object-fit: contain;
-    margin-bottom: 10px;
+    margin-bottom: var(--space-2);
+    background: #fff;
+    border-radius: var(--radius);
+    padding: var(--space-2);
   }
 
   .sponsor-name {
-    font-style: italic;
-    text-align: center;
+    font-size: 0.9rem;
+    color: var(--color-muted);
   }
 
-  @media only screen and (max-width: 800px) {
-    .content {
-      padding: 16px;
-    }
-    .sponsor-image {
-      height: 100px;
-    }
-  }
-
-  a {
-    color: white;
+  .logo:hover .sponsor-name {
+    color: var(--color-orange);
   }
 
   .sponsor-hkn {
-  margin-top: 3rem;
-  text-align: center;
-  padding: 2rem;
-  border-top: 2px solid #df631b;
-}
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-7);
+  }
 
-.sponsor-hkn h2 {
-  font-family: "DM Serif Display", Garamond, serif;
-  font-weight: 600;
-  font-size: 36px;
-  margin-bottom: 1rem;
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: #e84a27;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 5px;
-}
+  .sponsor-hkn p {
+    margin-bottom: var(--space-5);
+    max-width: 36rem;
+  }
 
-.sponsor-hkn .md-container {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
-  text-align: center;
-}
+  .flyer {
+    margin-top: var(--space-6);
+    width: 100%;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+  }
 
-:global(.sponsor-hkn .md-container img) {
-  display: block;          
-  margin: 1rem auto;  
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
-  margin-top: 1rem;
-}
+  @media (min-width: 640px) {
+    .logo-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .logo-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
 </style>

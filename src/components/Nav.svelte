@@ -1,260 +1,245 @@
 <script>
-  import { Link, link } from "svelte-routing";
+  import { Link } from "svelte-routing";
   import { links } from "../content/outside_links";
+
+  let open = false;
+
+  function closeMenu() {
+    open = false;
+  }
+
+  function navProps({ isCurrent, isPartiallyCurrent }) {
+    const active = isCurrent || isPartiallyCurrent;
+    return {
+      class: active ? "nav-link active" : "nav-link",
+      "aria-current": isCurrent ? "page" : undefined,
+    };
+  }
+
+  function homeProps({ isCurrent }) {
+    return {
+      class: isCurrent ? "nav-link active" : "nav-link",
+      "aria-current": isCurrent ? "page" : undefined,
+    };
+  }
 </script>
 
-<nav class="nav">
-  <input type="checkbox" id="nav-check" />
-  <div class="nav-header">
-    <div class="nav-title">
-      <Link to="/" class="coola">
-        <img src="/logo.svg" alt="Eta Kappa Nu" />
-      </Link>
-    </div>
-  </div>
-  <div class="nav-btn">
-    <label for="nav-check">
-      <span class="hamb-line" />
-    </label>
-  </div>
+<header class="nav-wrap">
+  <nav class="nav container" aria-label="Main">
+    <Link to="/" class="logo-link" on:click={closeMenu}>
+      <img
+        class="logo-img"
+        src="/logo.svg"
+        alt="Eta Kappa Nu"
+        width="120"
+        height="48"
+      />
+    </Link>
 
-  <div class="nav-links">
-    <span class="nav-link not-icon">
-      <Link to="/">Home</Link>
-    </span>
-    <span class="nav-link not-icon">
-      <Link to="/services">Student Services</Link>
-    </span>
-    <span class= "nav-link not-icon">
-      <Link to="/sponsors">Sponsors</Link>
-    </span>
-    <span class= "nav-link not-icon">
-      <Link to="/howtojoin">Get Involved</Link>
-    </span>
-    
-    {#each links as NLink}
-      <span
-        class={NLink.icon ? `nav-link` : `nav-link not-icon`}
+    <button
+      class="menu-btn"
+      type="button"
+      aria-expanded={open}
+      aria-controls="nav-menu"
+      aria-label={open ? "Close menu" : "Open menu"}
+      on:click={() => (open = !open)}
+    >
+      <span class="hamb" class:open />
+    </button>
+
+    <div id="nav-menu" class="nav-links" class:open>
+      <Link to="/" getProps={homeProps} on:click={closeMenu}>Home</Link>
+      <Link to="/services" getProps={navProps} on:click={closeMenu}
+        >Student Services</Link
       >
-        <a href={NLink.href}>
+      <Link to="/sponsors" getProps={navProps} on:click={closeMenu}
+        >Sponsors</Link
+      >
+      <Link to="/howtojoin" getProps={navProps} on:click={closeMenu}
+        >Get Involved</Link
+      >
+      {#each links as NLink}
+        <a
+          href={NLink.href}
+          class="nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          on:click={closeMenu}
+        >
           {#if NLink.icon}
-            <span class="link_text">{NLink.name}</span>
-            <div class="link_icon"><NLink.icon size="30" /></div>
+            <span class="icon-label">{NLink.name}</span>
+            <span class="icon" aria-hidden="true">
+              <svelte:component this={NLink.icon} size="20" />
+            </span>
           {:else}
             {NLink.name}
           {/if}
-        </a></span
-      >
-    {/each}
-  </div>
-</nav>
+        </a>
+      {/each}
+    </div>
+  </nav>
+</header>
 
 <style>
+  .nav-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    padding-top: env(safe-area-inset-top);
+  }
+
   .nav {
     display: flex;
     align-items: center;
-    height: 80px;
-    width: 100%;
-    position: relative;
-    padding: 0 10px;
+    justify-content: space-between;
+    height: var(--nav-height);
+    gap: var(--space-4);
   }
 
-  .nav > .nav-header {
+  :global(.logo-link) {
     display: flex;
     align-items: center;
-    z-index: 3;
-    height: 100%;
+    flex-shrink: 0;
+    text-decoration: none !important;
   }
 
-  .nav > .nav-header > .nav-title {
-    font-size: 22px;
-    color: #fff;
-    z-index: 3;
-    display: flex;
-    align-items: center;
-    height: 100%;
-  }
-
-  .nav > .nav-header > .nav-title :global(.coola) {
-    display: flex;
-    align-items: center;
-    height: 100%;
-  }
-
-  .nav > .nav-header > .nav-title img {
-    display: block;
-    height: 100px;
+  .logo-img {
+    height: 40px;
     width: auto;
-    transform: translateY(25px);
   }
 
-
-  .nav > .nav-btn {
+  .menu-btn {
     display: none;
-  }
-
-  .nav > .nav-links {
-    flex: 1;
-    display: flex;
+    width: var(--tap);
+    height: var(--tap);
+    align-items: center;
     justify-content: center;
-    font-size: 20px;
-    align-items: center;
-    padding-right: 120px; /* Offset for the logo to ensure true centering */
+    border: none;
+    background: transparent;
+    padding: 0;
   }
 
-  .nav > .nav-links > .nav-link :global(a) {
+  .hamb {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--color-text);
+    position: relative;
+  }
+
+  .hamb::before,
+  .hamb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--color-text);
+    transition: transform var(--transition), top var(--transition);
+  }
+
+  .hamb::before {
+    top: -6px;
+  }
+
+  .hamb::after {
+    top: 6px;
+  }
+
+  .hamb.open {
+    background: transparent;
+  }
+
+  .hamb.open::before {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  .hamb.open::after {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  .nav-links {
     display: flex;
     align-items: center;
-    color: white;
-    text-decoration: none;
-    padding: 0px 15px;
+    gap: var(--space-1);
   }
 
-  .nav > .nav-links > .nav-link:hover {
-    transition: background-color 0.2s;
-  }
-  @media only screen and (max-width: 600px) {
-    .nav > .nav-links > .nav-link:hover {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-  }
-
-  @media only screen and (min-width: 600px) {
-    .nav > .nav-links > .nav-link.not-icon:hover {
-      border-bottom: 3px solid white;
-      transition-duration: 0.2s;
-    }
-
-    .nav > .nav-links > .nav-link {
-      border-bottom: 3px solid rgba(0, 0, 0, 0);
-      transition-duration: 0.2s;
-    }
+  :global(.nav-link) {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 0 var(--space-3);
+    color: var(--color-text) !important;
+    text-decoration: none !important;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
   }
 
-  .nav > #nav-check {
+  :global(.nav-link:hover) {
+    color: var(--color-orange) !important;
+  }
+
+  :global(.nav-link.active) {
+    border-bottom-color: var(--color-orange);
+  }
+
+  .icon {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .icon-label {
     display: none;
   }
 
-  @media (max-width: 600px) {
-    .nav {
-      height: 60px; /* Slightly shorter on mobile */
-      justify-content: space-between;
-      padding: 0 0 0 0px; /* Removed right padding */
-    }
-    .nav > .nav-btn {
+  @media (max-width: 800px) {
+    .menu-btn {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 2;
-      height: 100%;
-    }
-    .nav > .nav-btn > label {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 50px;
-      height: 50px;
-      cursor: pointer;
-    }
-    .nav > .nav-btn > label:hover,
-    .nav #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #0f2040;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      padding-top: 120px;
-      padding-right: 0; /* Remove desktop offset */
-      top: 0px;
-      left: 0px;
-      z-index: 1;
-      flex: none; /* Reset flex from desktop */
-    }
-    .nav > .nav-links > .nav-link {
-      display: block;
-      width: 100%;
-      padding: 15px 0px;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-      background-color: rgba(0, 0, 0, 0);
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh);
-      overflow-y: auto;
-    }
-
-    .nav-btn label span {
-      transition-duration: 0.3s;
-    }
-    .hamb-line {
-      background: #ffffff;
-      display: block;
-      height: 2px;
-      position: relative;
-      width: 22px;
-    }
-    .hamb-line::before,
-    .hamb-line::after {
-      background: #ffffff;
-      content: "";
-      display: block;
-      height: 100%;
-      position: absolute;
-      transition: all 0.2s ease-out;
-      width: 100%;
-    }
-    .hamb-line::before {
-      top: 7px;
-    }
-    .hamb-line::after {
-      top: -7px;
-    }
-
-    .nav > #nav-check:checked ~ .nav-btn label .hamb-line {
-      background: transparent;
-    }
-    .nav > #nav-check:checked ~ .nav-btn label .hamb-line::before {
-      transform: rotate(-45deg);
-      top: 0;
-      left: 0;
-    }
-    .nav > #nav-check:checked ~ .nav-btn label .hamb-line::after {
-      transform: rotate(45deg);
-      top: 0;
-      left: 0;
-    }
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .link_icon {
-      display: none;
-    }
-  }
-
-  @media only screen and (min-width: 600px) {
-    .link_text {
-      display: none;
     }
 
     .nav-links {
-      padding-right: 10px;
+      display: none;
+      position: absolute;
+      top: calc(var(--nav-height) + env(safe-area-inset-top));
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      align-items: stretch;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border);
+      padding: var(--space-2) var(--space-4) var(--space-4);
+      gap: 0;
     }
 
-    .link_icon {
+    .nav-links.open {
       display: flex;
-      align-items: center;
-      transform: translateY(-2px); /* Slight upward shift to visually center */
+    }
+
+    :global(.nav-link) {
+      min-height: var(--tap);
+      padding: var(--space-3) var(--space-2);
+      border-bottom: 1px solid var(--color-border);
+      justify-content: flex-start;
+    }
+
+    :global(.nav-link.active) {
+      border-bottom-color: var(--color-border);
+      color: var(--color-orange) !important;
+    }
+
+    .icon {
+      display: none;
+    }
+
+    .icon-label {
+      display: inline;
     }
   }
 </style>

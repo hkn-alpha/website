@@ -2,7 +2,6 @@
   import { Link } from "svelte-routing";
 
   function buf2hex(buffer) {
-    // buffer is an ArrayBuffer
     return [...new Uint8Array(buffer)]
       .map((x) => x.toString(16).padStart(2, "0"))
       .join("");
@@ -25,9 +24,8 @@
       p = paths[argv[0]];
     </div>
     <div class="s6">
-      (gdb) <Link to="/" color="white" style={"color: white !important;"}
-        >go home</Link
-      >
+      (gdb)
+      <Link to="/" class="home-link">go home</Link>
     </div>
   </div>
 </main>
@@ -37,53 +35,56 @@
     0% {
       visibility: hidden;
     }
-
     99% {
       visibility: hidden;
     }
-
     100% {
       visibility: visible;
     }
   }
+
   main {
-    background-color: #000;
+    background-color: #111;
     min-width: 100vw;
     min-height: 100vh;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
+    color: #f5f5f4;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
     margin: 0;
-    padding: 0;
+    padding: var(--space-5);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .gdb {
+    max-width: 640px;
+    width: 100%;
   }
 
   .s1 {
-    /* animation-duration: 0.01s;
-    animation-delay: 10s;
-    animation-name: appear; */
     animation: 0.01s ease 0s normal forwards 1 appear;
   }
-
   .s2 {
     animation: 0.3s ease 0s normal forwards 1 appear;
   }
-
   .s3 {
     animation: 0.5s ease 0s normal forwards 1 appear;
   }
-
-  .s4 {
-    animation: 0.6s ease 0s normal forwards 1 appear;
-  }
-
-  .s5 {
-    animation: 0.6s ease 0s normal forwards 1 appear;
-  }
-
+  .s4,
+  .s5,
   .s6 {
     animation: 0.6s ease 0s normal forwards 1 appear;
+  }
+
+  :global(.home-link) {
+    color: var(--color-orange) !important;
+    text-decoration: underline !important;
+  }
+
+  :global(.home-link:hover) {
+    color: #fff !important;
   }
 </style>
