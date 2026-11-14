@@ -449,8 +449,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       location: rooms[1],
       time: "11/14, " + timeslots["A"],
       slidesLink: "https://docs.google.com/presentation/d/1LyNt1byVaoWe_Uh_SJQJS7q0uVbgylZ6/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // recordingLink:'https://mediaspace.illinois.edu/media/t/1_2e1smxrl',
-      // scribblesLink: "https://drive.google.com/file/d/1W2pp3zp-dDKc4j24Zh7w-0lkztQnvFUf/view?usp=sharing"
+      recordingLink:'https://mediaspace.illinois.edu/media/t/1_3uvgmvpu',
+      scribblesLink: "https://drive.google.com/file/d/1eflWSxO7jO6GI9XIuQxeC1b2n87nN5O2/view?usp=sharing"
 
     },
     // {
@@ -484,8 +484,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "11/14, 1:00 - 3:00PM",
       location: rooms[2],
       slidesLink: "https://docs.google.com/presentation/d/1YQAgOLYy2yOSX2IN0JOClO-VFoxI6yN5/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hkyyk4bi",
-      // scribblesLink: "https://drive.google.com/file/d/1GWST2G6iOB0iS8qsV7fR0g_ZH4kag9wG/view?usp=sharing"
+      recordingLink: "https://mediaspace.illinois.edu/media/t/1_hdn99l1t",
+      scribblesLink: "https://drive.google.com/file/d/1LVI-dAbDWXMO85FbLvdsyFii-VwRycmn/view?usp=sharing"
     },
     {
       course: "ECE 340 (Exam 2)",
