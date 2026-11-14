@@ -448,7 +448,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "TBD",
       location: rooms[1],
       time: "11/14, " + timeslots["A"],
-      // slidesLink: "https://docs.google.com/presentation/d/1LyNt1byVaoWe_Uh_SJQJS7q0uVbgylZ6/edit?usp=sharing&ouid=116076189588729701102&rtpof=true&sd=true",
+      slidesLink: "https://docs.google.com/presentation/d/1LyNt1byVaoWe_Uh_SJQJS7q0uVbgylZ6/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       // recordingLink:'https://mediaspace.illinois.edu/media/t/1_2e1smxrl',
       // scribblesLink: "https://drive.google.com/file/d/1W2pp3zp-dDKc4j24Zh7w-0lkztQnvFUf/view?usp=sharing"
 
@@ -483,7 +483,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // time: "11/14, " + timeslots["A"],
       time: "11/14, 1:00 - 3:00PM",
       location: rooms[2],
-      // slidesLink: "https://docs.google.com/presentation/d/1YQAgOLYy2yOSX2IN0JOClO-VFoxI6yN5/edit?usp=sharing&ouid=116076189588729701102&rtpof=true&sd=true",
+      slidesLink: "https://docs.google.com/presentation/d/1YQAgOLYy2yOSX2IN0JOClO-VFoxI6yN5/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_hkyyk4bi",
       // scribblesLink: "https://drive.google.com/file/d/1GWST2G6iOB0iS8qsV7fR0g_ZH4kag9wG/view?usp=sharing"
     },
