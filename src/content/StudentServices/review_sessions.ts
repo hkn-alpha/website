@@ -473,8 +473,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "11/15, " + timeslots["A"],
       location: rooms[2],
       slidesLink: "https://docs.google.com/presentation/d/12FNJHQ79X4rcNcqPcAQQ08pA9V6RKJfe/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // recordingLink: 'https://mediaspace.illinois.edu/media/t/1_doiscsa7',
-      // scribblesLink: "https://drive.google.com/file/d/15t6XkiOLW6m-c5blkkvvUzvzxBy-Btdf/view?usp=sharing"
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_8v48y9oy',
+      scribblesLink: "https://drive.google.com/file/d/1gGhpDmEG1bpxLiAZ_6ohq6mgo1etj5kM/view?usp=sharing"
     },
     {
       course: "ECE 329",
