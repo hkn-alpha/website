@@ -472,7 +472,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "TBD",
       time: "11/15, " + timeslots["A"],
       location: rooms[2],
-      // slidesLink: "https://docs.google.com/presentation/d/12FNJHQ79X4rcNcqPcAQQ08pA9V6RKJfe/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
+      slidesLink: "https://docs.google.com/presentation/d/12FNJHQ79X4rcNcqPcAQQ08pA9V6RKJfe/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       // recordingLink: 'https://mediaspace.illinois.edu/media/t/1_doiscsa7',
       // scribblesLink: "https://drive.google.com/file/d/15t6XkiOLW6m-c5blkkvvUzvzxBy-Btdf/view?usp=sharing"
     },
@@ -493,7 +493,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "TBD",
       time: "11/15, " + timeslots["A"],
       location: rooms[1],
-      // slidesLink: "https://docs.google.com/presentation/d/16KmkLnP2_I4o7z4mVP2_t_FsfuZVe1FY/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
+      slidesLink: "https://docs.google.com/presentation/d/16KmkLnP2_I4o7z4mVP2_t_FsfuZVe1FY/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       // scribblesLink: "https://drive.google.com/file/d/11nH6Dj_LMVue9-J0vcmd21FYd6oQcR8_/view?usp=sharing",
       // recordingLink: "https://mediaspace.illinois.edu/media/t/1_p0n2vref",
     },
@@ -503,7 +503,7 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       // location: "TBD",
       time: "11/15, " + timeslots["B"],
       location: rooms[1],
-      // slidesLink: "https://docs.google.com/presentation/d/134prOQ1FJWk5uMk-5NK877EpJih72a0e/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
+      slidesLink: "https://docs.google.com/presentation/d/134prOQ1FJWk5uMk-5NK877EpJih72a0e/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
       // recordingLink:'https://mediaspace.illinois.edu/media/t/1_8wz93gb9',
       // scribblesLink: "https://drive.google.com/file/d/1222I8aYso2-vJU_y9GT5Lug5fFy9hwrb/view?usp=sharing"
 
