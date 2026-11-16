@@ -504,8 +504,8 @@ export const reviewSessions: Record<1 | 2 | 3, ReviewSession[]>= {
       time: "11/15, " + timeslots["B"],
       location: rooms[1],
       slidesLink: "https://docs.google.com/presentation/d/134prOQ1FJWk5uMk-5NK877EpJih72a0e/edit?usp=sharing&ouid=110352225493747190043&rtpof=true&sd=true",
-      // recordingLink:'https://mediaspace.illinois.edu/media/t/1_8wz93gb9',
-      // scribblesLink: "https://drive.google.com/file/d/1222I8aYso2-vJU_y9GT5Lug5fFy9hwrb/view?usp=sharing"
+      recordingLink: 'https://mediaspace.illinois.edu/media/t/1_m2fuff04',
+      scribblesLink: "https://drive.google.com/file/d/1TTQ6mxHIXpnEV9cFIP53TXlI6wiSzBp3/view?usp=sharing"
 
     }
     // {
